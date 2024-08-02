@@ -612,9 +612,6 @@ def make_sure_unique():
 run(['rm', '-rf', TESTING_REPO], check=False)
 run(['mkdir', '-p', TESTING_REPO])
 
-#re_run_over_analyzed_repos(re_analyzed_repo_file="./re-analyzed-repos.json")
-#re_run_over_current_dataset()
-
 get_dataset()
 print() 
 
