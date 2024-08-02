@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709691452.2072861,
+            "end_time": 1709691458.7077494
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709691458.7080657,
+            "end_time": 1709691465.1774538
+        },
+        "lint-fix": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709691465.177756,
+            "end_time": 1709691471.720948
+        },
+        "commitlint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709691471.7211213,
+            "end_time": 1709691472.1699743
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/universe"
+    }
+}

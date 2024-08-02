@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/facebookarchive/nuclide",
+    "stars": 7803
+  },
+  {
+    "url": "https://github.com/TypeStrong/atom-typescript",
+    "stars": 1131
+  },
+  {
+    "url": "https://github.com/littlebee/git-time-machine",
+    "stars": 1118
+  },
+  {
+    "url": "https://github.com/steelbrain/linter",
+    "stars": 1098
+  },
+  {
+    "url": "https://github.com/spring-projects/sts4",
+    "stars": 836
+  },
+  {
+    "url": "https://github.com/prettier/prettier-atom",
+    "stars": 757
+  },
+  {
+    "url": "https://github.com/atom-minimap/minimap",
+    "stars": 641
+  },
+  {
+    "url": "https://github.com/tststs/atom-ternjs",
+    "stars": 628
+  },
+  {
+    "url": "https://github.com/AtomLinter/linter-eslint",
+    "stars": 584
+  },
+  {
+    "url": "https://github.com/fand/veda",
+    "stars": 496
+  },
+  {
+    "url": "https://github.com/vertexclique/tokamak",
+    "stars": 401
+  },
+  {
+    "url": "https://github.com/lloiser/go-debug",
+    "stars": 388
+  },
+  {
+    "url": "https://github.com/OmniSharp/omnisharp-atom",
+    "stars": 318
+  },
+  {
+    "url": "https://github.com/Gert-dev/php-ide-serenata",
+    "stars": 275
+  },
+  {
+    "url": "https://github.com/JunoLab/atom-julia-client",
+    "stars": 273
+  },
+  {
+    "url": "https://github.com/0mkara/etheratom",
+    "stars": 252
+  },
+  {
+    "url": "https://github.com/Pulsar-Edit-Highlights/selected",
+    "stars": 248
+  },
+  {
+    "url": "https://github.com/noseglid/atom-build",
+    "stars": 248
+  },
+  {
+    "url": "https://github.com/atom-community/ide-python",
+    "stars": 237
+  },
+  {
+    "url": "https://github.com/steelbrain/flow-ide",
+    "stars": 202
+  },
+  {
+    "url": "https://github.com/halohalospecial/atom-elmjutsu",
+    "stars": 192
+  },
+  {
+    "url": "https://github.com/particle-iot-archived/particle-dev",
+    "stars": 183
+  },
+  {
+    "url": "https://github.com/mauricioszabo/atom-chlorine",
+    "stars": 175
+  },
+  {
+    "url": "https://github.com/AtomLinter/linter-jshint",
+    "stars": 147
+  },
+  {
+    "url": "https://github.com/AsaAyers/js-hyperclick",
+    "stars": 127
+  },
+  {
+    "url": "https://github.com/AtomLinter/linter-stylelint",
+    "stars": 116
+  },
+  {
+    "url": "https://github.com/nwolverson/atom-ide-purescript",
+    "stars": 115
+  },
+  {
+    "url": "https://github.com/MattFlower/organized",
+    "stars": 114
+  },
+  {
+    "url": "https://github.com/t9md/atom-narrow",
+    "stars": 110
+  },
+  {
+    "url": "https://github.com/AtomLinter/linter-shellcheck",
+    "stars": 109
+  }
+]

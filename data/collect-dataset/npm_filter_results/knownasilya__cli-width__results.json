@@ -1,0 +1,49 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709804526.0316107,
+            "end_time": 1709804526.2231793
+        },
+        "coverage": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false,
+            "start_time": 1709804526.2255378,
+            "end_time": 1709804526.836387
+        },
+        "coveralls": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "coveralls -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709804526.8402324,
+            "end_time": 1709804527.487838
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/cli-width"
+    }
+}

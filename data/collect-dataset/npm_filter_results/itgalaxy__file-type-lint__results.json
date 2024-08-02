@@ -1,0 +1,81 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint:prettier": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709596918.894676,
+            "end_time": 1709596919.8215704
+        },
+        "lint:js": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709596919.8219717,
+            "end_time": 1709596920.7831886
+        },
+        "lint:md": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709596920.7836168,
+            "end_time": 1709596921.2615561
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709596921.2619197,
+            "end_time": 1709596922.3025894
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709596922.302973,
+            "end_time": 1709596923.5318081
+        },
+        "test:only": {
+            "num_passing": 12,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709596923.5320966,
+            "end_time": 1709596925.586655
+        },
+        "test:coverage": {
+            "num_passing": 12,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709596925.5874908,
+            "end_time": 1709596927.578825
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709596927.5791981,
+            "end_time": 1709596930.6995623
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/file-type-lint"
+    }
+}

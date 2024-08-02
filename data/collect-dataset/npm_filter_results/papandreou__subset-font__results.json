@@ -1,0 +1,51 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "prettier -- linter",
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709513028.9535537,
+            "end_time": 1709513029.7788649
+        },
+        "test": {
+            "num_passing": 22,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1709513029.779115,
+            "end_time": 1709513030.4480834
+        },
+        "test:ci": {
+            "nested_test_commands": [
+                "coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709513030.4494708,
+            "end_time": 1709513032.5510201
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709513032.5513785,
+            "end_time": 1709513035.2015154
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/subset-font"
+    }
+}

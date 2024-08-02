@@ -1,0 +1,63 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709780585.8491526,
+            "end_time": 1709780587.420773
+        },
+        "test-spec": {
+            "num_passing": 350,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709780587.421205,
+            "end_time": 1709780590.0835326
+        },
+        "test-cov": {
+            "num_passing": 350,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709780590.0844905,
+            "end_time": 1709780592.09705
+        },
+        "test": {
+            "nested_test_commands": [
+                "eslint",
+                "test-cov"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709780592.097272,
+            "end_time": 1709780597.9484184
+        },
+        "ci-test": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709780597.9487834,
+            "end_time": 1709780604.3877497
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/ajv-formats"
+    }
+}

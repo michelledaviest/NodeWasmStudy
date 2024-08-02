@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827828.0695744,
+            "end_time": 1709827830.3959742
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 50291,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false,
+            "start_time": 1709827830.3963041,
+            "end_time": 1709827842.417166
+        },
+        "benchmark": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709827842.4618752,
+            "end_time": 1709827842.6453302
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/rimraf"
+    }
+}

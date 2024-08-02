@@ -1,0 +1,36 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712796290.5005703,
+            "end_time": 1712796293.2334645
+        },
+        "lint:js": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712796293.2338004,
+            "end_time": 1712796294.4112594
+        },
+        "lint:css": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712796294.4115884,
+            "end_time": 1712796295.520893
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/makigas.es"
+    }
+}

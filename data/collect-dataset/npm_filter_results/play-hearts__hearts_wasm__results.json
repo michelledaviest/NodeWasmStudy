@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 7,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709468039.8443408,
+            "end_time": 1709468051.9474378
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/hearts_wasm"
+    }
+}

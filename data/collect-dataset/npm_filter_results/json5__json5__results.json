@@ -1,0 +1,64 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-package",
+            "build-unicode"
+        ]
+    },
+    "testing": {
+        "coverage": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false,
+            "start_time": 1709827006.3981612,
+            "end_time": 1709827007.3934128
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827007.4029422,
+            "end_time": 1709827008.2091196
+        },
+        "lint-report": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827008.2092614,
+            "end_time": 1709827009.0028684
+        },
+        "tap": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false,
+            "start_time": 1709827009.003139,
+            "end_time": 1709827010.109326
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827010.1195552,
+            "end_time": 1709827012.171436
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/json5"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test:env:up": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712754053.8103426,
+            "end_time": 1712754055.06038
+        },
+        "test:env:down": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712754055.060673,
+            "end_time": 1712754056.3153167
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712754056.3156443,
+            "end_time": 1712754057.561165
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/gelato-polywrap-template"
+    }
+}

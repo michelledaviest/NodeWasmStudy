@@ -1,0 +1,79 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:rust",
+            "build:rust:web",
+            "build:rust:node",
+            "build:rollup"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:jest",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709434528.5148215,
+            "end_time": 1709434532.717079
+        },
+        "test:jest": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709434532.7174778,
+            "end_time": 1709434533.800589
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709434533.8013656,
+            "end_time": 1709434537.1632075
+        },
+        "test:ci": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709434537.1635273,
+            "end_time": 1709434541.0565732
+        },
+        "lint": {
+            "nested_test_commands": [
+                "lint:ts"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709434541.056936,
+            "end_time": 1709434542.653856
+        },
+        "lint:ts": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709434542.654206,
+            "end_time": 1709434544.1015239
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/wasm-ttf2woff"
+    }
+}

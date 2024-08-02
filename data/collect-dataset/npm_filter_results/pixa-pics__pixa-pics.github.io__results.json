@@ -1,0 +1,16 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build-twemoji",
+            "build-notoemoji"
+        ],
+        "ERROR": true
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/pixa-pics/pixa-pics.github.io"
+    }
+}

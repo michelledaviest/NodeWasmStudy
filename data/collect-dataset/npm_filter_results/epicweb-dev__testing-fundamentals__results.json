@@ -1,0 +1,80 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712893934.7426343,
+            "end_time": 1712893935.2281392
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:e2e"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712893935.2285028,
+            "end_time": 1712893935.7356956
+        },
+        "test:e2e:dev": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:e2e:dev"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712893935.7360446,
+            "end_time": 1712893936.2309513
+        },
+        "test:e2e:run": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:e2e:run"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712893936.231313,
+            "end_time": 1712893936.731211
+        },
+        "pretest:all": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712893936.7315652,
+            "end_time": 1712893937.5053196
+        },
+        "test:all": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1712893937.5056548,
+            "end_time": 1712893940.741721
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712893940.743356,
+            "end_time": 1712893941.6732447
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/testing-fundamentals"
+    }
+}

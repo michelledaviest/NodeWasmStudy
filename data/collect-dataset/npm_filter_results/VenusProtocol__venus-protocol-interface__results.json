@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712773255.4542654,
+            "end_time": 1712773268.9250524
+        },
+        "lint:styles": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712773268.9253755,
+            "end_time": 1712773284.831504
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712773284.8318138,
+            "end_time": 1712773364.1021466
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/venus-protocol-interface"
+    }
+}

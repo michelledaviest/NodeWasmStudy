@@ -1,0 +1,88 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build-demo"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709799156.489961,
+            "end_time": 1709799158.872985
+        },
+        "benchmark": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-node"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709799158.8735588,
+            "end_time": 1709799160.750657
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-node"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709799160.751035,
+            "end_time": 1709799162.3019443
+        },
+        "test-node": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709799162.3022106,
+            "end_time": 1709799163.5147266
+        },
+        "test-browser": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709799163.5582414,
+            "end_time": 1709799165.0554557
+        },
+        "test-all": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-node",
+                "test-browser"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709799165.064726,
+            "end_time": 1709799166.6738005
+        },
+        "test-save": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-node"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709799166.6742756,
+            "end_time": 1709799168.294868
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/matter-js"
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "doc:build:sdk",
+            "build-adversary"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-e2e-protocol": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-gas": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-circuits": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-e2e-nf3lib": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-e2e-tokens": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-erc20-tokens": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-erc721-tokens": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-erc1155-tokens": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-l2tokenisation": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-administrator": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-optimist-sync": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-adversary": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-general-stuff": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-x509": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-client-api": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-periodic-payment": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test-whitelist": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test-x509": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test-shield": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test-state": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test-proposers": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test-challenges": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test-merkle_tree": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test-verifier": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test-compression": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test-circuits": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/EYBlockchain/nightfall_3"
+    }
+}

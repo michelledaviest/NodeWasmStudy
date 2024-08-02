@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://github.com/iotaledger/firefly",
+    "stars": 442
+  },
+  {
+    "url": "https://github.com/iotaledger/identity.rs",
+    "stars": 254
+  },
+  {
+    "url": "https://github.com/iotaledger/streams",
+    "stars": 216
+  },
+  {
+    "url": "https://github.com/iotaledger/wallet.rs",
+    "stars": 161
+  },
+  {
+    "url": "https://github.com/iotaledger/cli-wallet",
+    "stars": 40
+  },
+  {
+    "url": "https://github.com/iotaledger/FirstPartyOracle",
+    "stars": 16
+  },
+  {
+    "url": "https://github.com/iotaledger/channels-examples",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/iotaledger/iota-sdk",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/iotaledger/streams-examples",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/iot2tangle/Streams-mqtt-gateway",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/iotaledger/rosetta-iota",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/iot2tangle/Streams-http-gateway",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/teleconsys/dora-storage-demo",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/zignartech/iotadd-pwo",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/pascalbros/iota-wallet.rs-swift-binding",
+    "stars": 5
+  }
+]

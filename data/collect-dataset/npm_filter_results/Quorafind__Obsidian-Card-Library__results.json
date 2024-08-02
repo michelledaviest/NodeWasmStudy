@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712930543.5446339,
+            "end_time": 1712930545.4313736
+        },
+        "build:nolint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712930545.4316487,
+            "end_time": 1712930545.7538424
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712930545.754332,
+            "end_time": 1712930545.9968677
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/Obsidian-Card-Library"
+    }
+}

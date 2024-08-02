@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://github.com/Zettlr/Zettlr",
+    "stars": 9572
+  },
+  {
+    "url": "https://github.com/zotero/zotero",
+    "stars": 9090
+  },
+  {
+    "url": "https://github.com/Juris-M/citeproc-js",
+    "stars": 284
+  },
+  {
+    "url": "https://github.com/JabRef/JabRef-Browser-Extension",
+    "stars": 82
+  },
+  {
+    "url": "https://github.com/zotero/zoterobib",
+    "stars": 60
+  },
+  {
+    "url": "https://github.com/stencila/hub",
+    "stars": 30
+  },
+  {
+    "url": "https://github.com/mick-schroeder/schroeder-cite",
+    "stars": 21
+  },
+  {
+    "url": "https://github.com/crosscite/citeproc-doi-server",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/Symbitic/remark-plugins",
+    "stars": 12
+  },
+  {
+    "url": "https://github.com/oncomouse/coc-bibtex",
+    "stars": 11
+  }
+]

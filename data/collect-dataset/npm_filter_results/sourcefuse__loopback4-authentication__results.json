@@ -1,0 +1,94 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "nested_test_commands": [
+                "eslint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712799283.5691445,
+            "end_time": 1712799291.1957057
+        },
+        "lint:fix": {
+            "nested_test_commands": [
+                "eslint:fix"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712799291.196294,
+            "end_time": 1712799300.0021222
+        },
+        "eslint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712799300.0027285,
+            "end_time": 1712799304.5978155
+        },
+        "eslint:fix": {
+            "nested_test_commands": [
+                "eslint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712799304.5986297,
+            "end_time": 1712799309.897437
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712799309.8979406,
+            "end_time": 1712799314.993803
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712799314.9942665,
+            "end_time": 1712799331.488125
+        },
+        "coverage": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712799331.4885433,
+            "end_time": 1712799353.5208356
+        },
+        "coverage:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712799353.5217118,
+            "end_time": 1712799354.3710842
+        },
+        "posttest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712799354.3715317,
+            "end_time": 1712799362.741809
+        },
+        "test:dev": {
+            "nested_test_commands": [
+                "posttest"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712799362.7423909,
+            "end_time": 1712799372.002305
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/loopback4-authentication"
+    }
+}

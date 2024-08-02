@@ -1,0 +1,102 @@
+[
+  {
+    "url": "https://github.com/bridgecrewio/checkov",
+    "stars": 6478
+  },
+  {
+    "url": "https://github.com/bridgecrewio/helm-scanner",
+    "stars": 85
+  },
+  {
+    "url": "https://github.com/benji6/moodtracker",
+    "stars": 40
+  },
+  {
+    "url": "https://github.com/tenchi-security/camp",
+    "stars": 40
+  },
+  {
+    "url": "https://github.com/aws-samples/cdk-fargate-gitlab-runner",
+    "stars": 30
+  },
+  {
+    "url": "https://github.com/WarnerMedia/artemis",
+    "stars": 25
+  },
+  {
+    "url": "https://github.com/aws-samples/policy-as-code",
+    "stars": 20
+  },
+  {
+    "url": "https://github.com/AlbanAndrieu/ansible-jenkins-slave",
+    "stars": 19
+  },
+  {
+    "url": "https://github.com/chgl/kube-powertools",
+    "stars": 15
+  },
+  {
+    "url": "https://github.com/salesforce/policyguru",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/hadenlabs/zsh-flutter",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/Homebrew/brew-pip-audit",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/luismayta/zsh-vscodium",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/bridgecrewio/whorf",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/aws-samples/api-gateway-dynamic-publish",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/luismayta/zsh-rust",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/hadenlabs/zsh-starship",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/aws-samples/ec2-imagebuilder-ami-lifecycle",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/AlbanAndrieu/ansible-jenkins-slave-docker",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/ivellios/django-unified-signals",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/luismayta/zsh-aliases",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/uktrade/platform-tools",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/luismayta/home-automation",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/rapticore/ssvc_ore_miner",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/luismayta/zsh-osx",
+    "stars": 5
+  }
+]

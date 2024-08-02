@@ -1,0 +1,14 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/zerosoul/honeyed-words-generator"
+    }
+}

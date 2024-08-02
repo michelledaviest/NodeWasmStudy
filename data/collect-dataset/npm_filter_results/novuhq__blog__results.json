@@ -1,0 +1,43 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914424.8734953,
+            "end_time": 1712914438.6043518
+        },
+        "lint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914438.6046937,
+            "end_time": 1712914450.5449674
+        },
+        "lint:textlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914450.5452762,
+            "end_time": 1712914461.7607145
+        },
+        "lint:textlint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914461.7612731,
+            "end_time": 1712914473.8714643
+        },
+        "lint:secret": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914473.871764,
+            "end_time": 1712914475.1392896
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/blog"
+    }
+}

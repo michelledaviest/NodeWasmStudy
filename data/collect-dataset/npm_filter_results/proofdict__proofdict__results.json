@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 155,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712740294.9538434,
+            "end_time": 1712740305.6116498
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/proofdict"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-server"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/zSnout/zSnout.com"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/discourse-simple-theme"
+    }
+}

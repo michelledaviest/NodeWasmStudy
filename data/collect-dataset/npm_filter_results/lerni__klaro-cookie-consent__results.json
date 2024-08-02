@@ -1,0 +1,48 @@
+{
+    "installation": {
+        "installer_command": "npm install",
+        "ERROR": true
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712797098.539776,
+            "end_time": 1712797098.897027
+        },
+        "lint-fix": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712797098.8973331,
+            "end_time": 1712797099.315462
+        },
+        "lint-scss": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712797099.3157656,
+            "end_time": 1712797099.7127507
+        },
+        "lint-scss-fix": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712797099.7131143,
+            "end_time": 1712797100.0929492
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/klaro-cookie-consent"
+    }
+}

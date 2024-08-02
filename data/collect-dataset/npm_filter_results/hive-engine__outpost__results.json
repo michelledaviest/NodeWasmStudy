@@ -1,0 +1,36 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:modern"
+        ]
+    },
+    "testing": {
+        "lint:js": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710454890.3278608,
+            "end_time": 1710454895.2992194
+        },
+        "lint": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:js"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710454895.2994218,
+            "end_time": 1710454900.5217035
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/outpost"
+    }
+}

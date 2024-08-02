@@ -1,0 +1,9 @@
+{
+    "installation": {
+        "installer_command": "npm install",
+        "ERROR": true
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/slides"
+    }
+}

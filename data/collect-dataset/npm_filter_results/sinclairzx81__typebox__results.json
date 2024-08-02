@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test:typescript": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709806035.8208182,
+            "end_time": 1709806097.0234098
+        },
+        "test:static": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709806097.023897,
+            "end_time": 1709806102.521101
+        },
+        "test:runtime": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709806102.5214016,
+            "end_time": 1709806107.8585176
+        },
+        "benchmark": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709806107.8588734,
+            "end_time": 1709806109.557087
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709806109.5572488,
+            "end_time": 1709806119.9597378
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/typebox"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 4,
+            "test_infras": [
+                "Custom Testing: node",
+                "tap"
+            ],
+            "timed_out": false,
+            "start_time": 1709828531.2470562,
+            "end_time": 1709828531.7077672
+        },
+        "ci": {
+            "num_passing": 0,
+            "num_failing": 4,
+            "test_infras": [
+                "Custom Testing: node",
+                "tap"
+            ],
+            "timed_out": false,
+            "start_time": 1709828531.7240891,
+            "end_time": 1709828532.1430862
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/string_decoder"
+    }
+}

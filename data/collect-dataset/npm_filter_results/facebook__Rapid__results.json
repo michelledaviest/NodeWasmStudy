@@ -1,0 +1,102 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:css",
+            "build:data",
+            "build:bundle"
+        ]
+    },
+    "testing": {
+        "benchmark": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712888227.0348587,
+            "end_time": 1712888227.90942
+        },
+        "benchmark-cicd": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712888227.9098246,
+            "end_time": 1712888228.263764
+        },
+        "dist:svg:community": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712888228.2641914,
+            "end_time": 1712888228.9621422
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712888228.9626315,
+            "end_time": 1712888236.882951
+        },
+        "stats:cloc:tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712888236.8833148,
+            "end_time": 1712888238.6015716
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712888238.6020172,
+            "end_time": 1712888250.2663264
+        },
+        "test:benchmark": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:unzip-benchmark-data",
+                "test:cleanup-benchmark-data"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712888250.266782,
+            "end_time": 1712888250.789366
+        },
+        "test:browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712888250.7898383,
+            "end_time": 1712888272.2256548
+        },
+        "test:unit": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712888272.2260365,
+            "end_time": 1712888272.703103
+        },
+        "test:unzip-benchmark-data": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712888272.7035234,
+            "end_time": 1712888272.975919
+        },
+        "test:cleanup-benchmark-data": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712888272.976349,
+            "end_time": 1712888273.2596195
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/Rapid"
+    }
+}

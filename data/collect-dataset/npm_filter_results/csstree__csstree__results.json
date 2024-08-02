@@ -1,0 +1,105 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-and-test"
+        ]
+    },
+    "testing": {
+        "build-and-test": {
+            "nested_test_commands": [
+                "test:cjs",
+                "test:dist"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709807650.2028673,
+            "end_time": 1709807653.6789815
+        },
+        "bundle-and-test": {
+            "nested_test_commands": [
+                "test:dist"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709807653.6792917,
+            "end_time": 1709807654.8414953
+        },
+        "esm-to-cjs-and-test": {
+            "nested_test_commands": [
+                "test:cjs"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709807654.8418317,
+            "end_time": 1709807657.2334363
+        },
+        "lint": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "timed_out": false,
+            "start_time": 1709807657.2339458,
+            "end_time": 1709807659.3646338
+        },
+        "lint-and-test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709807659.367322,
+            "end_time": 1709807663.2502124
+        },
+        "test": {
+            "num_passing": 16054,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1709807663.250638,
+            "end_time": 1709807664.8345795
+        },
+        "test:cjs": {
+            "num_passing": 16054,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1709807664.8727264,
+            "end_time": 1709807666.3684158
+        },
+        "test:dist": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1709807666.4126089,
+            "end_time": 1709807666.7774065
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709807666.7782161,
+            "end_time": 1709807669.500236
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/csstree"
+    }
+}

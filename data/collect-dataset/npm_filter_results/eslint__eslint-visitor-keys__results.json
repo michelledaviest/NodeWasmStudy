@@ -1,0 +1,66 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:cjs",
+            "build:keys",
+            "build:types"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826184.6601756,
+            "end_time": 1709826185.932903
+        },
+        "release:generate:latest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826185.9332612,
+            "end_time": 1709826189.759736
+        },
+        "test": {
+            "num_passing": 29,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test:types"
+            ],
+            "timed_out": false,
+            "start_time": 1709826189.7601626,
+            "end_time": 1709826192.9100544
+        },
+        "test:open-coverage": {
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826192.9172282,
+            "end_time": 1709826415.9234164
+        },
+        "test:types": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826415.923764,
+            "end_time": 1709826417.2218957
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/eslint-visitor-keys"
+    }
+}

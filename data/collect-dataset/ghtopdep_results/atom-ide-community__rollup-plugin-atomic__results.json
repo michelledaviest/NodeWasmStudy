@@ -1,0 +1,90 @@
+[
+  {
+    "url": "https://github.com/steelbrain/linter",
+    "stars": 1103
+  },
+  {
+    "url": "https://github.com/atom-minimap/minimap",
+    "stars": 641
+  },
+  {
+    "url": "https://github.com/AtomLinter/linter-eslint",
+    "stars": 586
+  },
+  {
+    "url": "https://github.com/atom/fs-plus",
+    "stars": 106
+  },
+  {
+    "url": "https://github.com/AtomLinter/linter-tslint",
+    "stars": 64
+  },
+  {
+    "url": "https://github.com/steelbrain/package-deps",
+    "stars": 60
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-base",
+    "stars": 42
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-datatip",
+    "stars": 32
+  },
+  {
+    "url": "https://github.com/atom-community/zadeh",
+    "stars": 22
+  },
+  {
+    "url": "https://github.com/aerhard/linter-autocomplete-jing",
+    "stars": 19
+  },
+  {
+    "url": "https://github.com/atom-community/terminal",
+    "stars": 19
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-javascript",
+    "stars": 19
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-signature-help",
+    "stars": 16
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-outline",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/ayame113/atom-ide-deno",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/atom-community/atom-vscode",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-markdown-service",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-diagnostics",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-debugger",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/aminya/minijson",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/atom-community/etch-solid",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/idleberg/atom-browse",
+    "stars": 5
+  }
+]

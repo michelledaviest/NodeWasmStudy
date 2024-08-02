@@ -1,0 +1,107 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build-wasm",
+            "build-wasm:release"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint-code": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117892.840864,
+            "end_time": 1711117893.062583
+        },
+        "lint-filename": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117893.0629027,
+            "end_time": 1711117893.7236476
+        },
+        "lint-spell": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117893.7239769,
+            "end_time": 1711117897.1922975
+        },
+        "lint-prettier": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117897.192731,
+            "end_time": 1711117899.3391032
+        },
+        "lint-prettier:fix": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117899.3396163,
+            "end_time": 1711117901.543794
+        },
+        "lint-toml": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117901.544402,
+            "end_time": 1711117902.5958903
+        },
+        "lint-toml:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117902.5962503,
+            "end_time": 1711117903.592195
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117903.5925562,
+            "end_time": 1711117904.2095797
+        },
+        "test:update": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117904.2100368,
+            "end_time": 1711117904.8272278
+        },
+        "test:update-rolldown": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117904.827703,
+            "end_time": 1711117905.412041
+        },
+        "ci:build-release-binding": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117905.4128976,
+            "end_time": 1711117906.0261924
+        },
+        "test:update-rollup": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117906.0266953,
+            "end_time": 1711117906.5840704
+        },
+        "bench": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711117906.5845475,
+            "end_time": 1711117907.1934643
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/rolldown"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "codesandbox:build",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710444047.0457096,
+            "end_time": 1710444115.4826536
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710444115.4830055,
+            "end_time": 1710444227.941783
+        },
+        "test:esm": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1710444227.9420936,
+            "end_time": 1710444228.549588
+        },
+        "test:runtime:generate-absolute-runtime": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1710444228.5518222,
+            "end_time": 1710444229.115195
+        },
+        "test:runtime:bundlers": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1710444229.1156979,
+            "end_time": 1710444237.5029953
+        },
+        "test:runtime:node": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1710444237.5125134,
+            "end_time": 1710444238.2295275
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/babel"
+    }
+}

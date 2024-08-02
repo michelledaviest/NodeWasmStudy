@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-package",
+            "build-package:clean",
+            "build-package:compile"
+        ]
+    },
+    "testing": {
+        "coverage": {
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712697595.767349,
+            "end_time": 1712697603.8750486
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712697603.8753614,
+            "end_time": 1712697606.5681932
+        },
+        "test:unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712697606.568507,
+            "end_time": 1712697608.9880164
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/js-grip"
+    }
+}

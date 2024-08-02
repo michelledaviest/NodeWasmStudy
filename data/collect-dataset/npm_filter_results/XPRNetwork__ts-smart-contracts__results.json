@@ -1,0 +1,124 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:token",
+            "build:balance",
+            "build:escrow",
+            "build:allow",
+            "build:atomicassets",
+            "build:store",
+            "build:safemath",
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "buil:test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712751511.2042537,
+            "end_time": 1712751513.4987235
+        },
+        "test:token": {
+            "num_passing": 40,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712751513.4991896,
+            "end_time": 1712751515.6437635
+        },
+        "test:balance": {
+            "num_passing": 16,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712751515.6466079,
+            "end_time": 1712751518.6218007
+        },
+        "test:allow": {
+            "num_passing": 22,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712751518.6235282,
+            "end_time": 1712751520.5632029
+        },
+        "test:escrow": {
+            "num_passing": 20,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712751520.5653243,
+            "end_time": 1712751524.026228
+        },
+        "test:atomicassets": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712751524.0280714,
+            "end_time": 1712751525.8404388
+        },
+        "test:store": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712751525.8414888,
+            "end_time": 1712751527.61144
+        },
+        "test:safemath": {
+            "num_passing": 4,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712751527.6126113,
+            "end_time": 1712751529.3273284
+        },
+        "tes:test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712751529.3283918,
+            "end_time": 1712751529.878399
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712751529.8791957,
+            "end_time": 1712751535.768908
+        },
+        "testexamples": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712751535.7693164,
+            "end_time": 1712751538.3877716
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/ts-smart-contracts"
+    }
+}

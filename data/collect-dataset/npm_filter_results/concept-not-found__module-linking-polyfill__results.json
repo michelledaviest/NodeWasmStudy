@@ -1,0 +1,89 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709432108.0779276,
+            "end_time": 1709432112.545316
+        },
+        "lint:ci": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709432112.5457265,
+            "end_time": 1709432117.1811147
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1709432117.1814973,
+            "end_time": 1709432118.4322636
+        },
+        "pretest-target-compatibility": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709432118.4424071,
+            "end_time": 1709432118.7051432
+        },
+        "test-target-compatibility:original": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709432118.7056758,
+            "end_time": 1709432119.047464
+        },
+        "test-target-compatibility:babel": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709432119.0481017,
+            "end_time": 1709432121.5265512
+        },
+        "test-target-compatibility:normalize": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709432121.527128,
+            "end_time": 1709432123.598243
+        },
+        "test-target-compatibility:diff": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709432123.5988045,
+            "end_time": 1709432123.934551
+        },
+        "test-target-compatibility": {
+            "nested_test_commands": [
+                "test-target-compatibility:original",
+                "test-target-compatibility:babel",
+                "test-target-compatibility:normalize",
+                "test-target-compatibility:diff"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709432123.9351661,
+            "end_time": 1709432129.101738
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/module-linking-polyfill"
+    }
+}

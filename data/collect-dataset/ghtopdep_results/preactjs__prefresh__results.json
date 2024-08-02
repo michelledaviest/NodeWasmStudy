@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/withastro/astro",
+    "stars": 41945
+  },
+  {
+    "url": "https://github.com/TanStack/query",
+    "stars": 39503
+  },
+  {
+    "url": "https://github.com/nextauthjs/next-auth",
+    "stars": 21869
+  },
+  {
+    "url": "https://github.com/lit/lit",
+    "stars": 17433
+  },
+  {
+    "url": "https://github.com/vitest-dev/vitest",
+    "stars": 11709
+  },
+  {
+    "url": "https://github.com/TanStack/router",
+    "stars": 6981
+  },
+  {
+    "url": "https://github.com/molefrog/wouter",
+    "stars": 6085
+  },
+  {
+    "url": "https://github.com/sqlpad/sqlpad",
+    "stars": 4978
+  },
+  {
+    "url": "https://github.com/chakra-ui/panda",
+    "stars": 4630
+  },
+  {
+    "url": "https://github.com/effector/effector",
+    "stars": 4483
+  },
+  {
+    "url": "https://github.com/NervJS/taro-ui",
+    "stars": 4439
+  },
+  {
+    "url": "https://github.com/solidjs/solid-start",
+    "stars": 4430
+  },
+  {
+    "url": "https://github.com/toeverything/blocksuite",
+    "stars": 3662
+  },
+  {
+    "url": "https://github.com/chakra-ui/zag",
+    "stars": 3613
+  },
+  {
+    "url": "https://github.com/preactjs/signals",
+    "stars": 3480
+  },
+  {
+    "url": "https://github.com/easysoft/zui",
+    "stars": 2607
+  },
+  {
+    "url": "https://github.com/dream-num/univer",
+    "stars": 2411
+  },
+  {
+    "url": "https://github.com/lingo3d/lingo3d",
+    "stars": 2307
+  },
+  {
+    "url": "https://github.com/blenderskool/blaze",
+    "stars": 2158
+  },
+  {
+    "url": "https://github.com/threlte/threlte",
+    "stars": 1773
+  },
+  {
+    "url": "https://github.com/divriots/jampack",
+    "stars": 1485
+  },
+  {
+    "url": "https://github.com/zh-lx/code-inspector",
+    "stars": 1384
+  },
+  {
+    "url": "https://github.com/cschroeter/park-ui",
+    "stars": 1257
+  },
+  {
+    "url": "https://github.com/withastro/docs",
+    "stars": 1201
+  },
+  {
+    "url": "https://github.com/exorde-labs/exorde-client",
+    "stars": 1110
+  },
+  {
+    "url": "https://github.com/nksaraf/vinxi",
+    "stars": 1035
+  },
+  {
+    "url": "https://github.com/kobaltedev/kobalte",
+    "stars": 1030
+  },
+  {
+    "url": "https://github.com/muxinc/media-chrome",
+    "stars": 998
+  },
+  {
+    "url": "https://github.com/caiiiycuk/js-dos",
+    "stars": 961
+  },
+  {
+    "url": "https://github.com/bestofjs/javascript-risingstars",
+    "stars": 960
+  }
+]

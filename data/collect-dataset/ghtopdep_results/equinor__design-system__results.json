@@ -1,0 +1,90 @@
+[
+  {
+    "url": "https://github.com/equinor/template-fastapi-react",
+    "stars": 47
+  },
+  {
+    "url": "https://github.com/equinor/witsml-explorer",
+    "stars": 43
+  },
+  {
+    "url": "https://github.com/equinor/energyvision",
+    "stars": 31
+  },
+  {
+    "url": "https://github.com/equinor/webviz-subsurface-components",
+    "stars": 31
+  },
+  {
+    "url": "https://github.com/equinor/flotilla",
+    "stars": 15
+  },
+  {
+    "url": "https://github.com/equinor/webviz-core-components",
+    "stars": 14
+  },
+  {
+    "url": "https://github.com/equinor/fusion-components",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/equinor/fusion-web-components",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/equinor/rdf-graph",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/equinor/flowify-workflows-UI",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/equinor/procosys-js-frontend",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/equinor/fusion-workspace",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/equinor/fusion-framework",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/equinor/fusion-react-components",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/equinor/mad",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/equinor/engineering-symbols",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/equinor/lighthouse-client",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/equinor/radix-web-console",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/equinor/webviz",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/equinor/webviz-config-editor",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/equinor/flow-diagram-explorer",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/equinor/lcm",
+    "stars": 5
+  }
+]

@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-umd",
+            "build-demo:basic"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "num_passing": 16,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712895370.2944212,
+            "end_time": 1712895373.8129444
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/osmd-audio-player"
+    }
+}

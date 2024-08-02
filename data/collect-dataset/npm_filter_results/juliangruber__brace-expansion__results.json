@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 26,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "timed_out": false,
+            "start_time": 1709827845.8703015,
+            "end_time": 1709827846.6901715
+        },
+        "gentest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827846.6939888,
+            "end_time": 1709827846.8445873
+        },
+        "bench": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827846.8447275,
+            "end_time": 1709827847.0671291
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/brace-expansion"
+    }
+}

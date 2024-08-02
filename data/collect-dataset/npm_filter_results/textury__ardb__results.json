@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 17,
+            "num_failing": 3,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712684840.4221144,
+            "end_time": 1712684956.0102139
+        },
+        "lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712684956.0110567,
+            "end_time": 1712684957.464215
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/ardb"
+    }
+}

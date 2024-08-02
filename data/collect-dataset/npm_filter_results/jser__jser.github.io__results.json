@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:css"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 852,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "nested_test_commands": [
+                "test:unit",
+                "textlint"
+            ],
+            "timed_out": false,
+            "start_time": 1712739694.2768877,
+            "end_time": 1712739696.294578
+        },
+        "test:ci": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1712739696.635348,
+            "end_time": 1712739697.3400667
+        },
+        "test:unit": {
+            "num_passing": 852,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712739697.340631,
+            "end_time": 1712739697.868662
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712739697.9733856,
+            "end_time": 1712739698.3715973
+        },
+        "textlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712739698.371953,
+            "end_time": 1712739698.7884004
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/jser.github.io"
+    }
+}

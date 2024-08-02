@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://github.com/integritee-network/worker",
+    "stars": 89
+  },
+  {
+    "url": "https://github.com/CherryNetwork/Cherry-Node",
+    "stars": 75
+  },
+  {
+    "url": "https://github.com/spruceid/kepler",
+    "stars": 72
+  },
+  {
+    "url": "https://github.com/litentry/litentry-parachain",
+    "stars": 62
+  },
+  {
+    "url": "https://github.com/chevdor/subwasm",
+    "stars": 58
+  },
+  {
+    "url": "https://github.com/ipfs-shipyard/space",
+    "stars": 17
+  },
+  {
+    "url": "https://github.com/zTgx/jlib-rs",
+    "stars": 16
+  },
+  {
+    "url": "https://github.com/Ghost-Drive/rust-ipfs",
+    "stars": 15
+  },
+  {
+    "url": "https://github.com/andresilva/polkadot.nix",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/TDSoftware/substrate-ipfs",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/Polkadex-Substrate/polkadexTEE-worker",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/ajuna-network/worker",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/eqlabs/rust-ipfs",
+    "stars": 6
+  }
+]

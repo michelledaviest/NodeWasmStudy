@@ -1,0 +1,58 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:ext",
+            "build:style",
+            "build",
+            "build:all",
+            "build:userscript"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712688191.4887977,
+            "end_time": 1712688193.971157
+        },
+        "lint:ts": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712688193.9715223,
+            "end_time": 1712688196.7457142
+        },
+        "lint:es": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712688196.7460594,
+            "end_time": 1712688204.641847
+        },
+        "lint:prettier": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712688204.6422012,
+            "end_time": 1712688205.591478
+        },
+        "lint:style": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712688205.5918057,
+            "end_time": 1712688207.653461
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/V2EX_Polish"
+    }
+}

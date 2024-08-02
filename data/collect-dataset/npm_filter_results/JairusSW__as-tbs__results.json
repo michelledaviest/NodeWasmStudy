@@ -1,0 +1,50 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:test",
+            "build:transform",
+            "build:generator"
+        ]
+    },
+    "testing": {
+        "bench:astral": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712754014.9304004,
+            "end_time": 1712754015.96902
+        },
+        "build:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712754015.9694123,
+            "end_time": 1712754017.072337
+        },
+        "test:wasmtime": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712754017.0726988,
+            "end_time": 1712754017.2937922
+        },
+        "test:lunatic": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712754017.294051,
+            "end_time": 1712754017.527406
+        },
+        "test:wasm3": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712754017.5277596,
+            "end_time": 1712754017.755854
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/as-tbs"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709595498.1454797,
+            "end_time": 1709595499.1528757
+        },
+        "jest-tests": {
+            "num_passing": 3,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709595499.1532314,
+            "end_time": 1709595500.7550595
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "jest-tests"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709595500.755983,
+            "end_time": 1709595506.8061411
+        },
+        "integration-tests": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709595506.8066714,
+            "end_time": 1709595507.6772048
+        },
+        "test:all": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test",
+                "integration-tests"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709595507.6776896,
+            "end_time": 1709595514.5410008
+        },
+        "coverage": {
+            "ERROR": true,
+            "num_passing": 3,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709595514.5413575,
+            "end_time": 1709595516.2984612
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/tdl"
+    }
+}

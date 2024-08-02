@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://github.com/sebastian-software/babel-preset-edge",
+    "stars": 104
+  },
+  {
+    "url": "https://github.com/sebastian-software/rollup-plugin-rebase",
+    "stars": 58
+  },
+  {
+    "url": "https://github.com/sebastian-software/babel-plugin-smart-webpack-import",
+    "stars": 46
+  },
+  {
+    "url": "https://github.com/sebastian-software/universal-dotenv",
+    "stars": 35
+  },
+  {
+    "url": "https://github.com/sebastian-software/edge",
+    "stars": 33
+  },
+  {
+    "url": "https://github.com/sebastian-software/app-manifest-loader",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/sebastian-software/lean-intl",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/sebastian-software/asset-hash",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/sebastian-software/link-lerna-package-binaries",
+    "stars": 6
+  }
+]

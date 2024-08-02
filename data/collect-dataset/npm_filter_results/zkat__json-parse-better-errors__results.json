@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709785040.5638676,
+            "end_time": 1709785040.894011
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 9,
+            "num_failing": 5,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false,
+            "start_time": 1709785040.894192,
+            "end_time": 1709785041.7732916
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/json-parse-better-errors"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build_fast",
+            "build_with_webpack",
+            "build_with_webpack_fast",
+            "build_unpkg",
+            "tsc_esbuild",
+            "build_with_esbuild",
+            "esbuild",
+            "build_folder_delete",
+            "build_folder_remove_unneeded",
+            "build_renameMJS",
+            "bundle_types_build"
+        ],
+        "ERROR": true
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/polygonjs/polygonjs"
+    }
+}

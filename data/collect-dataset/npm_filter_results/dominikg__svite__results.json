@@ -1,0 +1,69 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712713829.0596557,
+            "end_time": 1712713834.2894762
+        },
+        "lint:script": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712713834.2898552,
+            "end_time": 1712713839.326742
+        },
+        "lint:style": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712713839.3271205,
+            "end_time": 1712713843.4509504
+        },
+        "lint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712713843.451337,
+            "end_time": 1712713853.4971821
+        },
+        "lint:fix:script": {
+            "nested_test_commands": [
+                "lint:script"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712713853.4975302,
+            "end_time": 1712713859.084225
+        },
+        "lint:fix:style": {
+            "nested_test_commands": [
+                "lint:style"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712713859.0845735,
+            "end_time": 1712713863.2415237
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 324,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712713863.2418633,
+            "end_time": 1712713868.224825
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/svite"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:esm",
+            "build:types",
+            "build:physxmoduletypes",
+            "build:physxtypes"
+        ],
+        "ERROR": true
+    },
+    "testing": {},
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/trident-physx-js-webidl"
+    }
+}

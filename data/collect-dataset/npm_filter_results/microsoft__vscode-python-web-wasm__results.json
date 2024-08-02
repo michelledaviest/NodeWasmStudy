@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "compile:tsc",
+            "esbuild"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/microsoft/vscode-python-web-wasm"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "compile-aura-tokens-map",
+            "compile-token-component-map"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 1203,
+            "num_failing": 182,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:a11y": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:a11y:run"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:a11y:run": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:a11y:generate-and-run"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:a11y:generate-tests": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:a11y:run-only": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:a11y:generate-and-run": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:a11y:generate-tests",
+                "test:a11y:run-only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:a11y:results": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/salesforce-ux/design-system"
+    }
+}

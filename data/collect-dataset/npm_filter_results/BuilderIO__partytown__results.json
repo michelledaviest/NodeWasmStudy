@@ -1,0 +1,77 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build.prod",
+            "build.site"
+        ]
+    },
+    "testing": {
+        "serve.test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": true
+        },
+        "serve.atomics.test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": true
+        },
+        "test": {
+            "nested_test_commands": [
+                "test.chromium",
+                "test.unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test.atomics": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test.chromium": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test.webkit": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test.nextjs.chromium": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test.nextjs.webkit": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "benchmark": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test.unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/BuilderIO/partytown"
+    }
+}

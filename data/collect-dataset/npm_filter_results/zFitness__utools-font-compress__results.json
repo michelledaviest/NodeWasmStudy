@@ -1,0 +1,13 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/zFitness/utools-font-compress"
+    }
+}

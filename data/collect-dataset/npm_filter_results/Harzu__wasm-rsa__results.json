@@ -1,0 +1,39 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:browser",
+            "build:node",
+            "build:wasm"
+        ]
+    },
+    "testing": {
+        "test:rust": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709475134.2214382,
+            "end_time": 1709475150.8921392
+        },
+        "test:ts": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709475150.892469,
+            "end_time": 1709475163.066444
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:rust"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709475163.0666473,
+            "end_time": 1709475176.5158036
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/wasm-rsa"
+    }
+}

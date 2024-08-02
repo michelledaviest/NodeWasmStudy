@@ -1,0 +1,54 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:esm",
+            "build:lib",
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test:ci": {
+            "num_passing": 1728,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712905181.446563,
+            "end_time": 1712905218.8437111
+        },
+        "cover": {
+            "num_passing": 1728,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712905218.85116,
+            "end_time": 1712905241.4514954
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712905241.45218,
+            "end_time": 1712905252.8848736
+        },
+        "dtslint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712905252.8851593,
+            "end_time": 1712905268.1569877
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/reactstrap"
+    }
+}

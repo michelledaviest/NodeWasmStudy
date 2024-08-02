@@ -1,0 +1,2347 @@
+{
+  "hexojs/hexo-migrator-wordpress": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "camaro": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "6.2.3"
+    }
+  },
+  "hexojs/hexo-migrator-rss": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "camaro": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "6.2.3"
+    }
+  },
+  "QSPFoundation/qsp-wasm-engine": {
+    "self": {
+      "Instance": 1,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "5.0.10"
+    },
+    "rollup-plugin-visualizer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "5.6.0"
+    }
+  },
+  "archway-network/arch3.js": {
+    "self": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "ARitz-Cracker/keccak-wasm": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0
+    }
+  },
+  "semaphore-protocol/quick-setup": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "mcl-wasm": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "0.7.9"
+    },
+    "@ethereum-waffle/mock-contract": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.3.1"
+    }
+  },
+  "playcanvas/engine": {
+    "self": {
+      "Instance": 5,
+      "Instantiate": 9,
+      "InstantiateStreaming": 7
+    }
+  },
+  "mozilla/source-map": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0
+    }
+  },
+  "warp-contracts/warp-wasm-metering": {
+    "self": {
+      "Instance": 2,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0
+    },
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "4.16.0"
+    }
+  },
+  "jridgewell/source-map": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "v8-to-istanbul": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "8.1.1"
+    }
+  },
+  "eslint/eslintrc": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "itibbers/crypto-js-wasm": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0
+    }
+  },
+  "acekyd/made-in-nigeria": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.5.7"
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 41,
+      "InstantiateStreaming": 12,
+      "version": "14.0.4"
+    },
+    "estree-util-to-js": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.0"
+    }
+  },
+  "remix-run/remix": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.2"
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "5.1.3"
+    },
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.28.3"
+    },
+    "es-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.3.1"
+    },
+    "loader-utils": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.2.1"
+    },
+    "estree-util-to-js": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.1.0"
+    },
+    "@vanilla-extract/integration": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "6.2.4"
+    },
+    "xxhash-wasm": {
+      "Instance": 0,
+      "Instantiate": 6,
+      "InstantiateStreaming": 0,
+      "version": "1.0.2"
+    },
+    "@mdx-js/rollup": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "3.0.0"
+    },
+    "blake3-wasm": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "2.1.5"
+    },
+    "wrangler": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "3.28.2"
+    },
+    "@jspm/core": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "2.0.1"
+    }
+  },
+  "bropat/ioBroker.eusec": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "bitjson/typescript-starter": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "file-type": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "14.7.1"
+    },
+    "@bitauth/libauth": {
+      "Instance": 0,
+      "Instantiate": 4,
+      "InstantiateStreaming": 0,
+      "version": "1.17.1"
+    }
+  },
+  "webtoon/psd": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "4.3.9"
+    }
+  },
+  "atlas-bi/Hub": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "iterative/cml": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.2"
+    },
+    "v8-to-istanbul": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "8.1.1"
+    },
+    "ssh2": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "1.11.0"
+    },
+    "@npcz/magic": {
+      "Instance": 1,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "1.3.12"
+    }
+  },
+  "audiojs/audio-decode": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "quolpr/harika": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.2"
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 3,
+      "InstantiateStreaming": 1,
+      "version": "2.9.1"
+    },
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "4.16.0"
+    },
+    "es-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.9.3"
+    },
+    "@cspotcode/source-map-consumer": {
+      "Instance": 1,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "0.8.0"
+    },
+    "v8-to-istanbul": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "8.0.0"
+    },
+    "terser": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "5.8.0"
+    },
+    "workbox-build": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "6.5.2"
+    },
+    "rollup-plugin-visualizer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "5.6.0"
+    },
+    "@web/test-runner-core": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.10.20"
+    },
+    "@jest/reporters": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "27.5.1"
+    },
+    "@harika-org/sql.js": {
+      "Instance": 6,
+      "Instantiate": 8,
+      "InstantiateStreaming": 9,
+      "version": "1.6.6"
+    },
+    "@web/test-runner": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.13.27"
+    },
+    "absurd-sql": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.0.53"
+    },
+    "rollup-plugin-workbox": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "6.2.0"
+    }
+  },
+  "papandreou/subset-font": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0
+    },
+    "wawoff2": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "2.0.1"
+    },
+    "harfbuzzjs": {
+      "Instance": 0,
+      "Instantiate": 4,
+      "InstantiateStreaming": 2,
+      "version": "0.3.6"
+    }
+  },
+  "ask-lang/ask": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "DeMille/wasm-ffi": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 8,
+      "InstantiateStreaming": 7
+    }
+  },
+  "mitschabaude/esbuild-plugin-wat": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 13,
+      "InstantiateStreaming": 0
+    },
+    "@webassemblyjs/helper-wasm-bytecode": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.11.1"
+    },
+    "binaryen": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "101.0.0"
+    }
+  },
+  "kubiklabs/wasmkit": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "pur3miish/eosio-wasm-js": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "ripemd160-js": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "2.0.2"
+    }
+  },
+  "pur3miish/ripemd160-js": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0
+    }
+  },
+  "papandreou/fontverter": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "wawoff2": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "2.0.1"
+    }
+  },
+  "zksecurity/wasmati": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0
+    }
+  },
+  "GoogleChromeLabs/wasm-feature-detect": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0
+    },
+    "binaryen": {
+      "Instance": 1,
+      "Instantiate": 3,
+      "InstantiateStreaming": 0,
+      "version": "116.0.0"
+    }
+  },
+  "AssemblyScript/binaryen.js": {
+    "self": {
+      "Instance": 2,
+      "Instantiate": 3,
+      "InstantiateStreaming": 0
+    }
+  },
+  "massalabs/massa-as-sdk": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "MaxGraey/as-bignum": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "typeorm/typeorm": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "SAP/openui5-worklist-app": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "SAP/openui5-sample-app": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "CesiumGS/gltf-pipeline": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "long": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "5.2.3"
+    },
+    "cesium": {
+      "Instance": 0,
+      "Instantiate": 29,
+      "InstantiateStreaming": 5,
+      "version": "1.119.0"
+    },
+    "meshoptimizer": {
+      "Instance": 0,
+      "Instantiate": 8,
+      "InstantiateStreaming": 0,
+      "version": "0.21.0"
+    },
+    "@cesium/engine": {
+      "Instance": 0,
+      "Instantiate": 3,
+      "InstantiateStreaming": 3,
+      "version": "10.0.0"
+    },
+    "draco3d": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "1.5.7"
+    }
+  },
+  "prettier/eslint-config-prettier": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "jsx-eslint/eslint-plugin-react": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "sinonjs/fake-timers": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.7.4"
+    },
+    "@tootallnate/quickjs-emscripten": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "0.23.0"
+    }
+  },
+  "GetStream/stream-chat-js": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "adrienjoly/chrome-next-step-for-trello": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "hypermedia-app/shaperone": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.7.4"
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "5.2.6"
+    },
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.28.3"
+    },
+    "es-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.5.0"
+    },
+    "shiki": {
+      "Instance": 1,
+      "Instantiate": 12,
+      "InstantiateStreaming": 8,
+      "version": "0.14.7"
+    },
+    "vscode-oniguruma": {
+      "Instance": 0,
+      "Instantiate": 3,
+      "InstantiateStreaming": 2,
+      "version": "1.7.0"
+    }
+  },
+  "paulmillr/chokidar": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "welldone-software/why-did-you-render": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "0.8.0-beta.0"
+    },
+    "loader-utils": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "2.0.4"
+    },
+    "source-map-fast": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "0.8.0-beta.0"
+    }
+  },
+  "rixo/rollup-plugin-svelte-hot": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.7.4"
+    }
+  },
+  "visgl/loaders.gl-showcases": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "kohii/medi-xplorer": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.3"
+    },
+    "es-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.4.1"
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 41,
+      "InstantiateStreaming": 12,
+      "version": "14.1.0"
+    },
+    "xxhash-wasm": {
+      "Instance": 0,
+      "Instantiate": 6,
+      "InstantiateStreaming": 0,
+      "version": "1.0.2"
+    },
+    "blake3-wasm": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "2.1.5"
+    },
+    "wrangler": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "3.22.1"
+    },
+    "tsx": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.7.1"
+    }
+  },
+  "natainditama/nevel": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 41,
+      "InstantiateStreaming": 12,
+      "version": "14.0.3"
+    }
+  },
+  "spencerwooo/spencerwoo.com": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.7.4"
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 41,
+      "InstantiateStreaming": 12,
+      "version": "14.1.4"
+    }
+  },
+  "i-tengfei/wasm-loader": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "element-hq/hydrogen-web": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 3,
+      "InstantiateStreaming": 1,
+      "version": "2.9.8"
+    },
+    "@matrix-org/olm": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 2,
+      "version": "3.2.15"
+    }
+  },
+  "dariusz-wozniak/dariuszwozniak.net-v2": {
+    "self": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "long": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "5.2.3"
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.3.1"
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 42,
+      "InstantiateStreaming": 12,
+      "version": "13.5.6"
+    },
+    "estree-util-to-js": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.0"
+    }
+  },
+  "pur3miish/AntelopeQL": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "ripemd160-js": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "2.0.2"
+    }
+  },
+  "textlint-ja/textlint-rule-preset-japanese": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "massalabs/as": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "assemblyscript": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.25.2"
+    },
+    "shiki": {
+      "Instance": 0,
+      "Instantiate": 9,
+      "InstantiateStreaming": 6,
+      "version": "0.14.3"
+    },
+    "binaryen": {
+      "Instance": 1,
+      "Instantiate": 3,
+      "InstantiateStreaming": 3,
+      "version": "110.0.0-nightly.20221105"
+    },
+    "@as-pect/transform": {
+      "Instance": 1,
+      "Instantiate": 5,
+      "InstantiateStreaming": 0,
+      "version": "8.1.0"
+    }
+  },
+  "JairusSW/as-fetch": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "aws/language-servers": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "webdevcody/dev-finder": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 41,
+      "InstantiateStreaming": 12,
+      "version": "14.1.3"
+    },
+    "@esbuild-kit/core-utils": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.3.2"
+    },
+    "drizzle-kit": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.20.14"
+    }
+  },
+  "timmo001/home-panel": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 41,
+      "InstantiateStreaming": 12,
+      "version": "14.1.4"
+    },
+    "prisma": {
+      "Instance": 2,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.12.1"
+    },
+    "@prisma/client": {
+      "Instance": 2,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.12.1"
+    }
+  },
+  "Newan/ioBroker.bluelink": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "pawanpaudel93/web-ardrive": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "Tomato6966/Musicium": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "6.19.2"
+    },
+    "libsodium": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "0.7.13"
+    },
+    "@distube/ytpl": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "1.2.1"
+    }
+  },
+  "AndreMor8/gidget": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "balena-os/jetson-flash": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "file-type": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "16.5.4"
+    },
+    "balena-image-fs": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "7.2.2"
+    },
+    "ext2fs": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "3.1.1"
+    }
+  },
+  "balena-io/deploy-to-balena-action": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.28.4"
+    },
+    "@vue/compiler-sfc": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.4.21"
+    }
+  },
+  "A7med3bdulBaset/next-template": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    }
+  },
+  "chribjel/isbunwindowsyet.com": {
+    "self": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 41,
+      "InstantiateStreaming": 12,
+      "version": "14.1.3"
+    }
+  },
+  "timlrx/pliny": {
+    "long": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "5.2.1"
+    },
+    "estree-util-to-js": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.1.0"
+    },
+    "vitest": {
+      "Instance": 1,
+      "Instantiate": 4,
+      "InstantiateStreaming": 1,
+      "version": "0.33.0"
+    },
+    "@grpc/proto-loader": {
+      "Instance": 4,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.7.3"
+    },
+    "imagescript": {
+      "Instance": 6,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.2.16"
+    }
+  },
+  "CesiumGS/3d-tiles-validator": {
+    "long": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "5.2.3"
+    },
+    "cesium": {
+      "Instance": 0,
+      "Instantiate": 29,
+      "InstantiateStreaming": 5,
+      "version": "1.119.0"
+    },
+    "meshoptimizer": {
+      "Instance": 0,
+      "Instantiate": 8,
+      "InstantiateStreaming": 0,
+      "version": "0.19.0"
+    },
+    "@cesium/engine": {
+      "Instance": 0,
+      "Instantiate": 11,
+      "InstantiateStreaming": 3,
+      "version": "10.0.0"
+    },
+    "gltfpack": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "0.19.1"
+    },
+    "draco3d": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "1.5.7"
+    },
+    "3d-tiles-tools": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "0.4.1"
+    },
+    "draco3dgltf": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "1.5.7"
+    }
+  },
+  "date-fns/date-fns": {
+    "long": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "5.2.3"
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "5.1.6"
+    },
+    "shiki": {
+      "Instance": 1,
+      "Instantiate": 12,
+      "InstantiateStreaming": 8,
+      "version": "0.14.7"
+    },
+    "vscode-oniguruma": {
+      "Instance": 0,
+      "Instantiate": 3,
+      "InstantiateStreaming": 2,
+      "version": "1.7.0"
+    },
+    "tsx": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.7.1"
+    }
+  },
+  "Theodo-UK/rntv-blog": {
+    "long": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "5.2.3"
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 41,
+      "InstantiateStreaming": 12,
+      "version": "14.0.3"
+    },
+    "estree-util-to-js": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.0"
+    }
+  },
+  "timlrx/timlrx.com": {
+    "long": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "5.2.3"
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 42,
+      "InstantiateStreaming": 12,
+      "version": "13.5.4"
+    },
+    "estree-util-to-js": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.0"
+    },
+    "hash-wasm": {
+      "Instance": 0,
+      "Instantiate": 30,
+      "InstantiateStreaming": 0,
+      "version": "4.9.0"
+    },
+    "imagescript": {
+      "Instance": 6,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.2.16"
+    }
+  },
+  "Karhdo/karhdo.dev": {
+    "long": {
+      "Instance": 4,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.0.0"
+    },
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "loader-utils": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "2.0.4"
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 35,
+      "InstantiateStreaming": 8,
+      "version": "13.1.6"
+    },
+    "estree-util-to-js": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.0"
+    },
+    "@grpc/grpc-js": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.9.7"
+    },
+    "imagescript": {
+      "Instance": 6,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.2.16"
+    },
+    "prisma": {
+      "Instance": 1,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.5.2"
+    },
+    "@prisma/client": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.5.2"
+    }
+  },
+  "gelatodigital/gelato-polywrap-template": {
+    "long": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "5.2.0"
+    },
+    "solc": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.8.11"
+    },
+    "@web3api/cli": {
+      "Instance": 11,
+      "Instantiate": 7,
+      "InstantiateStreaming": 6,
+      "version": "0.0.1-prealpha.59"
+    },
+    "@web3api/assemblyscript-json": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.2.0"
+    }
+  },
+  "hexojs/hexo-generator-feed": {
+    "camaro": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "6.2.3"
+    }
+  },
+  "hexojs/hexo-generator-sitemap": {
+    "camaro": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "6.2.3"
+    }
+  },
+  "fengkx/NodeRSSBot": {
+    "camaro": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "6.2.3"
+    },
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.3"
+    }
+  },
+  "jctaoo/elecrun": {
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "file-type": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "14.7.1"
+    },
+    "vite": {
+      "Instance": 0,
+      "Instantiate": 3,
+      "InstantiateStreaming": 1,
+      "version": "2.7.12"
+    },
+    "v8-to-istanbul": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "8.1.1"
+    }
+  },
+  "traPtitech/traQ_S-UI": {
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "4.5.0"
+    },
+    "workbox-build": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "7.0.0"
+    },
+    "@vue/compiler-sfc": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.3.4"
+    },
+    "@one-ini/wasm": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.1.1"
+    },
+    "fonteditor-core": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "2.1.11"
+    }
+  },
+  "wanghsinche/semipay": {
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.7.4"
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "5.3.3"
+    },
+    "loader-utils": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.3.1"
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 41,
+      "InstantiateStreaming": 12,
+      "version": "13.4.1"
+    },
+    "@jspm/core": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "2.0.1"
+    },
+    "@edge-runtime/primitives": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "2.0.0"
+    },
+    "edge-runtime": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "2.1.4"
+    },
+    "xdm": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "2.1.0"
+    }
+  },
+  "shoelace-style/shoelace": {
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.7.4"
+    },
+    "file-type": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "11.1.0"
+    },
+    "es-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.9.3"
+    },
+    "@tootallnate/quickjs-emscripten": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "0.23.0"
+    },
+    "decompress-tarbz2": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.1.1"
+    },
+    "@web/dev-server": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.4.1"
+    },
+    "@web/dev-server-rollup": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "decompress-tar": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.1.1"
+    },
+    "@web/test-runner-core": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.13.0"
+    },
+    "decompress-targz": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.1.1"
+    },
+    "@web/dev-server-core": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.4.1"
+    },
+    "archive-type": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.0.0"
+    }
+  },
+  "melink14/rikaikun": {
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.7.4"
+    },
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.2"
+    },
+    "es-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.0.2"
+    },
+    "@tootallnate/quickjs-emscripten": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "0.23.0"
+    },
+    "loader-utils": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.2.1"
+    },
+    "snowpack": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.8.8"
+    },
+    "esinstall": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.1.7"
+    }
+  },
+  "leyhline/mecab-web-worker": {
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.7.4"
+    },
+    "es-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.4.1"
+    }
+  },
+  "un-ts/changesets-gitlab": {
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.27.2"
+    },
+    "es-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.4.1"
+    },
+    "sh-syntax": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.3.7"
+    },
+    "stylus": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.57.0"
+    }
+  },
+  "textlint/editor": {
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "@types/webpack-sources": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "2.1.0"
+    },
+    "@webassemblyjs/wast-printer": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.9.0"
+    },
+    "@webassemblyjs/wast-parser": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.9.0"
+    },
+    "@webassemblyjs/helper-module-context": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.9.0"
+    }
+  },
+  "oriverk/blog.oriverk.dev": {
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.7.4"
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 42,
+      "InstantiateStreaming": 12,
+      "version": "13.4.19"
+    },
+    "html-rewriter-wasm": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.4.1"
+    }
+  },
+  "skick1234/DisTube": {
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.3"
+    },
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.27.2"
+    },
+    "tsup": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "7.2.0"
+    },
+    "@discordjs/rest": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "2.0.1"
+    },
+    "discord.js": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "14.13.0"
+    }
+  },
+  "scallop-io/sui-kit": {
+    "source-map": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.6.1"
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "5.3.3"
+    },
+    "vscode-oniguruma": {
+      "Instance": 0,
+      "Instantiate": 3,
+      "InstantiateStreaming": 2,
+      "version": "1.7.0"
+    },
+    "tsup": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "7.2.0"
+    }
+  },
+  "semaphore-protocol/semaphore": {
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.3"
+    },
+    "@webassemblyjs/helper-wasm-bytecode": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.11.6"
+    },
+    "blake2b-wasm": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "2.4.0"
+    },
+    "estree-util-to-js": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "2.0.0"
+    },
+    "decompress-tarbz2": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.1.1"
+    }
+  },
+  "reorproject/reor": {
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.3"
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "4.5.2"
+    }
+  },
+  "sebastian-software/asset-hash": {
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.2"
+    },
+    "v8-to-istanbul": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "8.1.1"
+    },
+    "xxhash-wasm": {
+      "Instance": 0,
+      "Instantiate": 6,
+      "InstantiateStreaming": 0,
+      "version": "1.0.1"
+    }
+  },
+  "emmercm/igir": {
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.3"
+    },
+    "node-unrar-js": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "2.0.2"
+    }
+  },
+  "wormhole-foundation/relayer-engine": {
+    "cjs-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "1.2.3"
+    },
+    "protobufjs": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "7.2.2"
+    },
+    "libsodium": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "0.7.11"
+    }
+  },
+  "Genez-io/genezio": {
+    "file-type": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "5.2.0"
+    },
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "5.1.4"
+    },
+    "decompress-tarbz2": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.1.1"
+    }
+  },
+  "ixartz/Astro-boilerplate": {
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "5.0.6"
+    },
+    "@astrojs/compiler": {
+      "Instance": 2,
+      "Instantiate": 4,
+      "InstantiateStreaming": 2,
+      "version": "2.3.2"
+    },
+    "es-module-lexer": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.4.1"
+    },
+    "shikiji": {
+      "Instance": 0,
+      "Instantiate": 3,
+      "InstantiateStreaming": 1,
+      "version": "0.6.13"
+    },
+    "prettier-plugin-astro": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "0.1.0-next.5"
+    }
+  },
+  "nickbabcock/highwayhasher": {
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "5.3.3"
+    }
+  },
+  "koel/koel": {
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "3.1.6"
+    },
+    "@vue/compiler-sfc": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.3.4"
+    }
+  },
+  "xmtp/xmtp-js": {
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "5.1.7"
+    }
+  },
+  "nwutils/nw-builder": {
+    "vite": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "5.2.8"
+    }
+  },
+  "cheeriojs/cheerio": {
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.28.2"
+    },
+    "tsx": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.7.1"
+    }
+  },
+  "Hacksore/bluelinky": {
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "6.10.2"
+    }
+  },
+  "lyc8503/UptimeFlare": {
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.28.2"
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 42,
+      "InstantiateStreaming": 12,
+      "version": "13.5.4"
+    },
+    "blake3-wasm": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "2.1.5"
+    },
+    "wrangler": {
+      "Instance": 1,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "3.22.4"
+    },
+    "@vercel/node": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "3.0.16"
+    },
+    "vercel": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "33.1.0"
+    }
+  },
+  "gfx-labs/ip-contracts": {
+    "undici": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.23.0"
+    },
+    "solc": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.7.3"
+    },
+    "mcl-wasm": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "0.7.9"
+    },
+    "@ethereum-waffle/mock-contract": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.4.4"
+    },
+    "@certusone/wormhole-sdk-wasm": {
+      "Instance": 8,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.0.1"
+    },
+    "@tenderly/hardhat-tenderly": {
+      "Instance": 0,
+      "Instantiate": 3,
+      "InstantiateStreaming": 0,
+      "version": "2.2.2"
+    }
+  },
+  "isaacs/minizlib": {
+    "yoga-wasm-web": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "0.3.3"
+    }
+  },
+  "eoin-obrien/fuck": {
+    "@webassemblyjs/helper-wasm-bytecode": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.11.1"
+    },
+    "@cspotcode/source-map-consumer": {
+      "Instance": 1,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "0.8.0"
+    },
+    "binaryen": {
+      "Instance": 1,
+      "Instantiate": 3,
+      "InstantiateStreaming": 3,
+      "version": "106.0.0"
+    }
+  },
+  "refined-github/refined-github": {
+    "@webassemblyjs/helper-wasm-bytecode": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.11.6"
+    },
+    "@xtuc/long": {
+      "Instance": 4,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.2.2"
+    },
+    "loader-utils": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "2.0.4"
+    },
+    "tsx": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.14.0"
+    }
+  },
+  "OGKevin/obsidian-kobo-highlights-import": {
+    "@webassemblyjs/helper-wasm-bytecode": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "1.11.1"
+    },
+    "sql.js": {
+      "Instance": 6,
+      "Instantiate": 8,
+      "InstantiateStreaming": 9,
+      "version": "1.8.0"
+    }
+  },
+  "sass/sass": {
+    "shiki": {
+      "Instance": 0,
+      "Instantiate": 9,
+      "InstantiateStreaming": 6,
+      "version": "0.14.2"
+    },
+    "vscode-oniguruma": {
+      "Instance": 0,
+      "Instantiate": 3,
+      "InstantiateStreaming": 2,
+      "version": "1.7.0"
+    }
+  },
+  "khalby786/jsoning": {
+    "shiki": {
+      "Instance": 1,
+      "Instantiate": 12,
+      "InstantiateStreaming": 8,
+      "version": "0.14.7"
+    },
+    "vscode-oniguruma": {
+      "Instance": 0,
+      "Instantiate": 3,
+      "InstantiateStreaming": 2,
+      "version": "1.7.0"
+    }
+  },
+  "napi-rs/napi-rs": {
+    "@tootallnate/quickjs-emscripten": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "0.23.0"
+    },
+    "ssh2": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 1,
+      "version": "1.15.0"
+    }
+  },
+  "anhfactor/danger-is-near": {
+    "loader-utils": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "2.0.2"
+    },
+    "next": {
+      "Instance": 3,
+      "Instantiate": 17,
+      "InstantiateStreaming": 11,
+      "version": "12.0.3"
+    },
+    "file-loader": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "6.2.0"
+    },
+    "react-scripts": {
+      "Instance": 2,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "4.0.3"
+    }
+  },
+  "arthureberledev/packagepeek": {
+    "next": {
+      "Instance": 3,
+      "Instantiate": 42,
+      "InstantiateStreaming": 12,
+      "version": "13.5.2"
+    },
+    "wrangler": {
+      "Instance": 2,
+      "Instantiate": 3,
+      "InstantiateStreaming": 0,
+      "version": "3.63.1"
+    },
+    "vercel": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "32.7.2"
+    }
+  },
+  "cryptoloutre/solana-tools": {
+    "next": {
+      "Instance": 3,
+      "Instantiate": 18,
+      "InstantiateStreaming": 11,
+      "version": "12.1.0"
+    },
+    "styled-jsx": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "5.0.0"
+    }
+  },
+  "asbhogal/Fyrre-Magazine": {
+    "next": {
+      "Instance": 3,
+      "Instantiate": 42,
+      "InstantiateStreaming": 12,
+      "version": "13.5.5"
+    }
+  },
+  "ajslater/codex": {
+    "@vue/compiler-sfc": {
+      "Instance": 1,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "3.4.21"
+    },
+    "sh-syntax": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 0,
+      "version": "0.4.2"
+    },
+    "@taplo/lib": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 1,
+      "version": "0.4.0-alpha.2"
+    }
+  },
+  "cosmiconfig/cosmiconfig": {
+    "vitest": {
+      "Instance": 2,
+      "Instantiate": 4,
+      "InstantiateStreaming": 1,
+      "version": "0.34.6"
+    }
+  },
+  "yisibl/resvg-js": {
+    "jimp-compact": {
+      "Instance": 0,
+      "Instantiate": 0,
+      "InstantiateStreaming": 0,
+      "version": "0.16.1"
+    }
+  },
+  "NippunSharma/mljs_ann": {
+    "@ml.js/core": {
+      "Instance": 0,
+      "Instantiate": 2,
+      "InstantiateStreaming": 2,
+      "version": "0.1.0-beta.1"
+    }
+  },
+  "ksxnodemodules/static-type-assert": {
+    "@sane-fmt/wasm32-wasi": {
+      "Instance": 0,
+      "Instantiate": 1,
+      "InstantiateStreaming": 0,
+      "version": "0.11.0"
+    }
+  }
+}

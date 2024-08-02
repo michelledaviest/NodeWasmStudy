@@ -1,0 +1,84 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899236.6700048,
+            "end_time": 1712899237.4678457
+        },
+        "eslint:md": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899237.4682517,
+            "end_time": 1712899238.4360912
+        },
+        "textlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899238.4365253,
+            "end_time": 1712899243.9673572
+        },
+        "textlint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899243.9677901,
+            "end_time": 1712899250.0823188
+        },
+        "test:example": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899250.082713,
+            "end_time": 1712899252.3313906
+        },
+        "test:js": {
+            "num_passing": 19,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712899252.3317924,
+            "end_time": 1712899257.9839032
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899257.9870796,
+            "end_time": 1712899263.3690271
+        },
+        "textlint:strict": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899263.369455,
+            "end_time": 1712899268.15342
+        },
+        "textlint:coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899268.1538773,
+            "end_time": 1712899272.8499
+        },
+        "travis:coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899272.8503656,
+            "end_time": 1712899277.3266668
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/JavaScript-Plugin-Architecture"
+    }
+}

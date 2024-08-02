@@ -1,0 +1,16 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:clean",
+            "build:ts"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/swiftwasm/JavaScriptKit"
+    }
+}

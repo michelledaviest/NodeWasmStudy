@@ -1,0 +1,69 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:html",
+            "build:css"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712781588.5671213,
+            "end_time": 1712781591.589987
+        },
+        "lint:fix": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712781591.5903432,
+            "end_time": 1712781593.9236872
+        },
+        "lint:css": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712781593.924047,
+            "end_time": 1712781596.0206118
+        },
+        "lint:css:fix": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712781596.0209486,
+            "end_time": 1712781598.1394196
+        },
+        "lint:js": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712781598.1397574,
+            "end_time": 1712781598.7351108
+        },
+        "lint:js:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712781598.7354512,
+            "end_time": 1712781599.3336575
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712781599.3340178,
+            "end_time": 1712781601.1512556
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/aleksandrhovhannisyan.com"
+    }
+}

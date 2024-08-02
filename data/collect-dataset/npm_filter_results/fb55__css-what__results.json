@@ -1,0 +1,60 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:jest",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808638.5482574,
+            "end_time": 1709808647.4810138
+        },
+        "test:jest": {
+            "num_passing": 936,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709808647.4814112,
+            "end_time": 1709808650.9979706
+        },
+        "lint": {
+            "nested_test_commands": [
+                "lint:es",
+                "lint:prettier"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808650.9991357,
+            "end_time": 1709808655.0977128
+        },
+        "lint:es": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808655.098125,
+            "end_time": 1709808657.366128
+        },
+        "lint:prettier": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808657.3664727,
+            "end_time": 1709808658.81625
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/css-what"
+    }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://github.com/facebookresearch/protein-ebm",
+    "stars": 88
+  },
+  {
+    "url": "https://github.com/PDBeurope/arpeggio",
+    "stars": 46
+  },
+  {
+    "url": "https://github.com/alibaba/LucaProt",
+    "stars": 34
+  },
+  {
+    "url": "https://github.com/ComputationalCryoEM/ASPIRE-Python",
+    "stars": 30
+  },
+  {
+    "url": "https://github.com/rs-station/reciprocalspaceship",
+    "stars": 25
+  },
+  {
+    "url": "https://github.com/glycojones/privateer",
+    "stars": 21
+  },
+  {
+    "url": "https://github.com/keitaroyam/servalcat",
+    "stars": 17
+  },
+  {
+    "url": "https://github.com/dwiddo/average-minimum-distance",
+    "stars": 16
+  },
+  {
+    "url": "https://github.com/dkratzert/StructureFinder",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/rosalindfranklininstitute/parakeet",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/PDBeurope/ccdutils",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/AIF-development-team/adsorptioninformationformat",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/dkratzert/FinalCif",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/DiamondLightSource/python-relion",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/DiamondLightSource/python-relion-yolo-it",
+    "stars": 5
+  }
+]

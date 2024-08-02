@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/NixOS/nixpkgs",
+    "stars": 12197
+  },
+  {
+    "url": "https://github.com/indygreg/PyOxidizer",
+    "stars": 4747
+  },
+  {
+    "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+    "stars": 2749
+  },
+  {
+    "url": "https://github.com/microsoft/onefuzz",
+    "stars": 2740
+  },
+  {
+    "url": "https://github.com/roc-lang/roc",
+    "stars": 2116
+  },
+  {
+    "url": "https://github.com/tomaka/redshirt",
+    "stars": 1395
+  },
+  {
+    "url": "https://github.com/facebookexperimental/hermit",
+    "stars": 513
+  },
+  {
+    "url": "https://github.com/astro/microvm.nix",
+    "stars": 477
+  },
+  {
+    "url": "https://github.com/facebookexperimental/reverie",
+    "stars": 398
+  },
+  {
+    "url": "https://github.com/Ben-Lichtman/ropr",
+    "stars": 373
+  },
+  {
+    "url": "https://github.com/obhq/obliteration",
+    "stars": 327
+  },
+  {
+    "url": "https://github.com/awslabs/snapchange",
+    "stars": 324
+  },
+  {
+    "url": "https://github.com/evmar/retrowin32",
+    "stars": 290
+  },
+  {
+    "url": "https://github.com/crumblingstatue/hexerator",
+    "stars": 248
+  },
+  {
+    "url": "https://github.com/woodruffw/steg86",
+    "stars": 248
+  },
+  {
+    "url": "https://github.com/b1tg/rust-windows-shellcode",
+    "stars": 209
+  },
+  {
+    "url": "https://github.com/mcountryman/min-sized-rust-windows",
+    "stars": 172
+  },
+  {
+    "url": "https://github.com/sha0coder/scemu",
+    "stars": 152
+  },
+  {
+    "url": "https://github.com/HenryJk/PvZWidescreen",
+    "stars": 120
+  },
+  {
+    "url": "https://github.com/seal9055/sfuzz",
+    "stars": 101
+  },
+  {
+    "url": "https://github.com/Signal-Labs/iat_unhook_sample",
+    "stars": 100
+  },
+  {
+    "url": "https://github.com/OpenByteDev/burnt-sushi",
+    "stars": 98
+  },
+  {
+    "url": "https://github.com/not-matthias/amd_hypervisor",
+    "stars": 91
+  },
+  {
+    "url": "https://github.com/tchajed/minimal-elf",
+    "stars": 85
+  },
+  {
+    "url": "https://github.com/etke/checksec.rs",
+    "stars": 79
+  },
+  {
+    "url": "https://github.com/OpenByteDev/dll-syringe",
+    "stars": 78
+  },
+  {
+    "url": "https://github.com/mythril-hypervisor/mythril",
+    "stars": 54
+  },
+  {
+    "url": "https://github.com/kekeimiku/PointerSearcher-X",
+    "stars": 53
+  },
+  {
+    "url": "https://github.com/entropic-security/xgadget",
+    "stars": 51
+  },
+  {
+    "url": "https://github.com/udbg/udbg",
+    "stars": 49
+  }
+]

@@ -1,0 +1,136 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:core",
+                "test:node",
+                "test:common"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712897958.6813574,
+            "end_time": 1712897959.3940175
+        },
+        "test:core": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712897959.3944988,
+            "end_time": 1712897959.8497634
+        },
+        "test:node": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712897959.8501806,
+            "end_time": 1712897960.277167
+        },
+        "test:common": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712897960.2796812,
+            "end_time": 1712897960.7393816
+        },
+        "test:async": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712897960.7398162,
+            "end_time": 1712897961.1632633
+        },
+        "test:browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712897961.165814,
+            "end_time": 1712897961.4628487
+        },
+        "test:bundled": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712897961.4633708,
+            "end_time": 1712897961.768676
+        },
+        "test:ace-editor": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712897961.7691894,
+            "end_time": 1712897962.0671725
+        },
+        "test:selenium": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712897962.0676725,
+            "end_time": 1712897962.3482387
+        },
+        "test:all": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:core",
+                "test:node",
+                "test:browser",
+                "test:bundled",
+                "test:ace-editor"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712897962.3486717,
+            "end_time": 1712897963.3081853
+        },
+        "test:bundled:win": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712897963.3087063,
+            "end_time": 1712897963.61117
+        },
+        "eslint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712897963.6116874,
+            "end_time": 1712897986.868283
+        },
+        "eslint:fix": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712897986.868924,
+            "end_time": 1712898007.0781546
+        },
+        "markdownlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712898007.078561,
+            "end_time": 1712898007.554875
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/nadesiko3"
+    }
+}

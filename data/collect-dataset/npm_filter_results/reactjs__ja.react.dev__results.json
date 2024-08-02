@@ -1,0 +1,61 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899430.576995,
+            "end_time": 1712899432.7101142
+        },
+        "lint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899432.7105098,
+            "end_time": 1712899435.1969194
+        },
+        "lint-heading-ids": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1712899435.1972299,
+            "end_time": 1712899435.465189
+        },
+        "ci-check": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899435.4669979,
+            "end_time": 1712899442.7876563
+        },
+        "textlint": {
+            "nested_test_commands": [
+                "textlint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899442.7880056,
+            "end_time": 1712899453.8427439
+        },
+        "textlint-staged": {
+            "nested_test_commands": [
+                "textlint-staged"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712899453.8431125,
+            "end_time": 1712899454.7082644
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/ja.react.dev"
+    }
+}

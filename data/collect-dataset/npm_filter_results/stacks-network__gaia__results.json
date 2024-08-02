@@ -1,0 +1,45 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712777658.7323701,
+            "end_time": 1712777675.571519
+        },
+        "test:hub": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712777675.5718362,
+            "end_time": 1712777688.2039201
+        },
+        "test:reader": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712777688.2042165,
+            "end_time": 1712777693.5494146
+        },
+        "test:admin": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712777693.5497565,
+            "end_time": 1712777700.4061968
+        },
+        "codecovUpload": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712777700.4064941,
+            "end_time": 1712777701.74688
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/gaia"
+    }
+}

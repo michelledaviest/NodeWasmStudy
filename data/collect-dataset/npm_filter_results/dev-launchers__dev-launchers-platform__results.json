@@ -1,0 +1,48 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "g:build-changed",
+            "apps:build",
+            "docker:nuke:prune-buildx"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "g:test-unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "g:test-e2e": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "g:lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "g:lint-styles": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "g:lint-staged-files": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "packages:test:unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "packages:lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/dev-launchers/dev-launchers-platform"
+    }
+}

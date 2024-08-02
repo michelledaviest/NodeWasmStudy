@@ -1,0 +1,70 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709805276.2210882,
+            "end_time": 1709805277.587398
+        },
+        "lint:fix": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709805277.587563,
+            "end_time": 1709805279.0641615
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint:fix"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709805279.064566,
+            "end_time": 1709805283.1850376
+        },
+        "test": {
+            "nested_test_commands": [
+                "jest"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709805283.1855204,
+            "end_time": 1709805293.207639
+        },
+        "test:ci": {
+            "nested_test_commands": [
+                "jest"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709805293.2080283,
+            "end_time": 1709805297.210793
+        },
+        "jest": {
+            "num_passing": 5064,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709805297.2111561,
+            "end_time": 1709805301.2104099
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/aria-query"
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "api:build:server",
+            "api:build:client",
+            "build",
+            "build:mainnet-js",
+            "build:contract",
+            "build:indexeddb-storage",
+            "build:postgresql-storage",
+            "build:production"
+        ]
+    },
+    "testing": {
+        "api:serve:test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709658647.345914,
+            "end_time": 1709658849.9393337
+        },
+        "coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709658849.9396992,
+            "end_time": 1709659469.9496522
+        },
+        "cover": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709659469.9503706,
+            "end_time": 1709660084.130771
+        },
+        "cover:core": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709660084.1316738,
+            "end_time": 1709660701.6137052
+        },
+        "cover:browser": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709660701.6143079,
+            "end_time": 1709660818.636421
+        },
+        "cover:api": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709660818.6373122,
+            "end_time": 1709660819.5291815
+        },
+        "cover:report": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709660819.5298362,
+            "end_time": 1709660820.4112363
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709660820.411897,
+            "end_time": 1709661435.501454
+        },
+        "test:skip": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709661435.7744207,
+            "end_time": 1709661948.9377692
+        },
+        "test:rest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709661948.938417,
+            "end_time": 1709662148.5973902
+        },
+        "test:rest:skip": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709662148.5978327,
+            "end_time": 1709662247.4949863
+        },
+        "test:browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709662247.4956572,
+            "end_time": 1709662361.914859
+        },
+        "test:browser:skip": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709662361.9156055,
+            "end_time": 1709662376.3723962
+        },
+        "regtest:up": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709662376.3731313,
+            "end_time": 1709662376.6611958
+        },
+        "regtest:down": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709662376.6617708,
+            "end_time": 1709662376.9869266
+        },
+        "regtest:sbch:up": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709662376.9875202,
+            "end_time": 1709662377.3869724
+        },
+        "regtest:sbch:down": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709662377.387626,
+            "end_time": 1709662377.6933234
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709662377.693983,
+            "end_time": 1709662378.922166
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/mainnet-js"
+    }
+}

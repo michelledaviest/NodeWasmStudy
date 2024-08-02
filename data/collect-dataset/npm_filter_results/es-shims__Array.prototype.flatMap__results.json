@@ -1,0 +1,67 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800581.7709813,
+            "end_time": 1709800582.5968854
+        },
+        "test": {
+            "nested_test_commands": [
+                "tests-only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800582.597128,
+            "end_time": 1709800589.2451887
+        },
+        "posttest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800589.2455919,
+            "end_time": 1709800593.9492862
+        },
+        "tests-only": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800593.9495296,
+            "end_time": 1709800594.38657
+        },
+        "prelint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800594.3867826,
+            "end_time": 1709800594.6665647
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800594.6666899,
+            "end_time": 1709800595.3284128
+        },
+        "postlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800595.3286247,
+            "end_time": 1709800595.5280747
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/Array.prototype.flatMap"
+    }
+}

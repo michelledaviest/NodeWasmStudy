@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build-and-start",
+            "build",
+            "heroku-prebuild"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 24,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712915863.8406272,
+            "end_time": 1712915920.5420108
+        },
+        "test:silent": {
+            "num_passing": 24,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712915920.543388,
+            "end_time": 1712915928.6436088
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/RirikoBot"
+    }
+}

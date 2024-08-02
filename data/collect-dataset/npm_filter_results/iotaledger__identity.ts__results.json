@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 37,
+            "num_failing": 16,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "testVC": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 2,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/iotaledger/identity.ts"
+    }
+}

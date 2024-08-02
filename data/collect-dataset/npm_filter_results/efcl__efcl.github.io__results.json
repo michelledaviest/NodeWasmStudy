@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:css"
+        ]
+    },
+    "testing": {
+        "textlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712739637.1243606,
+            "end_time": 1712739639.4415555
+        },
+        "test": {
+            "nested_test_commands": [
+                "textlint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712739639.441843,
+            "end_time": 1712739640.082356
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/efcl.github.io"
+    }
+}

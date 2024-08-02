@@ -1,0 +1,22 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild:plugins",
+            "build:plugins",
+            "prebuild:plugins:prod",
+            "build:plugins:prod",
+            "postbuild:plugins:prod",
+            "prebuild:frontend",
+            "build:frontend",
+            "postbuild:frontend"
+        ],
+        "ERROR": true
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/ToolJet/ToolJet"
+    }
+}

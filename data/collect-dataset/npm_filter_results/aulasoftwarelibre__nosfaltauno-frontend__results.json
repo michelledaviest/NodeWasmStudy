@@ -1,0 +1,45 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712737549.5844822,
+            "end_time": 1712737550.0173628
+        },
+        "test-all": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint",
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712737550.0177357,
+            "end_time": 1712737550.6372273
+        },
+        "test": {
+            "num_passing": 4,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712737550.637563,
+            "end_time": 1712737555.961591
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/nosfaltauno-frontend"
+    }
+}

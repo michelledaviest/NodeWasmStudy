@@ -1,0 +1,82 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build:types",
+            "build:code",
+            "build"
+        ]
+    },
+    "testing": {
+        "commitlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827918.2652938,
+            "end_time": 1709827919.2663589
+        },
+        "lint:js": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827919.2667556,
+            "end_time": 1709827920.1086538
+        },
+        "lint:types": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827920.1090257,
+            "end_time": 1709827921.8918493
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827921.8922155,
+            "end_time": 1709827925.3837473
+        },
+        "test:only": {
+            "num_passing": 403,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709827925.3841712,
+            "end_time": 1709827928.0923326
+        },
+        "test:coverage": {
+            "nested_test_commands": [
+                "test:only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827928.093379,
+            "end_time": 1709827931.4394002
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827931.4398768,
+            "end_time": 1709827935.7342293
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827935.7346191,
+            "end_time": 1709827942.6148338
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/schema-utils"
+    }
+}

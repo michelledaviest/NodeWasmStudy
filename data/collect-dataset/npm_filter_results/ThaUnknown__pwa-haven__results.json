@@ -1,0 +1,22 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "buildall",
+            "build",
+            "build-manga-reader",
+            "build-img-viewer",
+            "build-file-explorer",
+            "build-screen-recorder",
+            "build-video-player",
+            "build-audio-player",
+            "build-torrent-client"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/ThaUnknown/pwa-haven"
+    }
+}

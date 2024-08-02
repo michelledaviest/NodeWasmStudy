@@ -1,0 +1,105 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "test:tsc-build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "nested_test_commands": [
+                "lint:code",
+                "lint:docs"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712775253.0299573,
+            "end_time": 1712775257.4991522
+        },
+        "lint:code": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712775257.4996097,
+            "end_time": 1712775260.1827226
+        },
+        "lint:docs": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712775260.1831782,
+            "end_time": 1712775261.3513849
+        },
+        "lint:typings": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712775261.3517885,
+            "end_time": 1712775262.5803068
+        },
+        "lint:tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712775262.5806744,
+            "end_time": 1712775264.9911213
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712775264.9915223,
+            "end_time": 1712775284.9623613
+        },
+        "test:bun": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712775284.962773,
+            "end_time": 1712775285.4705853
+        },
+        "test:tsc-build": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712775285.4710019,
+            "end_time": 1712775288.405945
+        },
+        "coverage-test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712775288.4063406,
+            "end_time": 1712775316.0575716
+        },
+        "benchmark": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1712775316.0579038,
+            "end_time": 1712775332.7945106
+        },
+        "eslint-check": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712775332.798657,
+            "end_time": 1712775333.960009
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/node-mysql2"
+    }
+}

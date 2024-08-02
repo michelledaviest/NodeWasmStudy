@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://github.com/NixOS/nixpkgs",
+    "stars": 12197
+  },
+  {
+    "url": "https://github.com/metacall/core",
+    "stars": 1286
+  },
+  {
+    "url": "https://github.com/pomsky-lang/pomsky",
+    "stars": 1165
+  },
+  {
+    "url": "https://github.com/metacpan/metacpan-cpan-extracted",
+    "stars": 12
+  }
+]

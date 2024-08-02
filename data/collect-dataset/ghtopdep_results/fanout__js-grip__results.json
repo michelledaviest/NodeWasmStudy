@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://github.com/julianpoy/RecipeSage",
+    "stars": 526
+  },
+  {
+    "url": "https://github.com/fanout/apollo-serverless-demo",
+    "stars": 107
+  },
+  {
+    "url": "https://github.com/tech-cow/googler",
+    "stars": 82
+  },
+  {
+    "url": "https://github.com/ftdebugger/whole-npm",
+    "stars": 55
+  },
+  {
+    "url": "https://github.com/buddycloud/buddycloud-http-api",
+    "stars": 39
+  },
+  {
+    "url": "https://github.com/fanout/fanout-graphql-tools",
+    "stars": 32
+  },
+  {
+    "url": "https://github.com/fanout/node-faas-grip",
+    "stars": 32
+  },
+  {
+    "url": "https://github.com/fanout/flychat",
+    "stars": 12
+  },
+  {
+    "url": "https://github.com/fanout/express-eventstream",
+    "stars": 8
+  }
+]

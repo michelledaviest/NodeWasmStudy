@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712902604.5360692,
+            "end_time": 1712902615.5755532
+        },
+        "lint:prettier": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712902615.5758796,
+            "end_time": 1712902615.8891084
+        },
+        "lint:eslint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712902615.8895738,
+            "end_time": 1712902616.207857
+        },
+        "lint:markdownlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712902616.2082021,
+            "end_time": 1712902617.0768967
+        },
+        "lint:textlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712902617.0772822,
+            "end_time": 1712902625.796647
+        },
+        "fix:eslint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712902625.7969847,
+            "end_time": 1712902626.1182578
+        },
+        "fix:markdownlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712902626.11857,
+            "end_time": 1712902627.3530514
+        },
+        "fix:textlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712902627.353394,
+            "end_time": 1712902640.3977065
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/orivek.dev"
+    }
+}

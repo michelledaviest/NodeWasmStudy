@@ -1,0 +1,15 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "rsw:build"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/NnsDao/nnsdao-org"
+    }
+}

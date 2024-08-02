@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://github.com/Gert-dev/php-ide-serenata",
+    "stars": 275
+  },
+  {
+    "url": "https://github.com/atom-community/ide-python",
+    "stars": 237
+  },
+  {
+    "url": "https://github.com/atom-community/autocomplete-paths",
+    "stars": 151
+  },
+  {
+    "url": "https://github.com/atom-community/atom-languageclient",
+    "stars": 44
+  },
+  {
+    "url": "https://github.com/Pure-D/atom-ide-d",
+    "stars": 33
+  },
+  {
+    "url": "https://github.com/marko-js/atom-language-marko",
+    "stars": 33
+  },
+  {
+    "url": "https://github.com/PrestonKnopp/language-gdscript",
+    "stars": 32
+  },
+  {
+    "url": "https://github.com/sveltejs/svelte-atom",
+    "stars": 30
+  },
+  {
+    "url": "https://github.com/kwerle/ide-ruby",
+    "stars": 23
+  },
+  {
+    "url": "https://github.com/liuderchi/ide-html",
+    "stars": 20
+  },
+  {
+    "url": "https://github.com/liuderchi/ide-yaml",
+    "stars": 20
+  },
+  {
+    "url": "https://github.com/liuderchi/ide-css",
+    "stars": 17
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-vue",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-outline",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/ayame113/atom-ide-deno",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/fwcd/atom-ide-kotlin",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/kabiaa/atom-ide-volar",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/atom-community/ide-sourcekit",
+    "stars": 5
+  }
+]

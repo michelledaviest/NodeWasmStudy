@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712040305.4976761,
+            "end_time": 1712040306.4082336
+        },
+        "karma-ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712040306.4086084,
+            "end_time": 1712040307.5912175
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint",
+                "karma-ci"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712040307.5915692,
+            "end_time": 1712040309.0417862
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/openui5-basic-template-app"
+    }
+}

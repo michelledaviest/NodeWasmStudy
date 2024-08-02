@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/backstage/backstage",
+    "stars": 26174
+  },
+  {
+    "url": "https://github.com/overleaf/overleaf",
+    "stars": 12438
+  },
+  {
+    "url": "https://github.com/Infisical/infisical",
+    "stars": 11823
+  },
+  {
+    "url": "https://github.com/sqlpad/sqlpad",
+    "stars": 4977
+  },
+  {
+    "url": "https://github.com/OpenCTI-Platform/opencti",
+    "stars": 4569
+  },
+  {
+    "url": "https://github.com/plasmicapp/plasmic",
+    "stars": 3961
+  },
+  {
+    "url": "https://github.com/automatisch/automatisch",
+    "stars": 3865
+  },
+  {
+    "url": "https://github.com/sagemathinc/cocalc",
+    "stars": 1111
+  },
+  {
+    "url": "https://github.com/shortlink-org/shortlink",
+    "stars": 668
+  },
+  {
+    "url": "https://github.com/thomasdarimont/keycloak-project-example",
+    "stars": 301
+  },
+  {
+    "url": "https://github.com/open-rpa/openflow",
+    "stars": 295
+  },
+  {
+    "url": "https://github.com/sourcefuse/loopback4-microservice-catalog",
+    "stars": 289
+  },
+  {
+    "url": "https://github.com/RoadieHQ/roadie-backstage-plugins",
+    "stars": 227
+  },
+  {
+    "url": "https://github.com/FlowFuse/flowfuse",
+    "stars": 220
+  },
+  {
+    "url": "https://github.com/sourcefuse/loopback4-starter",
+    "stars": 158
+  },
+  {
+    "url": "https://github.com/rapid7/awsaml",
+    "stars": 137
+  },
+  {
+    "url": "https://github.com/janus-idp/backstage-plugins",
+    "stars": 106
+  },
+  {
+    "url": "https://github.com/Seneca-CDOT/telescope",
+    "stars": 92
+  },
+  {
+    "url": "https://github.com/ngageoint/mage-server",
+    "stars": 84
+  },
+  {
+    "url": "https://github.com/janus-idp/backstage-showcase",
+    "stars": 82
+  },
+  {
+    "url": "https://github.com/backstage/demo",
+    "stars": 78
+  },
+  {
+    "url": "https://github.com/sourcefuse/loopback4-authentication",
+    "stars": 72
+  },
+  {
+    "url": "https://github.com/drodil/backstage-plugin-qeta",
+    "stars": 68
+  },
+  {
+    "url": "https://github.com/idaholab/Deep-Lynx",
+    "stars": 41
+  },
+  {
+    "url": "https://github.com/cloudify-cosmo/cloudify-stage",
+    "stars": 39
+  },
+  {
+    "url": "https://github.com/backstage/community-plugins",
+    "stars": 34
+  },
+  {
+    "url": "https://github.com/immobiliare/backstage-plugin-ldap-auth",
+    "stars": 31
+  },
+  {
+    "url": "https://github.com/espoon-voltti/evaka",
+    "stars": 31
+  },
+  {
+    "url": "https://github.com/awslabs/backstage-plugins-for-aws",
+    "stars": 30
+  },
+  {
+    "url": "https://github.com/drodil/backstage-plugin-toolbox",
+    "stars": 29
+  }
+]

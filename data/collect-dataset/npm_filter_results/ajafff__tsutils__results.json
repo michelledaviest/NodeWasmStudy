@@ -1,0 +1,63 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "precompile",
+            "compile"
+        ]
+    },
+    "testing": {
+        "lint:tslint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709807006.5758455,
+            "end_time": 1709807008.4579291
+        },
+        "lint:wotan": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709807008.4583626,
+            "end_time": 1709807010.6141517
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709807010.6145458,
+            "end_time": 1709807014.1952028
+        },
+        "test": {
+            "num_passing": 67,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "timed_out": false,
+            "start_time": 1709807014.1956618,
+            "end_time": 1709807017.3586702
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709807017.3690286,
+            "end_time": 1709807023.2824848
+        },
+        "report-coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709807023.2826874,
+            "end_time": 1709807025.6426425
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/tsutils"
+    }
+}

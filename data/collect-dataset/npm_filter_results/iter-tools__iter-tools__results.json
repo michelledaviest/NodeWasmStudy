@@ -1,0 +1,86 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            ":build",
+            "build:es5",
+            "build:es"
+        ]
+    },
+    "testing": {
+        "test:js": {
+            "num_passing": 888,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712751642.0466015,
+            "end_time": 1712751658.1512356
+        },
+        "test:pkgs": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712751658.1520977,
+            "end_time": 1712751658.547357
+        },
+        "test:types": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712751658.5476792,
+            "end_time": 1712751661.5731275
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712751661.5733857,
+            "end_time": 1712751673.7585614
+        },
+        "benchmarks": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1712751673.7588778,
+            "end_time": 1712751675.1465135
+        },
+        "coverage": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:js"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712751675.1488469,
+            "end_time": 1712751682.162125
+        },
+        "coverage:upload": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712751682.1624486,
+            "end_time": 1712751684.0579128
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712751684.0582209,
+            "end_time": 1712751697.3865836
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/iter-tools"
+    }
+}

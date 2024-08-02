@@ -1,0 +1,74 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:server"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "ci:install": {
+            "nested_test_commands": [
+                "ci:postinstall"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci:postinstall": {
+            "nested_test_commands": [
+                "ci:poc"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci:sdk": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci:server": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci:admin-panel": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci:poc": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci:start": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:setup": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:concurrency": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/smallbets/userbase"
+    }
+}

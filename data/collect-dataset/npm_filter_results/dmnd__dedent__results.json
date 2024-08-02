@@ -1,0 +1,70 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:legacy",
+            "build:modern",
+            "build:types"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800693.3128428,
+            "end_time": 1709800696.8546603
+        },
+        "lint:knip": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800696.8551023,
+            "end_time": 1709800699.108307
+        },
+        "lint:md": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800699.1087854,
+            "end_time": 1709800699.669751
+        },
+        "lint:package-json": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800699.6701427,
+            "end_time": 1709800700.0366132
+        },
+        "lint:packages": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800700.0369198,
+            "end_time": 1709800746.6898992
+        },
+        "lint:spelling": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709800746.690112,
+            "end_time": 1709800746.818599
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709800746.8188164,
+            "end_time": 1709800746.9463007
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/dedent"
+    }
+}

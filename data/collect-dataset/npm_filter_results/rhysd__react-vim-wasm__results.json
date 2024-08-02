@@ -1,0 +1,47 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:tsc",
+            "build:parcel",
+            "build:test",
+            "build"
+        ]
+    },
+    "testing": {
+        "build:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709600351.5768263,
+            "end_time": 1709600353.0148644
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709600353.015106,
+            "end_time": 1709600354.6969767
+        },
+        "dts-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709600354.6973534,
+            "end_time": 1709600357.4305153
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709600357.4309113,
+            "end_time": 1709600360.6211493
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/react-vim-wasm"
+    }
+}

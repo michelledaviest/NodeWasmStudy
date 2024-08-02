@@ -1,0 +1,63 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-test-browser"
+        ]
+    },
+    "testing": {
+        "test-node": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709803868.3776283,
+            "end_time": 1709803919.8817973
+        },
+        "test-node-all": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709803919.8828342,
+            "end_time": 1709804012.3736978
+        },
+        "build-test-browser": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709804012.374181,
+            "end_time": 1709804015.9111648
+        },
+        "test": {
+            "nested_test_commands": [
+                "test-node-all"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709804015.9115875,
+            "end_time": 1709804108.7007356
+        },
+        "bench": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709804108.7014208,
+            "end_time": 1709804115.0165515
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709804115.0242028,
+            "end_time": 1709804115.8252645
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/tweetnacl-js"
+    }
+}

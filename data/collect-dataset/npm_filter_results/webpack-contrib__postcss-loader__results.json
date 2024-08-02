@@ -1,0 +1,89 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build"
+        ]
+    },
+    "testing": {
+        "commitlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784299.8817756,
+            "end_time": 1709784300.1732135
+        },
+        "lint:prettier": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784300.1734776,
+            "end_time": 1709784301.3384256
+        },
+        "lint:js": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784301.338687,
+            "end_time": 1709784302.2533236
+        },
+        "lint:spelling": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784302.2536917,
+            "end_time": 1709784305.0632591
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784305.0638163,
+            "end_time": 1709784307.0290833
+        },
+        "test:only": {
+            "num_passing": 126,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709784307.0295815,
+            "end_time": 1709784314.7629645
+        },
+        "test:coverage": {
+            "nested_test_commands": [
+                "test:only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784314.7636266,
+            "end_time": 1709784321.2682095
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784321.2685935,
+            "end_time": 1709784322.9132936
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784322.9137025,
+            "end_time": 1709784331.8859594
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/postcss-loader"
+    }
+}

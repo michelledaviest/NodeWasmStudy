@@ -1,0 +1,63 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712893922.9262457,
+            "end_time": 1712893923.4053383
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:e2e"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712893923.4056919,
+            "end_time": 1712893923.9149144
+        },
+        "test:e2e:dev": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:e2e:dev"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712893923.9153357,
+            "end_time": 1712893924.408285
+        },
+        "test:e2e:run": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:e2e:run"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712893924.408647,
+            "end_time": 1712893924.898563
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712893924.898896,
+            "end_time": 1712893925.1613305
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/workshop-template"
+    }
+}

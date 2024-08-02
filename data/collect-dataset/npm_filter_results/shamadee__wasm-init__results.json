@@ -1,0 +1,54 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "testinit",
+            "testcompile"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709687608.0757666,
+            "end_time": 1709687608.310018
+        },
+        "testinit": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709687608.3102453,
+            "end_time": 1709687608.7095983
+        },
+        "testcompile": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709687608.712791,
+            "end_time": 1709687609.0750773
+        },
+        "testgulp": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "gulp"
+            ],
+            "timed_out": false,
+            "start_time": 1709687609.0759032,
+            "end_time": 1709687609.347493
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/wasm-init"
+    }
+}

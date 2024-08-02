@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712741555.686941,
+            "end_time": 1712741566.6413145
+        },
+        "lint:prettier": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712741566.6416903,
+            "end_time": 1712741566.976137
+        },
+        "lint:eslint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712741566.976459,
+            "end_time": 1712741567.3061545
+        },
+        "lint:markdownlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712741567.3065026,
+            "end_time": 1712741568.262681
+        },
+        "lint:textlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712741568.2630208,
+            "end_time": 1712741577.3595467
+        },
+        "fix:eslint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712741577.3599055,
+            "end_time": 1712741577.6956775
+        },
+        "fix:markdownlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712741577.696008,
+            "end_time": 1712741579.0852592
+        },
+        "fix:textlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712741579.0856032,
+            "end_time": 1712741589.9774785
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/astro-site"
+    }
+}

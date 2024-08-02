@@ -1,0 +1,149 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712896296.563707,
+            "end_time": 1712896297.8006535
+        },
+        "eslint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712896297.8011136,
+            "end_time": 1712896298.7779186
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712896298.7785094,
+            "end_time": 1712896300.0801651
+        },
+        "lint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712896300.080603,
+            "end_time": 1712896301.393812
+        },
+        "ci:versionup:patch": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712896301.394222,
+            "end_time": 1712896307.1227834
+        },
+        "ci:versionup:minor": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712896307.1339433,
+            "end_time": 1712896312.270103
+        },
+        "ci:versionup:major": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712896312.2800653,
+            "end_time": 1712896317.5094557
+        },
+        "ci:release": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712896317.5195036,
+            "end_time": 1712896319.1406024
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712896319.1509206,
+            "end_time": 1712896356.4411511
+        },
+        "test:all": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712896356.4416351,
+            "end_time": 1712896398.836284
+        },
+        "test:docs": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712896398.8368583,
+            "end_time": 1712896403.9717338
+        },
+        "test:examples": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712896403.975622,
+            "end_time": 1712896407.7053318
+        },
+        "test:integration": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712896407.7277267,
+            "end_time": 1712896410.1670797
+        },
+        "test:packages": {
+            "num_passing": 838,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712896410.1854353,
+            "end_time": 1712896412.0792687
+        },
+        "test:projectReferences": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712896412.2633078,
+            "end_time": 1712896412.704208
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/textlint"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "asbuild:untouched",
+            "asbuild:optimized"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/esnible/wasm-examples"
+    }
+}

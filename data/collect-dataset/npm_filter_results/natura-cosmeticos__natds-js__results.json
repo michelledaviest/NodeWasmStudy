@@ -1,0 +1,91 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712773046.1233165,
+            "end_time": 1712773061.844377
+        },
+        "lint:fix": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712773061.8809845,
+            "end_time": 1712773062.4406376
+        },
+        "lerna:prerelease:version:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712773062.4410167,
+            "end_time": 1712773063.8716729
+        },
+        "lerna:prerelease:publish:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712773063.8720858,
+            "end_time": 1712773064.9638135
+        },
+        "lerna:release:version:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712773064.96418,
+            "end_time": 1712773065.8994792
+        },
+        "lerna:release:publish:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712773065.8998966,
+            "end_time": 1712773067.010503
+        },
+        "lerna:graduate:version:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712773067.0108576,
+            "end_time": 1712773068.3648028
+        },
+        "test": {
+            "num_passing": 984,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712773068.3651612,
+            "end_time": 1712773097.006242
+        },
+        "test:ci": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712773099.4401097,
+            "end_time": 1712773112.784938
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/natds-js"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:native",
+            "build:wasm",
+            "build:wasm-simd",
+            "build:wasm-simd-ci",
+            "build:bundle"
+        ]
+    },
+    "testing": {
+        "build:wasm-simd-ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709509857.9614413,
+            "end_time": 1709509858.4981663
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:inplace"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709509858.4987125,
+            "end_time": 1709509870.1513867
+        },
+        "test:inplace": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:types",
+                "test:native",
+                "test:browser"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709509870.1518574,
+            "end_time": 1709509872.6415493
+        },
+        "test:types": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709509872.641998,
+            "end_time": 1709509874.2623503
+        },
+        "test:native": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709509874.2627537,
+            "end_time": 1709509875.39786
+        },
+        "test:browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709509875.3983283,
+            "end_time": 1709509876.2127585
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/highwayhasher"
+    }
+}

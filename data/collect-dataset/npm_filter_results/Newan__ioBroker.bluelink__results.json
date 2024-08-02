@@ -1,0 +1,74 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test:js": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712878891.3509946,
+            "end_time": 1712878891.8051386
+        },
+        "test:package": {
+            "ERROR": true,
+            "num_passing": 37,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712878891.8065586,
+            "end_time": 1712878892.4066637
+        },
+        "test:unit": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712878892.4093719,
+            "end_time": 1712878892.9334724
+        },
+        "test:integration": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712878892.9341652,
+            "end_time": 1712878936.5101454
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:js",
+                "test:package"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712878936.5183823,
+            "end_time": 1712878937.7093775
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712878937.709716,
+            "end_time": 1712878938.1389835
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/ioBroker.bluelink"
+    }
+}

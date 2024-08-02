@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/prestodb/presto",
+    "stars": 15562
+  },
+  {
+    "url": "https://github.com/blakeblackshear/frigate",
+    "stars": 14468
+  },
+  {
+    "url": "https://github.com/Netflix/conductor",
+    "stars": 12904
+  },
+  {
+    "url": "https://github.com/conductor-oss/conductor",
+    "stars": 9999
+  },
+  {
+    "url": "https://github.com/Bottelet/DaybydayCRM",
+    "stars": 2215
+  },
+  {
+    "url": "https://github.com/primefaces/primefaces",
+    "stars": 1729
+  },
+  {
+    "url": "https://github.com/espocrm/espocrm",
+    "stars": 1489
+  },
+  {
+    "url": "https://github.com/facebookresearch/fairo",
+    "stars": 829
+  },
+  {
+    "url": "https://github.com/apache/helix",
+    "stars": 442
+  },
+  {
+    "url": "https://github.com/dermotduffy/frigate-hass-card",
+    "stars": 440
+  },
+  {
+    "url": "https://github.com/kudlav/videoeditor",
+    "stars": 418
+  },
+  {
+    "url": "https://github.com/uber/cadence-web",
+    "stars": 378
+  },
+  {
+    "url": "https://github.com/xivanalysis/xivanalysis",
+    "stars": 347
+  },
+  {
+    "url": "https://github.com/Darakah/obsidian-timelines",
+    "stars": 329
+  },
+  {
+    "url": "https://github.com/it-novum/openITCOCKPIT",
+    "stars": 253
+  },
+  {
+    "url": "https://github.com/alexcode/vue2vis",
+    "stars": 217
+  },
+  {
+    "url": "https://github.com/id1945/metronic-admin",
+    "stars": 196
+  },
+  {
+    "url": "https://github.com/brennentsmith/internet-speed-logger",
+    "stars": 173
+  },
+  {
+    "url": "https://github.com/apache/skywalking-booster-ui",
+    "stars": 165
+  },
+  {
+    "url": "https://github.com/oslabs-beta/react-chronoscope",
+    "stars": 161
+  },
+  {
+    "url": "https://github.com/temporalio/ui",
+    "stars": 150
+  },
+  {
+    "url": "https://github.com/dmfigol/network-programmability-stream",
+    "stars": 148
+  },
+  {
+    "url": "https://github.com/luci/luci-go",
+    "stars": 137
+  },
+  {
+    "url": "https://github.com/marklogic/marklogic-data-hub",
+    "stars": 129
+  },
+  {
+    "url": "https://github.com/primefaces-extensions/primefaces-extensions",
+    "stars": 110
+  },
+  {
+    "url": "https://github.com/microsoft/service-fabric-explorer",
+    "stars": 106
+  },
+  {
+    "url": "https://github.com/visjs/vis-charts",
+    "stars": 103
+  },
+  {
+    "url": "https://github.com/ActivityWatch/aw-webui",
+    "stars": 99
+  },
+  {
+    "url": "https://github.com/itsjafer/jupyterlab-sparkmonitor",
+    "stars": 91
+  },
+  {
+    "url": "https://github.com/giswqs/streamlit-timeline",
+    "stars": 81
+  }
+]

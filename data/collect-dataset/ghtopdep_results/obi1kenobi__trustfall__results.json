@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://github.com/oxc-project/oxc",
+    "stars": 8708
+  },
+  {
+    "url": "https://github.com/obi1kenobi/cargo-semver-checks",
+    "stars": 878
+  },
+  {
+    "url": "https://github.com/volvo-cars/cargo-indicate",
+    "stars": 27
+  },
+  {
+    "url": "https://github.com/davidpdrsn/cargo-public-api-crates",
+    "stars": 12
+  },
+  {
+    "url": "https://github.com/obi1kenobi/trustfall-rustdoc-adapter",
+    "stars": 9
+  }
+]

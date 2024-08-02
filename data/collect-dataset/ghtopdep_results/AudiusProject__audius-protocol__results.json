@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://github.com/AudiusProject/audius-mobile-client",
+    "stars": 34
+  },
+  {
+    "url": "https://github.com/iroiro/iroiro",
+    "stars": 22
+  },
+  {
+    "url": "https://github.com/AudiusProject/audius-k8s-manifests",
+    "stars": 19
+  },
+  {
+    "url": "https://github.com/AudiusProject/audius-docker-compose",
+    "stars": 12
+  },
+  {
+    "url": "https://github.com/espeon/audius-music",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/AudiusProject/general-admission",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/AudiusProject/audius.js",
+    "stars": 5
+  }
+]

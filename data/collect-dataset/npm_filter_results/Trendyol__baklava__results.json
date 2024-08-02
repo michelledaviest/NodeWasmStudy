@@ -1,0 +1,90 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-storybook",
+            "build-storybook-docs",
+            "localize:build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712769790.8886468,
+            "end_time": 1712769802.7127275
+        },
+        "lint:tsc": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712769802.7130978,
+            "end_time": 1712769805.655269
+        },
+        "lint:eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712769805.655671,
+            "end_time": 1712769810.5742075
+        },
+        "lint:style": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712769810.5745604,
+            "end_time": 1712769811.2480328
+        },
+        "lint:prettier": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712769811.2484062,
+            "end_time": 1712769814.1772811
+        },
+        "ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712769814.177668,
+            "end_time": 1712769848.305077
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712769848.305495,
+            "end_time": 1712769856.953502
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712769856.953825,
+            "end_time": 1712769867.0416305
+        },
+        "test:dev": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712769867.0420003,
+            "end_time": 1712769868.3870323
+        },
+        "test:component": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712769868.3875403,
+            "end_time": 1712769878.8589337
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/baklava"
+    }
+}

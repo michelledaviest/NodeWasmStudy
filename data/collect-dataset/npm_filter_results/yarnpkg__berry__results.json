@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:plugin-constraints",
+            "build:plugin-exec",
+            "build:plugin-interactive-tools",
+            "build:plugin-stage",
+            "build:plugin-typescript",
+            "build:plugin-version",
+            "build:plugin-workspace-tools",
+            "build:plugin-commands"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test:lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "ERROR": true,
+            "num_passing": 677,
+            "num_failing": 2,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/yarnpkg/berry"
+    }
+}

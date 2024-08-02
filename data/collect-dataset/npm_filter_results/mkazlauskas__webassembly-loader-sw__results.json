@@ -1,0 +1,106 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589801.4982412,
+            "end_time": 1709589803.4860337
+        },
+        "lint:fix": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589803.4866161,
+            "end_time": 1709589804.4566448
+        },
+        "lint:commits": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589804.4571257,
+            "end_time": 1709589805.0218954
+        },
+        "ci:lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589805.0223901,
+            "end_time": 1709589808.9907026
+        },
+        "ci:test": {
+            "ERROR": true,
+            "num_passing": 18,
+            "num_failing": 21,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709589808.9912372,
+            "end_time": 1709589825.0970464
+        },
+        "ci:coverage": {
+            "ERROR": true,
+            "num_passing": 18,
+            "num_failing": 21,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709589825.0984466,
+            "end_time": 1709589839.1517339
+        },
+        "ci:release": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589839.1523583,
+            "end_time": 1709589839.4261332
+        },
+        "ci:lint:commits": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589839.426596,
+            "end_time": 1709589839.7479424
+        },
+        "test:once": {
+            "ERROR": true,
+            "num_passing": 18,
+            "num_failing": 21,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709589839.7483974,
+            "end_time": 1709589852.7363987
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "num_passing": 18,
+            "num_failing": 21,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709589852.7373576,
+            "end_time": 1709589866.0659318
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/webassembly-loader-sw"
+    }
+}

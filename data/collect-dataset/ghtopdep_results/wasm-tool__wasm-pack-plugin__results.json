@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/wasmerio/wasmer",
+    "stars": 15324
+  },
+  {
+    "url": "https://github.com/RustPython/RustPython",
+    "stars": 15053
+  },
+  {
+    "url": "https://github.com/ruffle-rs/ruffle",
+    "stars": 12483
+  },
+  {
+    "url": "https://github.com/serverless/examples",
+    "stars": 10876
+  },
+  {
+    "url": "https://github.com/seanmonstar/reqwest",
+    "stars": 7543
+  },
+  {
+    "url": "https://github.com/rustwasm/wasm-bindgen",
+    "stars": 6375
+  },
+  {
+    "url": "https://github.com/krausest/js-framework-benchmark",
+    "stars": 5515
+  },
+  {
+    "url": "https://github.com/PaddlePaddle/VisualDL",
+    "stars": 4613
+  },
+  {
+    "url": "https://github.com/module-federation/module-federation-examples",
+    "stars": 4332
+  },
+  {
+    "url": "https://github.com/boa-dev/boa",
+    "stars": 3922
+  },
+  {
+    "url": "https://github.com/MaxBittker/sandspiel",
+    "stars": 2749
+  },
+  {
+    "url": "https://github.com/GraphiteEditor/Graphite",
+    "stars": 2677
+  },
+  {
+    "url": "https://github.com/jameslittle230/stork",
+    "stars": 2628
+  },
+  {
+    "url": "https://github.com/magcius/noclip.website",
+    "stars": 2577
+  },
+  {
+    "url": "https://github.com/silvia-odwyer/photon",
+    "stars": 2098
+  },
+  {
+    "url": "https://github.com/RustAudio/cpal",
+    "stars": 1927
+  },
+  {
+    "url": "https://github.com/dprint/dprint",
+    "stars": 1919
+  },
+  {
+    "url": "https://github.com/gakonst/ethers-rs",
+    "stars": 1798
+  },
+  {
+    "url": "https://github.com/obi1kenobi/trustfall",
+    "stars": 1578
+  },
+  {
+    "url": "https://github.com/a16z/helios",
+    "stars": 1363
+  },
+  {
+    "url": "https://github.com/sebcrozet/kiss3d",
+    "stars": 1321
+  },
+  {
+    "url": "https://github.com/phaazon/luminance-rs",
+    "stars": 1054
+  },
+  {
+    "url": "https://github.com/mCaptcha/mCaptcha",
+    "stars": 1013
+  },
+  {
+    "url": "https://github.com/antvis/G",
+    "stars": 895
+  },
+  {
+    "url": "https://github.com/tbranyen/diffhtml",
+    "stars": 843
+  },
+  {
+    "url": "https://github.com/Pauan/rust-dominator",
+    "stars": 829
+  },
+  {
+    "url": "https://github.com/anp/moxie",
+    "stars": 825
+  },
+  {
+    "url": "https://github.com/matrix-org/matrix-rust-sdk",
+    "stars": 755
+  },
+  {
+    "url": "https://github.com/wasmerio/wasmer-js",
+    "stars": 674
+  },
+  {
+    "url": "https://github.com/sandydoo/flux",
+    "stars": 645
+  }
+]

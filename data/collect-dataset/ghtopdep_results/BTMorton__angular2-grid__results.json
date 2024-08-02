@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://github.com/microsoft/azuredatastudio",
+    "stars": 7424
+  },
+  {
+    "url": "https://github.com/michelin/suricate",
+    "stars": 39
+  },
+  {
+    "url": "https://github.com/preston/angular-on-fhir",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/Resgrid/BigBoard",
+    "stars": 12
+  },
+  {
+    "url": "https://github.com/DanGeffroy/hubfy",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/GeoffreyBooth/node-import-file-specifier-resolution-proposal",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/HII-C/patient_viewer",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/bargoldi/angular2-widgets-manager",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/NextCenturyCorporation/neon-dash",
+    "stars": 5
+  }
+]

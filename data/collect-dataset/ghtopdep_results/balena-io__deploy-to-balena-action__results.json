@@ -1,0 +1,90 @@
+[
+  {
+    "url": "https://github.com/Screenly/Anthias",
+    "stars": 2235
+  },
+  {
+    "url": "https://github.com/kerberos-io/agent",
+    "stars": 570
+  },
+  {
+    "url": "https://github.com/balena-labs-projects/balena-dash",
+    "stars": 429
+  },
+  {
+    "url": "https://github.com/klutchell/balena-pihole",
+    "stars": 296
+  },
+  {
+    "url": "https://github.com/balena-labs-projects/balena-sense",
+    "stars": 285
+  },
+  {
+    "url": "https://github.com/chrisys/train-departure-display",
+    "stars": 220
+  },
+  {
+    "url": "https://github.com/balena-labs-projects/balena-cam",
+    "stars": 174
+  },
+  {
+    "url": "https://github.com/balena-os/balena-supervisor",
+    "stars": 145
+  },
+  {
+    "url": "https://github.com/ketilmo/balena-ads-b",
+    "stars": 137
+  },
+  {
+    "url": "https://github.com/belodetek/black.box",
+    "stars": 126
+  },
+  {
+    "url": "https://github.com/klutchell/balena-nextcloud",
+    "stars": 48
+  },
+  {
+    "url": "https://github.com/klutchell/balena-adguard",
+    "stars": 41
+  },
+  {
+    "url": "https://github.com/hslatman/tailscale-balena-block",
+    "stars": 15
+  },
+  {
+    "url": "https://github.com/LearnersBlock/learners-block",
+    "stars": 14
+  },
+  {
+    "url": "https://github.com/product-os/flowzone",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/klutchell/balena-homeassistant",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/klutchell/balena-frigate",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/SamEureka/balenaCodeServer",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/richbayliss/balena-zerotier-gateway",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/balena-io-experimental/plate-recognizer",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/klutchell/balena-backup",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/balena-os/leviathan-worker",
+    "stars": 5
+  }
+]

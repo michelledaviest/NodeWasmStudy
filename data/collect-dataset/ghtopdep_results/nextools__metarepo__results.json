@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/awsdocs/aws-doc-sdk-examples",
+    "stars": 7648
+  },
+  {
+    "url": "https://github.com/awslabs/amazon-redshift-utils",
+    "stars": 2588
+  },
+  {
+    "url": "https://github.com/cloudscape-design/components",
+    "stars": 1986
+  },
+  {
+    "url": "https://github.com/dstackai/dstack",
+    "stars": 680
+  },
+  {
+    "url": "https://github.com/aws-solutions/workload-discovery-on-aws",
+    "stars": 633
+  },
+  {
+    "url": "https://github.com/aws/awsui-documentation",
+    "stars": 213
+  },
+  {
+    "url": "https://github.com/aws/aws-northstar",
+    "stars": 196
+  },
+  {
+    "url": "https://github.com/awslabs/sandbox-accounts-for-events",
+    "stars": 78
+  },
+  {
+    "url": "https://github.com/aws-samples/aws-iot-twinmaker-samples",
+    "stars": 67
+  },
+  {
+    "url": "https://github.com/aws-samples/observability-with-amazon-opensearch",
+    "stars": 64
+  },
+  {
+    "url": "https://github.com/awslabs/synchro-charts",
+    "stars": 63
+  },
+  {
+    "url": "https://github.com/aws/porting-assistant-dotnet-ui",
+    "stars": 60
+  },
+  {
+    "url": "https://github.com/awslabs/iot-app-kit",
+    "stars": 59
+  },
+  {
+    "url": "https://github.com/cloudscape-design/demos",
+    "stars": 46
+  },
+  {
+    "url": "https://github.com/awslabs/visual-asset-management-system",
+    "stars": 36
+  },
+  {
+    "url": "https://github.com/aws-samples/amazon-chime-media-capture-pipeline-demo",
+    "stars": 34
+  },
+  {
+    "url": "https://github.com/aws-samples/amazon-transcribe-live-call-analytics",
+    "stars": 32
+  },
+  {
+    "url": "https://github.com/awslabs/simple-database-archival-solution",
+    "stars": 22
+  },
+  {
+    "url": "https://github.com/awslabs/photo-search-on-aws",
+    "stars": 22
+  },
+  {
+    "url": "https://github.com/aws-samples/datamesh-ui",
+    "stars": 21
+  },
+  {
+    "url": "https://github.com/CharlesStover/charlesstover.com",
+    "stars": 20
+  },
+  {
+    "url": "https://github.com/aws-samples/rekognition-identity-verification",
+    "stars": 19
+  },
+  {
+    "url": "https://github.com/grafana/grafana-iot-twinmaker-app",
+    "stars": 19
+  },
+  {
+    "url": "https://github.com/aws-solutions/account-assessment-for-aws-organizations",
+    "stars": 18
+  },
+  {
+    "url": "https://github.com/aws-samples/amazon-healthlake-imaging-samples",
+    "stars": 18
+  },
+  {
+    "url": "https://github.com/aws-samples/amazon-connect-custom-ccp",
+    "stars": 18
+  },
+  {
+    "url": "https://github.com/aws/aws-parallelcluster-ui",
+    "stars": 17
+  },
+  {
+    "url": "https://github.com/awslabs/fhir-works-on-aws-ui",
+    "stars": 14
+  },
+  {
+    "url": "https://github.com/CharlesStover/use-awsui",
+    "stars": 14
+  },
+  {
+    "url": "https://github.com/awslabs/iot-application",
+    "stars": 12
+  }
+]

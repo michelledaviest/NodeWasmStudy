@@ -1,0 +1,15 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "postbuild"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/one-aalam/astro-ink"
+    }
+}

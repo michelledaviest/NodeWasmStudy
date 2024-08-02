@@ -1,0 +1,106 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809513.0714247,
+            "end_time": 1709809514.3819833
+        },
+        "test-node": {
+            "ERROR": true,
+            "num_passing": 406,
+            "num_failing": 2,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1709809514.3822243,
+            "end_time": 1709809515.1175025
+        },
+        "test-headless": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809515.1194005,
+            "end_time": 1709809521.363112
+        },
+        "test-check-coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test-coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809521.3636022,
+            "end_time": 1709809524.6357708
+        },
+        "test-cloud": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-edge",
+                "test-firefox",
+                "test-safari"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809524.6361783,
+            "end_time": 1709809526.8274355
+        },
+        "test-edge": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809526.8281653,
+            "end_time": 1709809528.904493
+        },
+        "test-firefox": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809528.905033,
+            "end_time": 1709809531.7308621
+        },
+        "test-safari": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809531.7314281,
+            "end_time": 1709809534.5088985
+        },
+        "test-coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809534.5095205,
+            "end_time": 1709809536.350496
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-node",
+                "test-headless"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809536.3508399,
+            "end_time": 1709809537.416661
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/fake-timers"
+    }
+}

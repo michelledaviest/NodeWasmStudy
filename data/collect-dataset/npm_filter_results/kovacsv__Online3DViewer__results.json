@@ -1,0 +1,56 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build_css_prod",
+            "build_dev",
+            "build_engine_dev",
+            "build_engine_prod",
+            "build_engine_module",
+            "build_website_dev",
+            "build_website_prod"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 219,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint_fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "create_dist_test": {
+            "nested_test_commands": [
+                "test",
+                "lint",
+                "create_package_test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "create_package_test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/kovacsv/Online3DViewer"
+    }
+}

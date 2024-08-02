@@ -1,0 +1,5613 @@
+{
+  "self": {
+    "hexojs/hexo-migrator-rss": {
+      "WebAssemblyInstantiate": 2
+    },
+    "mvasilkov/pow-wasm": {
+      "WebAssemblyInstantiateStreaming": 2,
+      "WebAssemblyInstantiate": 4
+    },
+    "hexojs/hexo-generator-feed": {},
+    "little-core-labs/hyperid-wasm": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 1
+    },
+    "hexojs/hexo-generator-sitemap": {},
+    "hexojs/hexo-migrator-wordpress": {
+      "WebAssemblyInstantiate": 2
+    },
+    "lagden/cep": {},
+    "cjihrig/wasi-worker": {},
+    "p455555555/WebAssembly-TOTP": {
+      "WebAssemblyInstance": 1
+    },
+    "chjj/wazm": {},
+    "satnaing/astro-paper": {},
+    "nullishamy/declaricord": {},
+    "luc-tielen/eclair-wasm-bindings": {},
+    "fengkx/NodeRSSBot": {},
+    "subspace/vdf": {
+      "WebAssemblyInstantiateStreaming": 1,
+      "WebAssemblyInstantiate": 2
+    },
+    "sass/sass": {},
+    "eslint/eslintrc": {
+      "WebAssemblyInstantiate": 2
+    },
+    "semaphore-protocol/semaphore": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 8
+    },
+    "Munter/subfont": {},
+    "acot-a11y/acot": {},
+    "warp-contracts/warp": {
+      "WebAssemblyInstantiate": 1
+    },
+    "se2p/Bastet": {},
+    "massalabs/massa-as-sdk": {
+      "WebAssemblyInstantiate": 40
+    },
+    "aolsenjazz/feeder-node": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 1
+    },
+    "iden3/snarkjs": {
+      "WebAssemblyInstantiate": 6
+    },
+    "QSPFoundation/qsp-wasm-engine": {
+      "WebAssemblyInstantiate": 287
+    },
+    "GirkovArpa/hutton": {
+      "WebAssemblyInstance": 1
+    },
+    "little-core-labs/varint-wasm": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 4
+    },
+    "Schleifner/as-heap-analyzer": {},
+    "nomaton/rollup-plugin-rusty-wasm": {},
+    "little-core-labs/base64-wasm": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 3
+    },
+    "sindresorhus/file-type": {},
+    "archway-network/arch3.js": {
+      "WebAssemblyInstantiate": 1
+    },
+    "vhchung/file-type": {},
+    "Tschrock/esbuild-plugin-wasm": {},
+    "ARitz-Cracker/keccak-wasm": {
+      "WebAssemblyInstantiate": 2
+    },
+    "gzuidhof/rollup-plugin-base64": {
+      "WebAssemblyInstance": 1
+    },
+    "karinfam/svg2png-wasm": {
+      "WebAssemblyInstantiate": 6
+    },
+    "mnater/Hyphenopoly": {},
+    "ewasm/wasm-json-toolkit": {},
+    "semaphore-protocol/quick-setup": {
+      "WebAssemblyInstantiate": 5
+    },
+    "interep-project/contracts": {},
+    "privacy-scaling-explorations/p0tion": {
+      "WebAssemblyInstance": 1
+    },
+    "tutao/tutanota": {
+      "WebAssemblyInstantiate": 7,
+      "WebAssemblyInstance": 3
+    },
+    "ecomfe/fonteditor": {
+      "WebAssemblyInstance": 2
+    },
+    "warp-contracts/warp-wasm-metering": {
+      "WebAssemblyInstantiate": 6
+    },
+    "mozilla/source-map": {
+      "WebAssemblyInstantiate": 2
+    },
+    "johnoseni1/First-Game-engine": {},
+    "sindresorhus/strip-json-comments": {},
+    "playcanvas/engine": {
+      "WebAssemblyInstantiate": 2
+    },
+    "nuxt-community/router-extras-module": {},
+    "Skyost/Bacomathiques": {},
+    "PipedreamHQ/pipedream": {},
+    "caolan/async": {},
+    "mathiasbynens/jsesc": {},
+    "eslint/doctrine": {},
+    "webpack/loader-utils": {
+      "WebAssemblyInstance": 8
+    },
+    "kaelzhang/node-ignore": {},
+    "sindresorhus/parse-json": {},
+    "sindresorhus/pkg-dir": {},
+    "yargs/y18n": {},
+    "inspect-js/which-typed-array": {},
+    "npm/npmlog": {},
+    "sindresorhus/leven": {},
+    "jridgewell/source-map": {
+      "WebAssemblyInstantiate": 3
+    },
+    "reorproject/reor": {},
+    "sindresorhus/is-unicode-supported": {},
+    "nexdrew/which-module": {},
+    "enquirer/enquirer": {},
+    "cfware/get-package-type": {},
+    "itibbers/crypto-js-wasm": {
+      "WebAssemblyInstantiate": 232
+    },
+    "sindresorhus/onetime": {},
+    "cosmiconfig/cosmiconfig": {},
+    "massalabs/as": {
+      "WebAssemblyInstantiate": 28
+    },
+    "Tomato6966/Musicium": {
+      "WebAssemblyInstantiate": 3
+    },
+    "docknetwork/sdk": {
+      "WebAssemblyInstantiate": 9,
+      "WebAssemblyInstance": 7
+    },
+    "blockchain-certificates/blockcerts-verifier": {},
+    "jctaoo/elecrun": {},
+    "fraktalio/fmodel-ts": {},
+    "KevinBatdorf/image-filters": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 1
+    },
+    "id5io/id5-api.js": {},
+    "remix-run/remix": {
+      "WebAssemblyInstance": 50,
+      "WebAssemblyInstantiate": 202
+    },
+    "bropat/ioBroker.eusec": {
+      "WebAssemblyInstantiate": 3
+    },
+    "Genez-io/genezio": {},
+    "wanghsinche/semipay": {
+      "WebAssemblyInstance": 3
+    },
+    "bitjson/typescript-starter": {
+      "WebAssemblyInstantiate": 3
+    },
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27,
+      "WebAssemblyInstantiate": 2
+    },
+    "cheeriojs/cheerio": {},
+    "redis/node-redis": {},
+    "PepsRyuu/nollup": {},
+    "melink14/rikaikun": {},
+    "darkforest-eth/client": {
+      "WebAssemblyInstance": 3
+    },
+    "rhmoller/wasm-by-hand": {},
+    "ewasm/wasm-metering": {},
+    "pydantic/pydantic-core": {},
+    "pamelafox/dis-this": {},
+    "hoppscotch/hopp-js-sandbox": {},
+    "atlas-bi/Hub": {
+      "WebAssemblyInstantiate": 9
+    },
+    "collab-project/videojs-record": {
+      "WebAssemblyInstance": 36,
+      "WebAssemblyInstantiate": 12
+    },
+    "smapiot/piral-cli-vite": {},
+    "ericjiang97/nextjs-personal": {
+      "WebAssemblyInstance": 3
+    },
+    "iterative/cml": {
+      "WebAssemblyInstantiate": 62
+    },
+    "praghus/plextus": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 2
+    },
+    "bookbonobo/libby-download-extension": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 1
+    },
+    "LibreScore/mscz-api": {},
+    "libp2p/js-libp2p-crypto": {},
+    "hazae41/berith": {},
+    "ask-lang/ask-old": {
+      "WebAssemblyInstance": 6
+    },
+    "yakyak/yakyak": {},
+    "wasm-tool/wasm-pack-plugin": {},
+    "audiojs/audio-decode": {
+      "WebAssemblyInstantiate": 1
+    },
+    "geekuillaume/soundsync": {},
+    "atom/fs-plus": {},
+    "ayame113/atom-ide-deno": {},
+    "atom-community/atom-ide-diagnostics": {},
+    "DrSensor/example-stencil-rust": {},
+    "yisibl/resvg-js": {
+      "WebAssemblyInstance": 1
+    },
+    "webtoon/psd": {
+      "WebAssemblyInstantiate": 9
+    },
+    "QSPFoundation/qspider": {},
+    "terra-money/oracle-feeder": {},
+    "ceajs/slider-captcha": {},
+    "timlrx/pliny": {
+      "WebAssemblyInstance": 1
+    },
+    "kenryu42/ethereum-nft-sales-bot": {},
+    "vadimdemedes/ink": {},
+    "piotr-oles/as-loader": {},
+    "Shopify/hydrogen": {},
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 1
+    },
+    "unform/unform": {},
+    "jxom/bumbag-ui": {},
+    "aws/language-servers": {
+      "WebAssemblyInstantiate": 3
+    },
+    "terra-money/terra.js": {
+      "WebAssemblyInstance": 3
+    },
+    "leyhline/mecab-web-worker": {},
+    "hildjj/expat-wasm-dom": {
+      "WebAssemblyInstantiate": 8,
+      "WebAssemblyInstance": 152
+    },
+    "mylifenp/string-color": {},
+    "jtenner/siphash-as": {
+      "WebAssemblyInstance": 1
+    },
+    "JustinParratt/big-mult": {
+      "WebAssemblyInstance": 1
+    },
+    "newdash/wasm-native-template": {
+      "WebAssemblyInstance": 1
+    },
+    "eoin-obrien/fuck": {
+      "WebAssemblyInstance": 6
+    },
+    "andykswong/muphy": {
+      "WebAssemblyInstance": 1
+    },
+    "stagas/wat-cli": {},
+    "indutny/better-blockmap-wasm": {
+      "WebAssemblyInstance": 8
+    },
+    "fabiospampinato/bob-wasm": {},
+    "ashutoshvarma/as-bignum": {
+      "WebAssemblyInstance": 3
+    },
+    "concept-not-found/module-linking-polyfill": {},
+    "echamudi/require-wat": {
+      "WebAssemblyInstantiate": 4,
+      "WebAssemblyInstance": 4
+    },
+    "vinodotdev/yo-vino": {},
+    "torch2424/as-date": {},
+    "chaogaofeng/chain.js": {
+      "WebAssemblyInstance": 3
+    },
+    "Quramy/pico-ml": {
+      "WebAssemblyInstance": 4,
+      "WebAssemblyInstantiate": 1
+    },
+    "aspkg/ecmassembly": {
+      "WebAssemblyInstance": 3
+    },
+    "NippunSharma/mljs_ann": {},
+    "nickbabcock/highwayhasher": {},
+    "DrSensor/rs-jest": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 32
+    },
+    "krymel/vite-plugin-assemblyscript-asc": {
+      "WebAssemblyInstantiate": 22,
+      "WebAssemblyInstance": 21
+    },
+    "debrixjs/debrix": {},
+    "fabiospampinato/zstandard-wasm": {},
+    "adityakrshnn/framo": {},
+    "gy1016/terranova": {},
+    "sendilkumarn/generator-wasm-app": {},
+    "deislabs/yo-wasm": {},
+    "raulpy271/epqueue": {
+      "WebAssemblyInstance": 1
+    },
+    "papandreou/subset-font": {
+      "WebAssemblyInstantiate": 9
+    },
+    "ye-yu/as-hot-storage": {},
+    "jedisct1/wasm-crypto": {
+      "WebAssemblyInstance": 1
+    },
+    "blyssprivacy/sdk": {
+      "WebAssemblyInstance": 6,
+      "WebAssemblyInstantiateStreaming": 1
+    },
+    "bogard142857/terra-evmos.js": {
+      "WebAssemblyInstance": 3
+    },
+    "Bannerets/tdl": {},
+    "stagas/mono": {},
+    "ask-lang/ask": {
+      "WebAssemblyInstantiate": 2
+    },
+    "PauloBarbeiro/reactive-sql-toolkit": {
+      "WebAssemblyInstantiate": 5,
+      "WebAssemblyInstance": 3
+    },
+    "DeMille/wasm-ffi": {
+      "WebAssemblyInstantiate": 3
+    },
+    "mitschabaude/esbuild-plugin-wat": {
+      "WebAssemblyInstantiate": 8
+    },
+    "CashScript/cashscript": {},
+    "JamieMason/blurhash-to-css": {},
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstantiate": 1
+    },
+    "rhysd/react-vim-wasm": {},
+    "pur3miish/eosio-wasm-js": {
+      "WebAssemblyInstantiate": 11
+    },
+    "azu/kvs": {},
+    "birchill/10ten-ja-reader": {
+      "WebAssemblyInstance": 15,
+      "WebAssemblyInstantiate": 5
+    },
+    "ipfs/public-gateway-checker": {},
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 24
+    },
+    "pur3miish/ripemd160-js": {
+      "WebAssemblyInstantiate": 7
+    },
+    "sebastian-software/asset-hash": {},
+    "fabiospampinato/graphviz-wasm": {},
+    "papandreou/fontverter": {
+      "WebAssemblyInstantiate": 6
+    },
+    "giffeler/undoh": {},
+    "glimmerjs/broccoli-rust2wasm": {},
+    "iden3/wasmbuilder": {},
+    "shamadee/wasm-init": {},
+    "rhmoller/wat-tag": {},
+    "zksecurity/wasmati": {
+      "WebAssemblyInstantiate": 1
+    },
+    "GoogleChromeLabs/wasm-feature-detect": {
+      "WebAssemblyInstantiate": 5
+    },
+    "httptoolkit/brotli-wasm": {
+      "WebAssemblyInstance": 6
+    },
+    "AssemblyScript/binaryen.js": {
+      "WebAssemblyInstantiate": 1
+    },
+    "oriverk/blog.oriverk.dev": {
+      "WebAssemblyInstance": 4
+    },
+    "MaxGraey/as-bignum": {
+      "WebAssemblyInstantiate": 10
+    },
+    "emmercm/igir": {},
+    "nextcloud/calendar": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 1
+    },
+    "ksxnodemodules/static-type-assert": {},
+    "capsulesocial/capsule-near": {
+      "WebAssemblyInstance": 2
+    },
+    "oceanByte/near-academy-contracts": {},
+    "CesiumGS/3d-tiles-validator": {},
+    "remotebear-io/remotebear": {},
+    "JairusSW/as-json": {},
+    "Dragory/modmailbot": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstance": 6
+    },
+    "ueberdosis/tiptap": {},
+    "jelster/space-truckers": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 2
+    },
+    "Learn-NEAR/NCD.L1.sample--nearly-neighbors": {},
+    "genieacs/genieacs": {},
+    "un-ts/changesets-gitlab": {},
+    "mrdoob/three.js": {},
+    "napi-rs/napi-rs": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 3
+    },
+    "ChainSafe/persistent-merkle-tree": {},
+    "SAP/openui5-worklist-app": {
+      "WebAssemblyInstantiate": 1
+    },
+    "medusajs/medusa": {
+      "WebAssemblyInstance": 1
+    },
+    "refined-github/refined-github": {},
+    "oblador/loki": {},
+    "Comandeer/rollup-lib-bundler": {},
+    "graphql/graphql-js": {
+      "WebAssemblyInstance": 4,
+      "WebAssemblyInstantiate": 1
+    },
+    "querielo/playcanvas-typescript-template": {
+      "WebAssemblyInstance": 9
+    },
+    "moment/moment": {},
+    "sindresorhus/aggregate-error": {},
+    "SAP/openui5-sample-app": {
+      "WebAssemblyInstantiate": 1
+    },
+    "sindresorhus/camelcase-keys": {},
+    "toyobayashi/wasm-util": {},
+    "wapc/widl-codegen-js": {},
+    "wapc/widl-js": {},
+    "timlrx/tailwind-nextjs-starter-blog": {
+      "WebAssemblyInstance": 6,
+      "WebAssemblyInstantiate": 52
+    },
+    "CesiumGS/gltf-pipeline": {
+      "WebAssemblyInstantiate": 17
+    },
+    "isaacs/minizlib": {},
+    "date-fns/date-fns": {},
+    "webpack/watchpack": {},
+    "sindresorhus/quick-lru": {},
+    "sindresorhus/meow": {},
+    "sindresorhus/cli-spinners": {},
+    "inspect-js/is-typed-array": {},
+    "prettier/eslint-config-prettier": {
+      "WebAssemblyInstantiate": 2
+    },
+    "jsdom/js-symbol-tree": {},
+    "danez/pirates": {},
+    "mridgway/hoist-non-react-statics": {},
+    "inspect-js/typed-array-length": {},
+    "sindresorhus/cli-truncate": {},
+    "sindresorhus/emittery": {},
+    "sindresorhus/node-defaults": {},
+    "ljharb/es-shim-unscopables": {},
+    "webpack-contrib/postcss-loader": {},
+    "sindresorhus/string-length": {},
+    "sindresorhus/dot-prop": {},
+    "kriskowal/asap": {},
+    "sindresorhus/is": {},
+    "mysticatea/regexpp": {},
+    "yargs/set-blocking": {},
+    "sindresorhus/log-symbols": {},
+    "inspect-js/available-typed-arrays": {},
+    "jsx-eslint/eslint-plugin-react": {
+      "WebAssemblyInstantiate": 1
+    },
+    "dmnd/dedent": {},
+    "sinonjs/fake-timers": {
+      "WebAssemblyInstantiate": 8
+    },
+    "electerious/nice-try": {},
+    "sindresorhus/component-emitter": {},
+    "npm/fs": {},
+    "jslicense/spdx-correct.js": {},
+    "inspect-js/has-tostringtag": {},
+    "WebReflection/html-escaper": {},
+    "jslicense/spdx-license-ids": {},
+    "ajafff/tsutils": {},
+    "humanwhocodes/config-array": {},
+    "sindresorhus/merge-descriptors": {},
+    "terkelg/prompts": {},
+    "ega-forever/mokka": {
+      "WebAssemblyInstance": 6
+    },
+    "EdgeTranslate/EdgeTranslate": {},
+    "GetStream/stream-chat-js": {
+      "WebAssemblyInstantiate": 6
+    },
+    "mhaidarhanif/mhaidarhanif-astro": {
+      "WebAssemblyInstantiate": 4
+    },
+    "MuTsunTsai/fen-tool": {
+      "WebAssemblyInstantiate": 1
+    },
+    "textury/arlocal": {},
+    "textury/ardb": {},
+    "redstone-finance/redstone-api": {},
+    "CommunityXYZ/community-js": {},
+    "textury/blockweave": {},
+    "chribjel/isbunwindowsyet.com": {
+      "WebAssemblyInstance": 9,
+      "WebAssemblyInstantiate": 5
+    },
+    "coolpace/V2EX_Polish": {},
+    "react-hook-form/documentation": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 2
+    },
+    "getguesstimate/guesstimate-app": {},
+    "mulesoft/osprey": {},
+    "AndrewRedican/react-json-editor-ajrm": {},
+    "TimeForANinja/node-ytsr": {},
+    "mondaycom/monday-ui-style": {},
+    "klaro-org/klaro-js": {},
+    "node-saml/passport-saml": {},
+    "Rishikant181/Rettiwt-API": {},
+    "adrienjoly/chrome-next-step-for-trello": {
+      "WebAssemblyInstantiate": 1
+    },
+    "react-declarative/react-declarative": {},
+    "fanout/js-grip": {},
+    "hypermedia-app/shaperone": {
+      "WebAssemblyInstantiate": 1
+    },
+    "searKing/preview-vscode": {
+      "WebAssemblyInstance": 9,
+      "WebAssemblyInstantiate": 3
+    },
+    "paulmillr/chokidar": {
+      "WebAssemblyInstantiate": 1
+    },
+    "Hacksore/bluelinky": {},
+    "trevoreyre/autocomplete": {
+      "WebAssemblyInstantiate": 3
+    },
+    "crossplatformkorea/react-native-naver-login": {
+      "WebAssemblyInstance": 1
+    },
+    "brianc/node-pg-types": {},
+    "johannschopplich/kirby-vue3-starterkit": {},
+    "unjs/undio": {},
+    "khalby786/jsoning": {},
+    "Lavve/MMM-MagicMover": {},
+    "rapideditor/rapid-sdk": {},
+    "dev-ninja11/home-assesment": {},
+    "paytaca/paytaca-app": {},
+    "AxonIQ/giftcard-demo-ts": {},
+    "xmtp/xmtp-js": {
+      "WebAssemblyInstance": 1
+    },
+    "status-im/status-web": {},
+    "waku-org/js-rln": {
+      "WebAssemblyInstance": 6
+    },
+    "AlchemyCMS/alchemy_cms": {},
+    "InsightSoftwareConsortium/ITKElastix": {},
+    "sveltejs/svelte-hmr": {},
+    "dominikg/svite": {},
+    "beyonk-group/svelte-google-analytics": {},
+    "rixo/rollup-plugin-svelte-hot": {
+      "WebAssemblyInstantiate": 1
+    },
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 4,
+      "WebAssemblyInstantiate": 7
+    },
+    "vannizhang/unemployment-pulse": {
+      "WebAssemblyInstance": 4,
+      "WebAssemblyInstantiate": 1
+    },
+    "novorender/novoweb": {},
+    "Phala-Network/framehub-template": {},
+    "epicweb-dev/react-fundamentals": {},
+    "epicweb-dev/react-hooks": {},
+    "epicweb-dev/advanced-react-hooks": {},
+    "epicweb-dev/react-suspense": {},
+    "statelyai/xstate-tools": {},
+    "lyc8503/UptimeFlare": {
+      "WebAssemblyInstance": 3
+    },
+    "kohii/medi-xplorer": {
+      "WebAssemblyInstance": 7,
+      "WebAssemblyInstantiate": 2
+    },
+    "natainditama/nevel": {
+      "WebAssemblyInstance": 4,
+      "WebAssemblyInstantiate": 1
+    },
+    "james-elicx/cloudy": {
+      "WebAssemblyInstance": 4
+    },
+    "arthureberledev/packagepeek": {
+      "WebAssemblyInstance": 3
+    },
+    "spotify/basic-pitch-ts": {},
+    "MiguelRipoll23/homebridge-securitysystem": {},
+    "robvanderleek/mudslide": {},
+    "clairton/unoapi-cloud": {},
+    "audiojs/audio-loader": {},
+    "spencerwooo/spencerwoo.com": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 37
+    },
+    "jtenner/as-disposable": {
+      "WebAssemblyInstance": 1
+    },
+    "welldone-software/why-did-you-render": {
+      "WebAssemblyInstantiate": 178
+    },
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstantiate": 9,
+      "WebAssemblyInstance": 10
+    },
+    "ixartz/Astro-boilerplate": {
+      "WebAssemblyInstantiate": 3
+    },
+    "Shopify/hydrogen-react": {},
+    "sanity-io/demo-ecommerce": {},
+    "tinloof/vercel-hydrogen-demo-store": {},
+    "okendo/okendo-shopify-hydrogen-demo": {},
+    "juanpprieto/hydrogen-css-hooks": {},
+    "OGKevin/obsidian-kobo-highlights-import": {},
+    "pur3miish/AntelopeQL": {
+      "WebAssemblyInstantiate": 8
+    },
+    "textlint-ja/textlint-rule-preset-ja-technical-writing": {
+      "WebAssemblyInstantiate": 1
+    },
+    "jser/jser.info": {},
+    "textlint/editor": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 3
+    },
+    "efcl/efcl.github.io": {},
+    "textlint-ja/textlint-rule-preset-japanese": {
+      "WebAssemblyInstantiate": 1
+    },
+    "jser/jser.github.io": {},
+    "textlint-ja/textlint-rule-preset-ja-spacing": {},
+    "proofdict/proofdict": {},
+    "shivase/obsidian-textlint": {},
+    "azukiazusa1/zenn-contents": {},
+    "transmute-industries/transmute": {},
+    "ericelliott/autodux": {},
+    "HarryStevens/d3-regression": {},
+    "wormhole-foundation/relayer-engine": {},
+    "gfx-labs/ip-contracts": {},
+    "wormhole-foundation/wormhole-sdk-ts": {
+      "WebAssemblyInstance": 11,
+      "WebAssemblyInstantiate": 5
+    },
+    "Web3Auth/web3auth-web": {},
+    "superfaceai/station": {},
+    "massalabs/massa-web3": {},
+    "massalabs/massa-sc-toolkit": {},
+    "typeorm/typeorm": {
+      "WebAssemblyInstantiate": 2
+    },
+    "ksxnodemodules/typescript-tuple": {},
+    "poolshark-protocol/range": {},
+    "JairusSW/as-fetch": {
+      "WebAssemblyInstantiate": 2
+    },
+    "JairusSW/as-tbs": {},
+    "gelatodigital/gelato-polywrap-template": {},
+    "Zenika/sensei": {},
+    "Trendyol/baklava": {},
+    "Comandeer/babel-plugin-banner": {},
+    "Theodo-UK/rntv-blog": {
+      "WebAssemblyInstance": 6,
+      "WebAssemblyInstantiate": 13
+    },
+    "sidorares/node-mysql2": {
+      "WebAssemblyInstance": 278
+    },
+    "nwutils/nw-builder": {},
+    "decentralized-identity/ion": {},
+    "stacks-network/gaia": {},
+    "input-output-hk/nami": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 2
+    },
+    "ipfs-shipyard/ipfs-pubsub-room": {
+      "WebAssemblyInstance": 2
+    },
+    "musehq/spacesvr": {},
+    "Adonis-Stavridis/caroumesh": {
+      "WebAssemblyInstance": 1
+    },
+    "vpdb/vpx-js": {},
+    "JamesMillerBlog/wrapper.js": {},
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {
+      "WebAssemblyInstance": 1
+    },
+    "dropy-project/front": {},
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 2,
+      "WebAssemblyInstance": 3
+    },
+    "webdevcody/dev-finder": {
+      "WebAssemblyInstance": 11,
+      "WebAssemblyInstantiate": 1
+    },
+    "ar-io/testnet-contract": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 4
+    },
+    "pianity/arsnap": {
+      "WebAssemblyInstance": 1
+    },
+    "ardriveapp/ardrive-core-js": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 8
+    },
+    "mulesoft-labs/osprey-mock-service": {},
+    "Superflows-AI/superflows": {
+      "WebAssemblyInstance": 4
+    },
+    "ginkgobioworks/react-json-schema-form-builder": {},
+    "timmo001/home-panel": {
+      "WebAssemblyInstance": 7,
+      "WebAssemblyInstantiate": 1
+    },
+    "stegripe/rawon": {},
+    "codetheweb/muse": {},
+    "discordx-ts/discordx": {},
+    "callsmusic/remix": {},
+    "makigas/makigas.es": {},
+    "immobiliare/backstage-plugin-ldap-auth": {
+      "WebAssemblyInstance": 1
+    },
+    "SteffeyDev/homebridge-hyundai-bluelink": {},
+    "Newan/ioBroker.bluelink": {
+      "WebAssemblyInstantiate": 4
+    },
+    "kaaaxcreators/Discord-MusicBot": {},
+    "facebook/Rapid": {},
+    "AlchemyCMS/alchemy-json_api": {},
+    "keyframe-refiner/keyframe-refiner": {},
+    "LucasJC/rpwhale": {},
+    "zeikar/issueage": {},
+    "metonym/svelte-search": {},
+    "cinaaaa/react-tagify": {},
+    "isoteriksoftware/react-gallery-3d": {},
+    "epicweb-dev/react-server-components": {},
+    "epicweb-dev/testing-fundamentals": {},
+    "taichi/vscode-textlint": {
+      "WebAssemblyInstance": 3
+    },
+    "azu/monorepo-utils": {},
+    "ics-creative/project-japanese-proofreading": {},
+    "g59/nestjs-plugins": {},
+    "azu/promises-book": {},
+    "home-assistant/home-assistant.io": {},
+    "sapegin/dotfiles": {},
+    "sapegin/washingcode-book": {},
+    "kufu/textlint-rule-preset-smarthr": {},
+    "gecko655/proofreading-tool": {},
+    "bengo4/textlint-rule-preset-bengo4": {},
+    "sre-next/corporate-regulations": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 1
+    },
+    "takeokunn/blog": {},
+    "feedforce/tech.feedforce.jp": {},
+    "stzn/the-swift-programming-language-jp": {},
+    "proofdict/proof-dictionary": {},
+    "tsuyoshicho/technical-writing-template": {},
+    "rough-stuff/rough": {},
+    "moment/luxon": {},
+    "jakearchibald/svgomg": {},
+    "visjs/vis-timeline": {},
+    "d3fc/d3fc": {},
+    "mbrevda/react-image": {},
+    "advanced-cropper/vue-advanced-cropper": {},
+    "distillpub/template": {},
+    "dai-shi/remote-faces": {},
+    "ipfs-shipyard/y-ipfs-connector": {},
+    "pawanpaudel93/web-ardrive": {
+      "WebAssemblyInstantiate": 3
+    },
+    "WeLoveSquad/squad-server-info-discord-bot": {},
+    "xmnlz/vpitashka": {},
+    "rssnyder/discord-nft-floor-price": {},
+    "Brexbot/TwiggyBot": {},
+    "distubejs/example": {},
+    "AndreMor8/gidget": {
+      "WebAssemblyInstantiate": 2
+    },
+    "MesonFi/meson-to": {
+      "WebAssemblyInstance": 2
+    },
+    "scallop-io/sui-kit": {},
+    "notifi-network/notifi-sdk-ts": {},
+    "AnWeber/httpbook": {},
+    "zazuko/vscode-sparql-notebook": {
+      "WebAssemblyInstance": 9
+    },
+    "balena-os/jetson-flash": {
+      "WebAssemblyInstantiate": 1
+    },
+    "Razikus/open-balena-dashboard": {},
+    "balena-io/deploy-to-balena-action": {
+      "WebAssemblyInstantiate": 3
+    },
+    "balena-io-modules/balena-preload": {},
+    "balena-os/leviathan": {},
+    "balena-io/balena-mdns-publisher": {},
+    "balena-io-examples/aws-iot-provision": {},
+    "linear/linear-airbyte-source": {},
+    "vivianjeng/anon-transfer": {
+      "WebAssemblyInstance": 3
+    },
+    "epicserve/django-base-site": {},
+    "ajslater/codex": {},
+    "neplextech/canvacord": {
+      "WebAssemblyInstance": 1
+    },
+    "waseemhnyc/instagraph-nextjs-fastapi": {
+      "WebAssemblyInstance": 3
+    },
+    "skick1234/DisTube": {
+      "WebAssemblyInstance": 1
+    },
+    "asbhogal/Fyrre-Magazine": {
+      "WebAssemblyInstance": 3
+    },
+    "Karhdo/karhdo.dev": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 4
+    },
+    "developeratul/lemonsqueezy-nextjs": {
+      "WebAssemblyInstance": 7
+    },
+    "danielcgilibert/blog-template": {
+      "WebAssemblyInstantiate": 3
+    },
+    "i-tengfei/wasm-loader": {
+      "WebAssemblyInstantiate": 2
+    },
+    "element-hq/hydrogen-web": {
+      "WebAssemblyInstantiate": 1
+    },
+    "balena-io-library/base-images": {}
+  },
+  "camaro": {
+    "hexojs/hexo-migrator-rss": {
+      "WebAssemblyInstantiate": 4
+    },
+    "hexojs/hexo-generator-feed": {
+      "WebAssemblyInstantiate": 2
+    },
+    "hexojs/hexo-generator-sitemap": {
+      "WebAssemblyInstantiate": 2
+    },
+    "hexojs/hexo-migrator-wordpress": {
+      "WebAssemblyInstantiate": 4
+    },
+    "lagden/cep": {},
+    "fengkx/NodeRSSBot": {
+      "WebAssemblyInstantiate": 2
+    },
+    "acot-a11y/acot": {}
+  },
+  "base64-wasm": {
+    "little-core-labs/hyperid-wasm": {}
+  },
+  "source-map": {
+    "cjihrig/wasi-worker": {},
+    "semaphore-protocol/semaphore": {},
+    "acot-a11y/acot": {},
+    "se2p/Bastet": {},
+    "iden3/snarkjs": {},
+    "QSPFoundation/qsp-wasm-engine": {
+      "WebAssemblyInstantiate": 288
+    },
+    "Tschrock/esbuild-plugin-wasm": {
+      "WebAssemblyInstantiate": 5,
+      "WebAssemblyInstantiateStreaming": 1
+    },
+    "gzuidhof/rollup-plugin-base64": {},
+    "tutao/tutanota": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 3
+    },
+    "playcanvas/engine": {},
+    "nuxt-community/router-extras-module": {},
+    "Skyost/Bacomathiques": {},
+    "webpack/loader-utils": {},
+    "jridgewell/source-map": {
+      "WebAssemblyInstantiate": 4
+    },
+    "onwidget/qwind": {},
+    "itibbers/crypto-js-wasm": {},
+    "blockchain-certificates/blockcerts-verifier": {},
+    "jctaoo/elecrun": {
+      "WebAssemblyInstantiate": 2
+    },
+    "KevinBatdorf/image-filters": {},
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 638,
+      "WebAssemblyInstance": 50
+    },
+    "wanghsinche/semipay": {
+      "WebAssemblyInstantiate": 2
+    },
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "melink14/rikaikun": {
+      "WebAssemblyInstantiate": 10
+    },
+    "darkforest-eth/client": {},
+    "rhmoller/wasm-by-hand": {},
+    "hoppscotch/hopp-js-sandbox": {
+      "WebAssemblyInstantiate": 6,
+      "WebAssemblyInstance": 12
+    },
+    "smapiot/piral-cli-vite": {},
+    "iterative/cml": {
+      "WebAssemblyInstantiate": 62
+    },
+    "praghus/plextus": {},
+    "ask-lang/ask-old": {
+      "WebAssemblyInstance": 11
+    },
+    "geekuillaume/soundsync": {},
+    "QSPFoundation/qspider": {},
+    "timlrx/pliny": {},
+    "piotr-oles/as-loader": {},
+    "Shopify/hydrogen": {},
+    "quolpr/harika": {},
+    "unform/unform": {},
+    "jxom/bumbag-ui": {},
+    "aws/language-servers": {},
+    "terra-money/terra.js": {},
+    "leyhline/mecab-web-worker": {
+      "WebAssemblyInstantiate": 1
+    },
+    "newdash/wasm-native-template": {},
+    "eoin-obrien/fuck": {},
+    "andykswong/muphy": {},
+    "stagas/wat-cli": {},
+    "chaogaofeng/chain.js": {},
+    "Quramy/pico-ml": {},
+    "adityakrshnn/framo": {},
+    "deislabs/yo-wasm": {},
+    "PauloBarbeiro/reactive-sql-toolkit": {
+      "WebAssemblyInstantiate": 5,
+      "WebAssemblyInstance": 3
+    },
+    "CashScript/cashscript": {},
+    "azu/kvs": {},
+    "birchill/10ten-ja-reader": {
+      "WebAssemblyInstantiate": 10
+    },
+    "ipfs/public-gateway-checker": {},
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 12,
+      "WebAssemblyInstantiate": 2
+    },
+    "sebastian-software/asset-hash": {},
+    "httptoolkit/brotli-wasm": {
+      "WebAssemblyInstance": 3
+    },
+    "oriverk/blog.oriverk.dev": {
+      "WebAssemblyInstantiate": 3
+    },
+    "nextcloud/calendar": {},
+    "remotebear-io/remotebear": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1
+    },
+    "ueberdosis/tiptap": {
+      "WebAssemblyInstantiate": 36
+    },
+    "jelster/space-truckers": {},
+    "un-ts/changesets-gitlab": {
+      "WebAssemblyInstantiate": 1
+    },
+    "mrdoob/three.js": {},
+    "medusajs/medusa": {},
+    "oblador/loki": {},
+    "graphql/graphql-js": {},
+    "wapc/widl-codegen-js": {},
+    "wapc/widl-js": {},
+    "timlrx/tailwind-nextjs-starter-blog": {},
+    "kriskowal/asap": {},
+    "dmnd/dedent": {},
+    "sinonjs/fake-timers": {
+      "WebAssemblyInstantiate": 4
+    },
+    "ega-forever/mokka": {},
+    "EdgeTranslate/EdgeTranslate": {},
+    "mhaidarhanif/mhaidarhanif-astro": {},
+    "MuTsunTsai/fen-tool": {},
+    "textury/arlocal": {},
+    "textury/ardb": {
+      "WebAssemblyInstance": 1
+    },
+    "redstone-finance/redstone-api": {},
+    "CommunityXYZ/community-js": {},
+    "textury/blockweave": {
+      "WebAssemblyInstance": 28
+    },
+    "coolpace/V2EX_Polish": {},
+    "react-hook-form/documentation": {
+      "WebAssemblyInstantiate": 3,
+      "WebAssemblyInstance": 1
+    },
+    "AndrewRedican/react-json-editor-ajrm": {},
+    "mondaycom/monday-ui-style": {},
+    "klaro-org/klaro-js": {},
+    "hypermedia-app/shaperone": {
+      "WebAssemblyInstantiate": 3
+    },
+    "searKing/preview-vscode": {
+      "WebAssemblyInstance": 6,
+      "WebAssemblyInstantiate": 2
+    },
+    "crossplatformkorea/react-native-naver-login": {},
+    "AxonIQ/giftcard-demo-ts": {},
+    "xmtp/xmtp-js": {},
+    "status-im/status-web": {},
+    "waku-org/js-rln": {
+      "WebAssemblyInstance": 4
+    },
+    "acekyd/made-in-nigeria": {
+      "WebAssemblyInstantiate": 3
+    },
+    "dominikg/svite": {},
+    "rixo/rollup-plugin-svelte-hot": {
+      "WebAssemblyInstantiate": 1
+    },
+    "visgl/loaders.gl-showcases": {},
+    "vannizhang/unemployment-pulse": {},
+    "novorender/novoweb": {},
+    "Phala-Network/framehub-template": {},
+    "epicweb-dev/react-fundamentals": {},
+    "epicweb-dev/react-hooks": {},
+    "epicweb-dev/advanced-react-hooks": {},
+    "epicweb-dev/react-suspense": {},
+    "statelyai/xstate-tools": {},
+    "timlrx/timlrx.com": {
+      "WebAssemblyInstantiate": 3
+    },
+    "spotify/basic-pitch-ts": {
+      "WebAssemblyInstance": 8
+    },
+    "spencerwooo/spencerwoo.com": {
+      "WebAssemblyInstantiate": 3
+    },
+    "welldone-software/why-did-you-render": {
+      "WebAssemblyInstantiate": 9
+    },
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstance": 3
+    },
+    "Shopify/hydrogen-react": {},
+    "sanity-io/demo-ecommerce": {},
+    "tinloof/vercel-hydrogen-demo-store": {},
+    "okendo/okendo-shopify-hydrogen-demo": {},
+    "juanpprieto/hydrogen-css-hooks": {},
+    "textlint/editor": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 3
+    },
+    "shivase/obsidian-textlint": {},
+    "superfaceai/station": {},
+    "massalabs/massa-web3": {},
+    "typeorm/typeorm": {},
+    "Trendyol/baklava": {},
+    "Theodo-UK/rntv-blog": {
+      "WebAssemblyInstantiate": 3
+    },
+    "input-output-hk/nami": {},
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {},
+    "dropy-project/front": {},
+    "ar-io/testnet-contract": {
+      "WebAssemblyInstantiate": 24
+    },
+    "stegripe/rawon": {},
+    "discordx-ts/discordx": {},
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "keyframe-refiner/keyframe-refiner": {},
+    "LucasJC/rpwhale": {},
+    "zeikar/issueage": {},
+    "epicweb-dev/react-server-components": {},
+    "epicweb-dev/testing-fundamentals": {},
+    "taichi/vscode-textlint": {},
+    "g59/nestjs-plugins": {},
+    "gecko655/proofreading-tool": {},
+    "advanced-cropper/vue-advanced-cropper": {},
+    "scallop-io/sui-kit": {
+      "WebAssemblyInstantiate": 6
+    },
+    "notifi-network/notifi-sdk-ts": {},
+    "zazuko/vscode-sparql-notebook": {
+      "WebAssemblyInstance": 6
+    },
+    "Razikus/open-balena-dashboard": {},
+    "neplextech/canvacord": {},
+    "skick1234/DisTube": {
+      "WebAssemblyInstantiate": 53
+    },
+    "Karhdo/karhdo.dev": {
+      "WebAssemblyInstantiate": 1
+    },
+    "danielcgilibert/blog-template": {},
+    "immutable-js/immutable-js": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "GoogleChrome/chromium-dashboard": {},
+    "smogon/pokemon-showdown-client": {},
+    "reactjs/ja.react.dev": {
+      "WebAssemblyInstantiate": 4
+    },
+    "diggsweden/dataportal-web": {},
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 20,
+      "WebAssemblyInstance": 6
+    },
+    "dariusz-wozniak/dariuszwozniak.net-v2": {
+      "WebAssemblyInstantiate": 5
+    }
+  },
+  "assemblyscript": {
+    "p455555555/WebAssembly-TOTP": {},
+    "semaphore-protocol/semaphore": {},
+    "massalabs/massa-as-sdk": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 9
+    },
+    "massalabs/as": {
+      "WebAssemblyInstantiate": 28
+    },
+    "ask-lang/ask-old": {
+      "WebAssemblyInstance": 11
+    },
+    "piotr-oles/as-loader": {},
+    "jtenner/siphash-as": {
+      "WebAssemblyInstance": 3
+    },
+    "JustinParratt/big-mult": {
+      "WebAssemblyInstance": 3
+    },
+    "andykswong/muphy": {
+      "WebAssemblyInstance": 2
+    },
+    "ashutoshvarma/as-bignum": {
+      "WebAssemblyInstance": 4
+    },
+    "torch2424/as-date": {},
+    "jedisct1/wasm-crypto": {
+      "WebAssemblyInstance": 3
+    },
+    "ask-lang/ask": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 4
+    },
+    "MaxGraey/as-bignum": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 2
+    },
+    "capsulesocial/capsule-near": {
+      "WebAssemblyInstance": 3
+    },
+    "oceanByte/near-academy-contracts": {
+      "WebAssemblyInstance": 1
+    },
+    "JairusSW/as-json": {
+      "WebAssemblyInstantiate": 2,
+      "WebAssemblyInstance": 1
+    },
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "Learn-NEAR/NCD.L1.sample--nearly-neighbors": {
+      "WebAssemblyInstance": 1
+    },
+    "JairusSW/as-tbs": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 3
+    },
+    "gelatodigital/gelato-polywrap-template": {}
+  },
+  "long": {
+    "p455555555/WebAssembly-TOTP": {},
+    "semaphore-protocol/semaphore": {},
+    "warp-contracts/warp": {},
+    "massalabs/massa-as-sdk": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 8
+    },
+    "Schleifner/as-heap-analyzer": {
+      "WebAssemblyInstance": 4,
+      "WebAssemblyInstantiate": 4
+    },
+    "archway-network/arch3.js": {},
+    "sindresorhus/leven": {},
+    "reorproject/reor": {},
+    "massalabs/as": {
+      "WebAssemblyInstance": 4,
+      "WebAssemblyInstantiate": 16
+    },
+    "docknetwork/sdk": {
+      "WebAssemblyInstance": 1
+    },
+    "bropat/ioBroker.eusec": {},
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "LibreScore/mscz-api": {},
+    "libp2p/js-libp2p-crypto": {},
+    "ask-lang/ask-old": {
+      "WebAssemblyInstance": 12
+    },
+    "geekuillaume/soundsync": {},
+    "timlrx/pliny": {
+      "WebAssemblyInstantiate": 1
+    },
+    "piotr-oles/as-loader": {},
+    "terra-money/terra.js": {},
+    "jtenner/siphash-as": {
+      "WebAssemblyInstance": 3
+    },
+    "JustinParratt/big-mult": {
+      "WebAssemblyInstance": 3
+    },
+    "andykswong/muphy": {
+      "WebAssemblyInstance": 3
+    },
+    "ashutoshvarma/as-bignum": {
+      "WebAssemblyInstance": 6
+    },
+    "torch2424/as-date": {},
+    "chaogaofeng/chain.js": {},
+    "aspkg/ecmassembly": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 2
+    },
+    "ye-yu/as-hot-storage": {},
+    "jedisct1/wasm-crypto": {
+      "WebAssemblyInstance": 3
+    },
+    "ask-lang/ask": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 4
+    },
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 1
+    },
+    "MaxGraey/as-bignum": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 2
+    },
+    "capsulesocial/capsule-near": {
+      "WebAssemblyInstance": 4
+    },
+    "oceanByte/near-academy-contracts": {
+      "WebAssemblyInstance": 1
+    },
+    "CesiumGS/3d-tiles-validator": {
+      "WebAssemblyInstantiate": 18
+    },
+    "JairusSW/as-json": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 2
+    },
+    "Dragory/modmailbot": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 4
+    },
+    "Learn-NEAR/NCD.L1.sample--nearly-neighbors": {},
+    "timlrx/tailwind-nextjs-starter-blog": {},
+    "CesiumGS/gltf-pipeline": {
+      "WebAssemblyInstantiate": 14
+    },
+    "date-fns/date-fns": {
+      "WebAssemblyInstantiate": 7
+    },
+    "textury/arlocal": {},
+    "CommunityXYZ/community-js": {},
+    "react-hook-form/documentation": {
+      "WebAssemblyInstantiate": 3,
+      "WebAssemblyInstance": 1
+    },
+    "Hacksore/bluelinky": {},
+    "paytaca/paytaca-app": {},
+    "xmtp/xmtp-js": {
+      "WebAssemblyInstance": 378,
+      "WebAssemblyInstantiate": 89
+    },
+    "status-im/status-web": {},
+    "InsightSoftwareConsortium/ITKElastix": {
+      "WebAssemblyInstance": 1
+    },
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    },
+    "Phala-Network/framehub-template": {},
+    "timlrx/timlrx.com": {
+      "WebAssemblyInstantiate": 3
+    },
+    "spotify/basic-pitch-ts": {
+      "WebAssemblyInstance": 8
+    },
+    "robvanderleek/mudslide": {},
+    "clairton/unoapi-cloud": {
+      "WebAssemblyInstance": 20
+    },
+    "spencerwooo/spencerwoo.com": {},
+    "wormhole-foundation/relayer-engine": {},
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    },
+    "wormhole-foundation/wormhole-sdk-ts": {
+      "WebAssemblyInstance": 6,
+      "WebAssemblyInstantiate": 4
+    },
+    "massalabs/massa-sc-toolkit": {},
+    "typeorm/typeorm": {},
+    "JairusSW/as-fetch": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 1
+    },
+    "JairusSW/as-tbs": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 3
+    },
+    "gelatodigital/gelato-polywrap-template": {
+      "WebAssemblyInstantiate": 3
+    },
+    "Theodo-UK/rntv-blog": {
+      "WebAssemblyInstantiate": 3
+    },
+    "sidorares/node-mysql2": {
+      "WebAssemblyInstance": 279
+    },
+    "stacks-network/gaia": {
+      "WebAssemblyInstance": 8
+    },
+    "input-output-hk/nami": {},
+    "ipfs-shipyard/ipfs-pubsub-room": {
+      "WebAssemblyInstance": 13
+    },
+    "Adonis-Stavridis/caroumesh": {},
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {},
+    "ar-io/testnet-contract": {
+      "WebAssemblyInstantiate": 24
+    },
+    "stegripe/rawon": {},
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "SteffeyDev/homebridge-hyundai-bluelink": {},
+    "Newan/ioBroker.bluelink": {},
+    "g59/nestjs-plugins": {},
+    "dai-shi/remote-faces": {},
+    "ipfs-shipyard/y-ipfs-connector": {},
+    "pawanpaudel93/web-ardrive": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 3
+    },
+    "notifi-network/notifi-sdk-ts": {},
+    "AnWeber/httpbook": {},
+    "balena-io/balena-mdns-publisher": {},
+    "Karhdo/karhdo.dev": {
+      "WebAssemblyInstantiate": 1
+    },
+    "PBillingsby/arweave-nextjs-template": {},
+    "smogon/pokemon-showdown-client": {},
+    "dabit3/titter": {
+      "WebAssemblyInstantiate": 1
+    },
+    "dariusz-wozniak/dariuszwozniak.net-v2": {
+      "WebAssemblyInstantiate": 5
+    }
+  },
+  "astro": {
+    "satnaing/astro-paper": {},
+    "ixartz/Astro-boilerplate": {},
+    "danielcgilibert/blog-template": {},
+    "sindresorhus/sindresorhus.github.com": {
+      "WebAssemblyInstantiate": 6
+    }
+  },
+  "file-type": {
+    "satnaing/astro-paper": {},
+    "nullishamy/declaricord": {
+      "WebAssemblyInstantiate": 3,
+      "WebAssemblyInstance": 15
+    },
+    "semaphore-protocol/semaphore": {},
+    "onwidget/qwind": {},
+    "jctaoo/elecrun": {
+      "WebAssemblyInstantiate": 2
+    },
+    "fraktalio/fmodel-ts": {},
+    "bropat/ioBroker.eusec": {},
+    "Genez-io/genezio": {
+      "WebAssemblyInstantiate": 7
+    },
+    "bitjson/typescript-starter": {
+      "WebAssemblyInstantiate": 3
+    },
+    "darkforest-eth/client": {},
+    "praghus/plextus": {},
+    "bookbonobo/libby-download-extension": {},
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 1
+    },
+    "mrdoob/three.js": {},
+    "medusajs/medusa": {},
+    "oblador/loki": {},
+    "react-declarative/react-declarative": {},
+    "brianc/node-pg-types": {},
+    "paytaca/paytaca-app": {},
+    "robvanderleek/mudslide": {},
+    "clairton/unoapi-cloud": {
+      "WebAssemblyInstance": 20
+    },
+    "ixartz/Astro-boilerplate": {},
+    "proofdict/proofdict": {},
+    "stacks-network/gaia": {
+      "WebAssemblyInstance": 8
+    },
+    "vpdb/vpx-js": {},
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {},
+    "stegripe/rawon": {},
+    "codetheweb/muse": {},
+    "keyframe-refiner/keyframe-refiner": {},
+    "visjs/vis-timeline": {},
+    "dai-shi/remote-faces": {},
+    "pawanpaudel93/web-ardrive": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 3
+    },
+    "Brexbot/TwiggyBot": {},
+    "AndreMor8/gidget": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 2
+    },
+    "balena-os/jetson-flash": {
+      "WebAssemblyInstantiate": 1
+    },
+    "neplextech/canvacord": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "trafficonese/leaflet.extras": {},
+    "textlint/textlint": {}
+  },
+  "vite": {
+    "satnaing/astro-paper": {},
+    "QSPFoundation/qsp-wasm-engine": {
+      "WebAssemblyInstantiate": 288
+    },
+    "karinfam/svg2png-wasm": {
+      "WebAssemblyInstantiate": 5
+    },
+    "onwidget/qwind": {},
+    "reorproject/reor": {
+      "WebAssemblyInstantiate": 4
+    },
+    "jctaoo/elecrun": {
+      "WebAssemblyInstantiate": 2
+    },
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 638,
+      "WebAssemblyInstance": 50
+    },
+    "Genez-io/genezio": {
+      "WebAssemblyInstantiate": 7
+    },
+    "wanghsinche/semipay": {
+      "WebAssemblyInstantiate": 2
+    },
+    "smapiot/piral-cli-vite": {},
+    "webtoon/psd": {
+      "WebAssemblyInstantiate": 10
+    },
+    "QSPFoundation/qspider": {},
+    "timlrx/pliny": {},
+    "Shopify/hydrogen": {},
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 4
+    },
+    "stagas/wat-cli": {},
+    "nickbabcock/highwayhasher": {
+      "WebAssemblyInstantiate": 15
+    },
+    "krymel/vite-plugin-assemblyscript-asc": {},
+    "birchill/10ten-ja-reader": {
+      "WebAssemblyInstantiate": 10
+    },
+    "ueberdosis/tiptap": {
+      "WebAssemblyInstantiate": 36
+    },
+    "napi-rs/napi-rs": {},
+    "medusajs/medusa": {},
+    "refined-github/refined-github": {
+      "WebAssemblyInstantiate": 2,
+      "WebAssemblyInstance": 3
+    },
+    "date-fns/date-fns": {
+      "WebAssemblyInstantiate": 7
+    },
+    "EdgeTranslate/EdgeTranslate": {},
+    "mhaidarhanif/mhaidarhanif-astro": {},
+    "hypermedia-app/shaperone": {
+      "WebAssemblyInstantiate": 3
+    },
+    "trevoreyre/autocomplete": {},
+    "johannschopplich/kirby-vue3-starterkit": {},
+    "unjs/undio": {
+      "WebAssemblyInstantiate": 2
+    },
+    "xmtp/xmtp-js": {
+      "WebAssemblyInstantiate": 4
+    },
+    "status-im/status-web": {},
+    "novorender/novoweb": {},
+    "ixartz/Astro-boilerplate": {
+      "WebAssemblyInstantiate": 2
+    },
+    "Shopify/hydrogen-react": {},
+    "sanity-io/demo-ecommerce": {},
+    "tinloof/vercel-hydrogen-demo-store": {},
+    "okendo/okendo-shopify-hydrogen-demo": {},
+    "juanpprieto/hydrogen-css-hooks": {},
+    "textlint/editor": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 3
+    },
+    "Trendyol/baklava": {},
+    "nwutils/nw-builder": {
+      "WebAssemblyInstantiate": 1
+    },
+    "Adonis-Stavridis/caroumesh": {},
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 1
+    },
+    "pianity/arsnap": {},
+    "cinaaaa/react-tagify": {},
+    "isoteriksoftware/react-gallery-3d": {},
+    "epicweb-dev/testing-fundamentals": {},
+    "dai-shi/remote-faces": {},
+    "scallop-io/sui-kit": {
+      "WebAssemblyInstantiate": 4
+    },
+    "epicserve/django-base-site": {},
+    "neplextech/canvacord": {},
+    "danielcgilibert/blog-template": {},
+    "element-hq/hydrogen-web": {
+      "WebAssemblyInstantiate": 3
+    },
+    "sindresorhus/sindresorhus.github.com": {
+      "WebAssemblyInstantiate": 6
+    },
+    "cloudflare/miniflare": {
+      "WebAssemblyInstantiate": 59,
+      "WebAssemblyInstance": 3
+    },
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 24,
+      "WebAssemblyInstance": 18
+    }
+  },
+  "astro-eslint-parser": {
+    "satnaing/astro-paper": {}
+  },
+  "@astrojs/compiler": {
+    "satnaing/astro-paper": {},
+    "mhaidarhanif/mhaidarhanif-astro": {},
+    "ixartz/Astro-boilerplate": {
+      "WebAssemblyInstantiate": 2
+    },
+    "danielcgilibert/blog-template": {},
+    "sindresorhus/sindresorhus.github.com": {
+      "WebAssemblyInstantiate": 6
+    }
+  },
+  "undici": {
+    "satnaing/astro-paper": {},
+    "nullishamy/declaricord": {},
+    "semaphore-protocol/semaphore": {},
+    "warp-contracts/warp": {},
+    "tutao/tutanota": {},
+    "warp-contracts/warp-wasm-metering": {
+      "WebAssemblyInstantiate": 6
+    },
+    "onwidget/qwind": {},
+    "Tomato6966/Musicium": {
+      "WebAssemblyInstantiate": 3
+    },
+    "blockchain-certificates/blockcerts-verifier": {},
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 638,
+      "WebAssemblyInstance": 50
+    },
+    "cheeriojs/cheerio": {
+      "WebAssemblyInstantiate": 2
+    },
+    "libp2p/js-libp2p-crypto": {},
+    "Shopify/hydrogen": {},
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 6
+    },
+    "birchill/10ten-ja-reader": {
+      "WebAssemblyInstantiate": 2
+    },
+    "un-ts/changesets-gitlab": {
+      "WebAssemblyInstantiate": 1
+    },
+    "npm/fs": {},
+    "textury/arlocal": {},
+    "CommunityXYZ/community-js": {},
+    "hypermedia-app/shaperone": {
+      "WebAssemblyInstantiate": 3
+    },
+    "Hacksore/bluelinky": {
+      "WebAssemblyInstantiate": 3
+    },
+    "xmtp/xmtp-js": {},
+    "Phala-Network/framehub-template": {},
+    "lyc8503/UptimeFlare": {
+      "WebAssemblyInstantiate": 3
+    },
+    "kohii/medi-xplorer": {},
+    "Shopify/hydrogen-react": {},
+    "sanity-io/demo-ecommerce": {},
+    "okendo/okendo-shopify-hydrogen-demo": {},
+    "juanpprieto/hydrogen-css-hooks": {},
+    "transmute-industries/transmute": {
+      "WebAssemblyInstantiate": 1
+    },
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstantiate": 2
+    },
+    "poolshark-protocol/range": {},
+    "stacks-network/gaia": {
+      "WebAssemblyInstance": 8
+    },
+    "ipfs-shipyard/ipfs-pubsub-room": {},
+    "ar-io/testnet-contract": {
+      "WebAssemblyInstantiate": 24
+    },
+    "pianity/arsnap": {},
+    "stegripe/rawon": {},
+    "codetheweb/muse": {},
+    "discordx-ts/discordx": {},
+    "kaaaxcreators/Discord-MusicBot": {},
+    "WeLoveSquad/squad-server-info-discord-bot": {},
+    "xmnlz/vpitashka": {},
+    "Brexbot/TwiggyBot": {},
+    "distubejs/example": {},
+    "AndreMor8/gidget": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 2
+    },
+    "balena-io/deploy-to-balena-action": {
+      "WebAssemblyInstantiate": 2
+    },
+    "vivianjeng/anon-transfer": {},
+    "skick1234/DisTube": {
+      "WebAssemblyInstantiate": 65
+    },
+    "PBillingsby/arweave-nextjs-template": {},
+    "video-dev/hls.js": {},
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    },
+    "cloudflare/miniflare": {
+      "WebAssemblyInstantiate": 61,
+      "WebAssemblyInstance": 3
+    }
+  },
+  "es-module-lexer": {
+    "satnaing/astro-paper": {},
+    "semaphore-protocol/semaphore": {},
+    "aolsenjazz/feeder-node": {},
+    "sindresorhus/file-type": {},
+    "vhchung/file-type": {},
+    "tutao/tutanota": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 3
+    },
+    "sindresorhus/strip-json-comments": {},
+    "sindresorhus/parse-json": {},
+    "sindresorhus/leven": {},
+    "sindresorhus/is-unicode-supported": {},
+    "sindresorhus/onetime": {},
+    "blockchain-certificates/blockcerts-verifier": {},
+    "KevinBatdorf/image-filters": {},
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 644,
+      "WebAssemblyInstance": 50
+    },
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "melink14/rikaikun": {
+      "WebAssemblyInstantiate": 12
+    },
+    "darkforest-eth/client": {},
+    "collab-project/videojs-record": {},
+    "praghus/plextus": {},
+    "bookbonobo/libby-download-extension": {},
+    "wasm-tool/wasm-pack-plugin": {},
+    "QSPFoundation/qspider": {},
+    "vadimdemedes/ink": {},
+    "piotr-oles/as-loader": {},
+    "Shopify/hydrogen": {},
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 3
+    },
+    "aws/language-servers": {},
+    "terra-money/terra.js": {},
+    "leyhline/mecab-web-worker": {
+      "WebAssemblyInstantiate": 1
+    },
+    "eoin-obrien/fuck": {},
+    "chaogaofeng/chain.js": {},
+    "Quramy/pico-ml": {},
+    "adityakrshnn/framo": {},
+    "blyssprivacy/sdk": {},
+    "mitschabaude/esbuild-plugin-wat": {},
+    "birchill/10ten-ja-reader": {},
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 12,
+      "WebAssemblyInstantiate": 2
+    },
+    "httptoolkit/brotli-wasm": {
+      "WebAssemblyInstance": 4
+    },
+    "nextcloud/calendar": {},
+    "ueberdosis/tiptap": {
+      "WebAssemblyInstantiate": 36
+    },
+    "jelster/space-truckers": {},
+    "un-ts/changesets-gitlab": {
+      "WebAssemblyInstantiate": 1
+    },
+    "medusajs/medusa": {},
+    "refined-github/refined-github": {
+      "WebAssemblyInstance": 3
+    },
+    "oblador/loki": {},
+    "graphql/graphql-js": {},
+    "querielo/playcanvas-typescript-template": {},
+    "sindresorhus/aggregate-error": {},
+    "sindresorhus/camelcase-keys": {},
+    "sindresorhus/quick-lru": {},
+    "sindresorhus/meow": {},
+    "sindresorhus/cli-truncate": {},
+    "sindresorhus/emittery": {},
+    "sindresorhus/node-defaults": {},
+    "webpack-contrib/postcss-loader": {},
+    "sindresorhus/string-length": {},
+    "sindresorhus/dot-prop": {},
+    "sindresorhus/is": {},
+    "sindresorhus/log-symbols": {},
+    "sindresorhus/component-emitter": {},
+    "sindresorhus/merge-descriptors": {},
+    "ega-forever/mokka": {
+      "WebAssemblyInstance": 1
+    },
+    "EdgeTranslate/EdgeTranslate": {},
+    "mhaidarhanif/mhaidarhanif-astro": {},
+    "mondaycom/monday-ui-style": {},
+    "klaro-org/klaro-js": {},
+    "hypermedia-app/shaperone": {
+      "WebAssemblyInstantiate": 3
+    },
+    "searKing/preview-vscode": {},
+    "trevoreyre/autocomplete": {},
+    "paytaca/paytaca-app": {},
+    "AxonIQ/giftcard-demo-ts": {},
+    "status-im/status-web": {},
+    "waku-org/js-rln": {},
+    "dominikg/svite": {},
+    "visgl/loaders.gl-showcases": {},
+    "vannizhang/unemployment-pulse": {},
+    "novorender/novoweb": {},
+    "Phala-Network/framehub-template": {},
+    "kohii/medi-xplorer": {
+      "WebAssemblyInstantiate": 4
+    },
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstance": 3
+    },
+    "ixartz/Astro-boilerplate": {
+      "WebAssemblyInstantiate": 2
+    },
+    "sanity-io/demo-ecommerce": {},
+    "okendo/okendo-shopify-hydrogen-demo": {},
+    "OGKevin/obsidian-kobo-highlights-import": {},
+    "textlint/editor": {},
+    "textlint-ja/textlint-rule-preset-ja-spacing": {},
+    "shivase/obsidian-textlint": {},
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    },
+    "Web3Auth/web3auth-web": {},
+    "massalabs/massa-web3": {},
+    "Zenika/sensei": {},
+    "Trendyol/baklava": {},
+    "input-output-hk/nami": {},
+    "Adonis-Stavridis/caroumesh": {},
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {},
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 1
+    },
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "keyframe-refiner/keyframe-refiner": {},
+    "taichi/vscode-textlint": {
+      "WebAssemblyInstance": 3
+    },
+    "g59/nestjs-plugins": {},
+    "gecko655/proofreading-tool": {},
+    "sre-next/corporate-regulations": {},
+    "jakearchibald/svgomg": {},
+    "notifi-network/notifi-sdk-ts": {},
+    "zazuko/vscode-sparql-notebook": {
+      "WebAssemblyInstance": 6
+    },
+    "danielcgilibert/blog-template": {},
+    "concordnow/ember-content-loader": {},
+    "concordnow/ember-aria-tabs": {},
+    "video-dev/hls.js": {},
+    "germinateplatform/germinate-vue": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "trafficonese/leaflet.extras": {},
+    "GoogleChrome/chromium-dashboard": {},
+    "sindresorhus/sindresorhus.github.com": {
+      "WebAssemblyInstantiate": 6
+    },
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    },
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 20,
+      "WebAssemblyInstance": 6
+    },
+    "balena-os/balena-supervisor": {}
+  },
+  "yoga-wasm-web": {
+    "satnaing/astro-paper": {},
+    "ericjiang97/nextjs-personal": {},
+    "vadimdemedes/ink": {},
+    "Shopify/hydrogen": {},
+    "replicate/scribble-diffusion": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 3
+    },
+    "isaacs/minizlib": {
+      "WebAssemblyInstantiate": 1
+    },
+    "sanity-io/demo-ecommerce": {},
+    "okendo/okendo-shopify-hydrogen-demo": {},
+    "juanpprieto/hydrogen-css-hooks": {},
+    "neplextech/canvacord": {}
+  },
+  "shikiji-core": {
+    "satnaing/astro-paper": {},
+    "sindresorhus/sindresorhus.github.com": {
+      "WebAssemblyInstantiate": 6
+    }
+  },
+  "shikiji": {
+    "satnaing/astro-paper": {},
+    "ixartz/Astro-boilerplate": {
+      "WebAssemblyInstantiate": 2
+    },
+    "danielcgilibert/blog-template": {},
+    "sindresorhus/sindresorhus.github.com": {
+      "WebAssemblyInstantiate": 6
+    }
+  },
+  "satori": {
+    "satnaing/astro-paper": {},
+    "ericjiang97/nextjs-personal": {},
+    "replicate/scribble-diffusion": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 3
+    },
+    "neplextech/canvacord": {}
+  },
+  "@astrojs/language-server": {
+    "satnaing/astro-paper": {}
+  },
+  "cjs-module-lexer": {
+    "nullishamy/declaricord": {},
+    "luc-tielen/eclair-wasm-bindings": {},
+    "fengkx/NodeRSSBot": {
+      "WebAssemblyInstantiate": 2
+    },
+    "semaphore-protocol/semaphore": {
+      "WebAssemblyInstantiate": 13
+    },
+    "acot-a11y/acot": {},
+    "warp-contracts/warp": {},
+    "se2p/Bastet": {},
+    "aolsenjazz/feeder-node": {},
+    "Schleifner/as-heap-analyzer": {},
+    "archway-network/arch3.js": {},
+    "nuxt-community/router-extras-module": {},
+    "PipedreamHQ/pipedream": {},
+    "webpack/loader-utils": {},
+    "reorproject/reor": {
+      "WebAssemblyInstantiate": 4
+    },
+    "itibbers/crypto-js-wasm": {},
+    "blockchain-certificates/blockcerts-verifier": {},
+    "jctaoo/elecrun": {},
+    "KevinBatdorf/image-filters": {},
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 634,
+      "WebAssemblyInstance": 49
+    },
+    "cheeriojs/cheerio": {},
+    "melink14/rikaikun": {
+      "WebAssemblyInstantiate": 10
+    },
+    "hoppscotch/hopp-js-sandbox": {
+      "WebAssemblyInstantiate": 6,
+      "WebAssemblyInstance": 12
+    },
+    "iterative/cml": {
+      "WebAssemblyInstantiate": 62
+    },
+    "praghus/plextus": {},
+    "bookbonobo/libby-download-extension": {},
+    "ask-lang/ask-old": {},
+    "QSPFoundation/qspider": {},
+    "terra-money/oracle-feeder": {},
+    "piotr-oles/as-loader": {},
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 5
+    },
+    "unform/unform": {},
+    "jxom/bumbag-ui": {},
+    "terra-money/terra.js": {},
+    "newdash/wasm-native-template": {},
+    "andykswong/muphy": {
+      "WebAssemblyInstance": 3
+    },
+    "chaogaofeng/chain.js": {},
+    "Quramy/pico-ml": {},
+    "krymel/vite-plugin-assemblyscript-asc": {},
+    "adityakrshnn/framo": {},
+    "raulpy271/epqueue": {},
+    "blyssprivacy/sdk": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 3
+    },
+    "Bannerets/tdl": {},
+    "PauloBarbeiro/reactive-sql-toolkit": {
+      "WebAssemblyInstantiate": 5,
+      "WebAssemblyInstance": 3
+    },
+    "CashScript/cashscript": {},
+    "JamieMason/blurhash-to-css": {},
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 1
+    },
+    "sebastian-software/asset-hash": {
+      "WebAssemblyInstantiate": 1
+    },
+    "giffeler/undoh": {},
+    "emmercm/igir": {
+      "WebAssemblyInstantiate": 52
+    },
+    "nextcloud/calendar": {},
+    "remotebear-io/remotebear": {},
+    "anhfactor/danger-is-near": {},
+    "un-ts/changesets-gitlab": {},
+    "medusajs/medusa": {},
+    "oblador/loki": {},
+    "wapc/widl-codegen-js": {},
+    "wapc/widl-js": {},
+    "prettier/eslint-config-prettier": {},
+    "webpack-contrib/postcss-loader": {},
+    "dmnd/dedent": {},
+    "EdgeTranslate/EdgeTranslate": {},
+    "textury/arlocal": {},
+    "textury/ardb": {
+      "WebAssemblyInstance": 1
+    },
+    "redstone-finance/redstone-api": {},
+    "CommunityXYZ/community-js": {},
+    "textury/blockweave": {
+      "WebAssemblyInstance": 28
+    },
+    "getguesstimate/guesstimate-app": {},
+    "mondaycom/monday-ui-style": {},
+    "react-declarative/react-declarative": {},
+    "Hacksore/bluelinky": {},
+    "crossplatformkorea/react-native-naver-login": {},
+    "AxonIQ/giftcard-demo-ts": {},
+    "xmtp/xmtp-js": {},
+    "AlchemyCMS/alchemy_cms": {},
+    "dominikg/svite": {},
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    },
+    "vannizhang/unemployment-pulse": {},
+    "statelyai/xstate-tools": {},
+    "kohii/medi-xplorer": {
+      "WebAssemblyInstantiate": 4
+    },
+    "spotify/basic-pitch-ts": {
+      "WebAssemblyInstance": 8
+    },
+    "robvanderleek/mudslide": {},
+    "clairton/unoapi-cloud": {
+      "WebAssemblyInstance": 20
+    },
+    "welldone-software/why-did-you-render": {},
+    "transmute-industries/transmute": {
+      "WebAssemblyInstantiate": 1
+    },
+    "wormhole-foundation/relayer-engine": {
+      "WebAssemblyInstantiate": 2
+    },
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    },
+    "wormhole-foundation/wormhole-sdk-ts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 4
+    },
+    "superfaceai/station": {},
+    "massalabs/massa-web3": {},
+    "massalabs/massa-sc-toolkit": {},
+    "stacks-network/gaia": {
+      "WebAssemblyInstance": 8
+    },
+    "input-output-hk/nami": {},
+    "JamesMillerBlog/wrapper.js": {},
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {},
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 1
+    },
+    "ar-io/testnet-contract": {
+      "WebAssemblyInstantiate": 24
+    },
+    "Superflows-AI/superflows": {},
+    "ginkgobioworks/react-json-schema-form-builder": {},
+    "discordx-ts/discordx": {},
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "AlchemyCMS/alchemy-json_api": {},
+    "azu/monorepo-utils": {},
+    "g59/nestjs-plugins": {},
+    "sapegin/washingcode-book": {},
+    "gecko655/proofreading-tool": {},
+    "moment/luxon": {},
+    "mbrevda/react-image": {},
+    "advanced-cropper/vue-advanced-cropper": {},
+    "dai-shi/remote-faces": {},
+    "notifi-network/notifi-sdk-ts": {},
+    "linear/linear-airbyte-source": {},
+    "skick1234/DisTube": {
+      "WebAssemblyInstantiate": 53
+    },
+    "immutable-js/immutable-js": {},
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    },
+    "cloudflare/miniflare": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 60
+    },
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 24,
+      "WebAssemblyInstance": 18
+    },
+    "dariusz-wozniak/dariuszwozniak.net-v2": {
+      "WebAssemblyInstantiate": 5
+    }
+  },
+  "wasmoon": {
+    "nullishamy/declaricord": {
+      "WebAssemblyInstantiate": 3,
+      "WebAssemblyInstance": 15
+    }
+  },
+  "@cspotcode/source-map-consumer": {
+    "sass/sass": {},
+    "acot-a11y/acot": {},
+    "nomaton/rollup-plugin-rusty-wasm": {},
+    "interep-project/contracts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 15
+    },
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 6
+    },
+    "eoin-obrien/fuck": {
+      "WebAssemblyInstantiate": 1
+    },
+    "vinodotdev/yo-vino": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 1
+    },
+    "chaogaofeng/chain.js": {},
+    "ega-forever/mokka": {
+      "WebAssemblyInstance": 1
+    },
+    "GetStream/stream-chat-js": {},
+    "textury/ardb": {
+      "WebAssemblyInstance": 1
+    },
+    "textury/blockweave": {
+      "WebAssemblyInstance": 28
+    },
+    "superfaceai/station": {},
+    "Trendyol/baklava": {},
+    "pianity/arsnap": {},
+    "SteffeyDev/homebridge-hyundai-bluelink": {},
+    "dabit3/titter": {}
+  },
+  "vscode-oniguruma": {
+    "sass/sass": {
+      "WebAssemblyInstantiate": 2
+    },
+    "semaphore-protocol/semaphore": {},
+    "massalabs/massa-as-sdk": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 11
+    },
+    "archway-network/arch3.js": {},
+    "playcanvas/engine": {},
+    "massalabs/as": {
+      "WebAssemblyInstance": 4,
+      "WebAssemblyInstantiate": 14
+    },
+    "fraktalio/fmodel-ts": {},
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "redis/node-redis": {},
+    "darkforest-eth/client": {},
+    "libp2p/js-libp2p-crypto": {},
+    "kenryu42/ethereum-nft-sales-bot": {},
+    "terra-money/terra.js": {},
+    "stagas/wat-cli": {},
+    "chaogaofeng/chain.js": {},
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 1
+    },
+    "ipfs/public-gateway-checker": {},
+    "ueberdosis/tiptap": {
+      "WebAssemblyInstantiate": 36
+    },
+    "graphql/graphql-js": {},
+    "isaacs/minizlib": {},
+    "date-fns/date-fns": {
+      "WebAssemblyInstantiate": 7
+    },
+    "mhaidarhanif/mhaidarhanif-astro": {},
+    "CommunityXYZ/community-js": {},
+    "Rishikant181/Rettiwt-API": {},
+    "hypermedia-app/shaperone": {
+      "WebAssemblyInstantiate": 3
+    },
+    "khalby786/jsoning": {
+      "WebAssemblyInstantiate": 6
+    },
+    "rapideditor/rapid-sdk": {},
+    "xmtp/xmtp-js": {
+      "WebAssemblyInstance": 378,
+      "WebAssemblyInstantiate": 89
+    },
+    "waku-org/js-rln": {
+      "WebAssemblyInstance": 6
+    },
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstantiate": 10,
+      "WebAssemblyInstance": 10
+    },
+    "wormhole-foundation/wormhole-sdk-ts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 4
+    },
+    "massalabs/massa-web3": {},
+    "ipfs-shipyard/ipfs-pubsub-room": {},
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 1
+    },
+    "pianity/arsnap": {},
+    "discordx-ts/discordx": {},
+    "epicweb-dev/testing-fundamentals": {},
+    "pawanpaudel93/web-ardrive": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 3
+    },
+    "scallop-io/sui-kit": {
+      "WebAssemblyInstantiate": 5
+    },
+    "notifi-network/notifi-sdk-ts": {},
+    "balena-os/leviathan": {},
+    "neplextech/canvacord": {}
+  },
+  "shiki": {
+    "sass/sass": {
+      "WebAssemblyInstantiate": 2
+    },
+    "semaphore-protocol/semaphore": {},
+    "massalabs/massa-as-sdk": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 7
+    },
+    "archway-network/arch3.js": {},
+    "playcanvas/engine": {},
+    "massalabs/as": {
+      "WebAssemblyInstantiate": 28
+    },
+    "fraktalio/fmodel-ts": {},
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "redis/node-redis": {},
+    "darkforest-eth/client": {},
+    "libp2p/js-libp2p-crypto": {},
+    "kenryu42/ethereum-nft-sales-bot": {},
+    "terra-money/terra.js": {},
+    "andykswong/muphy": {
+      "WebAssemblyInstance": 3
+    },
+    "stagas/wat-cli": {},
+    "torch2424/as-date": {},
+    "chaogaofeng/chain.js": {},
+    "adityakrshnn/framo": {},
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 1
+    },
+    "ipfs/public-gateway-checker": {},
+    "ueberdosis/tiptap": {
+      "WebAssemblyInstantiate": 36
+    },
+    "graphql/graphql-js": {},
+    "wapc/widl-codegen-js": {},
+    "wapc/widl-js": {},
+    "isaacs/minizlib": {},
+    "date-fns/date-fns": {
+      "WebAssemblyInstantiate": 7
+    },
+    "mhaidarhanif/mhaidarhanif-astro": {},
+    "redstone-finance/redstone-api": {},
+    "CommunityXYZ/community-js": {},
+    "textury/blockweave": {
+      "WebAssemblyInstance": 28
+    },
+    "Rishikant181/Rettiwt-API": {},
+    "hypermedia-app/shaperone": {
+      "WebAssemblyInstantiate": 3
+    },
+    "khalby786/jsoning": {
+      "WebAssemblyInstantiate": 6
+    },
+    "rapideditor/rapid-sdk": {},
+    "xmtp/xmtp-js": {
+      "WebAssemblyInstance": 378,
+      "WebAssemblyInstantiate": 89
+    },
+    "waku-org/js-rln": {},
+    "epicweb-dev/react-fundamentals": {},
+    "epicweb-dev/react-hooks": {},
+    "epicweb-dev/advanced-react-hooks": {},
+    "epicweb-dev/react-suspense": {},
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstantiate": 10,
+      "WebAssemblyInstance": 10
+    },
+    "wormhole-foundation/wormhole-sdk-ts": {},
+    "massalabs/massa-web3": {},
+    "ipfs-shipyard/ipfs-pubsub-room": {},
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 1
+    },
+    "pianity/arsnap": {},
+    "discordx-ts/discordx": {},
+    "epicweb-dev/react-server-components": {},
+    "epicweb-dev/testing-fundamentals": {},
+    "pawanpaudel93/web-ardrive": {},
+    "scallop-io/sui-kit": {},
+    "notifi-network/notifi-sdk-ts": {},
+    "balena-os/leviathan": {},
+    "neplextech/canvacord": {}
+  },
+  "wasmcurves": {
+    "semaphore-protocol/semaphore": {},
+    "iden3/snarkjs": {
+      "WebAssemblyInstantiate": 8
+    },
+    "interep-project/contracts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 14
+    },
+    "docknetwork/sdk": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 7
+    },
+    "vivianjeng/anon-transfer": {}
+  },
+  "loader-utils": {
+    "semaphore-protocol/semaphore": {},
+    "aolsenjazz/feeder-node": {},
+    "QSPFoundation/qsp-wasm-engine": {},
+    "ecomfe/fonteditor": {},
+    "KevinBatdorf/image-filters": {},
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 630,
+      "WebAssemblyInstance": 50
+    },
+    "wanghsinche/semipay": {
+      "WebAssemblyInstantiate": 2
+    },
+    "melink14/rikaikun": {
+      "WebAssemblyInstantiate": 4
+    },
+    "collab-project/videojs-record": {},
+    "ericjiang97/nextjs-personal": {},
+    "praghus/plextus": {},
+    "QSPFoundation/qspider": {},
+    "Shopify/hydrogen": {},
+    "Quramy/pico-ml": {},
+    "birchill/10ten-ja-reader": {
+      "WebAssemblyInstantiate": 10
+    },
+    "nextcloud/calendar": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1
+    },
+    "ueberdosis/tiptap": {
+      "WebAssemblyInstantiate": 36
+    },
+    "jelster/space-truckers": {},
+    "medusajs/medusa": {},
+    "refined-github/refined-github": {
+      "WebAssemblyInstantiate": 2
+    },
+    "oblador/loki": {},
+    "graphql/graphql-js": {},
+    "EdgeTranslate/EdgeTranslate": {},
+    "mondaycom/monday-ui-style": {},
+    "klaro-org/klaro-js": {},
+    "trevoreyre/autocomplete": {},
+    "paytaca/paytaca-app": {},
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    },
+    "vannizhang/unemployment-pulse": {},
+    "Phala-Network/framehub-template": {},
+    "welldone-software/why-did-you-render": {
+      "WebAssemblyInstantiate": 9
+    },
+    "sanity-io/demo-ecommerce": {},
+    "tinloof/vercel-hydrogen-demo-store": {},
+    "okendo/okendo-shopify-hydrogen-demo": {},
+    "juanpprieto/hydrogen-css-hooks": {},
+    "textlint-ja/textlint-rule-preset-ja-spacing": {},
+    "shivase/obsidian-textlint": {},
+    "Web3Auth/web3auth-web": {},
+    "Zenika/sensei": {},
+    "input-output-hk/nami": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {},
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "cinaaaa/react-tagify": {},
+    "gecko655/proofreading-tool": {},
+    "sre-next/corporate-regulations": {},
+    "visjs/vis-timeline": {},
+    "dai-shi/remote-faces": {},
+    "MesonFi/meson-to": {},
+    "notifi-network/notifi-sdk-ts": {},
+    "Karhdo/karhdo.dev": {
+      "WebAssemblyInstantiate": 1
+    },
+    "concordnow/ember-content-loader": {},
+    "concordnow/ember-aria-tabs": {
+      "WebAssemblyInstance": 13
+    },
+    "germinateplatform/germinate-vue": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "diggsweden/dataportal-web": {},
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 24,
+      "WebAssemblyInstance": 6
+    }
+  },
+  "next": {
+    "semaphore-protocol/semaphore": {},
+    "wanghsinche/semipay": {
+      "WebAssemblyInstantiate": 2
+    },
+    "ericjiang97/nextjs-personal": {},
+    "timlrx/pliny": {},
+    "A7med3bdulBaset/next-template": {},
+    "jxom/bumbag-ui": {},
+    "oriverk/blog.oriverk.dev": {
+      "WebAssemblyInstantiate": 3
+    },
+    "replicate/scribble-diffusion": {
+      "WebAssemblyInstantiate": 15,
+      "WebAssemblyInstance": 3
+    },
+    "remotebear-io/remotebear": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1
+    },
+    "timlrx/tailwind-nextjs-starter-blog": {},
+    "chribjel/isbunwindowsyet.com": {
+      "WebAssemblyInstantiate": 2
+    },
+    "react-hook-form/documentation": {
+      "WebAssemblyInstantiate": 3,
+      "WebAssemblyInstance": 1
+    },
+    "getguesstimate/guesstimate-app": {},
+    "dev-ninja11/home-assesment": {},
+    "status-im/status-web": {},
+    "acekyd/made-in-nigeria": {
+      "WebAssemblyInstantiate": 3
+    },
+    "timlrx/timlrx.com": {
+      "WebAssemblyInstantiate": 3
+    },
+    "lyc8503/UptimeFlare": {
+      "WebAssemblyInstantiate": 3
+    },
+    "kohii/medi-xplorer": {
+      "WebAssemblyInstantiate": 4
+    },
+    "natainditama/nevel": {
+      "WebAssemblyInstantiate": 3
+    },
+    "arthureberledev/packagepeek": {
+      "WebAssemblyInstantiate": 3
+    },
+    "spencerwooo/spencerwoo.com": {
+      "WebAssemblyInstantiate": 3
+    },
+    "Shopify/hydrogen-react": {},
+    "Theodo-UK/rntv-blog": {
+      "WebAssemblyInstantiate": 3
+    },
+    "webdevcody/dev-finder": {
+      "WebAssemblyInstantiate": 2
+    },
+    "Superflows-AI/superflows": {},
+    "timmo001/home-panel": {
+      "WebAssemblyInstantiate": 3
+    },
+    "notifi-network/notifi-sdk-ts": {},
+    "vivianjeng/anon-transfer": {},
+    "neplextech/canvacord": {},
+    "waseemhnyc/instagraph-nextjs-fastapi": {},
+    "asbhogal/Fyrre-Magazine": {
+      "WebAssemblyInstantiate": 3
+    },
+    "Karhdo/karhdo.dev": {
+      "WebAssemblyInstantiate": 1
+    },
+    "developeratul/lemonsqueezy-nextjs": {},
+    "PBillingsby/arweave-nextjs-template": {},
+    "immutable-js/immutable-js": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "reactjs/ja.react.dev": {
+      "WebAssemblyInstantiate": 4
+    },
+    "dabit3/perma": {
+      "WebAssemblyInstantiate": 1
+    },
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    },
+    "dabit3/titter": {
+      "WebAssemblyInstantiate": 1
+    },
+    "dariusz-wozniak/dariuszwozniak.net-v2": {
+      "WebAssemblyInstantiate": 5
+    }
+  },
+  "workbox-build": {
+    "semaphore-protocol/semaphore": {},
+    "QSPFoundation/qspider": {},
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 6
+    },
+    "ipfs/public-gateway-checker": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "jelster/space-truckers": {},
+    "oblador/loki": {},
+    "MuTsunTsai/fen-tool": {},
+    "novorender/novoweb": {},
+    "keyframe-refiner/keyframe-refiner": {},
+    "notifi-network/notifi-sdk-ts": {},
+    "diggsweden/dataportal-web": {}
+  },
+  "react-dev-utils": {
+    "semaphore-protocol/semaphore": {},
+    "QSPFoundation/qspider": {},
+    "medusajs/medusa": {},
+    "graphql/graphql-js": {},
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "sre-next/corporate-regulations": {},
+    "notifi-network/notifi-sdk-ts": {},
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    },
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 24,
+      "WebAssemblyInstance": 6
+    }
+  },
+  "binaryen": {
+    "semaphore-protocol/semaphore": {},
+    "massalabs/massa-as-sdk": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 7
+    },
+    "Schleifner/as-heap-analyzer": {
+      "WebAssemblyInstance": 4,
+      "WebAssemblyInstantiate": 4
+    },
+    "tutao/tutanota": {},
+    "massalabs/as": {
+      "WebAssemblyInstantiate": 28
+    },
+    "ask-lang/ask-old": {
+      "WebAssemblyInstance": 9
+    },
+    "piotr-oles/as-loader": {},
+    "jtenner/siphash-as": {
+      "WebAssemblyInstance": 2
+    },
+    "eoin-obrien/fuck": {
+      "WebAssemblyInstantiate": 1
+    },
+    "andykswong/muphy": {},
+    "ashutoshvarma/as-bignum": {
+      "WebAssemblyInstance": 6
+    },
+    "torch2424/as-date": {},
+    "aspkg/ecmassembly": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 2
+    },
+    "ye-yu/as-hot-storage": {},
+    "jedisct1/wasm-crypto": {
+      "WebAssemblyInstance": 3
+    },
+    "ask-lang/ask": {},
+    "mitschabaude/esbuild-plugin-wat": {
+      "WebAssemblyInstantiate": 4
+    },
+    "GoogleChromeLabs/wasm-feature-detect": {
+      "WebAssemblyInstantiate": 3
+    },
+    "MaxGraey/as-bignum": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 2
+    },
+    "capsulesocial/capsule-near": {
+      "WebAssemblyInstance": 4
+    },
+    "oceanByte/near-academy-contracts": {
+      "WebAssemblyInstance": 1
+    },
+    "JairusSW/as-json": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 2
+    },
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "Learn-NEAR/NCD.L1.sample--nearly-neighbors": {
+      "WebAssemblyInstance": 1
+    },
+    "OGKevin/obsidian-kobo-highlights-import": {},
+    "massalabs/massa-sc-toolkit": {},
+    "JairusSW/as-fetch": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 1
+    },
+    "JairusSW/as-tbs": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 3
+    },
+    "gelatodigital/gelato-polywrap-template": {}
+  },
+  "circom_tester": {
+    "semaphore-protocol/semaphore": {}
+  },
+  "@xtuc/long": {
+    "semaphore-protocol/semaphore": {},
+    "acot-a11y/acot": {},
+    "aolsenjazz/feeder-node": {},
+    "sindresorhus/file-type": {},
+    "vhchung/file-type": {},
+    "tutao/tutanota": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 3
+    },
+    "ecomfe/fonteditor": {},
+    "sindresorhus/strip-json-comments": {},
+    "nuxt-community/router-extras-module": {},
+    "sindresorhus/parse-json": {},
+    "sindresorhus/leven": {},
+    "sindresorhus/is-unicode-supported": {},
+    "sindresorhus/onetime": {},
+    "KevinBatdorf/image-filters": {},
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "darkforest-eth/client": {},
+    "collab-project/videojs-record": {},
+    "praghus/plextus": {},
+    "bookbonobo/libby-download-extension": {},
+    "wasm-tool/wasm-pack-plugin": {},
+    "QSPFoundation/qspider": {},
+    "vadimdemedes/ink": {},
+    "piotr-oles/as-loader": {},
+    "jxom/bumbag-ui": {},
+    "aws/language-servers": {},
+    "terra-money/terra.js": {},
+    "eoin-obrien/fuck": {},
+    "chaogaofeng/chain.js": {},
+    "Quramy/pico-ml": {},
+    "adityakrshnn/framo": {},
+    "blyssprivacy/sdk": {},
+    "mitschabaude/esbuild-plugin-wat": {
+      "WebAssemblyInstance": 4,
+      "WebAssemblyInstantiate": 4
+    },
+    "birchill/10ten-ja-reader": {
+      "WebAssemblyInstantiate": 2
+    },
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 12,
+      "WebAssemblyInstantiate": 2
+    },
+    "httptoolkit/brotli-wasm": {
+      "WebAssemblyInstance": 4
+    },
+    "nextcloud/calendar": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 4
+    },
+    "ueberdosis/tiptap": {
+      "WebAssemblyInstantiate": 36
+    },
+    "jelster/space-truckers": {},
+    "medusajs/medusa": {},
+    "refined-github/refined-github": {
+      "WebAssemblyInstantiate": 2
+    },
+    "oblador/loki": {},
+    "graphql/graphql-js": {},
+    "querielo/playcanvas-typescript-template": {},
+    "sindresorhus/aggregate-error": {},
+    "sindresorhus/camelcase-keys": {},
+    "sindresorhus/quick-lru": {},
+    "sindresorhus/meow": {},
+    "sindresorhus/cli-truncate": {},
+    "sindresorhus/emittery": {},
+    "sindresorhus/node-defaults": {},
+    "webpack-contrib/postcss-loader": {},
+    "sindresorhus/string-length": {},
+    "sindresorhus/dot-prop": {},
+    "sindresorhus/is": {},
+    "sindresorhus/log-symbols": {},
+    "sindresorhus/component-emitter": {},
+    "sindresorhus/merge-descriptors": {},
+    "ega-forever/mokka": {
+      "WebAssemblyInstance": 1
+    },
+    "EdgeTranslate/EdgeTranslate": {},
+    "mondaycom/monday-ui-style": {},
+    "klaro-org/klaro-js": {},
+    "searKing/preview-vscode": {},
+    "paytaca/paytaca-app": {},
+    "AxonIQ/giftcard-demo-ts": {},
+    "waku-org/js-rln": {},
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    },
+    "vannizhang/unemployment-pulse": {},
+    "novorender/novoweb": {},
+    "Phala-Network/framehub-template": {},
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstantiate": 10,
+      "WebAssemblyInstance": 10
+    },
+    "OGKevin/obsidian-kobo-highlights-import": {},
+    "textlint/editor": {},
+    "textlint-ja/textlint-rule-preset-ja-spacing": {},
+    "shivase/obsidian-textlint": {},
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    },
+    "Web3Auth/web3auth-web": {},
+    "massalabs/massa-web3": {},
+    "Zenika/sensei": {},
+    "input-output-hk/nami": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {},
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 1
+    },
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "keyframe-refiner/keyframe-refiner": {},
+    "taichi/vscode-textlint": {},
+    "g59/nestjs-plugins": {},
+    "gecko655/proofreading-tool": {},
+    "sre-next/corporate-regulations": {},
+    "jakearchibald/svgomg": {},
+    "dai-shi/remote-faces": {},
+    "notifi-network/notifi-sdk-ts": {},
+    "zazuko/vscode-sparql-notebook": {},
+    "Razikus/open-balena-dashboard": {},
+    "concordnow/ember-content-loader": {},
+    "concordnow/ember-aria-tabs": {
+      "WebAssemblyInstance": 13
+    },
+    "video-dev/hls.js": {},
+    "germinateplatform/germinate-vue": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "trafficonese/leaflet.extras": {},
+    "sindresorhus/sindresorhus.github.com": {},
+    "video-react/video-react": {},
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    },
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 20,
+      "WebAssemblyInstance": 6
+    },
+    "balena-os/balena-supervisor": {}
+  },
+  "snarkjs": {
+    "semaphore-protocol/semaphore": {},
+    "interep-project/contracts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 13
+    },
+    "vivianjeng/anon-transfer": {}
+  },
+  "r1csfile": {
+    "semaphore-protocol/semaphore": {}
+  },
+  "solc": {
+    "semaphore-protocol/semaphore": {},
+    "semaphore-protocol/quick-setup": {},
+    "interep-project/contracts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 15
+    },
+    "privacy-scaling-explorations/p0tion": {
+      "WebAssemblyInstance": 16
+    },
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstantiate": 6
+    },
+    "poolshark-protocol/range": {},
+    "gelatodigital/gelato-polywrap-template": {
+      "WebAssemblyInstantiate": 3
+    },
+    "vivianjeng/anon-transfer": {}
+  },
+  "webpack": {
+    "semaphore-protocol/semaphore": {},
+    "aolsenjazz/feeder-node": {},
+    "sindresorhus/file-type": {},
+    "vhchung/file-type": {},
+    "ecomfe/fonteditor": {},
+    "sindresorhus/strip-json-comments": {},
+    "Skyost/Bacomathiques": {},
+    "sindresorhus/parse-json": {},
+    "sindresorhus/pkg-dir": {},
+    "sindresorhus/leven": {},
+    "sindresorhus/is-unicode-supported": {},
+    "sindresorhus/onetime": {},
+    "KevinBatdorf/image-filters": {},
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "darkforest-eth/client": {},
+    "collab-project/videojs-record": {},
+    "praghus/plextus": {},
+    "bookbonobo/libby-download-extension": {},
+    "wasm-tool/wasm-pack-plugin": {},
+    "QSPFoundation/qspider": {},
+    "vadimdemedes/ink": {},
+    "piotr-oles/as-loader": {},
+    "aws/language-servers": {},
+    "terra-money/terra.js": {},
+    "eoin-obrien/fuck": {},
+    "chaogaofeng/chain.js": {},
+    "Quramy/pico-ml": {},
+    "adityakrshnn/framo": {},
+    "blyssprivacy/sdk": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 3
+    },
+    "bogard142857/terra-evmos.js": {},
+    "birchill/10ten-ja-reader": {
+      "WebAssemblyInstantiate": 10
+    },
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 12,
+      "WebAssemblyInstantiate": 2
+    },
+    "httptoolkit/brotli-wasm": {
+      "WebAssemblyInstance": 4
+    },
+    "nextcloud/calendar": {},
+    "ueberdosis/tiptap": {
+      "WebAssemblyInstantiate": 36
+    },
+    "jelster/space-truckers": {},
+    "medusajs/medusa": {},
+    "refined-github/refined-github": {
+      "WebAssemblyInstance": 3
+    },
+    "oblador/loki": {},
+    "graphql/graphql-js": {},
+    "querielo/playcanvas-typescript-template": {},
+    "sindresorhus/aggregate-error": {},
+    "sindresorhus/camelcase-keys": {},
+    "sindresorhus/quick-lru": {},
+    "sindresorhus/meow": {},
+    "sindresorhus/cli-truncate": {},
+    "sindresorhus/emittery": {},
+    "sindresorhus/node-defaults": {},
+    "webpack-contrib/postcss-loader": {},
+    "sindresorhus/string-length": {},
+    "sindresorhus/dot-prop": {},
+    "sindresorhus/is": {},
+    "sindresorhus/log-symbols": {},
+    "sindresorhus/component-emitter": {},
+    "sindresorhus/merge-descriptors": {},
+    "ega-forever/mokka": {},
+    "EdgeTranslate/EdgeTranslate": {},
+    "mondaycom/monday-ui-style": {},
+    "klaro-org/klaro-js": {},
+    "searKing/preview-vscode": {
+      "WebAssemblyInstance": 6,
+      "WebAssemblyInstantiate": 2
+    },
+    "paytaca/paytaca-app": {},
+    "AxonIQ/giftcard-demo-ts": {},
+    "waku-org/js-rln": {
+      "WebAssemblyInstance": 6
+    },
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    },
+    "vannizhang/unemployment-pulse": {},
+    "novorender/novoweb": {},
+    "Phala-Network/framehub-template": {},
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstance": 10,
+      "WebAssemblyInstantiate": 6
+    },
+    "textlint/editor": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 3
+    },
+    "textlint-ja/textlint-rule-preset-ja-spacing": {},
+    "shivase/obsidian-textlint": {},
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    },
+    "Web3Auth/web3auth-web": {},
+    "massalabs/massa-web3": {},
+    "Zenika/sensei": {},
+    "input-output-hk/nami": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {},
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 1
+    },
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "keyframe-refiner/keyframe-refiner": {},
+    "taichi/vscode-textlint": {
+      "WebAssemblyInstance": 3
+    },
+    "g59/nestjs-plugins": {},
+    "gecko655/proofreading-tool": {},
+    "sre-next/corporate-regulations": {},
+    "jakearchibald/svgomg": {},
+    "notifi-network/notifi-sdk-ts": {},
+    "zazuko/vscode-sparql-notebook": {
+      "WebAssemblyInstance": 6
+    },
+    "concordnow/ember-content-loader": {
+      "WebAssemblyInstance": 13
+    },
+    "concordnow/ember-aria-tabs": {
+      "WebAssemblyInstance": 9
+    },
+    "video-dev/hls.js": {},
+    "germinateplatform/germinate-vue": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "trafficonese/leaflet.extras": {},
+    "sindresorhus/sindresorhus.github.com": {},
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    },
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 24,
+      "WebAssemblyInstance": 18
+    },
+    "balena-os/balena-supervisor": {}
+  },
+  "matchstick-as": {
+    "semaphore-protocol/semaphore": {}
+  },
+  "@graphprotocol/graph-ts": {
+    "semaphore-protocol/semaphore": {}
+  },
+  "node-fetch-native": {
+    "semaphore-protocol/semaphore": {},
+    "trevoreyre/autocomplete": {},
+    "unjs/undio": {
+      "WebAssemblyInstantiate": 2
+    },
+    "Web3Auth/web3auth-web": {},
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {},
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "giget": {
+    "semaphore-protocol/semaphore": {}
+  },
+  "@mdx-js/mdx": {
+    "semaphore-protocol/semaphore": {},
+    "QSPFoundation/qspider": {},
+    "timlrx/tailwind-nextjs-starter-blog": {},
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 24,
+      "WebAssemblyInstance": 18
+    }
+  },
+  "blake2b-wasm": {
+    "semaphore-protocol/semaphore": {
+      "WebAssemblyInstantiate": 13
+    },
+    "iden3/snarkjs": {
+      "WebAssemblyInstantiate": 8
+    },
+    "interep-project/contracts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 14
+    },
+    "docknetwork/sdk": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 7
+    },
+    "input-output-hk/nami": {},
+    "vivianjeng/anon-transfer": {}
+  },
+  "@webassemblyjs/helper-wasm-bytecode": {
+    "semaphore-protocol/semaphore": {
+      "WebAssemblyInstantiate": 12
+    },
+    "acot-a11y/acot": {},
+    "aolsenjazz/feeder-node": {},
+    "sindresorhus/file-type": {},
+    "vhchung/file-type": {},
+    "tutao/tutanota": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 3
+    },
+    "ecomfe/fonteditor": {},
+    "sindresorhus/strip-json-comments": {},
+    "nuxt-community/router-extras-module": {},
+    "sindresorhus/parse-json": {},
+    "sindresorhus/leven": {},
+    "sindresorhus/is-unicode-supported": {},
+    "sindresorhus/onetime": {},
+    "KevinBatdorf/image-filters": {},
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "darkforest-eth/client": {},
+    "collab-project/videojs-record": {},
+    "praghus/plextus": {},
+    "bookbonobo/libby-download-extension": {},
+    "wasm-tool/wasm-pack-plugin": {},
+    "QSPFoundation/qspider": {},
+    "vadimdemedes/ink": {},
+    "piotr-oles/as-loader": {},
+    "jxom/bumbag-ui": {},
+    "aws/language-servers": {},
+    "terra-money/terra.js": {},
+    "eoin-obrien/fuck": {
+      "WebAssemblyInstantiate": 1
+    },
+    "chaogaofeng/chain.js": {},
+    "Quramy/pico-ml": {},
+    "adityakrshnn/framo": {},
+    "blyssprivacy/sdk": {},
+    "mitschabaude/esbuild-plugin-wat": {
+      "WebAssemblyInstantiate": 4
+    },
+    "birchill/10ten-ja-reader": {
+      "WebAssemblyInstantiate": 10
+    },
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 12,
+      "WebAssemblyInstantiate": 2
+    },
+    "httptoolkit/brotli-wasm": {
+      "WebAssemblyInstance": 4
+    },
+    "nextcloud/calendar": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 4
+    },
+    "ueberdosis/tiptap": {},
+    "jelster/space-truckers": {},
+    "medusajs/medusa": {},
+    "refined-github/refined-github": {
+      "WebAssemblyInstantiate": 2
+    },
+    "oblador/loki": {},
+    "graphql/graphql-js": {},
+    "querielo/playcanvas-typescript-template": {},
+    "sindresorhus/aggregate-error": {},
+    "sindresorhus/camelcase-keys": {},
+    "sindresorhus/quick-lru": {},
+    "sindresorhus/meow": {},
+    "sindresorhus/cli-truncate": {},
+    "sindresorhus/emittery": {},
+    "sindresorhus/node-defaults": {},
+    "webpack-contrib/postcss-loader": {},
+    "sindresorhus/string-length": {},
+    "sindresorhus/dot-prop": {},
+    "sindresorhus/is": {},
+    "sindresorhus/log-symbols": {},
+    "sindresorhus/component-emitter": {},
+    "sindresorhus/merge-descriptors": {},
+    "ega-forever/mokka": {},
+    "EdgeTranslate/EdgeTranslate": {},
+    "mondaycom/monday-ui-style": {},
+    "klaro-org/klaro-js": {},
+    "searKing/preview-vscode": {
+      "WebAssemblyInstance": 6,
+      "WebAssemblyInstantiate": 2
+    },
+    "paytaca/paytaca-app": {},
+    "AxonIQ/giftcard-demo-ts": {},
+    "waku-org/js-rln": {},
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    },
+    "vannizhang/unemployment-pulse": {},
+    "novorender/novoweb": {},
+    "Phala-Network/framehub-template": {},
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstance": 10,
+      "WebAssemblyInstantiate": 6
+    },
+    "OGKevin/obsidian-kobo-highlights-import": {
+      "WebAssemblyInstantiate": 2
+    },
+    "textlint/editor": {},
+    "textlint-ja/textlint-rule-preset-ja-spacing": {},
+    "shivase/obsidian-textlint": {},
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    },
+    "Web3Auth/web3auth-web": {},
+    "massalabs/massa-web3": {},
+    "Zenika/sensei": {},
+    "input-output-hk/nami": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {},
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 1
+    },
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "keyframe-refiner/keyframe-refiner": {},
+    "taichi/vscode-textlint": {
+      "WebAssemblyInstance": 3
+    },
+    "g59/nestjs-plugins": {},
+    "gecko655/proofreading-tool": {},
+    "sre-next/corporate-regulations": {},
+    "jakearchibald/svgomg": {},
+    "dai-shi/remote-faces": {},
+    "ipfs-shipyard/y-ipfs-connector": {},
+    "notifi-network/notifi-sdk-ts": {},
+    "zazuko/vscode-sparql-notebook": {
+      "WebAssemblyInstance": 6
+    },
+    "Razikus/open-balena-dashboard": {},
+    "concordnow/ember-content-loader": {
+      "WebAssemblyInstance": 13
+    },
+    "concordnow/ember-aria-tabs": {
+      "WebAssemblyInstance": 13
+    },
+    "video-dev/hls.js": {},
+    "germinateplatform/germinate-vue": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "trafficonese/leaflet.extras": {},
+    "sindresorhus/sindresorhus.github.com": {
+      "WebAssemblyInstantiate": 6
+    },
+    "video-react/video-react": {},
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    },
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 24,
+      "WebAssemblyInstance": 6
+    },
+    "balena-os/balena-supervisor": {}
+  },
+  "estree-util-to-js": {
+    "semaphore-protocol/semaphore": {
+      "WebAssemblyInstantiate": 14
+    },
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 634,
+      "WebAssemblyInstance": 50
+    },
+    "QSPFoundation/qspider": {},
+    "timlrx/pliny": {
+      "WebAssemblyInstantiate": 1
+    },
+    "timlrx/tailwind-nextjs-starter-blog": {},
+    "acekyd/made-in-nigeria": {
+      "WebAssemblyInstantiate": 3
+    },
+    "timlrx/timlrx.com": {
+      "WebAssemblyInstantiate": 3
+    },
+    "sanity-io/demo-ecommerce": {},
+    "Theodo-UK/rntv-blog": {
+      "WebAssemblyInstantiate": 3
+    },
+    "Karhdo/karhdo.dev": {
+      "WebAssemblyInstantiate": 1
+    },
+    "reactjs/ja.react.dev": {
+      "WebAssemblyInstantiate": 4
+    },
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 24,
+      "WebAssemblyInstance": 18
+    },
+    "dariusz-wozniak/dariuszwozniak.net-v2": {
+      "WebAssemblyInstantiate": 5
+    }
+  },
+  "decompress-tarbz2": {
+    "semaphore-protocol/semaphore": {
+      "WebAssemblyInstantiate": 13
+    },
+    "Genez-io/genezio": {
+      "WebAssemblyInstantiate": 7
+    },
+    "darkforest-eth/client": {},
+    "praghus/plextus": {},
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 1
+    },
+    "oblador/loki": {},
+    "paytaca/paytaca-app": {},
+    "proofdict/proofdict": {},
+    "vpdb/vpx-js": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "trafficonese/leaflet.extras": {},
+    "textlint/textlint": {}
+  },
+  "wawoff2": {
+    "Munter/subfont": {},
+    "atlas-bi/Hub": {},
+    "papandreou/subset-font": {
+      "WebAssemblyInstantiate": 9
+    },
+    "papandreou/fontverter": {
+      "WebAssemblyInstantiate": 6
+    },
+    "mhaidarhanif/mhaidarhanif-astro": {},
+    "MuTsunTsai/fen-tool": {}
+  },
+  "harfbuzzjs": {
+    "Munter/subfont": {},
+    "atlas-bi/Hub": {},
+    "papandreou/subset-font": {
+      "WebAssemblyInstantiate": 9
+    },
+    "mhaidarhanif/mhaidarhanif-astro": {},
+    "MuTsunTsai/fen-tool": {}
+  },
+  "@types/webpack-sources": {
+    "acot-a11y/acot": {},
+    "nuxt-community/router-extras-module": {},
+    "KevinBatdorf/image-filters": {},
+    "piotr-oles/as-loader": {},
+    "jxom/bumbag-ui": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "medusajs/medusa": {},
+    "textlint/editor": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 3
+    },
+    "Razikus/open-balena-dashboard": {}
+  },
+  "v8-to-istanbul": {
+    "acot-a11y/acot": {},
+    "se2p/Bastet": {},
+    "gzuidhof/rollup-plugin-base64": {},
+    "nuxt-community/router-extras-module": {},
+    "webpack/loader-utils": {},
+    "jridgewell/source-map": {
+      "WebAssemblyInstantiate": 1
+    },
+    "itibbers/crypto-js-wasm": {},
+    "jctaoo/elecrun": {
+      "WebAssemblyInstantiate": 2
+    },
+    "rhmoller/wasm-by-hand": {},
+    "hoppscotch/hopp-js-sandbox": {
+      "WebAssemblyInstantiate": 6,
+      "WebAssemblyInstance": 12
+    },
+    "smapiot/piral-cli-vite": {},
+    "iterative/cml": {
+      "WebAssemblyInstantiate": 62
+    },
+    "ask-lang/ask-old": {
+      "WebAssemblyInstance": 12
+    },
+    "piotr-oles/as-loader": {},
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 4
+    },
+    "unform/unform": {},
+    "jxom/bumbag-ui": {},
+    "terra-money/terra.js": {},
+    "newdash/wasm-native-template": {},
+    "andykswong/muphy": {},
+    "chaogaofeng/chain.js": {},
+    "adityakrshnn/framo": {},
+    "deislabs/yo-wasm": {},
+    "PauloBarbeiro/reactive-sql-toolkit": {
+      "WebAssemblyInstantiate": 5,
+      "WebAssemblyInstance": 3
+    },
+    "CashScript/cashscript": {},
+    "sebastian-software/asset-hash": {
+      "WebAssemblyInstantiate": 1
+    },
+    "remotebear-io/remotebear": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "medusajs/medusa": {},
+    "oblador/loki": {},
+    "wapc/widl-codegen-js": {},
+    "wapc/widl-js": {},
+    "EdgeTranslate/EdgeTranslate": {},
+    "textury/arlocal": {},
+    "textury/ardb": {
+      "WebAssemblyInstance": 1
+    },
+    "redstone-finance/redstone-api": {},
+    "CommunityXYZ/community-js": {},
+    "textury/blockweave": {
+      "WebAssemblyInstance": 28
+    },
+    "AndrewRedican/react-json-editor-ajrm": {},
+    "mondaycom/monday-ui-style": {},
+    "dominikg/svite": {},
+    "vannizhang/unemployment-pulse": {},
+    "statelyai/xstate-tools": {},
+    "spotify/basic-pitch-ts": {
+      "WebAssemblyInstance": 8
+    },
+    "superfaceai/station": {},
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {},
+    "ar-io/testnet-contract": {
+      "WebAssemblyInstantiate": 24
+    },
+    "gecko655/proofreading-tool": {},
+    "advanced-cropper/vue-advanced-cropper": {},
+    "notifi-network/notifi-sdk-ts": {},
+    "immutable-js/immutable-js": {},
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@pmmmwh/react-refresh-webpack-plugin": {
+    "acot-a11y/acot": {},
+    "KevinBatdorf/image-filters": {},
+    "praghus/plextus": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "medusajs/medusa": {},
+    "oblador/loki": {},
+    "mondaycom/monday-ui-style": {},
+    "input-output-hk/nami": {},
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@storybook/manager-webpack4": {
+    "acot-a11y/acot": {},
+    "oblador/loki": {}
+  },
+  "terser": {
+    "acot-a11y/acot": {},
+    "darkforest-eth/client": {},
+    "piotr-oles/as-loader": {},
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 6
+    },
+    "unform/unform": {},
+    "eoin-obrien/fuck": {},
+    "chaogaofeng/chain.js": {},
+    "adityakrshnn/framo": {},
+    "sebastian-software/asset-hash": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "oblador/loki": {},
+    "ega-forever/mokka": {
+      "WebAssemblyInstance": 1
+    },
+    "dominikg/svite": {},
+    "keyframe-refiner/keyframe-refiner": {},
+    "taichi/vscode-textlint": {},
+    "advanced-cropper/vue-advanced-cropper": {},
+    "Razikus/open-balena-dashboard": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    }
+  },
+  "@storybook/builder-webpack4": {
+    "acot-a11y/acot": {},
+    "oblador/loki": {}
+  },
+  "json-schema-to-typescript": {
+    "warp-contracts/warp": {}
+  },
+  "warp-wasm-metering": {
+    "warp-contracts/warp": {},
+    "ar-io/testnet-contract": {
+      "WebAssemblyInstantiate": 24
+    }
+  },
+  "@massalabs/as-types": {
+    "massalabs/massa-as-sdk": {}
+  },
+  "rollup-plugin-visualizer": {
+    "QSPFoundation/qsp-wasm-engine": {
+      "WebAssemblyInstantiate": 288
+    },
+    "playcanvas/engine": {},
+    "Skyost/Bacomathiques": {},
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 6
+    },
+    "mrdoob/three.js": {},
+    "medusajs/medusa": {},
+    "dominikg/svite": {},
+    "advanced-cropper/vue-advanced-cropper": {}
+  },
+  "libsodium-sumo": {
+    "archway-network/arch3.js": {},
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 1
+    },
+    "wormhole-foundation/wormhole-sdk-ts": {
+      "WebAssemblyInstance": 11,
+      "WebAssemblyInstantiate": 5
+    },
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@confio/ics23": {
+    "archway-network/arch3.js": {}
+  },
+  "@cosmology/protobufjs": {
+    "archway-network/arch3.js": {}
+  },
+  "@yarnpkg/libzip": {
+    "archway-network/arch3.js": {},
+    "medusajs/medusa": {},
+    "mondaycom/monday-ui-style": {},
+    "trevoreyre/autocomplete": {},
+    "status-im/status-web": {},
+    "Trendyol/baklava": {},
+    "Adonis-Stavridis/caroumesh": {},
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "x-img-diff-js": {
+    "karinfam/svg2png-wasm": {}
+  },
+  "@ethereum-waffle/compiler": {
+    "semaphore-protocol/quick-setup": {},
+    "interep-project/contracts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 14
+    },
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    }
+  },
+  "mcl-wasm": {
+    "semaphore-protocol/quick-setup": {
+      "WebAssemblyInstantiate": 3
+    },
+    "interep-project/contracts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 16
+    },
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstantiate": 6
+    },
+    "vivianjeng/anon-transfer": {}
+  },
+  "@ethereum-waffle/mock-contract": {
+    "semaphore-protocol/quick-setup": {
+      "WebAssemblyInstantiate": 3
+    },
+    "interep-project/contracts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 16
+    },
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstantiate": 6
+    },
+    "poolshark-protocol/range": {}
+  },
+  "circomlibjs": {
+    "interep-project/contracts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 13
+    }
+  },
+  "blake2b": {
+    "interep-project/contracts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 15
+    }
+  },
+  "style-loader": {
+    "ecomfe/fonteditor": {},
+    "oblador/loki": {},
+    "dai-shi/remote-faces": {},
+    "concordnow/ember-content-loader": {},
+    "concordnow/ember-aria-tabs": {
+      "WebAssemblyInstance": 13
+    }
+  },
+  "@vue/compiler-sfc": {
+    "Skyost/Bacomathiques": {},
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "libp2p/js-libp2p-crypto": {},
+    "MuTsunTsai/fen-tool": {},
+    "trevoreyre/autocomplete": {},
+    "paytaca/paytaca-app": {},
+    "novorender/novoweb": {},
+    "Web3Auth/web3auth-web": {},
+    "balena-io/deploy-to-balena-action": {
+      "WebAssemblyInstantiate": 2
+    },
+    "balena-io-modules/balena-preload": {},
+    "balena-os/leviathan": {},
+    "balena-io/balena-mdns-publisher": {},
+    "ajslater/codex": {
+      "WebAssemblyInstantiate": 2
+    },
+    "balena-io-library/base-images": {},
+    "balena-os/balena-supervisor": {}
+  },
+  "@divriots/cheerio": {
+    "onwidget/qwind": {}
+  },
+  "@builder.io/qwik": {
+    "onwidget/qwind": {}
+  },
+  "@divriots/jampack": {
+    "onwidget/qwind": {}
+  },
+  "onnxruntime-web": {
+    "reorproject/reor": {}
+  },
+  "hash-wasm": {
+    "reorproject/reor": {},
+    "timlrx/pliny": {},
+    "timlrx/tailwind-nextjs-starter-blog": {},
+    "react-hook-form/documentation": {
+      "WebAssemblyInstance": 1
+    },
+    "timlrx/timlrx.com": {
+      "WebAssemblyInstantiate": 3
+    },
+    "spencerwooo/spencerwoo.com": {},
+    "Theodo-UK/rntv-blog": {},
+    "Karhdo/karhdo.dev": {},
+    "dariusz-wozniak/dariuszwozniak.net-v2": {}
+  },
+  "@xenova/transformers": {
+    "reorproject/reor": {}
+  },
+  "@as-pect/transform": {
+    "massalabs/as": {
+      "WebAssemblyInstantiate": 28
+    },
+    "ask-lang/ask": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 4
+    },
+    "JairusSW/as-tbs": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 3
+    }
+  },
+  "@as-pect/core": {
+    "massalabs/as": {
+      "WebAssemblyInstance": 4,
+      "WebAssemblyInstantiate": 14
+    },
+    "ask-lang/ask": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 4
+    },
+    "JairusSW/as-tbs": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 3
+    }
+  },
+  "@distube/ytpl": {
+    "Tomato6966/Musicium": {
+      "WebAssemblyInstantiate": 3
+    },
+    "distubejs/example": {}
+  },
+  "libsodium": {
+    "Tomato6966/Musicium": {
+      "WebAssemblyInstantiate": 3
+    },
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 1
+    },
+    "wormhole-foundation/relayer-engine": {
+      "WebAssemblyInstantiate": 18
+    },
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    },
+    "wormhole-foundation/wormhole-sdk-ts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 4
+    },
+    "codetheweb/muse": {},
+    "discordx-ts/discordx": {},
+    "distubejs/example": {},
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@bitauth/libauth": {
+    "docknetwork/sdk": {},
+    "blockchain-certificates/blockcerts-verifier": {},
+    "bitjson/typescript-starter": {
+      "WebAssemblyInstantiate": 3
+    },
+    "CashScript/cashscript": {},
+    "paytaca/paytaca-app": {}
+  },
+  "@polkadot/util": {
+    "docknetwork/sdk": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 6
+    },
+    "ask-lang/ask-old": {},
+    "Phala-Network/framehub-template": {},
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "mrklt": {
+    "docknetwork/sdk": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 6
+    }
+  },
+  "rify": {
+    "docknetwork/sdk": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 7
+    }
+  },
+  "@docknetwork/crypto-wasm": {
+    "docknetwork/sdk": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 7
+    }
+  },
+  "crypto-wasm-new": {
+    "docknetwork/sdk": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 7
+    }
+  },
+  "crypto-wasm-old": {
+    "docknetwork/sdk": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 7
+    }
+  },
+  "es-module-shims": {
+    "blockchain-certificates/blockcerts-verifier": {}
+  },
+  "@blockcerts/cert-verifier-js": {
+    "blockchain-certificates/blockcerts-verifier": {}
+  },
+  "es-dev-server": {
+    "blockchain-certificates/blockcerts-verifier": {}
+  },
+  "@blockcerts/cert-verifier-js-v1-legacy": {
+    "blockchain-certificates/blockcerts-verifier": {}
+  },
+  "zstd-codec": {
+    "id5io/id5-api.js": {},
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    },
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstance": 9,
+      "WebAssemblyInstantiate": 6
+    },
+    "superfaceai/station": {}
+  },
+  "brotli-wasm": {
+    "id5io/id5-api.js": {},
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstance": 9,
+      "WebAssemblyInstantiate": 6
+    },
+    "superfaceai/station": {}
+  },
+  "@vanilla-extract/integration": {
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 642,
+      "WebAssemblyInstance": 50
+    }
+  },
+  "xxhash-wasm": {
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 642,
+      "WebAssemblyInstance": 51
+    },
+    "sebastian-software/asset-hash": {
+      "WebAssemblyInstantiate": 1
+    },
+    "medusajs/medusa": {},
+    "lyc8503/UptimeFlare": {},
+    "kohii/medi-xplorer": {
+      "WebAssemblyInstantiate": 4
+    },
+    "video-dev/hls.js": {}
+  },
+  "@mdx-js/rollup": {
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 644,
+      "WebAssemblyInstance": 51
+    }
+  },
+  "blake3-wasm": {
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 650,
+      "WebAssemblyInstance": 50
+    },
+    "lyc8503/UptimeFlare": {
+      "WebAssemblyInstantiate": 3
+    },
+    "kohii/medi-xplorer": {
+      "WebAssemblyInstantiate": 4
+    },
+    "video-dev/hls.js": {}
+  },
+  "wrangler": {
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 648,
+      "WebAssemblyInstance": 50
+    },
+    "lyc8503/UptimeFlare": {
+      "WebAssemblyInstantiate": 3
+    },
+    "kohii/medi-xplorer": {
+      "WebAssemblyInstantiate": 4
+    },
+    "arthureberledev/packagepeek": {
+      "WebAssemblyInstantiate": 3
+    },
+    "video-dev/hls.js": {}
+  },
+  "@tootallnate/quickjs-emscripten": {
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 632,
+      "WebAssemblyInstance": 48
+    },
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "redis/node-redis": {},
+    "melink14/rikaikun": {
+      "WebAssemblyInstantiate": 12
+    },
+    "birchill/10ten-ja-reader": {
+      "WebAssemblyInstantiate": 2
+    },
+    "mrdoob/three.js": {},
+    "napi-rs/napi-rs": {
+      "WebAssemblyInstantiate": 1
+    },
+    "dmnd/dedent": {},
+    "sinonjs/fake-timers": {
+      "WebAssemblyInstantiate": 4
+    },
+    "node-saml/passport-saml": {},
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    },
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstantiate": 7,
+      "WebAssemblyInstance": 4
+    },
+    "sanity-io/demo-ecommerce": {},
+    "Web3Auth/web3auth-web": {},
+    "xmnlz/vpitashka": {},
+    "video-dev/hls.js": {},
+    "GoogleChrome/chromium-dashboard": {}
+  },
+  "vite-node": {
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 632,
+      "WebAssemblyInstance": 50
+    },
+    "xmtp/xmtp-js": {
+      "WebAssemblyInstantiate": 84,
+      "WebAssemblyInstance": 376
+    },
+    "status-im/status-web": {},
+    "Shopify/hydrogen-react": {},
+    "cloudflare/miniflare": {
+      "WebAssemblyInstantiate": 61,
+      "WebAssemblyInstance": 3
+    }
+  },
+  "@jspm/core": {
+    "remix-run/remix": {
+      "WebAssemblyInstantiate": 634,
+      "WebAssemblyInstance": 51
+    },
+    "wanghsinche/semipay": {
+      "WebAssemblyInstantiate": 2
+    },
+    "Shopify/hydrogen": {},
+    "sanity-io/demo-ecommerce": {},
+    "tinloof/vercel-hydrogen-demo-store": {},
+    "okendo/okendo-shopify-hydrogen-demo": {},
+    "juanpprieto/hydrogen-css-hooks": {}
+  },
+  "@grpc/proto-loader": {
+    "bropat/ioBroker.eusec": {},
+    "timlrx/pliny": {
+      "WebAssemblyInstantiate": 1
+    },
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "g59/nestjs-plugins": {}
+  },
+  "@edge-runtime/primitives": {
+    "wanghsinche/semipay": {
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "edge-runtime": {
+    "wanghsinche/semipay": {
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "xdm": {
+    "wanghsinche/semipay": {
+      "WebAssemblyInstantiate": 2
+    },
+    "tinloof/vercel-hydrogen-demo-store": {}
+  },
+  "@chainsafe/as-chacha20poly1305": {
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 12,
+      "WebAssemblyInstantiate": 2
+    },
+    "status-im/status-web": {}
+  },
+  "@chainsafe/as-sha256": {
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 12,
+      "WebAssemblyInstantiate": 2
+    },
+    "ChainSafe/persistent-merkle-tree": {
+      "WebAssemblyInstance": 1
+    },
+    "status-im/status-web": {},
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    },
+    "pianity/arsnap": {},
+    "vivianjeng/anon-transfer": {}
+  },
+  "ssh2": {
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "iterative/cml": {
+      "WebAssemblyInstantiate": 62
+    },
+    "napi-rs/napi-rs": {
+      "WebAssemblyInstantiate": 1
+    },
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "balena-io-modules/balena-preload": {},
+    "balena-os/leviathan": {},
+    "balena-os/balena-supervisor": {}
+  },
+  "ts-loader": {
+    "waku-org/js-waku": {
+      "WebAssemblyInstance": 27
+    },
+    "Quramy/pico-ml": {},
+    "azu/kvs": {},
+    "birchill/10ten-ja-reader": {
+      "WebAssemblyInstantiate": 10
+    },
+    "httptoolkit/brotli-wasm": {
+      "WebAssemblyInstance": 4
+    },
+    "nextcloud/calendar": {},
+    "waku-org/js-rln": {
+      "WebAssemblyInstance": 4
+    },
+    "visgl/loaders.gl-showcases": {},
+    "Phala-Network/framehub-template": {},
+    "httptoolkit/mockttp": {
+      "WebAssemblyInstance": 3
+    },
+    "shivase/obsidian-textlint": {},
+    "massalabs/massa-web3": {},
+    "input-output-hk/nami": {}
+  },
+  "tsx": {
+    "cheeriojs/cheerio": {
+      "WebAssemblyInstantiate": 2
+    },
+    "birchill/10ten-ja-reader": {
+      "WebAssemblyInstantiate": 10
+    },
+    "refined-github/refined-github": {
+      "WebAssemblyInstantiate": 2
+    },
+    "date-fns/date-fns": {
+      "WebAssemblyInstantiate": 7
+    },
+    "Phala-Network/framehub-template": {},
+    "kohii/medi-xplorer": {
+      "WebAssemblyInstantiate": 4
+    },
+    "wormhole-foundation/wormhole-sdk-ts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 4
+    },
+    "epicweb-dev/testing-fundamentals": {},
+    "neplextech/canvacord": {}
+  },
+  "source-map-fast": {
+    "PepsRyuu/nollup": {},
+    "dominikg/svite": {},
+    "beyonk-group/svelte-google-analytics": {},
+    "welldone-software/why-did-you-render": {
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "snowpack": {
+    "melink14/rikaikun": {
+      "WebAssemblyInstantiate": 10
+    }
+  },
+  "esinstall": {
+    "melink14/rikaikun": {
+      "WebAssemblyInstantiate": 12
+    }
+  },
+  "netlify-redirector": {
+    "darkforest-eth/client": {},
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {}
+  },
+  "@darkforest_eth/snarks": {
+    "darkforest-eth/client": {}
+  },
+  "archive-type": {
+    "darkforest-eth/client": {},
+    "praghus/plextus": {},
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 1
+    },
+    "oblador/loki": {},
+    "paytaca/paytaca-app": {},
+    "proofdict/proofdict": {},
+    "vpdb/vpx-js": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "textlint/textlint": {}
+  },
+  "elf-cam": {
+    "darkforest-eth/client": {}
+  },
+  "download": {
+    "darkforest-eth/client": {},
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 1
+    },
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "textlint/textlint": {}
+  },
+  "wasm-json-toolkit": {
+    "ewasm/wasm-metering": {}
+  },
+  "pyodide": {
+    "pydantic/pydantic-core": {}
+  },
+  "quickjs-emscripten": {
+    "hoppscotch/hopp-js-sandbox": {
+      "WebAssemblyInstantiate": 6,
+      "WebAssemblyInstance": 12
+    },
+    "Phala-Network/framehub-template": {}
+  },
+  "vmsg": {
+    "collab-project/videojs-record": {}
+  },
+  "webm-wasm": {
+    "collab-project/videojs-record": {}
+  },
+  "@ffmpeg/core": {
+    "collab-project/videojs-record": {}
+  },
+  "@ffmpeg/core-mt": {
+    "collab-project/videojs-record": {}
+  },
+  "opus-recorder": {
+    "collab-project/videojs-record": {}
+  },
+  "opus-media-recorder": {
+    "collab-project/videojs-record": {}
+  },
+  "@vercel/og": {
+    "ericjiang97/nextjs-personal": {},
+    "replicate/scribble-diffusion": {}
+  },
+  "pdfjs-dist": {
+    "ericjiang97/nextjs-personal": {}
+  },
+  "@resvg/resvg-wasm": {
+    "ericjiang97/nextjs-personal": {},
+    "replicate/scribble-diffusion": {
+      "WebAssemblyInstantiate": 16,
+      "WebAssemblyInstance": 3
+    }
+  },
+  "@npcz/magic": {
+    "iterative/cml": {
+      "WebAssemblyInstantiate": 62
+    }
+  },
+  "wasm-imagemagick": {
+    "praghus/plextus": {}
+  },
+  "is-gif": {
+    "praghus/plextus": {},
+    "oblador/loki": {},
+    "proofdict/proofdict": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    }
+  },
+  "bin-wrapper": {
+    "praghus/plextus": {},
+    "oblador/loki": {},
+    "proofdict/proofdict": {},
+    "vpdb/vpx-js": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "textlint/textlint": {}
+  },
+  "is-cwebp-readable": {
+    "praghus/plextus": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    }
+  },
+  "html-minifier-terser": {
+    "praghus/plextus": {},
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "imagemin": {
+    "praghus/plextus": {},
+    "oblador/loki": {},
+    "proofdict/proofdict": {}
+  },
+  "webmscore": {
+    "LibreScore/mscz-api": {}
+  },
+  "@librescore/sf3": {
+    "LibreScore/mscz-api": {}
+  },
+  "supercop.wasm": {
+    "hazae41/berith": {
+      "WebAssemblyInstantiateStreaming": 2,
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "as-bignum": {
+    "ask-lang/ask-old": {},
+    "capsulesocial/capsule-near": {
+      "WebAssemblyInstance": 4
+    },
+    "oceanByte/near-academy-contracts": {
+      "WebAssemblyInstance": 1
+    },
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "Learn-NEAR/NCD.L1.sample--nearly-neighbors": {
+      "WebAssemblyInstance": 1
+    }
+  },
+  "wasm-audio-resampler": {
+    "geekuillaume/soundsync": {}
+  },
+  "static-eval": {
+    "geekuillaume/soundsync": {}
+  },
+  "array-includes-any": {
+    "atom/fs-plus": {},
+    "atom-community/atom-ide-diagnostics": {}
+  },
+  "jimp-compact": {
+    "yisibl/resvg-js": {
+      "WebAssemblyInstantiate": 2
+    },
+    "status-im/status-web": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {},
+    "dropy-project/front": {},
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "7z-wasm": {
+    "QSPFoundation/qspider": {}
+  },
+  "@qsp/wasm-engine": {
+    "QSPFoundation/qspider": {}
+  },
+  "tsup": {
+    "timlrx/pliny": {},
+    "Shopify/hydrogen": {},
+    "ueberdosis/tiptap": {
+      "WebAssemblyInstantiate": 36
+    },
+    "medusajs/medusa": {},
+    "dmnd/dedent": {},
+    "scallop-io/sui-kit": {
+      "WebAssemblyInstantiate": 4
+    },
+    "notifi-network/notifi-sdk-ts": {},
+    "neplextech/canvacord": {},
+    "skick1234/DisTube": {
+      "WebAssemblyInstantiate": 53
+    }
+  },
+  "vitest": {
+    "timlrx/pliny": {
+      "WebAssemblyInstantiate": 1
+    },
+    "medusajs/medusa": {},
+    "xmtp/xmtp-js": {
+      "WebAssemblyInstantiate": 88,
+      "WebAssemblyInstance": 376
+    },
+    "status-im/status-web": {},
+    "Shopify/hydrogen-react": {},
+    "pianity/arsnap": {},
+    "cloudflare/miniflare": {
+      "WebAssemblyInstantiate": 56,
+      "WebAssemblyInstance": 3
+    }
+  },
+  "imagescript": {
+    "timlrx/pliny": {
+      "WebAssemblyInstantiate": 1
+    },
+    "timlrx/tailwind-nextjs-starter-blog": {},
+    "react-hook-form/documentation": {
+      "WebAssemblyInstantiate": 3,
+      "WebAssemblyInstance": 1
+    },
+    "timlrx/timlrx.com": {
+      "WebAssemblyInstantiate": 3
+    },
+    "spencerwooo/spencerwoo.com": {},
+    "Theodo-UK/rntv-blog": {},
+    "Karhdo/karhdo.dev": {
+      "WebAssemblyInstantiate": 1
+    },
+    "dariusz-wozniak/dariuszwozniak.net-v2": {}
+  },
+  "@types/webpack": {
+    "piotr-oles/as-loader": {}
+  },
+  "three": {
+    "Shopify/hydrogen": {},
+    "Shopify/hydrogen-react": {},
+    "sanity-io/demo-ecommerce": {},
+    "tinloof/vercel-hydrogen-demo-store": {},
+    "okendo/okendo-shopify-hydrogen-demo": {},
+    "juanpprieto/hydrogen-css-hooks": {},
+    "musehq/spacesvr": {},
+    "Adonis-Stavridis/caroumesh": {},
+    "vpdb/vpx-js": {},
+    "isoteriksoftware/react-gallery-3d": {}
+  },
+  "@ladle/react": {
+    "Shopify/hydrogen": {},
+    "Shopify/hydrogen-react": {}
+  },
+  "@jest/reporters": {
+    "quolpr/harika": {},
+    "medusajs/medusa": {}
+  },
+  "@harika-org/sql.js": {
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 4
+    }
+  },
+  "@web/test-runner": {
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 6
+    },
+    "Trendyol/baklava": {}
+  },
+  "@web/test-runner-core": {
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 5
+    },
+    "Trendyol/baklava": {}
+  },
+  "absurd-sql": {
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 6
+    }
+  },
+  "rollup-plugin-workbox": {
+    "quolpr/harika": {
+      "WebAssemblyInstantiate": 6
+    }
+  },
+  "hermes-profile-transformer": {
+    "unform/unform": {},
+    "jxom/bumbag-ui": {},
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 12,
+      "WebAssemblyInstantiate": 2
+    },
+    "crossplatformkorea/react-native-naver-login": {},
+    "status-im/status-web": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {},
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "hermes-parser": {
+    "jxom/bumbag-ui": {},
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 12,
+      "WebAssemblyInstantiate": 2
+    },
+    "crossplatformkorea/react-native-naver-login": {},
+    "status-im/status-web": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {},
+    "dropy-project/front": {},
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "metro-hermes-compiler": {
+    "jxom/bumbag-ui": {},
+    "status-im/status-web": {},
+    "dropy-project/front": {},
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@next/react-dev-overlay": {
+    "jxom/bumbag-ui": {},
+    "remotebear-io/remotebear": {},
+    "anhfactor/danger-is-near": {}
+  },
+  "styled-jsx": {
+    "jxom/bumbag-ui": {},
+    "remotebear-io/remotebear": {},
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "dabit3/perma": {
+      "WebAssemblyInstantiate": 1
+    },
+    "dabit3/titter": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "rollup-plugin-terser": {
+    "jxom/bumbag-ui": {},
+    "keyframe-refiner/keyframe-refiner": {}
+  },
+  "expat-wasm": {
+    "hildjj/expat-wasm-dom": {}
+  },
+  "@mylifenp/string-color-wasm": {
+    "mylifenp/string-color": {
+      "WebAssemblyInstance": 1
+    }
+  },
+  "@as-covers/transform": {
+    "andykswong/muphy": {},
+    "jedisct1/wasm-crypto": {}
+  },
+  "onigasm": {
+    "andykswong/muphy": {
+      "WebAssemblyInstance": 3
+    },
+    "torch2424/as-date": {},
+    "adityakrshnn/framo": {},
+    "wapc/widl-codegen-js": {},
+    "wapc/widl-js": {},
+    "redstone-finance/redstone-api": {},
+    "textury/blockweave": {
+      "WebAssemblyInstance": 28
+    }
+  },
+  "vite-open": {
+    "stagas/wat-cli": {}
+  },
+  "run-in-vite": {
+    "stagas/wat-cli": {}
+  },
+  "rollup-plugin-debug": {
+    "stagas/wat-cli": {}
+  },
+  "@ml.js/core": {
+    "NippunSharma/mljs_ann": {
+      "WebAssemblyInstantiate": 4
+    }
+  },
+  "lerc": {
+    "gy1016/terranova": {},
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "sql.js": {
+    "PauloBarbeiro/reactive-sql-toolkit": {
+      "WebAssemblyInstantiate": 5,
+      "WebAssemblyInstance": 3
+    },
+    "genieacs/genieacs": {},
+    "OGKevin/obsidian-kobo-highlights-import": {
+      "WebAssemblyInstantiate": 2
+    },
+    "typeorm/typeorm": {},
+    "vivianjeng/anon-transfer": {}
+  },
+  "@archwayhq/arch3-core": {
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@cosmjs/cosmwasm-stargate": {
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 3,
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "secretjs": {
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@archwayhq/arch3-proto": {
+    "kubiklabs/wasmkit": {
+      "WebAssemblyInstance": 5,
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "vim-wasm": {
+    "rhysd/react-vim-wasm": {}
+  },
+  "ripemd160-js": {
+    "pur3miish/eosio-wasm-js": {
+      "WebAssemblyInstantiate": 11
+    },
+    "pur3miish/AntelopeQL": {
+      "WebAssemblyInstantiate": 8
+    }
+  },
+  "@parcel/source-map": {
+    "azu/kvs": {},
+    "medusajs/medusa": {}
+  },
+  "metro": {
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 12,
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "metro-babel-transformer": {
+    "orbitdb/orbitdb": {
+      "WebAssemblyInstance": 12,
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "karma-typescript": {
+    "httptoolkit/brotli-wasm": {
+      "WebAssemblyInstance": 4
+    }
+  },
+  "html-rewriter-wasm": {
+    "oriverk/blog.oriverk.dev": {
+      "WebAssemblyInstantiate": 3
+    },
+    "cloudflare/miniflare": {
+      "WebAssemblyInstantiate": 57,
+      "WebAssemblyInstance": 3
+    }
+  },
+  "node-unrar-js": {
+    "emmercm/igir": {
+      "WebAssemblyInstantiate": 56
+    }
+  },
+  "@sane-fmt/wasm32-wasi": {
+    "ksxnodemodules/static-type-assert": {
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "prisma": {
+    "replicate/scribble-diffusion": {},
+    "timmo001/home-panel": {
+      "WebAssemblyInstantiate": 3
+    },
+    "codetheweb/muse": {},
+    "Brexbot/TwiggyBot": {},
+    "Karhdo/karhdo.dev": {
+      "WebAssemblyInstantiate": 1
+    },
+    "developeratul/lemonsqueezy-nextjs": {}
+  },
+  "@prisma/client": {
+    "replicate/scribble-diffusion": {},
+    "timmo001/home-panel": {
+      "WebAssemblyInstantiate": 3
+    },
+    "codetheweb/muse": {},
+    "Brexbot/TwiggyBot": {},
+    "Karhdo/karhdo.dev": {
+      "WebAssemblyInstantiate": 1
+    },
+    "developeratul/lemonsqueezy-nextjs": {}
+  },
+  "near-sdk-simulator": {
+    "capsulesocial/capsule-near": {},
+    "oceanByte/near-academy-contracts": {},
+    "anhfactor/danger-is-near": {},
+    "Learn-NEAR/NCD.L1.sample--nearly-neighbors": {}
+  },
+  "near-sdk-as": {
+    "capsulesocial/capsule-near": {
+      "WebAssemblyInstance": 4
+    },
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 4
+    }
+  },
+  "near-mock-vm": {
+    "capsulesocial/capsule-near": {
+      "WebAssemblyInstance": 4
+    },
+    "oceanByte/near-academy-contracts": {
+      "WebAssemblyInstance": 1
+    },
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 4
+    },
+    "Learn-NEAR/NCD.L1.sample--nearly-neighbors": {}
+  },
+  "meshoptimizer": {
+    "CesiumGS/3d-tiles-validator": {
+      "WebAssemblyInstantiate": 12
+    },
+    "CesiumGS/gltf-pipeline": {
+      "WebAssemblyInstantiate": 14
+    },
+    "Adonis-Stavridis/caroumesh": {},
+    "isoteriksoftware/react-gallery-3d": {}
+  },
+  "@cesium/engine": {
+    "CesiumGS/3d-tiles-validator": {
+      "WebAssemblyInstantiate": 12
+    },
+    "CesiumGS/gltf-pipeline": {
+      "WebAssemblyInstantiate": 14
+    },
+    "Adonis-Stavridis/caroumesh": {}
+  },
+  "cesium": {
+    "CesiumGS/3d-tiles-validator": {
+      "WebAssemblyInstantiate": 18
+    },
+    "CesiumGS/gltf-pipeline": {
+      "WebAssemblyInstantiate": 14
+    },
+    "Adonis-Stavridis/caroumesh": {},
+    "vpdb/vpx-js": {}
+  },
+  "gltfpack": {
+    "CesiumGS/3d-tiles-validator": {
+      "WebAssemblyInstantiate": 18
+    }
+  },
+  "draco3d": {
+    "CesiumGS/3d-tiles-validator": {
+      "WebAssemblyInstantiate": 18
+    },
+    "CesiumGS/gltf-pipeline": {
+      "WebAssemblyInstantiate": 14
+    },
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    },
+    "musehq/spacesvr": {},
+    "Adonis-Stavridis/caroumesh": {},
+    "isoteriksoftware/react-gallery-3d": {}
+  },
+  "3d-tiles-tools": {
+    "CesiumGS/3d-tiles-validator": {
+      "WebAssemblyInstantiate": 18
+    }
+  },
+  "draco3dgltf": {
+    "CesiumGS/3d-tiles-validator": {
+      "WebAssemblyInstantiate": 18
+    }
+  },
+  "opusscript": {
+    "Dragory/modmailbot": {},
+    "stegripe/rawon": {}
+  },
+  "react-scripts": {
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1
+    },
+    "oblador/loki": {},
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "file-loader": {
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1
+    },
+    "vannizhang/unemployment-pulse": {}
+  },
+  "url-loader": {
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "vannizhang/unemployment-pulse": {},
+    "Web3Auth/web3auth-web": {}
+  },
+  "rabin-wasm": {
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "textury/arlocal": {},
+    "stacks-network/gaia": {
+      "WebAssemblyInstance": 8
+    },
+    "dai-shi/remote-faces": {}
+  },
+  "openblimp": {
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    }
+  },
+  "terser-webpack-plugin": {
+    "anhfactor/danger-is-near": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 5
+    },
+    "keyframe-refiner/keyframe-refiner": {},
+    "Razikus/open-balena-dashboard": {}
+  },
+  "ammo.js": {
+    "jelster/space-truckers": {}
+  },
+  "bson": {
+    "genieacs/genieacs": {},
+    "textury/arlocal": {},
+    "textury/ardb": {
+      "WebAssemblyInstance": 1
+    },
+    "CommunityXYZ/community-js": {},
+    "textury/blockweave": {
+      "WebAssemblyInstance": 28
+    },
+    "typeorm/typeorm": {},
+    "AndreMor8/gidget": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 2
+    },
+    "PBillingsby/arweave-nextjs-template": {}
+  },
+  "sh-syntax": {
+    "un-ts/changesets-gitlab": {
+      "WebAssemblyInstantiate": 1
+    },
+    "sapegin/dotfiles": {},
+    "ajslater/codex": {
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "stylus": {
+    "un-ts/changesets-gitlab": {
+      "WebAssemblyInstantiate": 1
+    },
+    "EdgeTranslate/EdgeTranslate": {},
+    "mondaycom/monday-ui-style": {},
+    "advanced-cropper/vue-advanced-cropper": {},
+    "Razikus/open-balena-dashboard": {},
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 24,
+      "WebAssemblyInstance": 6
+    }
+  },
+  "jimp": {
+    "mrdoob/three.js": {},
+    "clairton/unoapi-cloud": {
+      "WebAssemblyInstance": 20
+    },
+    "ixartz/Astro-boilerplate": {},
+    "keyframe-refiner/keyframe-refiner": {},
+    "visjs/vis-timeline": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    }
+  },
+  "@taplo/cli": {
+    "napi-rs/napi-rs": {}
+  },
+  "@webassemblyjs/ast": {
+    "medusajs/medusa": {}
+  },
+  "@storybook/builder-vite": {
+    "medusajs/medusa": {},
+    "status-im/status-web": {}
+  },
+  "generic-names": {
+    "medusajs/medusa": {},
+    "tinloof/vercel-hydrogen-demo-store": {},
+    "Web3Auth/web3auth-web": {},
+    "immobiliare/backstage-plugin-ldap-auth": {}
+  },
+  "@jest/core": {
+    "medusajs/medusa": {}
+  },
+  "@jest/test-sequencer": {
+    "medusajs/medusa": {}
+  },
+  "@storybook/core-server": {
+    "medusajs/medusa": {},
+    "oblador/loki": {},
+    "mondaycom/monday-ui-style": {},
+    "status-im/status-web": {},
+    "Trendyol/baklava": {},
+    "Adonis-Stavridis/caroumesh": {}
+  },
+  "jest-config": {
+    "medusajs/medusa": {}
+  },
+  "jest-runner": {
+    "medusajs/medusa": {}
+  },
+  "@webassemblyjs/wast-printer": {
+    "oblador/loki": {},
+    "EdgeTranslate/EdgeTranslate": {},
+    "textlint/editor": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 3
+    }
+  },
+  "webpack-dev-middleware": {
+    "oblador/loki": {}
+  },
+  "css-loader": {
+    "oblador/loki": {},
+    "vannizhang/unemployment-pulse": {},
+    "concordnow/ember-content-loader": {
+      "WebAssemblyInstance": 13
+    },
+    "concordnow/ember-aria-tabs": {
+      "WebAssemblyInstance": 13
+    }
+  },
+  "@storybook/core": {
+    "oblador/loki": {}
+  },
+  "@storybook/core-common": {
+    "oblador/loki": {}
+  },
+  "@webassemblyjs/wast-parser": {
+    "oblador/loki": {},
+    "EdgeTranslate/EdgeTranslate": {},
+    "textlint/editor": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 3
+    }
+  },
+  "@webassemblyjs/helper-module-context": {
+    "oblador/loki": {},
+    "EdgeTranslate/EdgeTranslate": {},
+    "textlint/editor": {}
+  },
+  "@storybook/react": {
+    "oblador/loki": {}
+  },
+  "@esbuild-kit/core-utils": {
+    "Comandeer/rollup-lib-bundler": {},
+    "webdevcody/dev-finder": {
+      "WebAssemblyInstantiate": 2
+    },
+    "pianity/arsnap": {},
+    "codetheweb/muse": {},
+    "immobiliare/backstage-plugin-ldap-auth": {}
+  },
+  "webpack-stream": {
+    "EdgeTranslate/EdgeTranslate": {}
+  },
+  "@astrojs/image": {
+    "mhaidarhanif/mhaidarhanif-astro": {}
+  },
+  "prettier-plugin-astro": {
+    "mhaidarhanif/mhaidarhanif-astro": {},
+    "ixartz/Astro-boilerplate": {
+      "WebAssemblyInstantiate": 1
+    },
+    "danielcgilibert/blog-template": {}
+  },
+  "redstone-smartweave": {
+    "textury/arlocal": {}
+  },
+  "redstone-wasm-metering": {
+    "textury/arlocal": {},
+    "CommunityXYZ/community-js": {},
+    "PBillingsby/arweave-nextjs-template": {}
+  },
+  "blockweave": {
+    "textury/arlocal": {},
+    "textury/ardb": {
+      "WebAssemblyInstance": 1
+    },
+    "CommunityXYZ/community-js": {},
+    "PBillingsby/arweave-nextjs-template": {}
+  },
+  "@swc/cli": {
+    "textury/blockweave": {
+      "WebAssemblyInstance": 28
+    }
+  },
+  "protobufjs": {
+    "react-hook-form/documentation": {
+      "WebAssemblyInstantiate": 3,
+      "WebAssemblyInstance": 1
+    },
+    "Hacksore/bluelinky": {},
+    "wormhole-foundation/relayer-engine": {
+      "WebAssemblyInstantiate": 18
+    },
+    "input-output-hk/nami": {},
+    "immobiliare/backstage-plugin-ldap-auth": {},
+    "SteffeyDev/homebridge-hyundai-bluelink": {},
+    "Newan/ioBroker.bluelink": {},
+    "g59/nestjs-plugins": {},
+    "dai-shi/remote-faces": {},
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "scss-tokenizer": {
+    "klaro-org/klaro-js": {}
+  },
+  "@one-ini/wasm": {
+    "node-saml/passport-saml": {}
+  },
+  "esbuild-wasm": {
+    "react-declarative/react-declarative": {}
+  },
+  "@react-native/metro-babel-transformer": {
+    "crossplatformkorea/react-native-naver-login": {},
+    "enzomanuelmangano/react-native-qrcode-skia": {}
+  },
+  "md4w": {
+    "unjs/undio": {
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "cashscript0.7.5": {
+    "paytaca/paytaca-app": {}
+  },
+  "cashscript": {
+    "paytaca/paytaca-app": {}
+  },
+  "@generalprotocols/anyhedge": {
+    "paytaca/paytaca-app": {}
+  },
+  "cashc0.7.5": {
+    "paytaca/paytaca-app": {}
+  },
+  "@generalprotocols/anyhedge-contracts": {
+    "paytaca/paytaca-app": {}
+  },
+  "@cashscript/utils": {
+    "paytaca/paytaca-app": {}
+  },
+  "decompress-targz": {
+    "paytaca/paytaca-app": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "textlint/textlint": {}
+  },
+  "decompress-tar": {
+    "paytaca/paytaca-app": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    },
+    "textlint/textlint": {}
+  },
+  "@vue/babel-plugin-resolve-type": {
+    "paytaca/paytaca-app": {}
+  },
+  "@nestjs/cli": {
+    "AxonIQ/giftcard-demo-ts": {}
+  },
+  "@datadog/pprof": {
+    "xmtp/xmtp-js": {}
+  },
+  "@xmtp/user-preferences-bindings-wasm": {
+    "xmtp/xmtp-js": {
+      "WebAssemblyInstance": 377,
+      "WebAssemblyInstantiate": 89
+    }
+  },
+  "@datadog/native-iast-rewriter": {
+    "xmtp/xmtp-js": {
+      "WebAssemblyInstance": 378,
+      "WebAssemblyInstantiate": 89
+    }
+  },
+  "vite-plugin-externals": {
+    "status-im/status-web": {}
+  },
+  "xsalsa20": {
+    "status-im/status-web": {},
+    "waku-org/js-rln": {},
+    "stacks-network/gaia": {
+      "WebAssemblyInstance": 8
+    },
+    "ipfs-shipyard/ipfs-pubsub-room": {},
+    "dai-shi/remote-faces": {}
+  },
+  "@waku/zerokit-rln-wasm": {
+    "waku-org/js-rln": {
+      "WebAssemblyInstance": 6
+    }
+  },
+  "rabin-rs": {
+    "InsightSoftwareConsortium/ITKElastix": {}
+  },
+  "itk-wasm": {
+    "InsightSoftwareConsortium/ITKElastix": {}
+  },
+  "wasm-feature-detect": {
+    "InsightSoftwareConsortium/ITKElastix": {}
+  },
+  "@thewtex/zstddec": {
+    "InsightSoftwareConsortium/ITKElastix": {
+      "WebAssemblyInstance": 1
+    }
+  },
+  "@deck.gl/geo-layers": {
+    "visgl/loaders.gl-showcases": {}
+  },
+  "deck.gl": {
+    "visgl/loaders.gl-showcases": {}
+  },
+  "@loaders.gl/3d-tiles": {
+    "visgl/loaders.gl-showcases": {}
+  },
+  "@deck.gl/mesh-layers": {
+    "visgl/loaders.gl-showcases": {}
+  },
+  "@loaders.gl/crypto": {
+    "visgl/loaders.gl-showcases": {}
+  },
+  "@loaders.gl/gltf": {
+    "visgl/loaders.gl-showcases": {}
+  },
+  "@loaders.gl/draco": {
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "@arcgis/core": {
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 6
+    }
+  },
+  "@loaders.gl/textures": {
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "@loaders.gl/i3s": {
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "@loaders.gl/zip": {
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "@deck.gl-community/layers": {
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "lzo-wasm": {
+    "visgl/loaders.gl-showcases": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "mini-css-extract-plugin": {
+    "vannizhang/unemployment-pulse": {}
+  },
+  "babel-loader": {
+    "vannizhang/unemployment-pulse": {}
+  },
+  "@novorender/api": {
+    "novorender/novoweb": {}
+  },
+  "@novorender/data-js-api": {
+    "novorender/novoweb": {}
+  },
+  "@novorender/webgl-api": {
+    "novorender/novoweb": {}
+  },
+  "@phala/pink-env": {
+    "Phala-Network/framehub-template": {}
+  },
+  "@kentcdodds/workshop-app": {
+    "epicweb-dev/react-fundamentals": {},
+    "epicweb-dev/react-hooks": {},
+    "epicweb-dev/advanced-react-hooks": {},
+    "epicweb-dev/react-suspense": {},
+    "epicweb-dev/react-server-components": {},
+    "epicweb-dev/testing-fundamentals": {}
+  },
+  "@shikijs/core": {
+    "epicweb-dev/react-fundamentals": {},
+    "epicweb-dev/react-hooks": {},
+    "epicweb-dev/advanced-react-hooks": {},
+    "epicweb-dev/react-suspense": {},
+    "epicweb-dev/react-server-components": {}
+  },
+  "@vercel/node": {
+    "lyc8503/UptimeFlare": {
+      "WebAssemblyInstantiate": 3
+    },
+    "kohii/medi-xplorer": {}
+  },
+  "vercel": {
+    "lyc8503/UptimeFlare": {
+      "WebAssemblyInstantiate": 3
+    },
+    "kohii/medi-xplorer": {},
+    "arthureberledev/packagepeek": {
+      "WebAssemblyInstantiate": 3
+    },
+    "sanity-io/demo-ecommerce": {}
+  },
+  "@tensorflow/tfjs": {
+    "spotify/basic-pitch-ts": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "@tensorflow/tfjs-layers": {
+    "spotify/basic-pitch-ts": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "@tensorflow/tfjs-core": {
+    "spotify/basic-pitch-ts": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "@tensorflow/tfjs-converter": {
+    "spotify/basic-pitch-ts": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "libsignal": {
+    "robvanderleek/mudslide": {},
+    "clairton/unoapi-cloud": {
+      "WebAssemblyInstance": 20
+    }
+  },
+  "@vercel/ncc": {
+    "robvanderleek/mudslide": {},
+    "transmute-industries/transmute": {}
+  },
+  "@astropub/codecs": {
+    "ixartz/Astro-boilerplate": {}
+  },
+  "@jimp/core": {
+    "ixartz/Astro-boilerplate": {},
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    }
+  },
+  "sanity": {
+    "sanity-io/demo-ecommerce": {}
+  },
+  "@miniflare/core": {
+    "sanity-io/demo-ecommerce": {}
+  },
+  "@miniflare/web-sockets": {
+    "sanity-io/demo-ecommerce": {}
+  },
+  "@miniflare/cache": {
+    "sanity-io/demo-ecommerce": {}
+  },
+  "@sanity/cli": {
+    "sanity-io/demo-ecommerce": {}
+  },
+  "@remix-run/server-runtime": {
+    "sanity-io/demo-ecommerce": {},
+    "tinloof/vercel-hydrogen-demo-store": {}
+  },
+  "@shopify/cli-hydrogen": {
+    "sanity-io/demo-ecommerce": {}
+  },
+  "miniflare": {
+    "juanpprieto/hydrogen-css-hooks": {}
+  },
+  "esbuild-plugin-wat": {
+    "OGKevin/obsidian-kobo-highlights-import": {}
+  },
+  "@webassemblyjs/wasm-edit": {
+    "textlint/editor": {}
+  },
+  "@webassemblyjs/wasm-opt": {
+    "textlint/editor": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 3
+    }
+  },
+  "@webassemblyjs/helper-wasm-section": {
+    "textlint/editor": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 3
+    }
+  },
+  "@certusone/wormhole-sdk-wasm": {
+    "wormhole-foundation/relayer-engine": {},
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "@osmonauts/helpers": {
+    "wormhole-foundation/relayer-engine": {}
+  },
+  "cosmjs-types": {
+    "wormhole-foundation/relayer-engine": {}
+  },
+  "@cosmjs/proto-signing": {
+    "wormhole-foundation/relayer-engine": {}
+  },
+  "@cosmjs/stargate": {
+    "wormhole-foundation/relayer-engine": {}
+  },
+  "@tenderly/hardhat-tenderly": {
+    "gfx-labs/ip-contracts": {}
+  },
+  "@injectivelabs/mito-proto-ts": {
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    },
+    "wormhole-foundation/wormhole-sdk-ts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 4
+    },
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@injectivelabs/core-proto-ts": {
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    },
+    "wormhole-foundation/wormhole-sdk-ts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 4
+    },
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@injectivelabs/indexer-proto-ts": {
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    },
+    "wormhole-foundation/wormhole-sdk-ts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 4
+    },
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@certusone/wormhole-sdk-proto-web": {
+    "gfx-labs/ip-contracts": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 6
+    }
+  },
+  "@injectivelabs/dmm-proto-ts": {
+    "wormhole-foundation/wormhole-sdk-ts": {
+      "WebAssemblyInstance": 8,
+      "WebAssemblyInstantiate": 4
+    },
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@parcel/watcher-wasm": {
+    "Web3Auth/web3auth-web": {},
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {},
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@massalabs/as-transformer": {
+    "massalabs/massa-sc-toolkit": {}
+  },
+  "gulp-typescript": {
+    "typeorm/typeorm": {}
+  },
+  "hardhat": {
+    "poolshark-protocol/range": {}
+  },
+  "byte-parse-as": {
+    "JairusSW/as-tbs": {
+      "WebAssemblyInstance": 2,
+      "WebAssemblyInstantiate": 3
+    }
+  },
+  "@web3api/wasm-as": {
+    "gelatodigital/gelato-polywrap-template": {}
+  },
+  "@web3api/cli": {
+    "gelatodigital/gelato-polywrap-template": {
+      "WebAssemblyInstantiate": 3
+    }
+  },
+  "@web3api/assemblyscript-json": {
+    "gelatodigital/gelato-polywrap-template": {
+      "WebAssemblyInstantiate": 3
+    }
+  },
+  "fonteditor-core": {
+    "Zenika/sensei": {}
+  },
+  "decktape": {
+    "Zenika/sensei": {}
+  },
+  "@web/dev-server": {
+    "Trendyol/baklava": {}
+  },
+  "@web/dev-server-core": {
+    "Trendyol/baklava": {}
+  },
+  "ipfs-core": {
+    "stacks-network/gaia": {
+      "WebAssemblyInstance": 8
+    },
+    "dai-shi/remote-faces": {}
+  },
+  "ipns": {
+    "stacks-network/gaia": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "ipfs-unixfs-importer": {
+    "stacks-network/gaia": {
+      "WebAssemblyInstance": 8
+    },
+    "dai-shi/remote-faces": {}
+  },
+  "ipfs-core-types": {
+    "stacks-network/gaia": {
+      "WebAssemblyInstance": 8
+    }
+  },
+  "tiny-secp256k1": {
+    "stacks-network/gaia": {
+      "WebAssemblyInstance": 20
+    }
+  },
+  "@webgpu/glslang": {
+    "musehq/spacesvr": {}
+  },
+  "zstddec": {
+    "musehq/spacesvr": {},
+    "Adonis-Stavridis/caroumesh": {}
+  },
+  "three-stdlib": {
+    "musehq/spacesvr": {},
+    "Adonis-Stavridis/caroumesh": {},
+    "isoteriksoftware/react-gallery-3d": {}
+  },
+  "@mediapipe/tasks-vision": {
+    "Adonis-Stavridis/caroumesh": {},
+    "isoteriksoftware/react-gallery-3d": {}
+  },
+  "@react-three/postprocessing": {
+    "Adonis-Stavridis/caroumesh": {}
+  },
+  "netlify-cli": {
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {}
+  },
+  "@netlify/edge-bundler": {
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {}
+  },
+  "@netlify/binary-info": {
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {}
+  },
+  "@netlify/serverless-functions-api": {
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {}
+  },
+  "@netlify/zip-it-and-ship-it": {
+    "AleksandrHovhannisyan/aleksandrhovhannisyan.com": {}
+  },
+  "canvaskit-wasm": {
+    "enzomanuelmangano/react-native-qrcode-skia": {}
+  },
+  "metro-config": {
+    "dropy-project/front": {}
+  },
+  "@storybook/addon-webpack5-compiler-swc": {
+    "inokawa/rich-textarea": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "drizzle-kit": {
+    "webdevcody/dev-finder": {
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "cross-undici-fetch": {
+    "pianity/arsnap": {}
+  },
+  "@pianity/arsnap-keygen": {
+    "pianity/arsnap": {}
+  },
+  "graphql-config": {
+    "pianity/arsnap": {}
+  },
+  "@graphql-codegen/cli": {
+    "pianity/arsnap": {}
+  },
+  "@graphql-tools/apollo-engine-loader": {
+    "pianity/arsnap": {}
+  },
+  "@mole-inc/bin-wrapper": {
+    "stegripe/rawon": {}
+  },
+  "@discordjs/rest": {
+    "codetheweb/muse": {},
+    "distubejs/example": {},
+    "skick1234/DisTube": {
+      "WebAssemblyInstantiate": 53
+    }
+  },
+  "discord.js": {
+    "codetheweb/muse": {},
+    "distubejs/example": {},
+    "skick1234/DisTube": {
+      "WebAssemblyInstantiate": 53
+    }
+  },
+  "@discordjs/ws": {
+    "codetheweb/muse": {}
+  },
+  "google-gax": {
+    "immobiliare/backstage-plugin-ldap-auth": {}
+  },
+  "mysql2": {
+    "immobiliare/backstage-plugin-ldap-auth": {}
+  },
+  "esbuild-loader": {
+    "immobiliare/backstage-plugin-ldap-auth": {}
+  },
+  "testcontainers": {
+    "immobiliare/backstage-plugin-ldap-auth": {}
+  },
+  "@esbuild-kit/esm-loader": {
+    "immobiliare/backstage-plugin-ldap-auth": {}
+  },
+  "@davidzemon/passport-okta-oauth": {
+    "immobiliare/backstage-plugin-ldap-auth": {}
+  },
+  "@homebridge/long": {
+    "SteffeyDev/homebridge-hyundai-bluelink": {}
+  },
+  "opencv-ts": {
+    "keyframe-refiner/keyframe-refiner": {}
+  },
+  "svelte-check": {
+    "keyframe-refiner/keyframe-refiner": {}
+  },
+  "firebase-admin": {
+    "g59/nestjs-plugins": {}
+  },
+  "@angular-devkit/core": {
+    "g59/nestjs-plugins": {}
+  },
+  "@nestjs/schematics": {
+    "g59/nestjs-plugins": {}
+  },
+  "postcss-modules": {
+    "visjs/vis-timeline": {}
+  },
+  "rollup-plugin-vue": {
+    "advanced-cropper/vue-advanced-cropper": {}
+  },
+  "ipfs": {
+    "dai-shi/remote-faces": {}
+  },
+  "raw-loader": {
+    "dai-shi/remote-faces": {}
+  },
+  "@webassemblyjs/leb128": {
+    "ipfs-shipyard/y-ipfs-connector": {}
+  },
+  "@distube/yt-dlp": {
+    "distubejs/example": {}
+  },
+  "@distube/ytsr": {
+    "distubejs/example": {}
+  },
+  "mongoose": {
+    "AndreMor8/gidget": {
+      "WebAssemblyInstance": 1,
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "@polkadot/types-augment": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/types-codec": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/types-support": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/rpc-augment": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/types-known": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/networks": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@trezor/transport": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@injectivelabs/wallet-ts": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@solana/wallet-adapter-trezor": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/rpc-provider": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@emurgo/cardano-serialization-lib-browser": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/types-create": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/api": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@trezor/protobuf": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/keyring": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/api-derive": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/rpc-core": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/api-augment": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@polkadot/api-base": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@emurgo/cardano-serialization-lib-nodejs": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@react-native/codegen": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "@toruslabs/solana-embed": {
+    "notifi-network/notifi-sdk-ts": {}
+  },
+  "oxigraph": {
+    "zazuko/vscode-sparql-notebook": {
+      "WebAssemblyInstance": 6
+    }
+  },
+  "@balena/node-crc-utils": {
+    "balena-os/jetson-flash": {}
+  },
+  "ext2fs": {
+    "balena-os/jetson-flash": {},
+    "balena-os/leviathan": {}
+  },
+  "balena-image-fs": {
+    "balena-os/jetson-flash": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@unirep/contracts": {
+    "vivianjeng/anon-transfer": {}
+  },
+  "@unirep/circuits": {
+    "vivianjeng/anon-transfer": {}
+  },
+  "@taplo/lib": {
+    "ajslater/codex": {
+      "WebAssemblyInstantiate": 2
+    }
+  },
+  "@code-hike/lighter": {
+    "neplextech/canvacord": {}
+  },
+  "@grpc/grpc-js": {
+    "Karhdo/karhdo.dev": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@matrix-org/olm": {
+    "element-hq/hydrogen-web": {
+      "WebAssemblyInstantiate": 3
+    }
+  },
+  "redstone-wasm-json-toolkit": {
+    "PBillingsby/arweave-nextjs-template": {}
+  },
+  "@openui5/sap.ui.core": {
+    "cevou/openui5-redux-model": {}
+  },
+  "markdown-wasm": {
+    "concordnow/ember-content-loader": {
+      "WebAssemblyInstance": 13
+    },
+    "concordnow/ember-aria-tabs": {
+      "WebAssemblyInstance": 13
+    }
+  },
+  "hyphenopoly": {
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    }
+  },
+  "hdr-histogram-js": {
+    "vertx-web-site/vertx-web-site.github.io": {
+      "WebAssemblyInstantiate": 1,
+      "WebAssemblyInstance": 1
+    }
+  },
+  "@swagger-api/apidom-parser-adapter-openapi-json-3-0": {
+    "diggsweden/dataportal-web": {}
+  },
+  "@swagger-api/apidom-parser-adapter-openapi-json-2": {
+    "diggsweden/dataportal-web": {}
+  },
+  "@swagger-api/apidom-parser-adapter-openapi-yaml-3-0": {
+    "diggsweden/dataportal-web": {}
+  },
+  "@swagger-api/apidom-parser-adapter-api-design-systems-json": {
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@swagger-api/apidom-parser-adapter-openapi-json-3-1": {
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@swagger-api/apidom-parser-adapter-json": {
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@swagger-api/apidom-parser-adapter-openapi-yaml-2": {
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@swagger-api/apidom-parser-adapter-openapi-yaml-3-1": {
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@swagger-api/apidom-parser-adapter-asyncapi-json-2": {
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@swagger-api/apidom-parser-adapter-asyncapi-yaml-2": {
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@swagger-api/apidom-parser-adapter-yaml-1-2": {
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "web-tree-sitter": {
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@swagger-api/apidom-parser-adapter-api-design-systems-yaml": {
+    "diggsweden/dataportal-web": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "near-api-js": {
+    "dabit3/titter": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "@ceramicnetwork/blockchain-utils-linking": {
+    "dabit3/titter": {
+      "WebAssemblyInstantiate": 1
+    }
+  },
+  "snyk": {
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 20,
+      "WebAssemblyInstance": 18
+    }
+  },
+  "editorconfig-checker": {
+    "lingui/js-lingui": {
+      "WebAssemblyInstantiate": 24,
+      "WebAssemblyInstance": 18
+    }
+  }
+}

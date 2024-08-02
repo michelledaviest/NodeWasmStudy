@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/sonatype/nexus-public",
+    "stars": 1743
+  },
+  {
+    "url": "https://github.com/OSBI/saiku",
+    "stars": 1296
+  },
+  {
+    "url": "https://github.com/strongbox/strongbox",
+    "stars": 582
+  },
+  {
+    "url": "https://github.com/gentics/mesh",
+    "stars": 567
+  },
+  {
+    "url": "https://github.com/thorntail/thorntail",
+    "stars": 390
+  },
+  {
+    "url": "https://github.com/HiddenStage/divide",
+    "stars": 281
+  },
+  {
+    "url": "https://github.com/OrienteerBAP/Orienteer",
+    "stars": 230
+  },
+  {
+    "url": "https://github.com/vineodd/PIMSim",
+    "stars": 169
+  },
+  {
+    "url": "https://github.com/orientechnologies/spring-data-orientdb",
+    "stars": 128
+  },
+  {
+    "url": "https://github.com/apache/gora",
+    "stars": 113
+  },
+  {
+    "url": "https://github.com/orientechnologies/orientdb-gremlin",
+    "stars": 90
+  },
+  {
+    "url": "https://github.com/attdevsupport/VideoOptimizer",
+    "stars": 72
+  },
+  {
+    "url": "https://github.com/mkalus/segrada",
+    "stars": 68
+  },
+  {
+    "url": "https://github.com/apache/openwebbeans-meecrowave",
+    "stars": 55
+  },
+  {
+    "url": "https://github.com/a-langer/nexus-sso",
+    "stars": 49
+  },
+  {
+    "url": "https://github.com/ForgeRock/openidm-community-edition",
+    "stars": 46
+  },
+  {
+    "url": "https://github.com/openengsb/openengsb",
+    "stars": 43
+  },
+  {
+    "url": "https://github.com/trustedanalytics/atk",
+    "stars": 43
+  },
+  {
+    "url": "https://github.com/orientechnologies/orientdb-lucene",
+    "stars": 35
+  },
+  {
+    "url": "https://github.com/robmccoll/graphdb-testing",
+    "stars": 35
+  },
+  {
+    "url": "https://github.com/orientechnologies/orientdb-etl",
+    "stars": 34
+  },
+  {
+    "url": "https://github.com/WrenSecurity/wrenidm",
+    "stars": 33
+  },
+  {
+    "url": "https://github.com/OrienteerBAP/wicket-orientdb",
+    "stars": 33
+  },
+  {
+    "url": "https://github.com/trustedanalytics/spark-tk",
+    "stars": 32
+  },
+  {
+    "url": "https://github.com/networknt/light",
+    "stars": 31
+  },
+  {
+    "url": "https://github.com/Rogiel/l2jserver2",
+    "stars": 29
+  },
+  {
+    "url": "https://github.com/Jotschi/vertx-graphql-example",
+    "stars": 29
+  },
+  {
+    "url": "https://github.com/obiba/opal",
+    "stars": 28
+  },
+  {
+    "url": "https://github.com/noskovd/spring-data-orient",
+    "stars": 21
+  },
+  {
+    "url": "https://github.com/ops4j/org.ops4j.orient",
+    "stars": 21
+  }
+]

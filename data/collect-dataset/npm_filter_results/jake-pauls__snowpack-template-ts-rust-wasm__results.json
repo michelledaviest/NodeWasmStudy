@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:wasm"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:wasm"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709687629.8722775,
+            "end_time": 1709687638.2973964
+        },
+        "test:wasm": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709687638.2977176,
+            "end_time": 1709687638.8521876
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709687638.8525267,
+            "end_time": 1709687639.1585577
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/snowpack-template-ts-rust-wasm"
+    }
+}

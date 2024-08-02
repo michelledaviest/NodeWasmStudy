@@ -1,0 +1,48 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:es6",
+            "build:icons",
+            "build:react:es6",
+            "build:storybook",
+            "build:styles",
+            "build:typedocs",
+            "build:types"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709770621.1762233,
+            "end_time": 1709770626.1753316
+        },
+        "lint:styles": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709770626.1756825,
+            "end_time": 1709770626.8614125
+        },
+        "test": {
+            "num_passing": 12,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709770626.861651,
+            "end_time": 1709770627.5584126
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/pcui"
+    }
+}

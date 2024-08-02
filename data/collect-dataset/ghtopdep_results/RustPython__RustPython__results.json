@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://github.com/NixOS/nixpkgs",
+    "stars": 15500
+  },
+  {
+    "url": "https://github.com/xJonathanLEI/oriac",
+    "stars": 71
+  },
+  {
+    "url": "https://github.com/demergent-labs/kybra",
+    "stars": 65
+  },
+  {
+    "url": "https://github.com/PikuseruConsole/pikuseru",
+    "stars": 55
+  },
+  {
+    "url": "https://github.com/peng1999/typst-pyrunner",
+    "stars": 24
+  },
+  {
+    "url": "https://github.com/kobaltcore/renkit",
+    "stars": 21
+  },
+  {
+    "url": "https://github.com/UMassCybersecurity/UMassCTF-2023-challenges-mirror",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/baris-inandi/IBPS",
+    "stars": 5
+  }
+]

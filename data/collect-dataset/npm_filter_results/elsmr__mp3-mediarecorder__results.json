@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "vercel-build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 16,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/elsmr/mp3-mediarecorder"
+    }
+}

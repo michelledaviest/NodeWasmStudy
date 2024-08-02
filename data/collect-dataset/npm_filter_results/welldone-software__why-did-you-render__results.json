@@ -1,0 +1,97 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:automatic",
+                "test:classic"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712712723.5737178,
+            "end_time": 1712712730.865687
+        },
+        "test:automatic": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712712730.8660867,
+            "end_time": 1712712733.8144727
+        },
+        "test:classic": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712712733.8148355,
+            "end_time": 1712712736.8103032
+        },
+        "_test": {
+            "num_passing": 204,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712712736.81075,
+            "end_time": 1712712739.509141
+        },
+        "test:ci": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "coveralls -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712712739.5099711,
+            "end_time": 1712712746.5643184
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712712746.5647662,
+            "end_time": 1712712750.2816308
+        },
+        "_cypress:run:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712712750.282045,
+            "end_time": 1712712751.0341473
+        },
+        "_cypress:run:ci:classic": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712712751.034566,
+            "end_time": 1712712751.7880125
+        },
+        "cypress:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712712751.7884536,
+            "end_time": 1712712758.2901986
+        },
+        "cypress:ci:classic": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712712758.2906456,
+            "end_time": 1712712764.882546
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/why-did-you-render"
+    }
+}

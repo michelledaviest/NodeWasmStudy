@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:atomic-asset-typescript"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test:atomic-asset": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712787322.1918623,
+            "end_time": 1712787327.6464133
+        },
+        "test:erc20": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712787327.6467767,
+            "end_time": 1712787332.9991784
+        },
+        "test:pst": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712787332.9994931,
+            "end_time": 1712787339.2779398
+        },
+        "test:example:staking": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712787339.2782564,
+            "end_time": 1712787344.3447874
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/wrc"
+    }
+}

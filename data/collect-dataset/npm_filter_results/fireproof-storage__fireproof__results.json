@@ -1,0 +1,118 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:clean",
+            "build:clean:blockstore",
+            "build:clean:core",
+            "build:clean:react",
+            "build:clean:solid"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint:check": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721444.4161203,
+            "end_time": 1712721445.238406
+        },
+        "lint:check:react": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721445.2388148,
+            "end_time": 1712721446.0307486
+        },
+        "lint:check:solid": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721446.031181,
+            "end_time": 1712721446.8417318
+        },
+        "lint:fix": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721446.842177,
+            "end_time": 1712721447.6483183
+        },
+        "lint:fix:react": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721447.6487007,
+            "end_time": 1712721448.4616475
+        },
+        "lint:fix:solid": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721448.4620688,
+            "end_time": 1712721449.2719996
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721449.2724235,
+            "end_time": 1712721450.8005857
+        },
+        "test:blockstore": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721450.801016,
+            "end_time": 1712721452.3334618
+        },
+        "test:core": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721452.3339107,
+            "end_time": 1712721453.8749108
+        },
+        "test:cov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721453.8753152,
+            "end_time": 1712721454.7000546
+        },
+        "test:cov:react": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721454.7004623,
+            "end_time": 1712721455.5168571
+        },
+        "test:cov:solid": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721455.517285,
+            "end_time": 1712721456.3274016
+        },
+        "test:react": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721456.3278356,
+            "end_time": 1712721457.1398845
+        },
+        "test:solid": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712721457.1402955,
+            "end_time": 1712721457.9621341
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/fireproof"
+    }
+}

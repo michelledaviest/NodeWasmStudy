@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://github.com/ossf/scorecard",
+    "stars": 4096
+  },
+  {
+    "url": "https://github.com/google/osv.dev",
+    "stars": 1392
+  },
+  {
+    "url": "https://github.com/ossf/criticality_score",
+    "stars": 1279
+  },
+  {
+    "url": "https://github.com/ossf/allstar",
+    "stars": 1182
+  },
+  {
+    "url": "https://github.com/guacsec/guac",
+    "stars": 1163
+  },
+  {
+    "url": "https://github.com/Legit-Labs/legitify",
+    "stars": 706
+  },
+  {
+    "url": "https://github.com/golang/vulndb",
+    "stars": 537
+  },
+  {
+    "url": "https://github.com/ossf/scorecard-action",
+    "stars": 220
+  },
+  {
+    "url": "https://github.com/ossf/malicious-packages",
+    "stars": 188
+  },
+  {
+    "url": "https://github.com/safedep/vet",
+    "stars": 170
+  },
+  {
+    "url": "https://github.com/wolfi-dev/wolfictl",
+    "stars": 43
+  },
+  {
+    "url": "https://github.com/grafana/plugin-validator",
+    "stars": 22
+  },
+  {
+    "url": "https://github.com/jetstack/tally",
+    "stars": 15
+  }
+]

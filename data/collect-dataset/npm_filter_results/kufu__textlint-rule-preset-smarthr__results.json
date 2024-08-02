@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test:textlint-scripts": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712900820.9660563,
+            "end_time": 1712900825.4981499
+        },
+        "test:dict": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712900825.49846,
+            "end_time": 1712900826.0357473
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:textlint-scripts",
+                "test:dict"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712900826.0360126,
+            "end_time": 1712900831.3201964
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/textlint-rule-preset-smarthr"
+    }
+}

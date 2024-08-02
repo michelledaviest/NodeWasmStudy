@@ -1,0 +1,56 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "bench": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784447.4287844,
+            "end_time": 1709784449.7219315
+        },
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784449.722365,
+            "end_time": 1709784450.08573
+        },
+        "tap": {
+            "num_passing": 118,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false,
+            "start_time": 1709784450.0859702,
+            "end_time": 1709784451.1160057
+        },
+        "test": {
+            "nested_test_commands": [
+                "tap"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784451.1173925,
+            "end_time": 1709784452.7786193
+        },
+        "posttest": {
+            "nested_test_commands": [
+                "eslint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709784452.778891,
+            "end_time": 1709784453.5188584
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/v8-compile-cache"
+    }
+}

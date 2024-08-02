@@ -1,0 +1,36 @@
+const fs = require('fs');
+const binary = fs.readFileSync("example.wasm");
+
+(async () => {
+    const importObject = {
+        'host': {
+            'print': arg => {
+                console.log(arg);
+            },
+    }};
+
+    const result = await WebAssembly.compile(binary);                       // WebAssemblyLoadAttr,compile,
+                                                                            // WebAssemblyCompile,
+                                                                            // WebAssemblyCompileWithType,Uint8Array,
+                                                                            // DumpCompiledWasm,/home/RealWasm/docker-tmp/realwasm-module-4df03ccb94.wasm,
+                                                                            // WebAssemblyCompileWithHash,4df03ccb94,        
+
+    const instance = await WebAssembly.instantiate(result, importObject);   // WebAssemblyLoadAttr,instantiate,
+                                                                            // WebAssemblyInstantiate,
+                                                                            // WebAssemblyInstantiateWithType,WebAssembly.Module,
+                                                                            // WebAssemblyInstantiateWithHash,4df03ccb94,
+                                                                            // WebAssemblyImport,4df03ccb94,host,print,Function,
+                                                                            // WebAssemblyLoadInstanceAttr,4df03ccb94,then,
+
+    instance.exports.main();                                                // WebAssemblyLoadInstanceAttr,4df03ccb94,exports,
+                                                                            // WebAssemblyCallExport,4df03ccb94,main,
+                                                                            // WebAssemblyCallImport,4df03ccb94,host,print,
+
+    instance.exports.foo();                                                 // WebAssemblyLoadInstanceAttr,4df03ccb94,exports,
+                                                                            // WebAssemblyCallExport,4df03ccb94,foo,
+                                                                            // WebAssemblyCallImport,4df03ccb94,host,print,
+
+    instance.exports.table.get(0)();                                        // WebAssemblyLoadInstanceAttr,4df03ccb94,exports,
+                                                                            // WebAssemblyCallTableExport,4df03ccb94,0,
+                                                                            // WebAssemblyCallImport,4df03ccb94,host,print,
+})();

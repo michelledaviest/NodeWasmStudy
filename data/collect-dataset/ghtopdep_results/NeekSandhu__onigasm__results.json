@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/tauri-apps/tauri",
+    "stars": 64007
+  },
+  {
+    "url": "https://github.com/Eugeny/tabby",
+    "stars": 47413
+  },
+  {
+    "url": "https://github.com/cypress-io/cypress",
+    "stars": 43476
+  },
+  {
+    "url": "https://github.com/microsoft/monaco-editor",
+    "stars": 34262
+  },
+  {
+    "url": "https://github.com/jaredpalmer/formik",
+    "stars": 32387
+  },
+  {
+    "url": "https://github.com/cheeriojs/cheerio",
+    "stars": 26425
+  },
+  {
+    "url": "https://github.com/dotnet-architecture/eShopOnContainers",
+    "stars": 23293
+  },
+  {
+    "url": "https://github.com/homebridge/homebridge",
+    "stars": 21980
+  },
+  {
+    "url": "https://github.com/expo/expo",
+    "stars": 20657
+  },
+  {
+    "url": "https://github.com/eclipse-theia/theia",
+    "stars": 18098
+  },
+  {
+    "url": "https://github.com/asdf-vm/asdf",
+    "stars": 17601
+  },
+  {
+    "url": "https://github.com/redis/node-redis",
+    "stars": 16190
+  },
+  {
+    "url": "https://github.com/sass/sass",
+    "stars": 14515
+  },
+  {
+    "url": "https://github.com/trufflesuite/truffle",
+    "stars": 13926
+  },
+  {
+    "url": "https://github.com/jupyterlab/jupyterlab",
+    "stars": 12978
+  },
+  {
+    "url": "https://github.com/codesandbox/codesandbox-client",
+    "stars": 12396
+  },
+  {
+    "url": "https://github.com/TypeStrong/ts-node",
+    "stars": 11790
+  },
+  {
+    "url": "https://github.com/apache/arrow",
+    "stars": 11787
+  },
+  {
+    "url": "https://github.com/highcharts/highcharts",
+    "stars": 11125
+  },
+  {
+    "url": "https://github.com/refinedev/refine",
+    "stars": 11041
+  },
+  {
+    "url": "https://github.com/jacomyal/sigma.js",
+    "stars": 10617
+  },
+  {
+    "url": "https://github.com/vuestorefront/vue-storefront",
+    "stars": 10215
+  },
+  {
+    "url": "https://github.com/dotansimha/graphql-code-generator",
+    "stars": 10027
+  },
+  {
+    "url": "https://github.com/mongodb/node-mongodb-native",
+    "stars": 9770
+  },
+  {
+    "url": "https://github.com/mapeditor/tiled",
+    "stars": 9649
+  },
+  {
+    "url": "https://github.com/microsoft/onnxruntime",
+    "stars": 9398
+  },
+  {
+    "url": "https://github.com/shoelace-style/shoelace",
+    "stars": 8820
+  },
+  {
+    "url": "https://github.com/apitable/apitable",
+    "stars": 8735
+  },
+  {
+    "url": "https://github.com/rematch/rematch",
+    "stars": 8374
+  },
+  {
+    "url": "https://github.com/ariakit/ariakit",
+    "stars": 6784
+  }
+]

@@ -1,0 +1,58 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:parser",
+            "build:browser",
+            "build"
+        ]
+    },
+    "testing": {
+        "mocha": {
+            "num_passing": 134,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1709809649.1661918,
+            "end_time": 1709809650.5065851
+        },
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "mocha",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809650.5100503,
+            "end_time": 1709809653.605762
+        },
+        "test:ci": {
+            "nested_test_commands": [
+                "mocha"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809653.6061528,
+            "end_time": 1709809654.6937962
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809654.6940985,
+            "end_time": 1709809655.56178
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/esquery"
+    }
+}

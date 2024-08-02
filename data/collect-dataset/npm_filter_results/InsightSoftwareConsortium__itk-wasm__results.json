@@ -1,0 +1,84 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test:wasi": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709510007.5198102,
+            "end_time": 1709510008.759121
+        },
+        "test:lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709510008.7595217,
+            "end_time": 1709510009.5287461
+        },
+        "test:node": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709510009.52919,
+            "end_time": 1709510010.2997072
+        },
+        "test:browser:chrome": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709510010.3001206,
+            "end_time": 1709510011.0980344
+        },
+        "test:browser:firefox": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709510011.0984514,
+            "end_time": 1709510011.8025048
+        },
+        "test:python:wasi": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709510011.8029928,
+            "end_time": 1709510012.5251276
+        },
+        "test:python:emscripten": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709510012.5258377,
+            "end_time": 1709510013.2790022
+        },
+        "test:python": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709510013.2794843,
+            "end_time": 1709510013.9939988
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709510013.994459,
+            "end_time": 1709510015.2308967
+        },
+        "ci:publish": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709510015.2311432,
+            "end_time": 1709510016.1477294
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/itk-wasm"
+    }
+}

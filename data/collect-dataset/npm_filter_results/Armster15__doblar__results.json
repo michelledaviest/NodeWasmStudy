@@ -1,0 +1,15 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-sw"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/Armster15/doblar"
+    }
+}

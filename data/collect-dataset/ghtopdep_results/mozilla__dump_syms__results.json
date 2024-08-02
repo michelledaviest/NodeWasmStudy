@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://github.com/rust-minidump/rust-minidump",
+    "stars": 403
+  },
+  {
+    "url": "https://github.com/libbpf/blazesym",
+    "stars": 73
+  },
+  {
+    "url": "https://github.com/rust-minidump/minidump-writer",
+    "stars": 64
+  },
+  {
+    "url": "https://github.com/rust-minidump/minidump-debugger",
+    "stars": 61
+  }
+]

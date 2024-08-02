@@ -1,0 +1,59 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:all",
+            "build:maintainer",
+            "build:radar"
+        ]
+    },
+    "testing": {
+        "jest": {
+            "ERROR": true,
+            "num_passing": 79,
+            "num_failing": 1,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1710964342.758244,
+            "end_time": 1710964371.24706
+        },
+        "jest:coverage": {
+            "ERROR": true,
+            "num_passing": 79,
+            "num_failing": 1,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1710964371.2479863,
+            "end_time": 1710964388.9715142
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710964388.9719913,
+            "end_time": 1710964414.8282266
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "jest:coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710964414.8284857,
+            "end_time": 1710964416.3536909
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/RSSHub"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "installation": {
+        "installer_command": "yarn",
+        "ERROR": true
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lesslint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712912069.9027035,
+            "end_time": 1712912070.144381
+        },
+        "eslint_fix": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712912070.1447153,
+            "end_time": 1712912070.3844728
+        },
+        "eslint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712912070.3847551,
+            "end_time": 1712912070.632989
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1712912070.633303,
+            "end_time": 1712912070.9175591
+        },
+        "coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712912070.9233537,
+            "end_time": 1712912071.4824226
+        },
+        "lint-staged": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712912071.4827392,
+            "end_time": 1712912071.74875
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/BankRollerApp"
+    }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/supabase/supabase",
+    "stars": 50957
+  },
+  {
+    "url": "https://github.com/withastro/astro",
+    "stars": 30702
+  },
+  {
+    "url": "https://github.com/trpc/trpc",
+    "stars": 25951
+  },
+  {
+    "url": "https://github.com/remix-run/remix",
+    "stars": 23581
+  },
+  {
+    "url": "https://github.com/kriasoft/react-starter-kit",
+    "stars": 21924
+  },
+  {
+    "url": "https://github.com/lensterxyz/lenster",
+    "stars": 20327
+  },
+  {
+    "url": "https://github.com/BuilderIO/qwik",
+    "stars": 17699
+  },
+  {
+    "url": "https://github.com/video-dev/hls.js",
+    "stars": 12900
+  },
+  {
+    "url": "https://github.com/brianc/node-postgres",
+    "stars": 11221
+  },
+  {
+    "url": "https://github.com/triggerdotdev/jsonhero-web",
+    "stars": 7684
+  },
+  {
+    "url": "https://github.com/dotansimha/graphql-yoga",
+    "stars": 7596
+  },
+  {
+    "url": "https://github.com/drizzle-team/drizzle-orm",
+    "stars": 6409
+  },
+  {
+    "url": "https://github.com/hwchase17/langchainjs",
+    "stars": 5201
+  },
+  {
+    "url": "https://github.com/altair-graphql/altair",
+    "stars": 4708
+  },
+  {
+    "url": "https://github.com/honojs/hono",
+    "stars": 4522
+  },
+  {
+    "url": "https://github.com/lenstube-xyz/lenstube",
+    "stars": 3920
+  },
+  {
+    "url": "https://github.com/highlight/highlight",
+    "stars": 3784
+  },
+  {
+    "url": "https://github.com/kriasoft/relay-starter-kit",
+    "stars": 3759
+  },
+  {
+    "url": "https://github.com/fontsource/fontsource",
+    "stars": 3740
+  },
+  {
+    "url": "https://github.com/web-infra-dev/modern.js",
+    "stars": 3584
+  },
+  {
+    "url": "https://github.com/solidjs/solid-start",
+    "stars": 3513
+  },
+  {
+    "url": "https://github.com/tw-in-js/twind",
+    "stars": 3366
+  },
+  {
+    "url": "https://github.com/stripe/stripe-node",
+    "stars": 3352
+  },
+  {
+    "url": "https://github.com/Urigo/graphql-mesh",
+    "stars": 2871
+  },
+  {
+    "url": "https://github.com/TBXark/ChatGPT-Telegram-Workers",
+    "stars": 2715
+  },
+  {
+    "url": "https://github.com/microfeed/microfeed",
+    "stars": 2656
+  },
+  {
+    "url": "https://github.com/pancakeswap/pancake-frontend",
+    "stars": 2229
+  },
+  {
+    "url": "https://github.com/brillout/vite-plugin-ssr",
+    "stars": 2172
+  },
+  {
+    "url": "https://github.com/cloudflare/wildebeest",
+    "stars": 1909
+  },
+  {
+    "url": "https://github.com/cloudflare/cloudflare-docs",
+    "stars": 1903
+  }
+]

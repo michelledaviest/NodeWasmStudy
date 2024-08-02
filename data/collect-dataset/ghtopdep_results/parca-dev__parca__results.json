@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://github.com/grafana/grafana",
+    "stars": 60147
+  },
+  {
+    "url": "https://github.com/grafana/pyroscope",
+    "stars": 9350
+  },
+  {
+    "url": "https://github.com/grafana/phlare",
+    "stars": 2059
+  },
+  {
+    "url": "https://github.com/parca-dev/parca-agent",
+    "stars": 469
+  },
+  {
+    "url": "https://github.com/polarsignals/profile-exporter",
+    "stars": 14
+  },
+  {
+    "url": "https://github.com/kakkoyun/tiny-profiler",
+    "stars": 12
+  },
+  {
+    "url": "https://github.com/sgtest/megarepo",
+    "stars": 7
+  }
+]

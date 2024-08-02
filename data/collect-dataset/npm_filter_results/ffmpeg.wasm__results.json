@@ -1,0 +1,146 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923348.8413594,
+            "end_time": 1709923352.4004748
+        },
+        "lint:packages": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923352.4010255,
+            "end_time": 1709923356.0999265
+        },
+        "lint:root": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923356.1004248,
+            "end_time": 1709923356.4884782
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923356.4888396,
+            "end_time": 1709923361.9049907
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923361.9053347,
+            "end_time": 1709923371.199364
+        },
+        "test:all": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923371.1995804,
+            "end_time": 1709923372.0153189
+        },
+        "test:browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923372.0158281,
+            "end_time": 1709923372.4167628
+        },
+        "test:browser:core:mt": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:browser"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923372.4173589,
+            "end_time": 1709923373.180584
+        },
+        "test:browser:core:st": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:browser"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923373.1811619,
+            "end_time": 1709923373.9194374
+        },
+        "test:browser:ffmpeg:mt": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:browser"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923373.9200637,
+            "end_time": 1709923374.617516
+        },
+        "test:browser:ffmpeg:st": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:browser"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923374.6181352,
+            "end_time": 1709923375.3928425
+        },
+        "test:browser:server": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709923375.393466,
+            "end_time": 1710037386.535116
+        },
+        "test:node": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1710037386.5356977,
+            "end_time": 1710037386.9544196
+        },
+        "test:node:core:mt": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:node"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710037386.9550369,
+            "end_time": 1710037387.3662024
+        },
+        "test:node:core:st": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:node"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710037387.3664742,
+            "end_time": 1710037387.7636483
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/ffmpeg.wasm"
+    }
+}

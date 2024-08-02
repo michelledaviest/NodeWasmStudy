@@ -1,0 +1,16 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:tsc",
+            "build:asc"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/estfor-definitions"
+    }
+}

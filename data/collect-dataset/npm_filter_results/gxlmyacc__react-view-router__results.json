@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build-transition",
+            "build-transition:js",
+            "build-transition:es",
+            "build-drawer",
+            "build-drawer:types",
+            "build-drawer:js",
+            "build-drawer:es",
+            "build-dom",
+            "build-dom:types",
+            "build-dom:js",
+            "build-dom:es",
+            "build-src",
+            "build:types",
+            "build:js",
+            "build:es",
+            "build"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/react-view-router"
+    }
+}

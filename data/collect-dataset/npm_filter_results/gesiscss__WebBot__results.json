@@ -1,0 +1,21 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:dev",
+            "build:background",
+            "build:background:dev",
+            "build:content",
+            "build:content:dev",
+            "build:page",
+            "build:page:dev"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/WebBot"
+    }
+}

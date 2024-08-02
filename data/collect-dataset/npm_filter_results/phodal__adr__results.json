@@ -1,0 +1,105 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:main",
+            "build:module",
+            "build:tests"
+        ]
+    },
+    "testing": {
+        "build:tests": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1712707540.6959188,
+            "end_time": 1712707541.3231556
+        },
+        "lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707541.3252432,
+            "end_time": 1712707542.9052265
+        },
+        "unit": {
+            "num_passing": 32,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "build:tests"
+            ],
+            "timed_out": false,
+            "start_time": 1712707542.905643,
+            "end_time": 1712707549.9798157
+        },
+        "check-coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707550.0037167,
+            "end_time": 1712707550.4970303
+        },
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "lint",
+                "unit",
+                "check-coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707550.4974158,
+            "end_time": 1712707560.0093322
+        },
+        "cov": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "unit",
+                "html-coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707560.009732,
+            "end_time": 1712707567.8582544
+        },
+        "html-coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707567.8586473,
+            "end_time": 1712707568.3780782
+        },
+        "send-coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707568.378438,
+            "end_time": 1712707569.546782
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/adr"
+    }
+}

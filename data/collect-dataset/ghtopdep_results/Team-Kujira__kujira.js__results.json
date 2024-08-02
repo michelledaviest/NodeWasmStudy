@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://github.com/hummingbot/gateway",
+    "stars": 54
+  },
+  {
+    "url": "https://github.com/vitwit/resolute",
+    "stars": 23
+  },
+  {
+    "url": "https://github.com/skip-mev/skip-router-sdk",
+    "stars": 21
+  },
+  {
+    "url": "https://github.com/evmos/apps",
+    "stars": 12
+  },
+  {
+    "url": "https://github.com/skip-mev/ibc-dot-fun",
+    "stars": 12
+  },
+  {
+    "url": "https://github.com/lutwidse/dexbot-kujira-cosmos",
+    "stars": 12
+  },
+  {
+    "url": "https://github.com/Team-Kujira/pond-ui",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/NoahSaso/snapper",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/Team-Kujira/kujira.ui",
+    "stars": 6
+  }
+]

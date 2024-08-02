@@ -1,0 +1,66 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:wasm:prebuild",
+            "build:wasm:prebuild:no-cache",
+            "build:wasm:pre",
+            "prebuild",
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "check-coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710996488.1235182,
+            "end_time": 1710996488.450714
+        },
+        "report-coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710996488.4511664,
+            "end_time": 1710996488.731337
+        },
+        "test": {
+            "num_passing": 84,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1710996488.731732,
+            "end_time": 1710996498.481277
+        },
+        "cover": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710996498.486357,
+            "end_time": 1710996546.18417
+        },
+        "cover:report": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710996546.1844559,
+            "end_time": 1710996546.4358375
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/jsbtc"
+    }
+}

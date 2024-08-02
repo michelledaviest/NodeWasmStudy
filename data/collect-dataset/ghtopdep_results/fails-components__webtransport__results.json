@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://github.com/socketio/socket.io",
+    "stars": 60050
+  },
+  {
+    "url": "https://github.com/colyseus/colyseus",
+    "stars": 5478
+  },
+  {
+    "url": "https://github.com/socketio/engine.io",
+    "stars": 4582
+  },
+  {
+    "url": "https://github.com/socketio/engine.io-client",
+    "stars": 742
+  },
+  {
+    "url": "https://github.com/harryheman/blog-posts",
+    "stars": 133
+  },
+  {
+    "url": "https://github.com/kubesail/kubesail-agent",
+    "stars": 29
+  },
+  {
+    "url": "https://github.com/endel/webtransport-nodejs",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/3mcd/silver",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/elribonazo/djack",
+    "stars": 5
+  }
+]

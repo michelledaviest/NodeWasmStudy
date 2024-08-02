@@ -1,0 +1,64 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:dist",
+            "build:docs",
+            "build:tests"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709657527.6140668,
+            "end_time": 1709657554.5721374
+        },
+        "test:ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709657554.5726,
+            "end_time": 1709657593.5933654
+        },
+        "test:browser": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "build:tests"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709657593.5936503,
+            "end_time": 1709657776.1989565
+        },
+        "build:tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709657776.1994233,
+            "end_time": 1709657779.9633377
+        },
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709657779.9637809,
+            "end_time": 1709657782.8097494
+        },
+        "lint:fix": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709657782.8101368,
+            "end_time": 1709657783.594395
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/orbitdb"
+    }
+}

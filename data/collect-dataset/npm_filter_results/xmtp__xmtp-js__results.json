@@ -1,0 +1,101 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:bench",
+            "build:docs"
+        ]
+    },
+    "testing": {
+        "autolint": {
+            "test_linters": [
+                "eslint -- linter",
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707736.2819443,
+            "end_time": 1712707750.8718793
+        },
+        "bench": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "nested_test_commands": [
+                "build:bench"
+            ],
+            "timed_out": false,
+            "start_time": 1712707750.8722908,
+            "end_time": 1712707759.4799201
+        },
+        "build:bench": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707759.4933996,
+            "end_time": 1712707766.3796356
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707766.38003,
+            "end_time": 1712707776.2235968
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:node"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707776.2239547,
+            "end_time": 1712707799.7167084
+        },
+        "test:browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707799.7170472,
+            "end_time": 1712707823.837939
+        },
+        "test:cov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707823.8383076,
+            "end_time": 1712707847.423997
+        },
+        "test:node": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707847.4243982,
+            "end_time": 1712707870.994897
+        },
+        "test:setup": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707870.9952464,
+            "end_time": 1712707871.611348
+        },
+        "test:teardown": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707871.611694,
+            "end_time": 1712707872.2387679
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/xmtp-js"
+    }
+}

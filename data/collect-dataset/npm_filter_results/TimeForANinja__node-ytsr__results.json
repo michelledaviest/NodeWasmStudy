@@ -1,0 +1,91 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694556.1028862,
+            "end_time": 1712694557.3199475
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694557.3203406,
+            "end_time": 1712694558.3958573
+        },
+        "lint:typings": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694558.3962204,
+            "end_time": 1712694559.1927476
+        },
+        "lint:typings:fix": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694559.193116,
+            "end_time": 1712694559.9645672
+        },
+        "mocha": {
+            "num_passing": 162,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712694559.9649138,
+            "end_time": 1712694565.2166705
+        },
+        "mocha:coverage": {
+            "num_passing": 160,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712694565.234366,
+            "end_time": 1712694566.0332434
+        },
+        "nyc:coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694566.0468419,
+            "end_time": 1712694568.3374708
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694568.3378854,
+            "end_time": 1712694574.8129947
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694574.8133533,
+            "end_time": 1712694576.9335878
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/node-ytsr"
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-all"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512591.3912413,
+            "end_time": 1709512595.2456617
+        },
+        "test-all": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-help",
+                "test-version",
+                "test-iges",
+                "test-step"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512595.2462728,
+            "end_time": 1709512595.7984245
+        },
+        "test-help": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512595.7990193,
+            "end_time": 1709512596.086769
+        },
+        "test-version": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512596.0872097,
+            "end_time": 1709512596.3690171
+        },
+        "test-iges": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-iges-obj",
+                "test-iges-gltf",
+                "test-iges-glb"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512596.3694859,
+            "end_time": 1709512596.8537536
+        },
+        "test-iges-obj": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512596.8543048,
+            "end_time": 1709512597.104688
+        },
+        "test-iges-gltf": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512597.1052263,
+            "end_time": 1709512597.3781416
+        },
+        "test-iges-glb": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512597.3787558,
+            "end_time": 1709512597.6091967
+        },
+        "test-step": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-step-obj",
+                "test-step-gltf",
+                "test-step-glb"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512597.6097364,
+            "end_time": 1709512598.0691152
+        },
+        "test-step-obj": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512598.06967,
+            "end_time": 1709512598.324228
+        },
+        "test-step-gltf": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512598.3245568,
+            "end_time": 1709512598.5645983
+        },
+        "test-step-glb": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709512598.5651321,
+            "end_time": 1709512598.8073647
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/opencascade-tools"
+    }
+}

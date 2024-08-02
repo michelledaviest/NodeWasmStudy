@@ -1,0 +1,56 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 16,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1709654514.2546115,
+            "end_time": 1709654515.2439973
+        },
+        "test:cov": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709654515.2474341,
+            "end_time": 1709654516.9820993
+        },
+        "travis:start": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "nested_test_commands": [
+                "test:cov"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709654516.98252,
+            "end_time": 1709654519.2339993
+        },
+        "travis:after": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709654519.2344248,
+            "end_time": 1709654519.5951421
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/keccak-wasm"
+    }
+}

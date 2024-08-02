@@ -1,0 +1,16 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build.web",
+            "build.deploy"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/awslabs/simple-database-archival-solution"
+    }
+}

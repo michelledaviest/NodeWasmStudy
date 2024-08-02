@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://github.com/BitGo/BitGoJS",
+    "stars": 316
+  },
+  {
+    "url": "https://github.com/mafintosh/blake2b-wasm",
+    "stars": 71
+  },
+  {
+    "url": "https://github.com/mafintosh/siphash24",
+    "stars": 47
+  },
+  {
+    "url": "https://github.com/hyperdivision/murmur3hash-wasm",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/chm-diederichs/sha256-wasm",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/emilbayes/bswap-wasm",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/emilbayes/djb2",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/chm-diederichs/sha512-wasm",
+    "stars": 5
+  }
+]

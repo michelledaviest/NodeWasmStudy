@@ -1,0 +1,56 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1710457036.8562715,
+            "end_time": 1710457038.1814797
+        },
+        "test-all": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "platform-test",
+                "types-test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710457038.1825178,
+            "end_time": 1710457046.7845361
+        },
+        "platform-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710457046.7849362,
+            "end_time": 1710457051.19416
+        },
+        "types-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710457051.194456,
+            "end_time": 1710457054.2366824
+        },
+        "helpers-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710457054.237017,
+            "end_time": 1710457054.5684156
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/pipedream"
+    }
+}

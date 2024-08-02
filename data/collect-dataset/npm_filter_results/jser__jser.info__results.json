@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "nested_test_commands": [
+                "test:invalid"
+            ],
+            "timed_out": false,
+            "start_time": 1712739439.748889,
+            "end_time": 1712739441.5524192
+        },
+        "test:invalid": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712739441.5545812,
+            "end_time": 1712739441.997796
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/jser.info"
+    }
+}

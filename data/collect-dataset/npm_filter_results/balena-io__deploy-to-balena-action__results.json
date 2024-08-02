@@ -1,0 +1,60 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "test:build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922595.0725477,
+            "end_time": 1712922600.7725987
+        },
+        "lint-fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922600.77292,
+            "end_time": 1712922605.8474483
+        },
+        "test:fast": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922605.847805,
+            "end_time": 1712922606.2349865
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "test:build"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922606.235339,
+            "end_time": 1712922622.011324
+        },
+        "test:build": {
+            "nested_test_commands": [
+                "testitems:copy"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922622.0116866,
+            "end_time": 1712922625.2375343
+        },
+        "testitems:copy": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922625.2378645,
+            "end_time": 1712922625.5025938
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/deploy-to-balena-action"
+    }
+}

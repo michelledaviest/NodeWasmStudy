@@ -1,0 +1,67 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:esm"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test:cjs": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709489591.5919967,
+            "end_time": 1709489591.801924
+        },
+        "test:esm": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709489591.8062046,
+            "end_time": 1709489592.005924
+        },
+        "test:node": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:cjs",
+                "test:esm"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709489592.0094438,
+            "end_time": 1709489592.376351
+        },
+        "test:deno": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709489592.376668,
+            "end_time": 1709489592.541048
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:node",
+                "test:deno"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709489592.5413318,
+            "end_time": 1709489593.004639
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/toml.wasm"
+    }
+}

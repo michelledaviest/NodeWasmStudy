@@ -1,0 +1,16 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:dev",
+            "build:docs"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/WebCPU"
+    }
+}

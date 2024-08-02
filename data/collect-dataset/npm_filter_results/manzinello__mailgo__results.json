@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build-js",
+            "build-css",
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 11,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/manzinello/mailgo"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:noise",
+            "build:noisegate",
+            "build:vocalcanceler",
+            "build"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/Korilakkuma/audio-signal-processing-by-wasm"
+    }
+}

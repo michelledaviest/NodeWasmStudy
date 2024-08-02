@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:server",
+            "build:common",
+            "build:common:angular",
+            "build:admin",
+            "build:merchant",
+            "build:shopmobile",
+            "build:shopweb",
+            "build:carrier",
+            "build:all",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "tslint-check": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ever-co/ever-demand"
+    }
+}

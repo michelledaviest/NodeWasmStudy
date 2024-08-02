@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild:site",
+            "postbuild:site"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test:unit": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711018187.137368,
+            "end_time": 1711018188.4775746
+        },
+        "lint": {
+            "nested_test_commands": [
+                "lint:json",
+                "lint:md"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711018188.478063,
+            "end_time": 1711018208.7433934
+        },
+        "lint:json": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711018208.7438328,
+            "end_time": 1711018209.4393408
+        },
+        "lint:md": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1711018209.4397204,
+            "end_time": 1711018224.0164647
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/v1.cosmos.network"
+    }
+}

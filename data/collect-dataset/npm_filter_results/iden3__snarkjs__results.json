@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "buildcli",
+            "buildiife",
+            "buildiifemin"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 47,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "testv12": {
+            "num_passing": 47,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/iden3/snarkjs"
+    }
+}

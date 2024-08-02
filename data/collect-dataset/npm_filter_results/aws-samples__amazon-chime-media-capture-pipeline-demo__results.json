@@ -1,0 +1,9 @@
+{
+    "installation": {
+        "installer_command": "yarn",
+        "ERROR": true
+    },
+    "metadata": {
+        "repo_link": "https://github.com/aws-samples/amazon-chime-media-capture-pipeline-demo"
+    }
+}

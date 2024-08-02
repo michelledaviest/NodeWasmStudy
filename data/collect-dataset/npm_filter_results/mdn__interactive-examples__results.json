@@ -1,0 +1,60 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:pages"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "nested_test_commands": [
+                "lint:css",
+                "lint:js",
+                "lint:format"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709688792.3528795,
+            "end_time": 1709688808.3398826
+        },
+        "lint:css": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709688808.3400984,
+            "end_time": 1709688812.0035965
+        },
+        "lint:js": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709688812.0037808,
+            "end_time": 1709688815.393849
+        },
+        "lint:format": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709688815.394017,
+            "end_time": 1709688822.4410224
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709688822.4413285,
+            "end_time": 1709688836.8392007
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/interactive-examples"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 61,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "timed_out": false,
+            "start_time": 1709801079.3175757,
+            "end_time": 1709801085.5606167
+        },
+        "test:browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709801085.5647626,
+            "end_time": 1709801086.7815182
+        },
+        "test:local": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709801086.7818599,
+            "end_time": 1709801087.219896
+        },
+        "test:safari": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:local"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709801087.2201855,
+            "end_time": 1709801087.915201
+        },
+        "test:edge": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:local"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709801087.9155393,
+            "end_time": 1709801088.572621
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/preset-modules"
+    }
+}

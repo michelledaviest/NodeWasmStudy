@@ -1,0 +1,102 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "test:build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922154.3906097,
+            "end_time": 1712922168.6906254
+        },
+        "test:build": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922168.691354,
+            "end_time": 1712922178.3063126
+        },
+        "test:unit": {
+            "ERROR": true,
+            "num_passing": 194,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712922178.3068795,
+            "end_time": 1712922183.440533
+        },
+        "test:integration": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922183.4633217,
+            "end_time": 1712922185.4171023
+        },
+        "test:integration:single": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922185.4178317,
+            "end_time": 1712922190.0137768
+        },
+        "test:legacy": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712922190.014487,
+            "end_time": 1712922191.0915809
+        },
+        "test:node": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:unit",
+                "test:integration",
+                "test:legacy"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922191.096472,
+            "end_time": 1712922196.2013488
+        },
+        "test:env": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922196.2017448,
+            "end_time": 1712922196.7062285
+        },
+        "test:compose": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922196.7067292,
+            "end_time": 1712922197.2282438
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint",
+                "test:build",
+                "test:unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712922197.2287118,
+            "end_time": 1712922227.7292683
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/balena-supervisor"
+    }
+}

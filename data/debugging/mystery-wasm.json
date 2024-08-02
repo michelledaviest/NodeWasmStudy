@@ -1,0 +1,54 @@
+{
+  "httptoolkit/mockttp": {
+    "": [
+      "ts-loader.json",
+      "source-map.json",
+      "es-module-lexer.json",
+      "brotli-wasm.json",
+      "zstd-codec.json",
+      "@tootallnate__quickjs-emscripten.json"
+    ]
+  },
+  "eslint/eslintrc": {
+    "": [
+      "self.json"
+    ]
+  },
+  "replicate/scribble-diffusion": {
+    "": [
+      "self.json"
+    ]
+  },
+  "jtenner/as-disposable": {
+    "TODO": [
+      "self.json"
+    ]
+  },
+  "typeorm/typeorm": {
+    "": [
+      "self.json"
+    ]
+  },
+  "waku-org/js-rln": {
+    "": [
+      "ts-loader.json",
+      "source-map.json"
+    ]
+  },
+  "napi-rs/napi-rs": {
+    "": [
+      "self.json"
+    ]
+  },
+  "aws/language-servers": {
+    "": [
+      "self.json"
+    ]
+  },
+  "Tomato6966/Musicium": {
+    "": [
+      "@distube__ytpl.json",
+      "undici.json"
+    ]
+  }
+}

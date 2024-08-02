@@ -1,0 +1,50 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712890465.1272619,
+            "end_time": 1712890465.3227663
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter",
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712890465.3230872,
+            "end_time": 1712890465.7120972
+        },
+        "lint:fix": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712890465.7124488,
+            "end_time": 1712890466.110257
+        },
+        "lint-staged": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:fix"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712890466.1105895,
+            "end_time": 1712890466.713713
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/react-tagify"
+    }
+}

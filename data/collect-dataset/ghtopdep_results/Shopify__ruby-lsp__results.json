@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/discourse/discourse",
+    "stars": 40335
+  },
+  {
+    "url": "https://github.com/maybe-finance/maybe",
+    "stars": 26303
+  },
+  {
+    "url": "https://github.com/gitlabhq/gitlabhq",
+    "stars": 23575
+  },
+  {
+    "url": "https://github.com/NixOS/nixpkgs",
+    "stars": 15502
+  },
+  {
+    "url": "https://github.com/home-assistant/home-assistant.io",
+    "stars": 4361
+  },
+  {
+    "url": "https://github.com/ruby/rbs",
+    "stars": 1869
+  },
+  {
+    "url": "https://github.com/Shopify/shopify_app",
+    "stars": 1704
+  },
+  {
+    "url": "https://github.com/gjtorikian/html-proofer",
+    "stars": 1547
+  },
+  {
+    "url": "https://github.com/Shopify/packwerk",
+    "stars": 1476
+  },
+  {
+    "url": "https://github.com/Shopify/krane",
+    "stars": 1366
+  },
+  {
+    "url": "https://github.com/soutaro/steep",
+    "stars": 1322
+  },
+  {
+    "url": "https://github.com/phlex-ruby/phlex",
+    "stars": 1105
+  },
+  {
+    "url": "https://github.com/Shopify/shopify-api-ruby",
+    "stars": 1026
+  },
+  {
+    "url": "https://github.com/tryzealot/zealot",
+    "stars": 976
+  },
+  {
+    "url": "https://github.com/getsentry/sentry-ruby",
+    "stars": 913
+  },
+  {
+    "url": "https://github.com/okuramasafumi/alba",
+    "stars": 854
+  },
+  {
+    "url": "https://github.com/ninoseki/mihari",
+    "stars": 818
+  },
+  {
+    "url": "https://github.com/Shopify/tapioca",
+    "stars": 664
+  },
+  {
+    "url": "https://github.com/hakanensari/vacuum",
+    "stars": 550
+  },
+  {
+    "url": "https://github.com/Shopify/ruby-lsp-rails",
+    "stars": 476
+  },
+  {
+    "url": "https://github.com/artagnon/clayoven",
+    "stars": 332
+  },
+  {
+    "url": "https://github.com/getlago/lago-api",
+    "stars": 271
+  },
+  {
+    "url": "https://github.com/infused/dbf",
+    "stars": 257
+  },
+  {
+    "url": "https://github.com/e621ng/e621ng",
+    "stars": 248
+  },
+  {
+    "url": "https://github.com/oxidize-rb/rb-sys",
+    "stars": 199
+  },
+  {
+    "url": "https://github.com/Shopify/spoom",
+    "stars": 197
+  },
+  {
+    "url": "https://github.com/Kong/docs.konghq.com",
+    "stars": 195
+  },
+  {
+    "url": "https://github.com/hexlet-basics/hexlet-basics",
+    "stars": 193
+  },
+  {
+    "url": "https://github.com/arturictus/sidekiq_alive",
+    "stars": 183
+  },
+  {
+    "url": "https://github.com/adrienpoly/rubyvideo",
+    "stars": 170
+  }
+]

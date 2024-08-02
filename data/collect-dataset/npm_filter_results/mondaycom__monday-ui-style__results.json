@@ -1,0 +1,58 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "compile-styles",
+            "build",
+            "build-storybook",
+            "test:without-build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:without-build"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710852762.3461483,
+            "end_time": 1710852765.5534248
+        },
+        "test:without-build": {
+            "num_passing": 623,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1710852765.5538075,
+            "end_time": 1710852766.7179198
+        },
+        "stylelint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710852766.7189348,
+            "end_time": 1710852767.7214632
+        },
+        "stylelint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710852767.7217069,
+            "end_time": 1710852768.6778095
+        },
+        "fix-lint": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710852768.6780295,
+            "end_time": 1710852780.9235957
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/monday-ui-style"
+    }
+}

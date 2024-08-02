@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://github.com/0xEigenLabs/eigen-zkvm",
+    "stars": 114
+  },
+  {
+    "url": "https://github.com/0xPolygonHermez/zkevm-proverjs",
+    "stars": 68
+  },
+  {
+    "url": "https://github.com/0xPolygonHermez/zkevm-testvectors",
+    "stars": 24
+  },
+  {
+    "url": "https://github.com/Schaeff/pilspector",
+    "stars": 15
+  },
+  {
+    "url": "https://github.com/puma314/blspil",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/0xPolygonHermez/pil2-stark-js",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/jbaylina/pilexample",
+    "stars": 5
+  }
+]

@@ -1,0 +1,95 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712680432.567339,
+            "end_time": 1712680435.9464836
+        },
+        "fix:lint": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712680435.9469001,
+            "end_time": 1712680439.3682241
+        },
+        "test:build": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712680439.3685677,
+            "end_time": 1712680441.3096323
+        },
+        "test:build-local-mpl": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712680441.3100023,
+            "end_time": 1712680442.2259555
+        },
+        "test:init": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712680442.2263227,
+            "end_time": 1712680443.172096
+        },
+        "test:init-local-mpl": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712680443.1724904,
+            "end_time": 1712680444.1301854
+        },
+        "test:all": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:build",
+                "test:init",
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712680444.1306088,
+            "end_time": 1712680446.6569738
+        },
+        "test:all-local-mpl": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:build-local-mpl",
+                "test:init-local-mpl",
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712680446.6573822,
+            "end_time": 1712680448.0612812
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 51,
+            "num_failing": 13,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712680448.0616887,
+            "end_time": 1712680494.8962214
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/js-deprecated"
+    }
+}

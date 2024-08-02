@@ -1,0 +1,39 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:client",
+            "build:test-utils",
+            "build:tests-tools",
+            "build:modules",
+            "build",
+            "build-all"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:test-utils": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:tests-tools": {
+            "nested_test_commands": [
+                "build:test-utils"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/redis/node-redis"
+    }
+}

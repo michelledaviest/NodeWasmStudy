@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "frontend:ts_compile",
+            "frontend:ui5_build",
+            "frontend:build"
+        ]
+    },
+    "testing": {
+        "frontend:tslint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/d3xter666/ui5con-2019-mean-stack-with-ui5"
+    }
+}

@@ -1,0 +1,56 @@
+{
+  "httptoolkit/mockttp": [
+    "test:browser",
+    "test:browser",
+    "test:browser",
+    "test:browser",
+    "test:browser",
+    "test:browser",
+    "test:browser",
+    "test:browser",
+    "test:browser",
+    "test:browser",
+    "test",
+    "test:node",
+    "ci-tests"
+  ],
+  "eslint/eslintrc": [
+    "release:generate:latest",
+    "test"
+  ],
+  "replicate/scribble-diffusion": [
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test"
+  ],
+  "typeorm/typeorm": [
+    "test",
+    "test-fast"
+  ],
+  "waku-org/js-rln": [
+    "test",
+    "test",
+    "test:browser",
+    "test:browser",
+    "test",
+    "test",
+    "test:browser",
+    "test:browser"
+  ],
+  "napi-rs/napi-rs": [
+    "test",
+    "test:without-lerna"
+  ],
+  "aws/language-servers": [
+    "test"
+  ],
+  "Tomato6966/Musicium": [
+    "test",
+    "test"
+  ]
+}

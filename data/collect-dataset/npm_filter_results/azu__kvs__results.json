@@ -1,0 +1,120 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 49,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1709610125.2195096,
+            "end_time": 1709610139.3165946
+        },
+        "test:browser": {
+            "ERROR": true,
+            "num_passing": 114,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1709610139.3327174,
+            "end_time": 1709610221.6719503
+        },
+        "test:chrome": {
+            "num_passing": 73,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1709610221.7567723,
+            "end_time": 1709610224.8321395
+        },
+        "test:firefox": {
+            "num_passing": 73,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1709610224.8639793,
+            "end_time": 1709610252.0063322
+        },
+        "test:webkit": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1709610252.0685823,
+            "end_time": 1709610253.6710951
+        },
+        "ci": {
+            "num_passing": 49,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1709610253.69983,
+            "end_time": 1709610254.3456602
+        },
+        "ci:versionup:patch": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1709610254.3609092,
+            "end_time": 1709610255.4766393
+        },
+        "ci:versionup:minor": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1709610255.4798658,
+            "end_time": 1709610256.5274172
+        },
+        "ci:versionup:major": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1709610256.5310295,
+            "end_time": 1709610257.611952
+        },
+        "ci:release": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1709610257.6157758,
+            "end_time": 1709610262.1103816
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/kvs"
+    }
+}

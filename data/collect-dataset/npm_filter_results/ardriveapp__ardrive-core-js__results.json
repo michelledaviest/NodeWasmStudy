@@ -1,0 +1,75 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712789469.6215713,
+            "end_time": 1712789476.5683095
+        },
+        "lintfix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712789476.5686426,
+            "end_time": 1712789484.2115486
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 682,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false,
+            "start_time": 1712789484.2118652,
+            "end_time": 1712789501.578448
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712789501.6957347,
+            "end_time": 1712789518.5098512
+        },
+        "ci": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "arlocal-docker-test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712789518.5102062,
+            "end_time": 1712789536.2537732
+        },
+        "arlocal-docker-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712789536.254149,
+            "end_time": 1712789552.9400182
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/ardrive-core-js"
+    }
+}

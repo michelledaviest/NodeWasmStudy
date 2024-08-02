@@ -1,0 +1,99 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:bench",
+            "build:memory",
+            "build:test"
+        ]
+    },
+    "testing": {
+        "bench": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712774326.6031098,
+            "end_time": 1712774447.255339
+        },
+        "build:bench": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712774447.2557805,
+            "end_time": 1712774450.424407
+        },
+        "build:test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712774450.424821,
+            "end_time": 1712774457.8014948
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712774457.8265743,
+            "end_time": 1712774458.599531
+        },
+        "test": {
+            "num_passing": 256,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712774458.5999753,
+            "end_time": 1712774467.3845456
+        },
+        "test:without-lerna": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712774467.4510825,
+            "end_time": 1712774474.4096267
+        },
+        "test:bun": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712774474.4100285,
+            "end_time": 1712774475.0297625
+        },
+        "test:cli": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712774475.030185,
+            "end_time": 1712774478.43809
+        },
+        "test:electron": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712774478.4385,
+            "end_time": 1712774479.0910118
+        },
+        "test:macro": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712774479.0913868,
+            "end_time": 1712774501.2410393
+        },
+        "test:memory": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1712774501.2414358,
+            "end_time": 1712774501.9994547
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/napi-rs"
+    }
+}

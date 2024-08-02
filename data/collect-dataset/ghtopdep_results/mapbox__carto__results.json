@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/tilemill-project/tilemill",
+    "stars": 3082
+  },
+  {
+    "url": "https://github.com/CartoDB/cartodb",
+    "stars": 2714
+  },
+  {
+    "url": "https://github.com/mapbox/mapbox-studio-classic",
+    "stars": 1140
+  },
+  {
+    "url": "https://github.com/kosmtik/kosmtik",
+    "stars": 701
+  },
+  {
+    "url": "https://github.com/CartoDB/carto.js",
+    "stars": 420
+  },
+  {
+    "url": "https://github.com/CartoDB/torque",
+    "stars": 396
+  },
+  {
+    "url": "https://github.com/stamen/toner-carto",
+    "stars": 327
+  },
+  {
+    "url": "https://github.com/CartoDB/Windshaft",
+    "stars": 307
+  },
+  {
+    "url": "https://github.com/kartotherian/kartotherian",
+    "stars": 236
+  },
+  {
+    "url": "https://github.com/stamen/terrain-classic",
+    "stars": 144
+  },
+  {
+    "url": "https://github.com/azavea/tilegarden",
+    "stars": 96
+  },
+  {
+    "url": "https://github.com/inaturalist/iNaturalistAPI",
+    "stars": 94
+  },
+  {
+    "url": "https://github.com/CartoDB/Windshaft-cartodb",
+    "stars": 72
+  },
+  {
+    "url": "https://github.com/ftdebugger/whole-npm",
+    "stars": 55
+  },
+  {
+    "url": "https://github.com/WikiWatershed/model-my-watershed",
+    "stars": 51
+  },
+  {
+    "url": "https://github.com/nodetiles/nodetiles-core",
+    "stars": 45
+  },
+  {
+    "url": "https://github.com/gbif/maps",
+    "stars": 44
+  },
+  {
+    "url": "https://github.com/CartoDB/grainstore",
+    "stars": 36
+  },
+  {
+    "url": "https://github.com/CartoDB/d3.cartodb",
+    "stars": 30
+  },
+  {
+    "url": "https://github.com/ConservationInternational/resilienceatlas",
+    "stars": 12
+  },
+  {
+    "url": "https://github.com/Qwant/kartotherian",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/alexanno/kartkompetanse",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/posm/posm-carto",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/UW-Macrostrat/tileserver",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/ebrelsford/cartocss2json",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/mojodna/tilelive-tmstyle",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/GeoSensorWebLab/mapnik-vector-demo",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/mojodna/tilelive-tmsource",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/BetaNYC/SLAM",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/NYCPlanning/labs-land-use-tiles",
+    "stars": 5
+  }
+]

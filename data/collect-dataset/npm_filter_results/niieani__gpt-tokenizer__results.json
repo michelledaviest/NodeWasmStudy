@@ -1,0 +1,48 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:cjs",
+            "build:esm",
+            "build:umd",
+            "build:umd:cl100k_base",
+            "build:umd:p50k_base",
+            "build:umd:p50k_edit",
+            "build:umd:r50k_base"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:code",
+                "test:format",
+                "test:lint",
+                "test:types"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:code": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:format": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:types": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/niieani/gpt-tokenizer"
+    }
+}

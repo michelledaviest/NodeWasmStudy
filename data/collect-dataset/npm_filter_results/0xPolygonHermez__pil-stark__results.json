@@ -1,0 +1,473 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:circuits",
+                "test:helpers",
+                "test:stark"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681506.7691317,
+            "end_time": 1712681508.2973166
+        },
+        "test:circuits": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 17,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712681508.2983663,
+            "end_time": 1712681509.5743513
+        },
+        "test:circuits:bn128": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 7,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712681509.5870922,
+            "end_time": 1712681510.796373
+        },
+        "test:circuits:gl": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 10,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712681510.80262,
+            "end_time": 1712681511.422364
+        },
+        "test:helpers": {
+            "num_passing": 62,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712681511.429823,
+            "end_time": 1712681687.554446
+        },
+        "test:stark": {
+            "num_passing": 11,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712681687.7060456,
+            "end_time": 1712681713.401825
+        },
+        "test:fibonacci": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "fibonacci_buildconst",
+                "fibonacci_exec",
+                "fibonacci_pil_verify",
+                "fibonacci_buildstarkinfo",
+                "fibonacci_buildconsttree",
+                "fibonacci_prove",
+                "fibonacci_verify",
+                "fibonacci_starkVerifier"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681713.4464676,
+            "end_time": 1712681714.1136703
+        },
+        "test:fibonacci:gpu": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "fibonacci_buildconst",
+                "fibonacci_exec",
+                "fibonacci_pil_verify",
+                "fibonacci_buildstarkinfo_gpu",
+                "fibonacci_buildconsttree_gpu",
+                "fibonacci_prove",
+                "fibonacci_verify",
+                "fibonacci_starkVerifier_gpu"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681714.1149654,
+            "end_time": 1712681714.7812068
+        },
+        "test:fibonacci:C12:pil": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "fibonacci_C12_setup",
+                "fibonacci_C12_exec",
+                "fibonacci_C12_pil_verify"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681714.7824805,
+            "end_time": 1712681715.4583967
+        },
+        "test:fibonacci:C12:prove": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "fibonacci_C12_buildstarkinfo",
+                "fibonacci_C12_buildconsttree",
+                "fibonacci_C12_prove",
+                "fibonacci_C12_verify",
+                "fibonacci_C12_gencircomBN128",
+                "fibonacci_C12_starkVerifierBN128"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681715.459472,
+            "end_time": 1712681716.1256557
+        },
+        "test:fibonacci:C12:prove:custom": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "fibonacci_C12_buildstarkinfo",
+                "fibonacci_C12_buildconsttree_custom",
+                "fibonacci_C12_prove_custom",
+                "fibonacci_C12_verify_custom",
+                "fibonacci_C12_gencircomBN128_custom",
+                "fibonacci_C12_starkVerifierBN128"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681716.1269317,
+            "end_time": 1712681716.792901
+        },
+        "test:all": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681716.7941804,
+            "end_time": 1712681717.4851496
+        },
+        "test:all:gpu": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681717.486405,
+            "end_time": 1712681718.1837218
+        },
+        "test:all:C18:pil": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681718.1849833,
+            "end_time": 1712681718.8604841
+        },
+        "test:all:C18:prove": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "all_C18_gencircomBN128"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681718.8615623,
+            "end_time": 1712681719.5300338
+        },
+        "test:C12": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "verifier_C12_gencircomBN128"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681719.531285,
+            "end_time": 1712681720.6610959
+        },
+        "test:C18": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "verifier_C18_gencircomBN128"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681720.6624901,
+            "end_time": 1712681721.7775683
+        },
+        "test:C12:custom": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "verifier_C12_gencircomBN128_custom"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681721.7789404,
+            "end_time": 1712681722.9309464
+        },
+        "fibonacci_buildconst": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681722.9323554,
+            "end_time": 1712681723.3463974
+        },
+        "fibonacci_exec": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681723.3475642,
+            "end_time": 1712681723.7898793
+        },
+        "fibonacci_pil_verify": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681723.7910943,
+            "end_time": 1712681724.2007465
+        },
+        "fibonacci_buildstarkinfo": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681724.2019975,
+            "end_time": 1712681724.6471102
+        },
+        "fibonacci_buildstarkinfo_gpu": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681724.6483839,
+            "end_time": 1712681725.0935912
+        },
+        "fibonacci_buildconsttree": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681725.0948377,
+            "end_time": 1712681725.7664778
+        },
+        "fibonacci_buildconsttree_gpu": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681725.7678258,
+            "end_time": 1712681726.4375556
+        },
+        "fibonacci_prove": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681726.4389443,
+            "end_time": 1712681727.1094546
+        },
+        "fibonacci_verify": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681727.1108246,
+            "end_time": 1712681727.7359898
+        },
+        "fibonacci_gencircom": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681727.737156,
+            "end_time": 1712681728.130323
+        },
+        "fibonacci_compileverifier": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681728.131573,
+            "end_time": 1712681728.3811913
+        },
+        "fibonacci_starkVerifier": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712681728.3822937,
+            "end_time": 1712681728.96238
+        },
+        "fibonacci_starkVerifier_gpu": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712681728.9640927,
+            "end_time": 1712681729.546856
+        },
+        "fibonacci_compileC12verifier": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681729.5486128,
+            "end_time": 1712681729.8011003
+        },
+        "fibonacci_C12_setup": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681729.8022344,
+            "end_time": 1712681730.2245476
+        },
+        "fibonacci_C12_exec": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681730.2257664,
+            "end_time": 1712681730.651911
+        },
+        "fibonacci_C12_pil_verify": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681730.653201,
+            "end_time": 1712681731.0585432
+        },
+        "fibonacci_C12_buildstarkinfo": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681731.0597534,
+            "end_time": 1712681731.4667192
+        },
+        "fibonacci_C12_buildconsttree": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681731.4679763,
+            "end_time": 1712681732.129831
+        },
+        "fibonacci_C12_buildconsttree_custom": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681732.1311367,
+            "end_time": 1712681732.7954595
+        },
+        "fibonacci_C12_prove": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681732.7968132,
+            "end_time": 1712681733.4483938
+        },
+        "fibonacci_C12_prove_custom": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681733.4498484,
+            "end_time": 1712681734.1176605
+        },
+        "fibonacci_C12_verify": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681734.1191282,
+            "end_time": 1712681734.7463481
+        },
+        "fibonacci_C12_verify_custom": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681734.747581,
+            "end_time": 1712681735.3679106
+        },
+        "fibonacci_C12_gencircomBN128": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681735.36918,
+            "end_time": 1712681735.763719
+        },
+        "fibonacci_C12_gencircomBN128_custom": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681735.7649386,
+            "end_time": 1712681736.1592836
+        },
+        "fibonacci_C12_compileverifier": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681736.1604886,
+            "end_time": 1712681736.4136837
+        },
+        "fibonacci_C12_starkVerifierBN128": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712681736.4148424,
+            "end_time": 1712681736.9365003
+        },
+        "all_gencircom": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681736.9384108,
+            "end_time": 1712681737.3222737
+        },
+        "all_C18_gencircomBN128": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681737.3234606,
+            "end_time": 1712681737.7106388
+        },
+        "verifier_C18_gencircomBN128": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681737.7117856,
+            "end_time": 1712681738.1038315
+        },
+        "verifier_C12_gencircomBN128": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681738.1050036,
+            "end_time": 1712681738.4965298
+        },
+        "verifier_C12_gencircomBN128_custom": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681738.497745,
+            "end_time": 1712681738.892978
+        },
+        "plonktest_compile": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681738.894167,
+            "end_time": 1712681739.1476364
+        },
+        "plonktest_wc": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712681739.1487854,
+            "end_time": 1712681739.5358999
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/pil-stark"
+    }
+}

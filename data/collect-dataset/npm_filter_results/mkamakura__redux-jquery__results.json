@@ -1,0 +1,49 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:gitbook",
+            "build"
+        ]
+    },
+    "testing": {
+        "test:ava": {
+            "num_passing": 29,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false,
+            "start_time": 1712901421.9395094,
+            "end_time": 1712901423.376492
+        },
+        "test:eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712901423.3867438,
+            "end_time": 1712901424.282522
+        },
+        "test:textlint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712901424.282833,
+            "end_time": 1712901424.8091025
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712901424.8094108,
+            "end_time": 1712901425.6723292
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/redux-jquery"
+    }
+}

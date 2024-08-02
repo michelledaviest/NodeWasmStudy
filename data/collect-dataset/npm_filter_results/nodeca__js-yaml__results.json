@@ -1,0 +1,51 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826660.5150678,
+            "end_time": 1709826661.7463543
+        },
+        "test": {
+            "num_passing": 284,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false,
+            "start_time": 1709826661.7466214,
+            "end_time": 1709826663.27366
+        },
+        "coverage": {
+            "num_passing": 284,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false,
+            "start_time": 1709826663.284719,
+            "end_time": 1709826666.6747673
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/js-yaml"
+    }
+}

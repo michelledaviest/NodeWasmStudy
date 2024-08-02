@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "compile",
+            "esbuild"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712921617.8133767,
+            "end_time": 1712921620.0021532
+        },
+        "lint": {
+            "nested_test_commands": [
+                "eslint",
+                "lockfile-lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712921620.0024605,
+            "end_time": 1712921627.4911404
+        },
+        "lockfile-lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712921627.4914856,
+            "end_time": 1712921627.947757
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/vscode-httpyac"
+    }
+}

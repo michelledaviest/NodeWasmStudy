@@ -1,0 +1,78 @@
+[
+  {
+    "url": "https://github.com/AngleSharp/AngleSharp",
+    "stars": 4642
+  },
+  {
+    "url": "https://github.com/AngleSharp/AngleSharp.Js",
+    "stars": 91
+  },
+  {
+    "url": "https://github.com/AngleSharp/AngleSharp.Css",
+    "stars": 53
+  },
+  {
+    "url": "https://github.com/smapiot/Piral.Blazor",
+    "stars": 42
+  },
+  {
+    "url": "https://github.com/AngleSharp/AngleSharp.Io",
+    "stars": 28
+  },
+  {
+    "url": "https://github.com/FlorianRappl/microfrontends-with-blazor-demos",
+    "stars": 28
+  },
+  {
+    "url": "https://github.com/piral-samples/piral-microfrontend-demo",
+    "stars": 27
+  },
+  {
+    "url": "https://github.com/Axinom/mosaic-media-template",
+    "stars": 24
+  },
+  {
+    "url": "https://github.com/piral-samples/netflix-demo",
+    "stars": 14
+  },
+  {
+    "url": "https://github.com/DanteDeRuwe/netflix-piral",
+    "stars": 14
+  },
+  {
+    "url": "https://github.com/AngleSharp/AngleSharp.Xml",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/DanteDeRuwe/spiralfy",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/AngleSharp/AngleSharp.Wasm",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/smapiot/pidoc",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/piral-samples/sample-piral-ssr",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/smapiot/piral-cli-vite",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/technextacg/foodies",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/piral-samples/azure-static-web-app",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/smapiot/publish-pilet-action",
+    "stars": 5
+  }
+]

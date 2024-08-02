@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://github.com/Kitware/itk-vtk-viewer",
+    "stars": 171
+  },
+  {
+    "url": "https://github.com/Kitware/VolView",
+    "stars": 91
+  },
+  {
+    "url": "https://github.com/trungleduc/jupyterview",
+    "stars": 41
+  },
+  {
+    "url": "https://github.com/InsightSoftwareConsortium/ITKTubeTK",
+    "stars": 34
+  },
+  {
+    "url": "https://github.com/KitwareMedical/tensorboard-plugin-3d",
+    "stars": 29
+  },
+  {
+    "url": "https://github.com/OpenImaging/miqa",
+    "stars": 28
+  },
+  {
+    "url": "https://github.com/InsightSoftwareConsortium/ITKMeshToPolyData",
+    "stars": 6
+  }
+]

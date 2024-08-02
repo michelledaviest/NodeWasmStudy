@@ -1,0 +1,67 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:dist",
+            "build",
+            "build:cjs",
+            "build:esm",
+            "build:types",
+            "build:bundle",
+            "build:min"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:node",
+                "test:web"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709430354.4043095,
+            "end_time": 1709430355.2585545
+        },
+        "test:node": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709430355.2588217,
+            "end_time": 1709430355.7719867
+        },
+        "test:web": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709430355.7723167,
+            "end_time": 1709430355.9049046
+        },
+        "cov": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709430355.9051976,
+            "end_time": 1709430356.0994525
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709430356.0996528,
+            "end_time": 1709430369.260132
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709430369.2603562,
+            "end_time": 1709430369.9322348
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/wat-cli"
+    }
+}

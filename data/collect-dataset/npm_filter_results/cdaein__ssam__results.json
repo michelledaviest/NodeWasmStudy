@@ -1,0 +1,16 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build-vite"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/cdaein/ssam"
+    }
+}

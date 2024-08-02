@@ -1,0 +1,89 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "postbuild"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "num_passing": 256,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false,
+            "start_time": 1709829056.23352,
+            "end_time": 1709829061.9671392
+        },
+        "test:prepare": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709829061.9712322,
+            "end_time": 1709829062.1982543
+        },
+        "test:browsers": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709829062.2003381,
+            "end_time": 1709829062.5483336
+        },
+        "test:bundlers": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709829062.5498288,
+            "end_time": 1709829062.7667847
+        },
+        "test:readable-stream-only": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709829062.7677975,
+            "end_time": 1709829062.9593248
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709829062.9606845,
+            "end_time": 1709829074.098631
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709829074.0988634,
+            "end_time": 1709829075.406718
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/readable-stream"
+    }
+}

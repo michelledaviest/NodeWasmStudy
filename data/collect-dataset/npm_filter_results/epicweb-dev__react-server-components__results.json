@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712892983.9625993,
+            "end_time": 1712892984.4457996
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:e2e"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712892984.4461615,
+            "end_time": 1712892984.9403522
+        },
+        "test:e2e:dev": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:e2e:dev"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712892984.9407141,
+            "end_time": 1712892985.4219248
+        },
+        "test:e2e:run": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:e2e:run"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712892985.4223046,
+            "end_time": 1712892985.9160903
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712892985.9165523,
+            "end_time": 1712892988.7459762
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/react-server-components"
+    }
+}

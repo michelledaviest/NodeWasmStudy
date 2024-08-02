@@ -1,0 +1,15 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:sass",
+            "build:search"
+        ]
+    },
+    "testing": {},
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/routify.dev"
+    }
+}

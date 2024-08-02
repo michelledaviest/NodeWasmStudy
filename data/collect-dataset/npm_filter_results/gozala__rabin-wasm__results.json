@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test:node": {
+            "ERROR": true,
+            "num_passing": 4,
+            "num_failing": 3,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1709608271.118946,
+            "end_time": 1709608271.502624
+        },
+        "test:web": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709608271.507271,
+            "end_time": 1709608274.7045915
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/rabin-wasm"
+    }
+}

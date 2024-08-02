@@ -1,0 +1,89 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "compile",
+            "build"
+        ]
+    },
+    "testing": {
+        "commitlinter": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712679414.9802802,
+            "end_time": 1712679415.4495199
+        },
+        "test-types": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1712679415.4498868,
+            "end_time": 1712679415.8218443
+        },
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712679415.8339105,
+            "end_time": 1712679418.3102334
+        },
+        "eslint-fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712679418.3106437,
+            "end_time": 1712679420.9446251
+        },
+        "test-unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712679420.9450736,
+            "end_time": 1712679435.5032666
+        },
+        "test-coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test-unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712679435.5036855,
+            "end_time": 1712679453.720602
+        },
+        "test": {
+            "nested_test_commands": [
+                "test-unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712679453.720949,
+            "end_time": 1712679463.9580114
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712679463.9583752,
+            "end_time": 1712679471.1952326
+        },
+        "lint-fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712679471.1956809,
+            "end_time": 1712679481.5836797
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/stream-chat-js"
+    }
+}

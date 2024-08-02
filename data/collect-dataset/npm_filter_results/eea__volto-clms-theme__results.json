@@ -1,0 +1,67 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "stylelint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914419.136527,
+            "end_time": 1712914419.3645282
+        },
+        "stylelint:theme": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914419.364891,
+            "end_time": 1712914419.5899146
+        },
+        "stylelint:overrides": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914419.590262,
+            "end_time": 1712914419.8133
+        },
+        "stylelint:fix": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "stylelint",
+                "stylelint:theme",
+                "stylelint:overrides"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914419.8136692,
+            "end_time": 1712914420.2746184
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914420.2751567,
+            "end_time": 1712914420.4975734
+        },
+        "lint:fix": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914420.4979358,
+            "end_time": 1712914420.7218862
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914420.7222183,
+            "end_time": 1712914420.9446628
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/volto-clms-theme"
+    }
+}

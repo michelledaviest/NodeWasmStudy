@@ -1,0 +1,118 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589878.7789927,
+            "end_time": 1709589880.9782393
+        },
+        "lint:fix": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589880.9787076,
+            "end_time": 1709589882.2749512
+        },
+        "lint:commits": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589882.2754474,
+            "end_time": 1709589882.8349066
+        },
+        "ci:lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589882.8351977,
+            "end_time": 1709589884.9125924
+        },
+        "ci:test": {
+            "ERROR": true,
+            "num_passing": 60,
+            "num_failing": 96,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709589884.9131367,
+            "end_time": 1709589889.8901346
+        },
+        "ci:coverage": {
+            "ERROR": true,
+            "num_passing": 63,
+            "num_failing": 93,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709589889.8929756,
+            "end_time": 1709589893.8529403
+        },
+        "ci:release": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589893.8552809,
+            "end_time": 1709589894.2815216
+        },
+        "ci:lint:commits": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589894.2819512,
+            "end_time": 1709589894.828374
+        },
+        "ci:typedoc": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589894.8288538,
+            "end_time": 1709589897.202824
+        },
+        "ci:push-docs": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709589897.2033184,
+            "end_time": 1709589904.7593646
+        },
+        "test:once": {
+            "ERROR": true,
+            "num_passing": 63,
+            "num_failing": 93,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709589904.75982,
+            "end_time": 1709589910.1097467
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "num_passing": 63,
+            "num_failing": 93,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709589910.1127844,
+            "end_time": 1709589914.7126691
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/git-notes"
+    }
+}

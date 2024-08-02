@@ -1,0 +1,9 @@
+{
+    "installation": {
+        "installer_command": "yarn",
+        "ERROR": true
+    },
+    "metadata": {
+        "repo_link": "https://github.com/thi-ng/tpl-umbrella-fxhash"
+    }
+}

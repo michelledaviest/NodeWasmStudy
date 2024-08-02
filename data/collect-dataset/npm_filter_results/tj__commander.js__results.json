@@ -1,0 +1,72 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "nested_test_commands": [
+                "lint:javascript",
+                "lint:typescript"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828992.7672389,
+            "end_time": 1709828996.995185
+        },
+        "lint:javascript": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828996.9956431,
+            "end_time": 1709828999.1098108
+        },
+        "lint:typescript": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828999.1100295,
+            "end_time": 1709829000.9429183
+        },
+        "test": {
+            "num_passing": 1108,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709829000.9432738,
+            "end_time": 1709829012.519429
+        },
+        "test-esm": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709829012.5203907,
+            "end_time": 1709829012.7557025
+        },
+        "test-all": {
+            "nested_test_commands": [
+                "lint",
+                "test",
+                "test-esm"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709829012.756914,
+            "end_time": 1709829028.0552645
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/commander.js"
+    }
+}

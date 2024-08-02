@@ -1,0 +1,16 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:translations",
+            "build:copyklarocss"
+        ],
+        "ERROR": true
+    },
+    "testing": {},
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/Sandstorm.CookiePunch"
+    }
+}

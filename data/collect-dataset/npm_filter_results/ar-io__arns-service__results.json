@@ -1,0 +1,59 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test:docker": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712786827.1680875,
+            "end_time": 1712786827.3939257
+        },
+        "test:integration": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712786827.3942695,
+            "end_time": 1712786831.0429482
+        },
+        "test:integration:local": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712786831.0459497,
+            "end_time": 1712786835.4782197
+        },
+        "docker:integration": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712786835.4786112,
+            "end_time": 1712786835.7052364
+        },
+        "lint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712786835.7055879,
+            "end_time": 1712786837.425258
+        },
+        "lint:check": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712786837.4255605,
+            "end_time": 1712786839.1454594
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/arns-service"
+    }
+}

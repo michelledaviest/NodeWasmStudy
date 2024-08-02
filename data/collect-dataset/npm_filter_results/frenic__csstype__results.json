@@ -1,0 +1,54 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709809391.703484,
+            "end_time": 1709809393.94301
+        },
+        "test": {
+            "num_passing": 24,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709809393.9434862,
+            "end_time": 1709809425.865708
+        },
+        "test:src": {
+            "num_passing": 7,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709809425.8665855,
+            "end_time": 1709809428.896316
+        },
+        "test:dist": {
+            "num_passing": 17,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709809428.8966331,
+            "end_time": 1709809458.6087759
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/csstype"
+    }
+}

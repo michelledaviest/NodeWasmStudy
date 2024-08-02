@@ -1,0 +1,74 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "prelint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826597.1738572,
+            "end_time": 1709826597.98877
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826597.989159,
+            "end_time": 1709826599.8054626
+        },
+        "pretests-only": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709826599.805856,
+            "end_time": 1709826600.056914
+        },
+        "tests-only": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826600.061243,
+            "end_time": 1709826600.5253603
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826600.525513,
+            "end_time": 1709826603.3915808
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826603.3920135,
+            "end_time": 1709826640.7504802
+        },
+        "posttest": {
+            "nested_test_commands": [
+                "test:multirepo"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826640.7508836,
+            "end_time": 1709826646.6992142
+        },
+        "test:multirepo": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709826646.6995323,
+            "end_time": 1709826649.3371634
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/resolve"
+    }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/NixOS/nixpkgs",
+    "stars": 15500
+  },
+  {
+    "url": "https://github.com/MatthiasGrandl/Loungy",
+    "stars": 1235
+  },
+  {
+    "url": "https://github.com/ulyssa/iamb",
+    "stars": 384
+  },
+  {
+    "url": "https://github.com/poljar/weechat-matrix-rs",
+    "stars": 356
+  },
+  {
+    "url": "https://github.com/sebadob/rauthy",
+    "stars": 149
+  },
+  {
+    "url": "https://github.com/nix-community/nur-combined",
+    "stars": 105
+  },
+  {
+    "url": "https://github.com/bitbetterde/Threematrix",
+    "stars": 101
+  },
+  {
+    "url": "https://github.com/8go/matrix-commander-rs",
+    "stars": 71
+  },
+  {
+    "url": "https://github.com/acterglobal/a3",
+    "stars": 66
+  },
+  {
+    "url": "https://github.com/bnjbvr/trinity",
+    "stars": 62
+  },
+  {
+    "url": "https://github.com/DevinR528/rumatui",
+    "stars": 60
+  },
+  {
+    "url": "https://github.com/rumpelsepp/mnotify",
+    "stars": 55
+  },
+  {
+    "url": "https://github.com/haecker-felix/hebbot",
+    "stars": 52
+  },
+  {
+    "url": "https://github.com/pkulak/matui",
+    "stars": 37
+  },
+  {
+    "url": "https://github.com/acterglobal/matrix-migrate",
+    "stars": 28
+  },
+  {
+    "url": "https://github.com/project-robius/robrix",
+    "stars": 21
+  },
+  {
+    "url": "https://github.com/corepaper/morum",
+    "stars": 19
+  },
+  {
+    "url": "https://github.com/eras/mxrxtx",
+    "stars": 14
+  },
+  {
+    "url": "https://github.com/tilosp/matrix-send-rs",
+    "stars": 14
+  },
+  {
+    "url": "https://github.com/martinetd/matrirc",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/ultram4rine/alerter",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/rakanalh/raiden.rs",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/MTRNord/matrix-ipfs-bot",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/matrix-org/matrix-rust-sdk-crypto-wasm",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/L3afMe/konoha",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/JakeKalstad/kinbrio",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/matrix-org/mx-tester",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/proudmuslim-dev/matrix-openai-bot",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/blitz/nix-configs",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/DanNixon/matrix-mqtt-bridge",
+    "stars": 5
+  }
+]

@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709430843.9034884,
+            "end_time": 1709430844.2790236
+        },
+        "ava": {
+            "num_passing": 7,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false,
+            "start_time": 1709430844.2792199,
+            "end_time": 1709430845.2508063
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "ava"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709430845.252718,
+            "end_time": 1709430846.7892554
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/better-blockmap-wasm"
+    }
+}

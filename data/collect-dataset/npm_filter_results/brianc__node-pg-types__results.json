@@ -1,0 +1,63 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712702943.6057096,
+            "end_time": 1712702950.118168
+        },
+        "coverage-ci": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712702950.1185617,
+            "end_time": 1712702955.9737613
+        },
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712702955.9740994,
+            "end_time": 1712702956.7933223
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "test-js",
+                "test-ts"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712702956.7936363,
+            "end_time": 1712702960.4258158
+        },
+        "test-js": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712702960.42616,
+            "end_time": 1712702961.1654088
+        },
+        "test-ts": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712702961.1657295,
+            "end_time": 1712702963.131662
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/node-pg-types"
+    }
+}

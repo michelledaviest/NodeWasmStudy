@@ -1,0 +1,72 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "components:build",
+            "prestorybook:build",
+            "cdn-preview:build",
+            "storybook:build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712711778.1042717,
+            "end_time": 1712711779.1768546
+        },
+        "test:cem": {
+            "num_passing": 81,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712711779.1772096,
+            "end_time": 1712711779.9724066
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712711779.9800434,
+            "end_time": 1712711790.8661563
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712711790.8665626,
+            "end_time": 1712711800.7304678
+        },
+        "stylelint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712711800.7308452,
+            "end_time": 1712711805.5111494
+        },
+        "stylelint:ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712711805.5116735,
+            "end_time": 1712711810.1806505
+        },
+        "stylelint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712711810.1810102,
+            "end_time": 1712711815.1914017
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/clever-components"
+    }
+}

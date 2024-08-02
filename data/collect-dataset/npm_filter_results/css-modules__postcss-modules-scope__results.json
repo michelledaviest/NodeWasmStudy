@@ -1,0 +1,69 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709801128.3057296,
+            "end_time": 1709801128.9415636
+        },
+        "lint": {
+            "nested_test_commands": [
+                "eslint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709801128.9420087,
+            "end_time": 1709801130.4171844
+        },
+        "test:only": {
+            "num_passing": 41,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709801130.4175673,
+            "end_time": 1709801132.0840282
+        },
+        "test:coverage": {
+            "num_passing": 41,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709801132.0850117,
+            "end_time": 1709801134.495977
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709801134.4964526,
+            "end_time": 1709801136.1367135
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709801136.1370716,
+            "end_time": 1709801139.349888
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/postcss-modules-scope"
+    }
+}

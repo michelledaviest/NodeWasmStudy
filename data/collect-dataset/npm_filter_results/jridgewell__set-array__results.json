@@ -1,0 +1,91 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build:rollup",
+            "build:ts"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808472.215361,
+            "end_time": 1709808476.0944867
+        },
+        "lint:prettier": {
+            "nested_test_commands": [
+                "test:lint:prettier"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808476.0950694,
+            "end_time": 1709808476.718259
+        },
+        "lint:ts": {
+            "nested_test_commands": [
+                "test:lint:ts"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808476.718562,
+            "end_time": 1709808477.6804671
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808477.6809719,
+            "end_time": 1709808480.3676076
+        },
+        "test:lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808480.3681433,
+            "end_time": 1709808482.1604106
+        },
+        "test:lint:prettier": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808482.1609223,
+            "end_time": 1709808482.8585546
+        },
+        "test:lint:ts": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808482.8589745,
+            "end_time": 1709808483.6898508
+        },
+        "test:only": {
+            "num_passing": 14,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1709808483.6902945,
+            "end_time": 1709808484.1918106
+        },
+        "test:coverage": {
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808484.1935499,
+            "end_time": 1709808485.099224
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/set-array"
+    }
+}

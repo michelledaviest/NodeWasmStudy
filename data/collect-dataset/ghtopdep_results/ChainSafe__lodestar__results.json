@@ -1,0 +1,102 @@
+[
+  {
+    "url": "https://github.com/web3/web3.js",
+    "stars": 18691
+  },
+  {
+    "url": "https://github.com/rocket-pool/rocketpool",
+    "stars": 863
+  },
+  {
+    "url": "https://github.com/yi-sun/circom-pairing",
+    "stars": 170
+  },
+  {
+    "url": "https://github.com/succinctlabs/eth-proof-of-consensus",
+    "stars": 103
+  },
+  {
+    "url": "https://github.com/ChainSafe/bls",
+    "stars": 95
+  },
+  {
+    "url": "https://github.com/dmpierre/eth-private-market",
+    "stars": 86
+  },
+  {
+    "url": "https://github.com/succinctlabs/telepathy-circuits",
+    "stars": 49
+  },
+  {
+    "url": "https://github.com/ChainSafe/ChainGuardian",
+    "stars": 44
+  },
+  {
+    "url": "https://github.com/metacraft-labs/DendrETH",
+    "stars": 43
+  },
+  {
+    "url": "https://github.com/ChainSafe/ssz",
+    "stars": 40
+  },
+  {
+    "url": "https://github.com/node-real/js-direct-route",
+    "stars": 38
+  },
+  {
+    "url": "https://github.com/lightclients/poc-superlight-client",
+    "stars": 38
+  },
+  {
+    "url": "https://github.com/darwinia-network/darwinia-messages-sol",
+    "stars": 29
+  },
+  {
+    "url": "https://github.com/distributed-ledger-technology/web3",
+    "stars": 25
+  },
+  {
+    "url": "https://github.com/AmanGotchu/RandaoZKP",
+    "stars": 22
+  },
+  {
+    "url": "https://github.com/vincenthuang75025/zkxzk",
+    "stars": 12
+  },
+  {
+    "url": "https://github.com/lucky18210/Web3js-simple-project",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/ChainSafe/simpleserialize.com",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/CoolDevMan/chain_web3.js",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/bcmaster20/chain_web3.js",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/whbjzzwjxq/ZKAP",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/KinetexNetwork/ethglobal-paris",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/ChainSafe/recursive-zk-bridge",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/ScottyPoi/SSZ-SimpleSerialize",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/ChainSafe/eth2-light-client-demo",
+    "stars": 5
+  }
+]

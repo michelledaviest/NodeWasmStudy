@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/apache/camel",
+    "stars": 5294
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/spring-zeebe",
+    "stars": 184
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/kafka-connect-zeebe",
+    "stars": 93
+  },
+  {
+    "url": "https://github.com/camunda/camunda-platform-get-started",
+    "stars": 91
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/zeeqs",
+    "stars": 58
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/zeebe-hazelcast-exporter",
+    "stars": 42
+  },
+  {
+    "url": "https://github.com/camunda/zeebe-process-test",
+    "stars": 38
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/zeebe-kafka-exporter",
+    "stars": 35
+  },
+  {
+    "url": "https://github.com/camunda/connectors",
+    "stars": 31
+  },
+  {
+    "url": "https://github.com/berndruecker/customer-onboarding-camunda-8-springboot",
+    "stars": 30
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/camunda-8-process-solution-template",
+    "stars": 29
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/camunda-8-examples",
+    "stars": 28
+  },
+  {
+    "url": "https://github.com/quarkiverse/quarkus-zeebe",
+    "stars": 24
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/camunda-8-lowcode-ui-template",
+    "stars": 23
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/eze",
+    "stars": 23
+  },
+  {
+    "url": "https://github.com/wkspower/wks-platform",
+    "stars": 21
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/zeebe-test-container",
+    "stars": 21
+  },
+  {
+    "url": "https://github.com/Zelldon/zdb",
+    "stars": 20
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/camunda-8-code-studio",
+    "stars": 16
+  },
+  {
+    "url": "https://github.com/Miragon/miranum",
+    "stars": 15
+  },
+  {
+    "url": "https://github.com/camunda-consulting/camunda-8-code-examples",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/zeebe-cherry-runtime",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/zeebe-worker-java-testutils",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/zeebe-redis-exporter",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/kotlin-coworker",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/zeebe-keycloak-interceptor",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/crossid/zeebe-mongo-exporter",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/zeebe-embedded-job-worker",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/camunda-community-hub/SaaS-Worker-Simulator",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/zeebe-io/zeebe-cluster-testbench",
+    "stars": 6
+  }
+]

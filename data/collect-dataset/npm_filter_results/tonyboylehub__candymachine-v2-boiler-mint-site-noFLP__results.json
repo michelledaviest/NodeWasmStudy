@@ -1,0 +1,9 @@
+{
+    "installation": {
+        "installer_command": "yarn",
+        "ERROR": true
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/candymachine-v2-boiler-mint-site-noFLP"
+    }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://github.com/warp-contracts/warp",
+    "stars": 123
+  },
+  {
+    "url": "https://github.com/polkafoundry/oldpolka",
+    "stars": 92
+  },
+  {
+    "url": "https://github.com/TrueBitFoundation/truebit-os",
+    "stars": 83
+  },
+  {
+    "url": "https://github.com/TrueBitFoundation/webasm-solidity",
+    "stars": 65
+  },
+  {
+    "url": "https://github.com/primea/js-primea-hypervisor",
+    "stars": 42
+  },
+  {
+    "url": "https://github.com/luckyr13/arwiki",
+    "stars": 32
+  },
+  {
+    "url": "https://github.com/warp-contracts/gateway",
+    "stars": 17
+  },
+  {
+    "url": "https://github.com/Parallel-news/permacast",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/Rutile-io/Rutile",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/TrueBitFoundation/emscripten-module-wrapper",
+    "stars": 8
+  },
+  {
+    "url": "https://github.com/angrymouse/anothercoin",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/primea/js-primea-wasm-container",
+    "stars": 5
+  }
+]

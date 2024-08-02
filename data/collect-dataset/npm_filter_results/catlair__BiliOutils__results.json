@@ -1,0 +1,50 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "postbuild",
+            "postbuild:baidu",
+            "build:rollup"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint:eslint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712702140.6486897,
+            "end_time": 1712702145.9661822
+        },
+        "lint:prettier": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712702145.9665544,
+            "end_time": 1712702149.1204786
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 20,
+            "num_failing": 5,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712702149.1207702,
+            "end_time": 1712702151.0848699
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/BiliOutils"
+    }
+}

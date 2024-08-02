@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-all",
+            "build-esm",
+            "build-cjs",
+            "build-tests",
+            "compile",
+            "compile-esm",
+            "compile-cjs",
+            "build-test"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "build-tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712696898.6633961,
+            "end_time": 1712696905.611288
+        },
+        "compile-tests": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712696905.6116853,
+            "end_time": 1712696910.634033
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712696910.634383,
+            "end_time": 1712696917.9918993
+        },
+        "build-test": {
+            "nested_test_commands": [
+                "build-tests"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712696917.9922287,
+            "end_time": 1712696926.6395502
+        },
+        "eslint-fix": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712696926.6399152,
+            "end_time": 1712696930.9191415
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/ige"
+    }
+}

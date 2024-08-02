@@ -1,0 +1,104 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "integration-test",
+                "unit-test",
+                "plutip-test",
+                "staking-test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609045.751661,
+            "end_time": 1709609046.317499
+        },
+        "integration-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609046.3181093,
+            "end_time": 1709609046.6493335
+        },
+        "blockfrost-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609046.649867,
+            "end_time": 1709609046.9187846
+        },
+        "blockfrost-local-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609046.9193575,
+            "end_time": 1709609047.1633623
+        },
+        "unit-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609047.1639438,
+            "end_time": 1709609047.3900392
+        },
+        "plutip-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609047.3905177,
+            "end_time": 1709609047.6554353
+        },
+        "staking-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609047.655918,
+            "end_time": 1709609047.9985392
+        },
+        "e2e-serve": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609047.9989996,
+            "end_time": 1709609048.2258754
+        },
+        "e2e-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609048.226298,
+            "end_time": 1709609048.4398093
+        },
+        "e2e-browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609048.440347,
+            "end_time": 1709609048.6488647
+        },
+        "e2e-pack-settings": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609048.6493995,
+            "end_time": 1709609049.010369
+        },
+        "e2e-unpack-settings": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709609049.0107555,
+            "end_time": 1709609049.2151597
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/cardano-transaction-lib"
+    }
+}

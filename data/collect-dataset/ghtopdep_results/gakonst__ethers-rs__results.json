@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://github.com/FuelLabs/fuel-core",
+    "stars": 58772
+  },
+  {
+    "url": "https://github.com/NixOS/nixpkgs",
+    "stars": 15500
+  },
+  {
+    "url": "https://github.com/foundry-rs/foundry",
+    "stars": 7483
+  },
+  {
+    "url": "https://github.com/NomicFoundation/hardhat",
+    "stars": 6727
+  },
+  {
+    "url": "https://github.com/MystenLabs/sui",
+    "stars": 5669
+  },
+  {
+    "url": "https://github.com/Dapp-Learning-DAO/Dapp-Learning",
+    "stars": 4622
+  },
+  {
+    "url": "https://github.com/paradigmxyz/reth",
+    "stars": 3098
+  },
+  {
+    "url": "https://github.com/sigp/lighthouse",
+    "stars": 2718
+  },
+  {
+    "url": "https://github.com/anoma/namada",
+    "stars": 2371
+  },
+  {
+    "url": "https://github.com/paradigmxyz/artemis",
+    "stars": 2045
+  },
+  {
+    "url": "https://github.com/a16z/helios",
+    "stars": 1690
+  },
+  {
+    "url": "https://github.com/dfinity/ic",
+    "stars": 1464
+  },
+  {
+    "url": "https://github.com/risc0/risc0",
+    "stars": 1346
+  },
+  {
+    "url": "https://github.com/bluealloy/revm",
+    "stars": 1342
+  },
+  {
+    "url": "https://github.com/hyperledger/solang",
+    "stars": 1181
+  },
+  {
+    "url": "https://github.com/Zilliqa/Zilliqa",
+    "stars": 1128
+  },
+  {
+    "url": "https://github.com/Jon-Becker/heimdall-rs",
+    "stars": 1042
+  },
+  {
+    "url": "https://github.com/paradigmxyz/cryo",
+    "stars": 943
+  },
+  {
+    "url": "https://github.com/zkonduit/ezkl",
+    "stars": 821
+  },
+  {
+    "url": "https://github.com/scroll-tech/zkevm-circuits",
+    "stars": 807
+  },
+  {
+    "url": "https://github.com/privacy-scaling-explorations/zkevm-circuits",
+    "stars": 767
+  },
+  {
+    "url": "https://github.com/AstarNetwork/Astar",
+    "stars": 719
+  },
+  {
+    "url": "https://github.com/availproject/avail",
+    "stars": 662
+  },
+  {
+    "url": "https://github.com/nascentxyz/pyrometer",
+    "stars": 631
+  },
+  {
+    "url": "https://github.com/primitivefinance/arbiter",
+    "stars": 614
+  },
+  {
+    "url": "https://github.com/sajjadium/ctf-archives",
+    "stars": 608
+  },
+  {
+    "url": "https://github.com/DefGuard/defguard",
+    "stars": 593
+  },
+  {
+    "url": "https://github.com/eqlabs/pathfinder",
+    "stars": 591
+  },
+  {
+    "url": "https://github.com/fuzzland/ityfuzz",
+    "stars": 588
+  },
+  {
+    "url": "https://github.com/scroll-tech/scroll-prover",
+    "stars": 588
+  }
+]

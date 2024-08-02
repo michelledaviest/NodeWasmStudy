@@ -1,0 +1,69 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 362,
+            "num_failing": 16,
+            "test_infras": [
+                "jest"
+            ],
+            "nested_test_commands": [
+                "test:types"
+            ],
+            "timed_out": false,
+            "start_time": 1712907888.5556211,
+            "end_time": 1712907896.2712855
+        },
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712907896.272346,
+            "end_time": 1712907902.8600447
+        },
+        "markdownlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712907902.8605785,
+            "end_time": 1712907903.232242
+        },
+        "lint": {
+            "nested_test_commands": [
+                "eslint",
+                "markdownlint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712907903.2327034,
+            "end_time": 1712907910.7693205
+        },
+        "commitlint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712907910.769705,
+            "end_time": 1712907911.3097868
+        },
+        "test:types": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: lerna"
+            ],
+            "timed_out": false,
+            "start_time": 1712907911.3102932,
+            "end_time": 1712907916.8186257
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/d3fc"
+    }
+}

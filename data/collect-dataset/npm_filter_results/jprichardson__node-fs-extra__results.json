@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827878.3549836,
+            "end_time": 1709827880.153478
+        },
+        "test-find": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827880.1536434,
+            "end_time": 1709827886.6680474
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "unit",
+                "unit-esm"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709827886.6684117,
+            "end_time": 1709827894.6699362
+        },
+        "unit": {
+            "num_passing": 701,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false,
+            "start_time": 1709827894.6702828,
+            "end_time": 1709827901.518996
+        },
+        "unit-esm": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709827901.542196,
+            "end_time": 1709827901.7508438
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/node-fs-extra"
+    }
+}

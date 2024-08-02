@@ -1,0 +1,61 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:types",
+            "build:pkg"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709605864.7136972,
+            "end_time": 1709605868.599212
+        },
+        "devtest:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709605868.599496,
+            "end_time": 1709605872.0201662
+        },
+        "g:test": {
+            "ERROR": true,
+            "num_passing": 1,
+            "num_failing": 2,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709605872.02043,
+            "end_time": 1709605874.737181
+        },
+        "g:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709605874.738284,
+            "end_time": 1709605875.5247653
+        },
+        "g:devtest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709605875.5249386,
+            "end_time": 1709605876.2127717
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/anansi"
+    }
+}

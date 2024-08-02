@@ -1,0 +1,94 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "asbuild:untouched",
+            "asbuild:optimized",
+            "asbuild",
+            "build",
+            "build:test",
+            "build:production"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "build:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709595633.6551518,
+            "end_time": 1709595634.1353402
+        },
+        "build:benchmark": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709595634.135725,
+            "end_time": 1709595634.6280801
+        },
+        "test": {
+            "nested_test_commands": [
+                "build:test",
+                "test:run"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709595634.6284542,
+            "end_time": 1709595638.919858
+        },
+        "test:run": {
+            "num_passing": 16,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709595638.92028,
+            "end_time": 1709595639.1479118
+        },
+        "test:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709595639.150549,
+            "end_time": 1709595640.4724731
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709595640.4729087,
+            "end_time": 1709595641.7650623
+        },
+        "benchmark": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "build:benchmark",
+                "benchmark:run"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709595641.7654915,
+            "end_time": 1709595646.1477149
+        },
+        "benchmark:run": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709595646.1481514,
+            "end_time": 1709595646.3732226
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/levenshtein-wasm"
+    }
+}

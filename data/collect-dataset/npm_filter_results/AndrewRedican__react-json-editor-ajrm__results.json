@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:commonjs",
+            "build:es",
+            "build:copy-files"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:start",
+                "test:clear"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694359.9897885,
+            "end_time": 1712694363.1465094
+        },
+        "test:start": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694363.1468809,
+            "end_time": 1712694365.664029
+        },
+        "test:clear": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694365.6643848,
+            "end_time": 1712694365.9999795
+        },
+        "test:coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694366.0003421,
+            "end_time": 1712694373.4384055
+        },
+        "test:release": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712694373.4387636,
+            "end_time": 1712694380.650721
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/react-json-editor-ajrm"
+    }
+}

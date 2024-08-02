@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://github.com/AlchemyCMS/alchemy-solidus",
+    "stars": 28
+  },
+  {
+    "url": "https://github.com/AlchemyCMS/alchemy_spree",
+    "stars": 23
+  },
+  {
+    "url": "https://github.com/AlchemyCMS/alchemy-devise",
+    "stars": 14
+  },
+  {
+    "url": "https://github.com/robinboening/alchemy_crm",
+    "stars": 10
+  },
+  {
+    "url": "https://github.com/AlchemyCMS/capistrano-alchemy",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/AlchemyCMS/alchemy-json_api",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/AlchemyCMS/alchemy-usermanual",
+    "stars": 6
+  },
+  {
+    "url": "https://github.com/AlchemyCMS/alchemy-demo",
+    "stars": 5
+  },
+  {
+    "url": "https://github.com/AlchemyCMS/alchemy-pg_search",
+    "stars": 5
+  }
+]

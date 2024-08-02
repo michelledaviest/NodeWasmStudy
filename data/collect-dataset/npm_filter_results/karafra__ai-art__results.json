@@ -1,0 +1,50 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build:canvas",
+            "build:docs"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712914574.0512211,
+            "end_time": 1712914580.0450985
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 38,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712914580.0455666,
+            "end_time": 1712914589.3191862
+        },
+        "test:cov": {
+            "ERROR": true,
+            "num_passing": 38,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1712914589.3201387,
+            "end_time": 1712914603.0175693
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/ai-art"
+    }
+}

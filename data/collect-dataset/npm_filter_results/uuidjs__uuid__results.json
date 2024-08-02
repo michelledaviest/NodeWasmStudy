@@ -1,0 +1,117 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "examples:browser:webpack:build",
+            "examples:browser:rollup:build"
+        ]
+    },
+    "testing": {
+        "examples:node:commonjs:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828258.8309205,
+            "end_time": 1709828259.5777307
+        },
+        "examples:node:esmodules:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828259.5780761,
+            "end_time": 1709828260.696324
+        },
+        "examples:node:jest:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828260.696936,
+            "end_time": 1709828263.9040837
+        },
+        "lint": {
+            "nested_test_commands": [
+                "eslint:check"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828263.9046297,
+            "end_time": 1709828266.801212
+        },
+        "eslint:check": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828266.8017392,
+            "end_time": 1709828268.4265742
+        },
+        "eslint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828268.4270885,
+            "end_time": 1709828270.042327
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828270.0428703,
+            "end_time": 1709828270.2484634
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828270.2489562,
+            "end_time": 1709828273.040804
+        },
+        "pretest:browser": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828273.0413926,
+            "end_time": 1709828303.8785007
+        },
+        "test:browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828303.8788178,
+            "end_time": 1709828313.9411597
+        },
+        "pretest:node": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828313.9413898,
+            "end_time": 1709828316.85962
+        },
+        "test:node": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828316.8600442,
+            "end_time": 1709828322.187058
+        },
+        "test:pack": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828322.1878529,
+            "end_time": 1709828329.130478
+        },
+        "pretest:benchmark": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828329.1308534,
+            "end_time": 1709828332.0638118
+        },
+        "test:benchmark": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709828332.0642204,
+            "end_time": 1709828378.848716
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/uuid"
+    }
+}

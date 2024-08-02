@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:cjs",
+            "build:esm"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:jest",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808154.3546517,
+            "end_time": 1709808164.8972054
+        },
+        "test:jest": {
+            "num_passing": 100,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709808164.897628,
+            "end_time": 1709808169.5167582
+        },
+        "lint": {
+            "nested_test_commands": [
+                "lint:es",
+                "lint:prettier"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808169.5175076,
+            "end_time": 1709808173.6199405
+        },
+        "lint:es": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808173.6203463,
+            "end_time": 1709808176.1556177
+        },
+        "lint:prettier": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709808176.155954,
+            "end_time": 1709808177.436189
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/htmlparser2"
+    }
+}

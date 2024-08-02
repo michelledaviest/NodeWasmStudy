@@ -1,0 +1,73 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-js-min"
+        ]
+    },
+    "testing": {
+        "lint-html": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "gulp"
+            ],
+            "timed_out": false,
+            "start_time": 1712900296.1292834,
+            "end_time": 1712900296.7298548
+        },
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712900296.7315407,
+            "end_time": 1712900297.7623339
+        },
+        "eslint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712900297.7626798,
+            "end_time": 1712900298.7868707
+        },
+        "textlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712900298.7872517,
+            "end_time": 1712900303.106053
+        },
+        "textlint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712900303.1064548,
+            "end_time": 1712900308.5074127
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712900308.507759,
+            "end_time": 1712900320.685936
+        },
+        "unittest": {
+            "num_passing": 82,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false,
+            "start_time": 1712900320.6863034,
+            "end_time": 1712900332.5235422
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/promises-book"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "metadata": {
+        "repo_link": "https://github.com/hrbrmstr/slightly-more-than-minimal"
+    }
+}

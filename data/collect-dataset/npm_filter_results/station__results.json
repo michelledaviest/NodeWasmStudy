@@ -1,0 +1,78 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "compile",
+            "compile:clear"
+        ]
+    },
+    "testing": {
+        "tools:test": {
+            "num_passing": 30,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1710981697.6573327,
+            "end_time": 1710981705.3909402
+        },
+        "tools:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710981705.3921094,
+            "end_time": 1710981713.9723053
+        },
+        "tools:lint:fix": {
+            "nested_test_commands": [
+                "tools:lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710981713.9725711,
+            "end_time": 1710981720.511134
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710981720.5114443,
+            "end_time": 1710981812.8004222
+        },
+        "test:record": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710981812.8038623,
+            "end_time": 1710981909.2662241
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710981909.2691803,
+            "end_time": 1710981919.415276
+        },
+        "create:mock-map-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710981919.4162135,
+            "end_time": 1710981920.9360125
+        },
+        "create:test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1710981920.9365287,
+            "end_time": 1710981922.6061666
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/station"
+    }
+}

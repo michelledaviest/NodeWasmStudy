@@ -1,0 +1,59 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "about:build",
+            "about:build-post",
+            "build",
+            "build-post",
+            "build-post-ktx",
+            "build-post-cli"
+        ]
+    },
+    "testing": {
+        "about:eslint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712779221.6230602,
+            "end_time": 1712779221.8777215
+        },
+        "about:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712779221.87812,
+            "end_time": 1712779222.1328282
+        },
+        "about:coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712779222.1331594,
+            "end_time": 1712779222.3837366
+        },
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712779222.3840804,
+            "end_time": 1712779226.118286
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712779226.118638,
+            "end_time": 1712779236.5761564
+        },
+        "coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712779236.5765243,
+            "end_time": 1712779261.827603
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/3d-tiles-tools"
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "do-tests": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712710969.762597,
+            "end_time": 1712710970.017358
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712710970.017971,
+            "end_time": 1712710976.899835
+        },
+        "webtest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712710976.9003384,
+            "end_time": 1712710978.0480661
+        },
+        "webtest-coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712710978.0485113,
+            "end_time": 1712710979.1569495
+        },
+        "do-coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712710979.1574414,
+            "end_time": 1712710979.4078102
+        },
+        "coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712710979.4082608,
+            "end_time": 1712710979.663786
+        },
+        "view-coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712710979.6642628,
+            "end_time": 1712710979.9165013
+        },
+        "lint": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "gulp"
+            ],
+            "timed_out": false,
+            "start_time": 1712710979.9168913,
+            "end_time": 1712710989.0185854
+        },
+        "pylint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712710989.020289,
+            "end_time": 1712710989.274703
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/chromium-dashboard"
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709825574.887414,
+            "end_time": 1709825575.741654
+        },
+        "test:tsc": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709825575.742107,
+            "end_time": 1709825576.3341608
+        },
+        "test:ts": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709825576.3346658,
+            "end_time": 1709825576.586642
+        },
+        "tap": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false,
+            "start_time": 1709825576.5887866,
+            "end_time": 1709825580.4272046
+        },
+        "test:git": {
+            "nested_test_commands": [
+                "tap"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709825580.4276237,
+            "end_time": 1709825583.0556479
+        },
+        "test:ignore": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "tap"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709825583.056058,
+            "end_time": 1709825584.3432977
+        },
+        "test:others": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "tap"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709825584.3437467,
+            "end_time": 1709825585.3877084
+        },
+        "test:cases": {
+            "nested_test_commands": [
+                "tap"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709825585.3881695,
+            "end_time": 1709825588.4319975
+        },
+        "test:no-coverage": {
+            "nested_test_commands": [
+                "tap"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709825588.432561,
+            "end_time": 1709825591.610346
+        },
+        "test:only": {
+            "nested_test_commands": [
+                "test:lint",
+                "test:tsc",
+                "test:ts",
+                "test:cases"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709825591.6107683,
+            "end_time": 1709825596.9071555
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709825596.90765,
+            "end_time": 1709825603.3436368
+        },
+        "test:win32": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709825603.3438983,
+            "end_time": 1709825608.8315172
+        },
+        "posttest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709825608.8319588,
+            "end_time": 1709825609.4161098
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/node-ignore"
+    }
+}

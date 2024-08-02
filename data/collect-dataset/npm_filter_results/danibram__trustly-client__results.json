@@ -1,0 +1,81 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:main",
+            "build:module"
+        ]
+    },
+    "testing": {
+        "unit": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false,
+            "start_time": 1712707644.0756721,
+            "end_time": 1712707647.9866343
+        },
+        "check-coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707647.9898894,
+            "end_time": 1712707648.482436
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "unit",
+                "check-coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707648.482822,
+            "end_time": 1712707652.601233
+        },
+        "cov": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "unit",
+                "html-coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707652.6016157,
+            "end_time": 1712707656.7680285
+        },
+        "html-coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707656.7683756,
+            "end_time": 1712707657.2992828
+        },
+        "send-coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1712707657.299624,
+            "end_time": 1712707658.232157
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/RealWasm/scripts/TESTING_REPO/trustly-client"
+    }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "url": "https://github.com/TypeStrong/atom-typescript",
+    "stars": 1131
+  },
+  {
+    "url": "https://github.com/steelbrain/linter",
+    "stars": 1098
+  },
+  {
+    "url": "https://github.com/atom-minimap/minimap",
+    "stars": 641
+  },
+  {
+    "url": "https://github.com/Gert-dev/php-ide-serenata",
+    "stars": 275
+  },
+  {
+    "url": "https://github.com/atom-community/ide-python",
+    "stars": 237
+  },
+  {
+    "url": "https://github.com/steelbrain/linter-ui-default",
+    "stars": 86
+  },
+  {
+    "url": "https://github.com/atom-community/atom-languageclient",
+    "stars": 44
+  },
+  {
+    "url": "https://github.com/Pure-D/atom-ide-d",
+    "stars": 33
+  },
+  {
+    "url": "https://github.com/marko-js/atom-language-marko",
+    "stars": 33
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-datatip",
+    "stars": 32
+  },
+  {
+    "url": "https://github.com/sveltejs/svelte-atom",
+    "stars": 30
+  },
+  {
+    "url": "https://github.com/atom-community/atom-community.github.io",
+    "stars": 27
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-definitions",
+    "stars": 25
+  },
+  {
+    "url": "https://github.com/kwerle/ide-ruby",
+    "stars": 23
+  },
+  {
+    "url": "https://github.com/liuderchi/ide-html",
+    "stars": 20
+  },
+  {
+    "url": "https://github.com/liuderchi/ide-yaml",
+    "stars": 20
+  },
+  {
+    "url": "https://github.com/Xapphire13/tree-sitter-syntax-visualizer",
+    "stars": 18
+  },
+  {
+    "url": "https://github.com/liuderchi/ide-css",
+    "stars": 17
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-signature-help",
+    "stars": 17
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-vue",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-outline",
+    "stars": 13
+  },
+  {
+    "url": "https://github.com/ayame113/atom-ide-deno",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-markdown-service",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/kabiaa/atom-ide-volar",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/atom-community/atom-ide-hyperclick",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/atom-community/ide-sourcekit",
+    "stars": 5
+  }
+]

@@ -1,0 +1,82 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:clean",
+            "build:dist",
+            "build:esm",
+            "build:copy",
+            "build:prepare",
+            "build:stats",
+            "website:build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709783701.608144,
+            "end_time": 1709783775.778817
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709783775.7792022,
+            "end_time": 1709783781.6933858
+        },
+        "lint:format": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709783781.693735,
+            "end_time": 1709783784.515444
+        },
+        "lint:js": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709783784.51593,
+            "end_time": 1709783786.930561
+        },
+        "lint:ts": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false,
+            "start_time": 1709783786.9309735,
+            "end_time": 1709783787.5458636
+        },
+        "unit-test": {
+            "num_passing": 682,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false,
+            "start_time": 1709783787.546287,
+            "end_time": 1709783798.3419623
+        },
+        "benchmark": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false,
+            "start_time": 1709783798.3430808,
+            "end_time": 1709783798.5787776
+        }
+    },
+    "metadata": {
+        "repo_local_dir": "/home/michelle/Documents/Work/in-progress/RealWasm/scripts/TESTING_REPO/immutable-js"
+    }
+}

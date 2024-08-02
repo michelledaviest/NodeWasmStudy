@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://github.com/pnpm/pacquet",
+    "stars": 749
+  },
+  {
+    "url": "https://github.com/TheSoftwareHouse/express-boilerplate",
+    "stars": 206
+  },
+  {
+    "url": "https://github.com/mstable/mStable-app",
+    "stars": 56
+  },
+  {
+    "url": "https://github.com/TheSoftwareHouse/serverless-boilerplate",
+    "stars": 50
+  },
+  {
+    "url": "https://github.com/sane-fmt/sane-fmt",
+    "stars": 26
+  },
+  {
+    "url": "https://github.com/mstable/mStable-governance-app",
+    "stars": 18
+  },
+  {
+    "url": "https://github.com/mstable/mStable-apps",
+    "stars": 14
+  },
+  {
+    "url": "https://github.com/nodejs-monorepo-templates/typescript-monorepo",
+    "stars": 11
+  },
+  {
+    "url": "https://github.com/ksxnodeapps/fun-little-utilities",
+    "stars": 9
+  },
+  {
+    "url": "https://github.com/nodejs-monorepo-templates/typescript-monorepo-esm",
+    "stars": 7
+  },
+  {
+    "url": "https://github.com/aurafinance/aura-token-allocation",
+    "stars": 5
+  }
+]
