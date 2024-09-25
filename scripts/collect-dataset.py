@@ -42,6 +42,32 @@ def get_github_repo_metadata(repo_url):
     response = requests.get(metadata_url)
     return response.json()
 
+def get_github_source(npm_package_metadata): 
+    
+    def get_standardized_url(url): 
+        regex = "^.*(?:https://)?github.com(?::)?/((?:\w|-|_|\.)*)/((?:\w|-|_|\.)*)(?:/tree(?:/.*)*|\.git(?:#master|#main|#ts|#experiment)|\"|$)"
+        match = re.match(regex, url)
+        if match is not None: 
+            repo_first_name, repo_last_name = match.groups(0)
+            #repo_last_name = match.groups(1)
+            if ".git" in repo_last_name: 
+                repo_last_name = repo_last_name.replace(".git", "")
+            std_url = f"https://github.com/{repo_first_name}/{repo_last_name}"
+            return std_url 
+
+    url = None
+    if "links" in npm_package_metadata:
+        if "repository" in npm_package_metadata["links"] and "github" in npm_package_metadata["links"]["repository"]: 
+            url = npm_package_metadata["links"]["repository"]
+            return get_standardized_url(url) 
+    if "repository" in npm_package_metadata: 
+        if "url" in npm_package_metadata["repository"] and "github" in npm_package_metadata["repository"]["url"]: 
+            return get_standardized_url(npm_package_metadata["repository"]["url"])
+    if "homepage" in npm_package_metadata: 
+        return get_standardized_url(npm_package_metadata["homepage"])
+
+    return url 
+
 def clone_repo(repo_url, repo_dir): 
     if os.path.isdir(repo_dir): 
         return True 
@@ -407,21 +433,7 @@ def get_dataset():
     worklist = []
     for package in npm_packages: 
         metadata = npm_packages[package]["metadata"]
-        url = None
-        if "links" in metadata:
-            if "repository" in metadata["links"] and "github" in metadata["links"]["repository"]: 
-                url = metadata["links"]["repository"]
-                continue
-        if "repository" in metadata: 
-            if "url" in metadata["repository"] and "github" in metadata["repository"]["url"]: 
-                regex = "^.*(?:https://)?github.com(?::)?/((?:\w|-|_|\.)*)/((?:\w|-|_|\.)*)(?:/tree(?:/.*)*|\.git(?:#master|#main|#ts|#experiment)|\"|$)"
-                match = re.match(regex, metadata["repository"]["url"])
-                if match is not None: 
-                    repo_first_name, repo_last_name = match.groups(0)
-                    #repo_last_name = match.groups(1)
-                    if ".git" in repo_last_name: 
-                        repo_last_name = repo_last_name.replace(".git", "")
-                    url = f"https://github.com/{repo_first_name}/{repo_last_name}"
+        url = get_github_source(metadata)        
         if url is not None:
             worklist.append(url) 
 
