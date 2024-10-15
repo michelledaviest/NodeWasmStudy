@@ -1,0 +1,27 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "__heap_base",
+    "root": true,
+    "export": "__heap_base"
+  },
+  {
+    "name": "__data_end",
+    "root": true,
+    "export": "__data_end"
+  },
+  {
+    "name": "_start",
+    "root": true,
+    "export": "_start"
+  },
+  {
+    "name": "main",
+    "root": true,
+    "export": "main"
+  }
+]

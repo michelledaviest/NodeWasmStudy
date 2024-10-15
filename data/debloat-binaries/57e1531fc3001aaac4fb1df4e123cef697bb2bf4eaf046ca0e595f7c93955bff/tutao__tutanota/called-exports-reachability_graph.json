@@ -1,0 +1,47 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "OQS_KEM_new",
+    "root": true,
+    "export": "OQS_KEM_new"
+  },
+  {
+    "name": "OQS_KEM_keypair",
+    "root": true,
+    "export": "OQS_KEM_keypair"
+  },
+  {
+    "name": "OQS_KEM_encaps",
+    "root": true,
+    "export": "OQS_KEM_encaps"
+  },
+  {
+    "name": "OQS_KEM_decaps",
+    "root": true,
+    "export": "OQS_KEM_decaps"
+  },
+  {
+    "name": "OQS_KEM_free",
+    "root": true,
+    "export": "OQS_KEM_free"
+  },
+  {
+    "name": "malloc",
+    "root": true,
+    "export": "malloc"
+  },
+  {
+    "name": "free",
+    "root": true,
+    "export": "free"
+  },
+  {
+    "name": "TUTA_inject_entropy",
+    "root": true,
+    "export": "TUTA_inject_entropy"
+  }
+]

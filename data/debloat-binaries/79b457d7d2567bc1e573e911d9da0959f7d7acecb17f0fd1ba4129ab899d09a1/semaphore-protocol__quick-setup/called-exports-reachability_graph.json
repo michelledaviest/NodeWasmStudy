@@ -1,0 +1,57 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "getVersion",
+    "root": true,
+    "export": "getVersion"
+  },
+  {
+    "name": "readSharedRWMemory",
+    "root": true,
+    "export": "readSharedRWMemory"
+  },
+  {
+    "name": "writeSharedRWMemory",
+    "root": true,
+    "export": "writeSharedRWMemory"
+  },
+  {
+    "name": "init",
+    "root": true,
+    "export": "init"
+  },
+  {
+    "name": "setInputSignal",
+    "root": true,
+    "export": "setInputSignal"
+  },
+  {
+    "name": "getRawPrime",
+    "root": true,
+    "export": "getRawPrime"
+  },
+  {
+    "name": "getFieldNumLen32",
+    "root": true,
+    "export": "getFieldNumLen32"
+  },
+  {
+    "name": "getWitnessSize",
+    "root": true,
+    "export": "getWitnessSize"
+  },
+  {
+    "name": "getInputSize",
+    "root": true,
+    "export": "getInputSize"
+  },
+  {
+    "name": "getWitness",
+    "root": true,
+    "export": "getWitness"
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "free",
+    "root": true,
+    "export": "free"
+  },
+  {
+    "name": "hb_blob_create",
+    "root": true,
+    "export": "hb_blob_create"
+  },
+  {
+    "name": "hb_blob_destroy",
+    "root": true,
+    "export": "hb_blob_destroy"
+  },
+  {
+    "name": "malloc",
+    "root": true,
+    "export": "malloc"
+  },
+  {
+    "name": "hb_blob_get_length",
+    "root": true,
+    "export": "hb_blob_get_length"
+  },
+  {
+    "name": "hb_blob_get_data",
+    "root": true,
+    "export": "hb_blob_get_data"
+  },
+  {
+    "name": "hb_face_get_empty",
+    "root": true,
+    "export": "hb_face_get_empty"
+  },
+  {
+    "name": "hb_face_create",
+    "root": true,
+    "export": "hb_face_create"
+  },
+  {
+    "name": "hb_face_destroy",
+    "root": true,
+    "export": "hb_face_destroy"
+  },
+  {
+    "name": "hb_face_reference_blob",
+    "root": true,
+    "export": "hb_face_reference_blob"
+  },
+  {
+    "name": "hb_set_create",
+    "root": true,
+    "export": "hb_set_create"
+  },
+  {
+    "name": "hb_set_destroy",
+    "root": true,
+    "export": "hb_set_destroy"
+  },
+  {
+    "name": "hb_set_clear",
+    "root": true,
+    "export": "hb_set_clear"
+  },
+  {
+    "name": "hb_set_add",
+    "root": true,
+    "export": "hb_set_add"
+  },
+  {
+    "name": "hb_set_del",
+    "root": true,
+    "export": "hb_set_del"
+  },
+  {
+    "name": "hb_set_union",
+    "root": true,
+    "export": "hb_set_union"
+  },
+  {
+    "name": "hb_set_invert",
+    "root": true,
+    "export": "hb_set_invert"
+  },
+  {
+    "name": "hb_subset_input_create_or_fail",
+    "root": true,
+    "export": "hb_subset_input_create_or_fail"
+  },
+  {
+    "name": "hb_subset_input_destroy",
+    "root": true,
+    "export": "hb_subset_input_destroy"
+  },
+  {
+    "name": "hb_subset_input_reference",
+    "root": true,
+    "export": "hb_subset_input_reference"
+  },
+  {
+    "name": "hb_subset_input_unicode_set",
+    "root": true,
+    "export": "hb_subset_input_unicode_set"
+  },
+  {
+    "name": "hb_subset_input_glyph_set",
+    "root": true,
+    "export": "hb_subset_input_glyph_set"
+  },
+  {
+    "name": "hb_subset_input_set",
+    "root": true,
+    "export": "hb_subset_input_set"
+  },
+  {
+    "name": "hb_subset_input_get_flags",
+    "root": true,
+    "export": "hb_subset_input_get_flags"
+  },
+  {
+    "name": "hb_subset_input_set_flags",
+    "root": true,
+    "export": "hb_subset_input_set_flags"
+  },
+  {
+    "name": "hb_subset_input_set_user_data",
+    "root": true,
+    "export": "hb_subset_input_set_user_data"
+  },
+  {
+    "name": "hb_subset_input_get_user_data",
+    "root": true,
+    "export": "hb_subset_input_get_user_data"
+  },
+  {
+    "name": "hb_subset_input_keep_everything",
+    "root": true,
+    "export": "hb_subset_input_keep_everything"
+  },
+  {
+    "name": "hb_subset_input_pin_axis_to_default",
+    "root": true,
+    "export": "hb_subset_input_pin_axis_to_default"
+  },
+  {
+    "name": "hb_subset_input_pin_axis_location",
+    "root": true,
+    "export": "hb_subset_input_pin_axis_location"
+  },
+  {
+    "name": "hb_subset_input_set_axis_range",
+    "root": true,
+    "export": "hb_subset_input_set_axis_range"
+  },
+  {
+    "name": "hb_subset_preprocess",
+    "root": true,
+    "export": "hb_subset_preprocess"
+  },
+  {
+    "name": "hb_subset_or_fail",
+    "root": true,
+    "export": "hb_subset_or_fail"
+  },
+  {
+    "name": "__indirect_function_table",
+    "root": true,
+    "export": "__indirect_function_table"
+  },
+  {
+    "name": "_initialize",
+    "root": true,
+    "export": "_initialize"
+  },
+  {
+    "name": "_emscripten_stack_restore",
+    "root": true,
+    "export": "_emscripten_stack_restore"
+  },
+  {
+    "name": "emscripten_stack_get_current",
+    "root": true,
+    "export": "emscripten_stack_get_current"
+  }
+]

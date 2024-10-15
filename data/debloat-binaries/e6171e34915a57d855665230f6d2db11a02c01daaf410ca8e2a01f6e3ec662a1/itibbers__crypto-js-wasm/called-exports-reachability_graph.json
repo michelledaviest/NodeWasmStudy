@@ -1,0 +1,42 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "doEncrypt",
+    "root": true,
+    "export": "doEncrypt"
+  },
+  {
+    "name": "doDecrypt",
+    "root": true,
+    "export": "doDecrypt"
+  },
+  {
+    "name": "tripleEncrypt",
+    "root": true,
+    "export": "tripleEncrypt"
+  },
+  {
+    "name": "tripleDecrypt",
+    "root": true,
+    "export": "tripleDecrypt"
+  },
+  {
+    "name": "__wbindgen_add_to_stack_pointer",
+    "root": true,
+    "export": "__wbindgen_add_to_stack_pointer"
+  },
+  {
+    "name": "__wbindgen_malloc",
+    "root": true,
+    "export": "__wbindgen_malloc"
+  },
+  {
+    "name": "__wbindgen_free",
+    "root": true,
+    "export": "__wbindgen_free"
+  }
+]

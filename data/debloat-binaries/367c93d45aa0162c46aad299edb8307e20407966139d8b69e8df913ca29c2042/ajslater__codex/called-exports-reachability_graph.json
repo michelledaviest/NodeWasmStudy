@@ -1,0 +1,32 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "initialize",
+    "root": true,
+    "export": "initialize"
+  },
+  {
+    "name": "format",
+    "root": true,
+    "export": "format"
+  },
+  {
+    "name": "__wbindgen_malloc",
+    "root": true,
+    "export": "__wbindgen_malloc"
+  },
+  {
+    "name": "__wbindgen_free",
+    "root": true,
+    "export": "__wbindgen_free"
+  },
+  {
+    "name": "__wbindgen_add_to_stack_pointer",
+    "root": true,
+    "export": "__wbindgen_add_to_stack_pointer"
+  }
+]

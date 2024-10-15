@@ -1,0 +1,127 @@
+[
+  {
+    "name": "baselineIters",
+    "root": true,
+    "export": "baselineIters"
+  },
+  {
+    "name": "baselineTimes",
+    "root": true,
+    "export": "baselineTimes"
+  },
+  {
+    "name": "flags",
+    "root": true,
+    "export": "flags"
+  },
+  {
+    "name": "meanLB",
+    "root": true,
+    "export": "meanLB"
+  },
+  {
+    "name": "meanHB",
+    "root": true,
+    "export": "meanHB"
+  },
+  {
+    "name": "meanPoint",
+    "root": true,
+    "export": "meanPoint"
+  },
+  {
+    "name": "meanError",
+    "root": true,
+    "export": "meanError"
+  },
+  {
+    "name": "medianLB",
+    "root": true,
+    "export": "medianLB"
+  },
+  {
+    "name": "medianHB",
+    "root": true,
+    "export": "medianHB"
+  },
+  {
+    "name": "medianPoint",
+    "root": true,
+    "export": "medianPoint"
+  },
+  {
+    "name": "medianError",
+    "root": true,
+    "export": "medianError"
+  },
+  {
+    "name": "MADLB",
+    "root": true,
+    "export": "MADLB"
+  },
+  {
+    "name": "MADHB",
+    "root": true,
+    "export": "MADHB"
+  },
+  {
+    "name": "MADPoint",
+    "root": true,
+    "export": "MADPoint"
+  },
+  {
+    "name": "MADError",
+    "root": true,
+    "export": "MADError"
+  },
+  {
+    "name": "slopeLB",
+    "root": true,
+    "export": "slopeLB"
+  },
+  {
+    "name": "slopeHB",
+    "root": true,
+    "export": "slopeHB"
+  },
+  {
+    "name": "slopePoint",
+    "root": true,
+    "export": "slopePoint"
+  },
+  {
+    "name": "slopeError",
+    "root": true,
+    "export": "slopeError"
+  },
+  {
+    "name": "stdDevLB",
+    "root": true,
+    "export": "stdDevLB"
+  },
+  {
+    "name": "stdDevHB",
+    "root": true,
+    "export": "stdDevHB"
+  },
+  {
+    "name": "stdDevPoint",
+    "root": true,
+    "export": "stdDevPoint"
+  },
+  {
+    "name": "stdDevError",
+    "root": true,
+    "export": "stdDevError"
+  },
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "benchmark",
+    "root": true,
+    "export": "benchmark"
+  }
+]

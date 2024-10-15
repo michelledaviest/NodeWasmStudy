@@ -1,0 +1,17 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "new_hasher",
+    "root": true,
+    "export": "new_hasher"
+  },
+  {
+    "name": "finalize64",
+    "root": true,
+    "export": "finalize64"
+  }
+]

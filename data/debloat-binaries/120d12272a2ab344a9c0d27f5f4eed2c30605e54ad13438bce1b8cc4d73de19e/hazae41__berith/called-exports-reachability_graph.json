@@ -1,0 +1,22 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "ed25519signingkey_new",
+    "root": true,
+    "export": "ed25519signingkey_new"
+  },
+  {
+    "name": "memory_new",
+    "root": true,
+    "export": "memory_new"
+  },
+  {
+    "name": "__wbindgen_malloc",
+    "root": true,
+    "export": "__wbindgen_malloc"
+  }
+]

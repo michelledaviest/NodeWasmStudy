@@ -1,0 +1,52 @@
+[
+  {
+    "name": "ka",
+    "root": true,
+    "export": "ka"
+  },
+  {
+    "name": "la",
+    "root": true,
+    "export": "la"
+  },
+  {
+    "name": "ma",
+    "root": true,
+    "export": "ma"
+  },
+  {
+    "name": "na",
+    "root": true,
+    "export": "na"
+  },
+  {
+    "name": "sa",
+    "root": true,
+    "export": "sa"
+  },
+  {
+    "name": "ta",
+    "root": true,
+    "export": "ta"
+  },
+  {
+    "name": "wa",
+    "root": true,
+    "export": "wa"
+  },
+  {
+    "name": "xa",
+    "root": true,
+    "export": "xa"
+  },
+  {
+    "name": "ya",
+    "root": true,
+    "export": "ya"
+  },
+  {
+    "name": "Aa",
+    "root": true,
+    "export": "Aa"
+  }
+]

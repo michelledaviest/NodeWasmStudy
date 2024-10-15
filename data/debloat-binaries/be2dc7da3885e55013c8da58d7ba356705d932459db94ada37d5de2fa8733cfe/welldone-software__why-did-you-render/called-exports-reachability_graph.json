@@ -1,0 +1,27 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "allocate_mappings",
+    "root": true,
+    "export": "allocate_mappings"
+  },
+  {
+    "name": "parse_mappings",
+    "root": true,
+    "export": "parse_mappings"
+  },
+  {
+    "name": "by_generated_location",
+    "root": true,
+    "export": "by_generated_location"
+  },
+  {
+    "name": "original_location_for",
+    "root": true,
+    "export": "original_location_for"
+  }
+]

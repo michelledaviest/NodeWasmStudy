@@ -1,0 +1,87 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "sa",
+    "root": true,
+    "export": "sa"
+  },
+  {
+    "name": "is",
+    "root": true,
+    "export": "is"
+  },
+  {
+    "name": "ie",
+    "root": true,
+    "export": "ie"
+  },
+  {
+    "name": "ss",
+    "root": true,
+    "export": "ss"
+  },
+  {
+    "name": "se",
+    "root": true,
+    "export": "se"
+  },
+  {
+    "name": "ai",
+    "root": true,
+    "export": "ai"
+  },
+  {
+    "name": "id",
+    "root": true,
+    "export": "id"
+  },
+  {
+    "name": "ip",
+    "root": true,
+    "export": "ip"
+  },
+  {
+    "name": "es",
+    "root": true,
+    "export": "es"
+  },
+  {
+    "name": "ee",
+    "root": true,
+    "export": "ee"
+  },
+  {
+    "name": "els",
+    "root": true,
+    "export": "els"
+  },
+  {
+    "name": "ele",
+    "root": true,
+    "export": "ele"
+  },
+  {
+    "name": "ri",
+    "root": true,
+    "export": "ri"
+  },
+  {
+    "name": "re",
+    "root": true,
+    "export": "re"
+  },
+  {
+    "name": "f",
+    "root": true,
+    "export": "f"
+  },
+  {
+    "name": "parse",
+    "root": true,
+    "export": "parse"
+  }
+]

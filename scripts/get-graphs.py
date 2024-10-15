@@ -1,4 +1,5 @@
-import json 
+import json
+import shlex 
 import numpy as np
 import statistics
 from collections import Counter
@@ -6,11 +7,12 @@ import argparse
 import pathlib
 import pandas as pd 
 import os 
+import re
 
 from utils import REALWASM_JSON, DEP_ANLYSIS_JSON, DUMPED_WASM_FILES, IGNORED_REPOS
 from utils import NUM_TOP_PACKAGES_TO_ANALYZE, ANALYZED_REPOS_JSON, ANALYZED_NPM_PACKAGES_JSON
 from utils import plt, run
-from utils import INSTANTIATION_JSON, WASM_STATIC_INFO_JSON, EXPORTS_CALLED_COUNT_JSON, CALLS_THROUGH_TABLE_JSON, WASM_IMPORTS_JSON, WASM_MODULES_INTEROP_TYPE, INTEROP_BUT_NEVER_INSTANTIATE
+from utils import INSTANTIATION_JSON, WASM_STATIC_INFO_JSON, EXPORTS_CALLED_COUNT_JSON, CALLS_THROUGH_TABLE_JSON, WASM_IMPORTS_JSON, WASM_MODULES_INTEROP_TYPE, INTEROP_BUT_NEVER_INSTANTIATE, SUMMARY_JSON_DIR
 
 GRAPH_DIR = "./../data/graphs"
 WASM_SOURCE_GRAPH = f'{GRAPH_DIR}/wasm-source-graph.pdf' 
@@ -27,6 +29,10 @@ PERCENT_FUNCS_IN_EXPORTED_TABLE_CALLED = f'{GRAPH_DIR}/percent-funcs-in-exported
 TABLE_MODIFIED_PERCENT = f'{GRAPH_DIR}/table-modified.pdf'
 EXPORTS_NEVER_CALLED = f'{GRAPH_DIR}/exports-never-called.pdf'
 
+DEBLOAT_BINS_DIR = "./../data/debloat-binaries"
+METADCE_BIN = "./wasm-metadce"
+DCE_STATS = f"{SUMMARY_JSON_DIR}/dce-stats.json"
+DCE_GRAPH = f'{GRAPH_DIR}/dce.pdf'
 
 def general_dataset_stats():
     
@@ -275,7 +281,7 @@ def wasm_source_graph():
             bottom += wasm_source_data[source]
     
     plt.xlabel("Packages (sorted by number of modules)")
-    plt.ylabel("# Unique WebAssembly modules")
+    plt.ylabel("\# Unique WebAssembly modules")
 
     plt.legend([key.capitalize() for key in wasm_source_data.keys()])
     plt.savefig(WASM_SOURCE_GRAPH, bbox_inches='tight')
@@ -536,7 +542,7 @@ def avg_exports_per_wasm_file(interop_wasm_modules):
     plt.figure(figsize=(17, 10))
     plt.bar(wasm_modules, avg_client_percent_calls, color='tab:blue')    
     plt.xlabel("Wasm modules that interoperate with JavaScript")
-    plt.ylabel("Mean % exported functions called")
+    plt.ylabel("Mean \% exported functions called")
     plt.savefig(PERCENT_EXPORTED_FUNCS_CALLED, bbox_inches='tight')
     plt.clf()
     print(f"Exports Called Graph at {PERCENT_EXPORTED_FUNCS_CALLED}")
@@ -567,7 +573,7 @@ def avg_exports_per_wasm_file(interop_wasm_modules):
     plt.figure(figsize=(17, 10))    
     plt.scatter(wasm_total_exported_funcs, avg_client_percent_calls, s=None, c=None)
     plt.xlabel("Total number of exported functions")
-    plt.ylabel("Mean % exported functions called")
+    plt.ylabel("Mean \% exported functions called")
     plt.savefig(SCATTER_PLOT_PERCENT_EXPORTED_FUNCS_CALLED, bbox_inches='tight')
     plt.clf()
     print(f"Scatter Plot of Exports Called at {SCATTER_PLOT_PERCENT_EXPORTED_FUNCS_CALLED}")
@@ -678,7 +684,7 @@ def calls_through_table(interop_wasm_modules):
     plt.figure(figsize=(17, 10))
     plt.bar(wasm_modules, avg_client_percent_calls, color='tab:blue')    
     plt.xlabel("WebAssembly modules with imported or exported tables")
-    plt.ylabel("Mean % functions in table called")
+    plt.ylabel("Mean \% functions in table called")
     plt.savefig(PERCENT_FUNCS_IN_EXPORTED_TABLE_CALLED, bbox_inches='tight')
     plt.clf()
     print(f"Functions Called through Exported Table Graph at {PERCENT_FUNCS_IN_EXPORTED_TABLE_CALLED}")
@@ -712,7 +718,7 @@ def calls_through_table(interop_wasm_modules):
     plt.figure(figsize=(17, 10))
     plt.bar(wasm_modules, modified_percent, color='tab:blue')    
     plt.xlabel("WebAssembly modules with imported or exported tables")
-    plt.ylabel("% of entries by which table is modified   ")
+    plt.ylabel("\% of entries by which table is modified   ")
     plt.savefig(TABLE_MODIFIED_PERCENT, bbox_inches='tight')
     plt.clf()
 
@@ -942,7 +948,7 @@ def instantiation_type_bar_chart():
     plt.bar(package_names, instantiateStreaming, bottom=instance+instantiate, color='tab:green')
 
     plt.xlabel("Packages")
-    plt.ylabel("Mean % instantiation per client")
+    plt.ylabel("Mean \% instantiation per client")
     plt.legend(["WebAssembly.Instance()", "WebAssembly.instantiate()", "WebAssembly.instantiateStreaming()"])
     plt.savefig(INSTANTIATION_GRAPH_FILE, bbox_inches='tight')
     plt.clf()
@@ -1076,6 +1082,239 @@ def table_offset_init(init_wasm_modules):
         print(f"  - {wasm_hash}: {offset_values}")
     print()
 
+def run_metadce(options, wasm_binary_path, reachability_graph_path, dce_binary_path): 
+    metadce_result = run(shlex.split(f"{METADCE_BIN} {' '.join(options)} --dce {wasm_binary_path} --graph-file {reachability_graph_path} --output {dce_binary_path}"), check=False)                
+    if metadce_result.returncode == 0:
+        metadce_unused_re = re.compile("unused\: ")
+        removed_functions = [metadce_unused_re.match(output) is not None for output in metadce_result.stdout.split("\n")].count(True)
+        dce_binary_size = os.path.getsize(dce_binary_path)
+        return (True, (dce_binary_size, removed_functions))
+    else: 
+        return (False, metadce_result.stderr)
+
+def run_debloat_on_binary(
+        wasm_binary_path, 
+        wasm_binary_size, 
+        reachability_graph_path, 
+        dce_binary_path, 
+        wasm_static_info, 
+        exports_called, 
+        calls_through_table, 
+        options = []
+    ):
+
+    # Generate reachablity graph - make called exports reachable.
+    # Make called exports reachable  
+    reachability_graph = []
+    for export in wasm_static_info["export_section"]["exports"]: 
+        if (export["_type"] == "Memory" or 
+            (calls_through_table and export["_type"] == "Table") or 
+            (export["_type"] == "Function" and export["name"] in exports_called)): 
+            reachability_graph.append({
+                'name': export['name'],
+                'root': True,
+                'export': export['name']
+            })
+
+    with open(reachability_graph_path, 'w') as reachable_graph_f: 
+        json.dump(reachability_graph, reachable_graph_f, indent=2)
+
+    while True: 
+        (success, result) = run_metadce(
+            options=options, 
+            wasm_binary_path=wasm_binary_path, 
+            reachability_graph_path=reachability_graph_path, 
+            dce_binary_path=dce_binary_path,                     
+        )
+
+        if success: 
+            (dce_binary_size, removed_functions) = result
+            percentage_size_decrease = 100*((wasm_binary_size - dce_binary_size)/wasm_binary_size)
+            return ({
+                "percent_exports_called": 100*(len(exports_called)/wasm_static_info['export_section']['count_exported_funcs']), 
+                "num_exports_called": len(exports_called),
+                "dce_binary_size": dce_binary_size,
+                "percentage_size_decrease": percentage_size_decrease,
+                "removed_functions": removed_functions,
+            }, options)
+        else: 
+            stderr = result
+            if "SIMD operations require SIMD" in stderr: 
+                options.append("--enable-simd")
+                continue
+            elif "Bulk memory operations require bulk memory" in stderr:
+                options.append("--enable-bulk-memory") 
+                continue
+            elif "all used features should be allowed" in stderr: 
+                options.append("--all-features") 
+                continue
+            else: 
+                stderr = result
+                return ({
+                    "FAILURE": "MetaDCE error",
+                    "stderr": stderr
+                }, options)
+
+
+def get_baseline_wasm_binary(wasm_binary_path, output_dir, static_info): 
+    reachability_graph = []
+    reachability_graph_path = f"{output_dir}/baseline-reachability_graph.json"
+    baseline_wasm_binary = f"{output_dir}/baseline-bin.wasm"
+    for export in static_info["export_section"]["exports"]: 
+        reachability_graph.append({
+            'name': export['name'],
+            'root': True,
+            'export': export['name']
+        })
+    with open(reachability_graph_path, 'w') as reachable_graph_f: 
+        json.dump(reachability_graph, reachable_graph_f, indent=2)
+    options = []
+    while True: 
+        metadce_result = run(shlex.split(f"{METADCE_BIN} {' '.join(options)} {wasm_binary_path} --graph-file {reachability_graph_path} --output {baseline_wasm_binary}"), check=False)
+        if metadce_result.returncode == 0: 
+            return baseline_wasm_binary
+        else: 
+            if "SIMD operations require SIMD" in metadce_result.stderr: 
+                options.append("--enable-simd")
+                continue
+            elif "Bulk memory operations require bulk memory" in metadce_result.stderr:
+                options.append("--enable-bulk-memory") 
+                continue
+            elif "all used features should be allowed" in metadce_result.stderr: 
+                options.append("--all-features") 
+                continue
+            else: 
+                print(metadce_result.stderr)
+                return None 
+
+
+
+def run_debloat_experiment(interop_wasm_modules): 
+
+    with open(WASM_STATIC_INFO_JSON, 'r') as f: 
+        wasm_static_info = json.load(f)
+    with open(EXPORTS_CALLED_COUNT_JSON, 'r') as f: 
+        package_to_client_to_wasm_to_export_count = json.load(f)
+    with open(CALLS_THROUGH_TABLE_JSON, 'r') as f: 
+        package_to_client_to_calls_through_table_count = json.load(f)
+
+    wasm_hash_to_dce_stats = {} 
+
+    # For every wasm file, average percentange of exports called per client
+    for package_name, package in package_to_client_to_wasm_to_export_count.items(): 
+        for client_name, client in package.items():
+            for wasm_hash, export_count in client.items(): 
+                
+                if wasm_hash not in interop_wasm_modules: continue 
+                exports_called = list(export_count.keys())
+
+                assert(wasm_hash in wasm_static_info)
+                static_info = wasm_static_info[wasm_hash]
+                
+                if len(exports_called) > static_info['export_section']['count_exported_funcs'] and static_info['export_section']['count_exported_funcs'] == 0: 
+                    print(f"ERROR: Wasm file {wasm_hash} in {client_name} has {len(exports_called)} but reports {static_info['exports']['count_exported_funcs']} functions exported.")
+                    continue                     
+                
+                exported_funcs = [export['name'] for export in static_info['export_section']['exports'] if export['_type'] == 'Function']
+                exports_called = [func for func in exports_called if func in exported_funcs]
+                                 
+                calls_through_table = package_to_client_to_calls_through_table_count[package_name][client_name][wasm_hash]["counts"] is dict if wasm_hash in package_to_client_to_calls_through_table_count[package_name][client_name] else False                  
+
+                client_name_path_safe = "__".join(client_name.split("/"))
+                wasm_binary_path = f"{DUMPED_WASM_FILES}/{client_name_path_safe}/realwasm-module-{wasm_hash}.wasm"
+                assert(os.path.isfile(wasm_binary_path))
+
+                output_dir = f"{DEBLOAT_BINS_DIR}/{wasm_hash}"
+                if not os.path.isdir(output_dir): 
+                    run(['mkdir', '-p', output_dir])
+
+                output_dir = f"{DEBLOAT_BINS_DIR}/{wasm_hash}/{client_name_path_safe}"
+                if not os.path.isdir(output_dir): 
+                    run(['mkdir', '-p', output_dir])
+ 
+                wasm_hash_to_dce_stats[wasm_hash] = {}
+                
+                wasm_binary_size = os.path.getsize(wasm_binary_path)
+                if "wasm_binary_size"  in wasm_hash_to_dce_stats[wasm_hash]: 
+                    assert(wasm_hash_to_dce_stats[wasm_hash]["wasm_binary_size"] == wasm_binary_size)
+                else:                     
+                    wasm_hash_to_dce_stats[wasm_hash]["wasm_binary_size"] = wasm_binary_size
+                    wasm_hash_to_dce_stats[wasm_hash]["num_exported_funcs"] = len(exported_funcs)
+                    
+
+                wasm_hash_to_dce_stats[wasm_hash]["clients"] = {}
+                wasm_hash_to_dce_stats[wasm_hash]["clients"][client_name] = {}
+                
+                # Run debloat experiment with all exports reachable.
+                options = []
+                (result, options) = run_debloat_on_binary(
+                    wasm_binary_path,
+                    wasm_binary_size=wasm_binary_size, 
+                    reachability_graph_path = f"{output_dir}/all-exports-reachability_graph.json", 
+                    dce_binary_path = f"{output_dir}/all-exports-dce.wasm", 
+                    wasm_static_info = static_info, 
+                    exports_called = exported_funcs, 
+                    calls_through_table=calls_through_table, 
+                    options = options 
+                )                
+                wasm_hash_to_dce_stats[wasm_hash]["clients"][client_name]["baseline"] = result
+                    
+                # Run debloat experiment with subset of exports reachable.
+                (result, options) = run_debloat_on_binary(
+                    wasm_binary_path, 
+                    wasm_binary_size=wasm_binary_size, 
+                    reachability_graph_path = f"{output_dir}/called-exports-reachability_graph.json", 
+                    dce_binary_path = f"{output_dir}/called-exports-dce.wasm", 
+                    wasm_static_info = static_info, 
+                    exports_called = exports_called, 
+                    calls_through_table=calls_through_table, 
+                    options = options 
+                )                
+                wasm_hash_to_dce_stats[wasm_hash]["clients"][client_name]["called-exports"] = result
+                    
+    with open(DCE_STATS, 'w') as f: 
+        json.dump(wasm_hash_to_dce_stats, f, ensure_ascii=False, indent=2)
+
+def debloat_graph(): 
+    
+    with open(DCE_STATS, 'r') as f: 
+        dce_stats = json.load(f)
+    
+    graph_data = {}
+    for wasm_hash, data in dce_stats.items(): 
+        if len(data.keys()) == 0: 
+            continue
+        percent_funcs_called, size_reduction = [], []
+        for client_name, stats in data["clients"].items(): 
+            if "FAILURE" in stats["baseline"]: 
+                continue 
+            percent_funcs_called.append(stats["called-exports"]["percent_exports_called"])                
+            baseline_size = stats["baseline"]["dce_binary_size"]
+            real_size = stats["called-exports"]["dce_binary_size"]
+            size_reduction.append(100*((baseline_size-real_size)/baseline_size))
+
+        graph_data[wasm_hash] = {
+            "avg_percent_funcs_called": statistics.mean(percent_funcs_called) if len(percent_funcs_called) > 0 else 0, 
+            "avg_size_reduction": statistics.mean(size_reduction) if len(size_reduction) > 0 else 0,
+        }        
+
+    graph_data = {k: v for k, v in sorted(graph_data.items(), key=lambda item: item[1]["avg_percent_funcs_called"], reverse=True)}    
+
+    avg_percent_funcs_called, avg_percent_size_reduction = [], [], []
+    for values in graph_data.values():
+        avg_percent_funcs_called.append(values["avg_percent_funcs_called"])
+        avg_percent_size_reduction.append(values["avg_size_reduction"])
+
+    wasm_modules = np.arange(0, len(graph_data))
+    plt.figure(figsize=(17, 10))
+    plt.bar(wasm_modules, avg_percent_funcs_called, color='tab:blue')    
+    plt.bar(wasm_modules, avg_percent_size_reduction, color='tab:orange')    
+    plt.xlabel("Wasm modules that interoperate with JavaScript.")
+    plt.legend(["Mean \% exports called", "Mean \% client-specific \n reduction wrt baseline size"], bbox_to_anchor=(0.35,0.8), loc="center", framealpha=0.9)
+    plt.savefig(DCE_GRAPH, bbox_inches='tight')
+    plt.clf()
+
+
 if __name__ == "__main__":
 
     run(['mkdir', '-p', GRAPH_DIR])
@@ -1083,11 +1322,13 @@ if __name__ == "__main__":
     parser.add_argument("--dynamic", action='store_true', required=False, help="Show graphs and stats of dynamic evaluation.")
     parser.add_argument("--dependency", action='store_true', required=False, help="SHow graphs and stats of dependency analysis.")
     parser.add_argument("--dataset", action='store_true', required=False, help="Show stats of dataset collection.")
+    parser.add_argument("--metadce", action='store_true', required=False, help="Run debloating experiment with metadce and show results.")
     
     args = parser.parse_args()
     DYNAMIC = args.dynamic
     DEPENDENCY = args.dependency
     DATASET = args.dataset
+    METADCE = args.metadce
 
     with open(WASM_MODULES_INTEROP_TYPE, "r") as f: 
         interop_type = json.load(f)
@@ -1118,3 +1359,10 @@ if __name__ == "__main__":
 
         # RQ4: How much variance is there in how a WebAssembly Module is used by different clients?
         client_variance_in_export_calls(interop_wasm_modules)
+
+
+    if METADCE: 
+        (init_wasm_modules, interop_wasm_modules) = init_no_interop(verbose=True)
+        run_debloat_experiment(interop_wasm_modules)
+        debloat_graph()
+

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "hyperid_result_encoding_length",
+    "root": true,
+    "export": "hyperid_result_encoding_length"
+  },
+  {
+    "name": "hyperid_make",
+    "root": true,
+    "export": "hyperid_make"
+  },
+  {
+    "name": "hyperid_generate",
+    "root": true,
+    "export": "hyperid_generate"
+  },
+  {
+    "name": "hyperid_count",
+    "root": true,
+    "export": "hyperid_count"
+  }
+]

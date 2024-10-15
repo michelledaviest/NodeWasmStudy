@@ -1,0 +1,22 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "malloc",
+    "root": true,
+    "export": "malloc"
+  },
+  {
+    "name": "free",
+    "root": true,
+    "export": "free"
+  },
+  {
+    "name": "argon2id_hash_raw",
+    "root": true,
+    "export": "argon2id_hash_raw"
+  }
+]

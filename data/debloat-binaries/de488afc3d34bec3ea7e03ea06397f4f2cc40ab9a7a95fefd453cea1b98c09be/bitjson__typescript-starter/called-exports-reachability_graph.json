@@ -1,0 +1,27 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "sha256",
+    "root": true,
+    "export": "sha256"
+  },
+  {
+    "name": "__wbindgen_malloc",
+    "root": true,
+    "export": "__wbindgen_malloc"
+  },
+  {
+    "name": "__wbindgen_free",
+    "root": true,
+    "export": "__wbindgen_free"
+  },
+  {
+    "name": "__wbindgen_global_argument_ptr",
+    "root": true,
+    "export": "__wbindgen_global_argument_ptr"
+  }
+]

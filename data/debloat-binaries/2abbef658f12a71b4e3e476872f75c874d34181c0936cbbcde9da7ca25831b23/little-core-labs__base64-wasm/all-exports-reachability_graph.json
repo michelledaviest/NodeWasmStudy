@@ -1,0 +1,22 @@
+[
+  {
+    "name": "base64_encode",
+    "root": true,
+    "export": "base64_encode"
+  },
+  {
+    "name": "base64_encoding_length",
+    "root": true,
+    "export": "base64_encoding_length"
+  },
+  {
+    "name": "base64_decoding_length",
+    "root": true,
+    "export": "base64_decoding_length"
+  },
+  {
+    "name": "base64_decode",
+    "root": true,
+    "export": "base64_decode"
+  }
+]

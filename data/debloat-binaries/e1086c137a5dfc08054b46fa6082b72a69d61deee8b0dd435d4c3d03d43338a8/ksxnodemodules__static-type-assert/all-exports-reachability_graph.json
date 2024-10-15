@@ -1,0 +1,17 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "_start",
+    "root": true,
+    "export": "_start"
+  },
+  {
+    "name": "main",
+    "root": true,
+    "export": "main"
+  }
+]

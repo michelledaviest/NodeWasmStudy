@@ -1,0 +1,37 @@
+[
+  {
+    "name": "init",
+    "root": true,
+    "export": "init"
+  },
+  {
+    "name": "getNVars",
+    "root": true,
+    "export": "getNVars"
+  },
+  {
+    "name": "getFrLen",
+    "root": true,
+    "export": "getFrLen"
+  },
+  {
+    "name": "getSignalOffset32",
+    "root": true,
+    "export": "getSignalOffset32"
+  },
+  {
+    "name": "setSignal",
+    "root": true,
+    "export": "setSignal"
+  },
+  {
+    "name": "getPRawPrime",
+    "root": true,
+    "export": "getPRawPrime"
+  },
+  {
+    "name": "getWitnessBuffer",
+    "root": true,
+    "export": "getWitnessBuffer"
+  }
+]

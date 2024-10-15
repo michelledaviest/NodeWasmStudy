@@ -1,0 +1,12 @@
+[
+  {
+    "name": "exportedFunc",
+    "root": true,
+    "export": "exportedFunc"
+  },
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  }
+]

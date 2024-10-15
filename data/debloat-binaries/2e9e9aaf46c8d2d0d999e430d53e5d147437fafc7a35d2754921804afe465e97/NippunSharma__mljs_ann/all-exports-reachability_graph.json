@@ -1,0 +1,62 @@
+[
+  {
+    "name": "J",
+    "root": true,
+    "export": "J"
+  },
+  {
+    "name": "K",
+    "root": true,
+    "export": "K"
+  },
+  {
+    "name": "L",
+    "root": true,
+    "export": "L"
+  },
+  {
+    "name": "N",
+    "root": true,
+    "export": "N"
+  },
+  {
+    "name": "O",
+    "root": true,
+    "export": "O"
+  },
+  {
+    "name": "P",
+    "root": true,
+    "export": "P"
+  },
+  {
+    "name": "Q",
+    "root": true,
+    "export": "Q"
+  },
+  {
+    "name": "R",
+    "root": true,
+    "export": "R"
+  },
+  {
+    "name": "S",
+    "root": true,
+    "export": "S"
+  },
+  {
+    "name": "T",
+    "root": true,
+    "export": "T"
+  },
+  {
+    "name": "U",
+    "root": true,
+    "export": "U"
+  },
+  {
+    "name": "V",
+    "root": true,
+    "export": "V"
+  }
+]

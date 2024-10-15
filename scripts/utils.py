@@ -6,10 +6,13 @@ import hashlib
 import re
 
 import matplotlib.pyplot as plt
-#plt.rc('text', usetex=True)
-#plt.rc('text.latex', preamble=r'\usepackage{libertine}')
+plt.rc('text', usetex=True)
+plt.rc('text.latex', preamble=r'\usepackage{libertine}')
 plt.rc('font', family='serif')
 plt.rc('font', size=30)
+# 30 for all figures 
+# 45 for freq dist plots 
+# 36 for Fig 7, 8, 9
 
 REALWASM_JSON = "./../data/node-wasm-set.json"
 DEP_ANLYSIS_JSON = "./../data/dependency-analysis-results.json"

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "malloc",
+    "root": true,
+    "export": "malloc"
+  },
+  {
+    "name": "free",
+    "root": true,
+    "export": "free"
+  },
+  {
+    "name": "argon2id_hash_raw",
+    "root": true,
+    "export": "argon2id_hash_raw"
+  },
+  {
+    "name": "_initialize",
+    "root": true,
+    "export": "_initialize"
+  },
+  {
+    "name": "__indirect_function_table",
+    "root": true,
+    "export": "__indirect_function_table"
+  },
+  {
+    "name": "__errno_location",
+    "root": true,
+    "export": "__errno_location"
+  },
+  {
+    "name": "stackSave",
+    "root": true,
+    "export": "stackSave"
+  },
+  {
+    "name": "stackRestore",
+    "root": true,
+    "export": "stackRestore"
+  },
+  {
+    "name": "stackAlloc",
+    "root": true,
+    "export": "stackAlloc"
+  }
+]

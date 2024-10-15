@@ -1,0 +1,12 @@
+[
+  {
+    "name": "sum",
+    "root": true,
+    "export": "sum"
+  },
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  }
+]

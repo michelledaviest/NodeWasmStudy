@@ -1,0 +1,2350 @@
+{
+  "a682b6de06d21cab94a0b207216c48a10eff7c303e9ccf8e3912ab223aae3fe0": {
+    "wasm_binary_size": 14230,
+    "num_exported_funcs": 5,
+    "clients": {
+      "mvasilkov/pow-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 5,
+          "dce_binary_size": 14230,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 40.0,
+          "num_exports_called": 2,
+          "dce_binary_size": 14142,
+          "percentage_size_decrease": 0.6184118060435699,
+          "removed_functions": 6
+        }
+      }
+    }
+  },
+  "abc13e693ed025752c8836cccb15ae6f9716759282e190f092776d34590db0a4": {
+    "wasm_binary_size": 2145,
+    "num_exported_funcs": 4,
+    "clients": {
+      "little-core-labs/hyperid-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 4,
+          "dce_binary_size": 2003,
+          "percentage_size_decrease": 6.62004662004662,
+          "removed_functions": 10
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 4,
+          "dce_binary_size": 2003,
+          "percentage_size_decrease": 6.62004662004662,
+          "removed_functions": 10
+        }
+      }
+    }
+  },
+  "0093ad6be42af970c16a9233006c9b4ef7f17412ce3aeaa39e8af7745c08e8a4": {
+    "wasm_binary_size": 1807404,
+    "num_exported_funcs": 15,
+    "clients": {
+      "semaphore-protocol/semaphore": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 15,
+          "dce_binary_size": 1772845,
+          "percentage_size_decrease": 1.9120794244120296,
+          "removed_functions": 31
+        },
+        "called-exports": {
+          "percent_exports_called": 80.0,
+          "num_exports_called": 12,
+          "dce_binary_size": 1772697,
+          "percentage_size_decrease": 1.920267964439605,
+          "removed_functions": 37
+        }
+      }
+    }
+  },
+  "eea61e66b72d1c0eb49c91521a25a8fa09a4d9d51c2fe74cabf596f48eea8639": {
+    "wasm_binary_size": 86521,
+    "num_exported_funcs": 296,
+    "clients": {
+      "semaphore-protocol/semaphore": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 296,
+          "dce_binary_size": 83983,
+          "percentage_size_decrease": 2.9333918932975807,
+          "removed_functions": 8
+        },
+        "called-exports": {
+          "percent_exports_called": 13.175675675675674,
+          "num_exports_called": 39,
+          "dce_binary_size": 50945,
+          "percentage_size_decrease": 41.1183412119601,
+          "removed_functions": 495
+        }
+      }
+    }
+  },
+  "0e6513d04dfe27e7e3ac61678b209ae90c62aa8668fb98ac3c611a64307ff21b": {
+    "wasm_binary_size": 24095,
+    "num_exported_funcs": 12,
+    "clients": {
+      "dabit3/titter": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 12,
+          "dce_binary_size": 24076,
+          "percentage_size_decrease": 0.07885453413571279,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 41.66666666666667,
+          "num_exports_called": 5,
+          "dce_binary_size": 23892,
+          "percentage_size_decrease": 0.8424984436605104,
+          "removed_functions": 17
+        }
+      }
+    }
+  },
+  "8968bfc517ba7a3950d8703dc2f0c4f709329efb273cf50e02a59a71038c8fdc": {
+    "wasm_binary_size": 35789,
+    "num_exported_funcs": 46,
+    "clients": {
+      "iden3/snarkjs": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 46,
+          "dce_binary_size": 31787,
+          "percentage_size_decrease": 11.182206823325602,
+          "removed_functions": 38
+        },
+        "called-exports": {
+          "percent_exports_called": 15.217391304347828,
+          "num_exports_called": 7,
+          "dce_binary_size": 20863,
+          "percentage_size_decrease": 41.70555198524686,
+          "removed_functions": 96
+        }
+      }
+    }
+  },
+  "ce2d0bf8c0726e893cd40c1accae37f19cae78ce958cd8a1580197e15ed2eefa": {
+    "wasm_binary_size": 468,
+    "num_exported_funcs": 3,
+    "clients": {
+      "little-core-labs/varint-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 448,
+          "percentage_size_decrease": 4.273504273504273,
+          "removed_functions": 2
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 448,
+          "percentage_size_decrease": 4.273504273504273,
+          "removed_functions": 2
+        }
+      }
+    }
+  },
+  "2abbef658f12a71b4e3e476872f75c874d34181c0936cbbcde9da7ca25831b23": {
+    "wasm_binary_size": 3570,
+    "num_exported_funcs": 4,
+    "clients": {
+      "little-core-labs/base64-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 4,
+          "dce_binary_size": 3553,
+          "percentage_size_decrease": 0.4761904761904762,
+          "removed_functions": 2
+        },
+        "called-exports": {
+          "percent_exports_called": 75.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 3472,
+          "percentage_size_decrease": 2.7450980392156863,
+          "removed_functions": 4
+        }
+      }
+    }
+  },
+  "1ae6d8be503e5b8c3f509f0d1d37e4ed8711dddbf4cafed69901373a22a1b423": {
+    "wasm_binary_size": 12689,
+    "num_exported_funcs": 8,
+    "clients": {
+      "ARitz-Cracker/keccak-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 8,
+          "dce_binary_size": 12689,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 87.5,
+          "num_exports_called": 7,
+          "dce_binary_size": 12662,
+          "percentage_size_decrease": 0.21278272519505084,
+          "removed_functions": 2
+        }
+      }
+    }
+  },
+  "d128e52a5df4e845ea4dec802150b16c3f5b42f6eb53b972882db98282b4935e": {
+    "wasm_binary_size": 369261,
+    "num_exported_funcs": 161,
+    "clients": {
+      "gfx-labs/ip-contracts": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 161,
+          "dce_binary_size": 369257,
+          "percentage_size_decrease": 0.001083244642678214,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 1.2422360248447204,
+          "num_exports_called": 2,
+          "dce_binary_size": 222932,
+          "percentage_size_decrease": 39.6275263296151,
+          "removed_functions": 434
+        }
+      }
+    }
+  },
+  "79b457d7d2567bc1e573e911d9da0959f7d7acecb17f0fd1ba4129ab899d09a1": {
+    "wasm_binary_size": 1244131,
+    "num_exported_funcs": 12,
+    "clients": {
+      "interep-project/contracts": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 12,
+          "dce_binary_size": 1195224,
+          "percentage_size_decrease": 3.9310169105986428,
+          "removed_functions": 49
+        },
+        "called-exports": {
+          "percent_exports_called": 83.33333333333334,
+          "num_exports_called": 10,
+          "dce_binary_size": 1195114,
+          "percentage_size_decrease": 3.939858423268932,
+          "removed_functions": 53
+        }
+      }
+    }
+  },
+  "6594078d88271c124bc3a338b214986c8ecb3868c7a73cebb900b38510198414": {
+    "wasm_binary_size": 86770,
+    "num_exported_funcs": 296,
+    "clients": {
+      "interep-project/contracts": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 296,
+          "dce_binary_size": 84232,
+          "percentage_size_decrease": 2.9249740693788175,
+          "removed_functions": 8
+        },
+        "called-exports": {
+          "percent_exports_called": 17.905405405405407,
+          "num_exports_called": 53,
+          "dce_binary_size": 53490,
+          "percentage_size_decrease": 38.354269908954706,
+          "removed_functions": 467
+        }
+      }
+    }
+  },
+  "6ea216eedc9dcac5d82eb38c2c0117578f2ed8e7f63ae6e8bc1d032a18b9a12a": {
+    "wasm_binary_size": 18982,
+    "num_exported_funcs": 8,
+    "clients": {
+      "tutao/tutanota": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 8,
+          "dce_binary_size": 18953,
+          "percentage_size_decrease": 0.15277631440311876,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 37.5,
+          "num_exports_called": 3,
+          "dce_binary_size": 18837,
+          "percentage_size_decrease": 0.7638815720155937,
+          "removed_functions": 10
+        }
+      }
+    }
+  },
+  "57e1531fc3001aaac4fb1df4e123cef697bb2bf4eaf046ca0e595f7c93955bff": {
+    "wasm_binary_size": 43825,
+    "num_exported_funcs": 13,
+    "clients": {
+      "tutao/tutanota": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 13,
+          "dce_binary_size": 43821,
+          "percentage_size_decrease": 0.00912721049629207,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 61.53846153846154,
+          "num_exports_called": 8,
+          "dce_binary_size": 43705,
+          "percentage_size_decrease": 0.2738163148887621,
+          "removed_functions": 10
+        }
+      }
+    }
+  },
+  "37cefcf2a41eb27127de929980441657b7443c3fecfe7adeb69b1eb2e45e2abe": {
+    "wasm_binary_size": 48526,
+    "num_exported_funcs": 10,
+    "clients": {
+      "mozilla/source-map": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 10,
+          "dce_binary_size": 48483,
+          "percentage_size_decrease": 0.0886122903185921,
+          "removed_functions": 4
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 10,
+          "dce_binary_size": 48483,
+          "percentage_size_decrease": 0.0886122903185921,
+          "removed_functions": 4
+        }
+      }
+    }
+  },
+  "7c74a56b87aee76680ed1c9f1bcc6b471449aa45342cec81988db08c380c1c28": {
+    "wasm_binary_size": 87780,
+    "num_exported_funcs": 8,
+    "clients": {
+      "itibbers/crypto-js-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 8,
+          "dce_binary_size": 87868,
+          "percentage_size_decrease": -0.10025062656641603,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 87.5,
+          "num_exports_called": 7,
+          "dce_binary_size": 87815,
+          "percentage_size_decrease": -0.03987240829346093,
+          "removed_functions": 2
+        }
+      }
+    }
+  },
+  "6241a04a050301d74ba80a79b11470ac35ad70ab37d885b406bed3bde7c50997": {
+    "wasm_binary_size": 14931,
+    "num_exported_funcs": 3,
+    "clients": {
+      "itibbers/crypto-js-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 14965,
+          "percentage_size_decrease": -0.22771415176478468,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 14965,
+          "percentage_size_decrease": -0.22771415176478468,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "058ca2a32bc19feca07f7fbab12ec3e2fa46591450331238318c39894e26ee48": {
+    "wasm_binary_size": 67257,
+    "num_exported_funcs": 7,
+    "clients": {
+      "itibbers/crypto-js-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 7,
+          "dce_binary_size": 67329,
+          "percentage_size_decrease": -0.1070520540612873,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 85.71428571428571,
+          "num_exports_called": 6,
+          "dce_binary_size": 67275,
+          "percentage_size_decrease": -0.026763013515321826,
+          "removed_functions": 2
+        }
+      }
+    }
+  },
+  "b2da8a7b24d1cffe0280e81cf7ae3ea591c3e5add2062d5c3df1e1f0c117aa1e": {
+    "wasm_binary_size": 17755,
+    "num_exported_funcs": 3,
+    "clients": {
+      "itibbers/crypto-js-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 17789,
+          "percentage_size_decrease": -0.19149535342157137,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 17789,
+          "percentage_size_decrease": -0.19149535342157137,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "b02ffffa328999213a8aba500476843ff19f7a85dbd54a3c6d86caec4309f586": {
+    "wasm_binary_size": 15766,
+    "num_exported_funcs": 3,
+    "clients": {
+      "itibbers/crypto-js-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 15794,
+          "percentage_size_decrease": -0.17759736141063048,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 15794,
+          "percentage_size_decrease": -0.17759736141063048,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "4b6568d1b705ed0df67461f27b1b733f22bbd4210379b59aa40151040488ed40": {
+    "wasm_binary_size": 14799,
+    "num_exported_funcs": 3,
+    "clients": {
+      "itibbers/crypto-js-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 14827,
+          "percentage_size_decrease": -0.18920197310629097,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 14827,
+          "percentage_size_decrease": -0.18920197310629097,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "73dd3e03b7dd28b20af84b954e9dec890dcc11f1d6e602155ccb534214f718b6": {
+    "wasm_binary_size": 13811,
+    "num_exported_funcs": 3,
+    "clients": {
+      "itibbers/crypto-js-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 13839,
+          "percentage_size_decrease": -0.20273694880892043,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 13839,
+          "percentage_size_decrease": -0.20273694880892043,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "e6171e34915a57d855665230f6d2db11a02c01daaf410ca8e2a01f6e3ec662a1": {
+    "wasm_binary_size": 79908,
+    "num_exported_funcs": 8,
+    "clients": {
+      "itibbers/crypto-js-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 8,
+          "dce_binary_size": 80054,
+          "percentage_size_decrease": -0.18271011663412925,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 87.5,
+          "num_exports_called": 7,
+          "dce_binary_size": 80001,
+          "percentage_size_decrease": -0.11638384141763028,
+          "removed_functions": 2
+        }
+      }
+    }
+  },
+  "172270d9c460e4b27162ad2c5cce2114e664191d6cc73e49e61ab67374bb8b40": {
+    "wasm_binary_size": 14211,
+    "num_exported_funcs": 3,
+    "clients": {
+      "itibbers/crypto-js-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 14245,
+          "percentage_size_decrease": -0.23925128421645203,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 14245,
+          "percentage_size_decrease": -0.23925128421645203,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "5ebb3ac3544acb05cce622b71c3a8da3ceb2134cea414c4492451d7869f99d45": {
+    "wasm_binary_size": 16881,
+    "num_exported_funcs": 3,
+    "clients": {
+      "itibbers/crypto-js-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 16915,
+          "percentage_size_decrease": -0.2014098690835851,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 16915,
+          "percentage_size_decrease": -0.2014098690835851,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "477d02ba721ded6027f254c48e380f643ac52349d578f1f8678c5acffb7ba651": {
+    "wasm_binary_size": 17434,
+    "num_exported_funcs": 3,
+    "clients": {
+      "itibbers/crypto-js-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 17462,
+          "percentage_size_decrease": -0.16060571297464724,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 17462,
+          "percentage_size_decrease": -0.16060571297464724,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "19f014f2f4b27bba2d540f2b40b9639bd470cd856e04490a78c3e70e2154675d": {
+    "wasm_binary_size": 5981133,
+    "num_exported_funcs": 1439,
+    "clients": {
+      "massalabs/as": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1439,
+          "dce_binary_size": 5981132,
+          "percentage_size_decrease": 1.6719240317846132e-05,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 40.514246004169564,
+          "num_exports_called": 583,
+          "dce_binary_size": 5859818,
+          "percentage_size_decrease": 2.028294639159504,
+          "removed_functions": 1660
+        }
+      }
+    }
+  },
+  "470618a55304dac9794fc09239b54dab2945c86870e8c6902048cc23eb7e6c8b": {
+    "wasm_binary_size": 143692,
+    "num_exported_funcs": 197,
+    "clients": {
+      "Tomato6966/Musicium": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 197,
+          "dce_binary_size": 143687,
+          "percentage_size_decrease": 0.003479664838682738,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 43.65482233502538,
+          "num_exports_called": 86,
+          "dce_binary_size": 87588,
+          "percentage_size_decrease": 39.044623221891264,
+          "removed_functions": 251
+        }
+      }
+    }
+  },
+  "fae9b76ba7bd9f55341fbe7d0a33229c874cd4bc18fdc13d9b53a768015b32e9": {
+    "wasm_binary_size": 8328,
+    "num_exported_funcs": 17,
+    "clients": {
+      "remix-run/remix": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 17,
+          "dce_binary_size": 8315,
+          "percentage_size_decrease": 0.15609990393852063,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 94.11764705882352,
+          "num_exports_called": 16,
+          "dce_binary_size": 8301,
+          "percentage_size_decrease": 0.3242074927953891,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "de488afc3d34bec3ea7e03ea06397f4f2cc40ab9a7a95fefd453cea1b98c09be": {
+    "wasm_binary_size": 18850,
+    "num_exported_funcs": 7,
+    "clients": {
+      "bitjson/typescript-starter": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 7,
+          "dce_binary_size": 18850,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 57.14285714285714,
+          "num_exports_called": 4,
+          "dce_binary_size": 18265,
+          "percentage_size_decrease": 3.103448275862069,
+          "removed_functions": 8
+        }
+      }
+    }
+  },
+  "0f9cbc41a9e16c777c4ce8175859d5753d7a81c1614ce7d51653e5cb381dbd58": {
+    "wasm_binary_size": 682166,
+    "num_exported_funcs": 5,
+    "clients": {
+      "papandreou/subset-font": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 5,
+          "dce_binary_size": 682162,
+          "percentage_size_decrease": 0.0005863675410383983,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 60.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 682057,
+          "percentage_size_decrease": 0.015978515493296354,
+          "removed_functions": 4
+        }
+      }
+    }
+  },
+  "517f31132df89609b695b46d07c6ee1a9deb9d6d388e33d1706127e3c4543fc1": {
+    "wasm_binary_size": 212978,
+    "num_exported_funcs": 5,
+    "clients": {
+      "papandreou/subset-font": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 5,
+          "dce_binary_size": 212974,
+          "percentage_size_decrease": 0.0018781282573786962,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 60.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 212870,
+          "percentage_size_decrease": 0.05070946294922481,
+          "removed_functions": 4
+        }
+      }
+    }
+  },
+  "34c90b7d3bf51e79463373893e5bae61b62ffb60fe552905834d172db9c882de": {
+    "wasm_binary_size": 483061,
+    "num_exported_funcs": 37,
+    "clients": {
+      "atlas-bi/Hub": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 37,
+          "dce_binary_size": 480530,
+          "percentage_size_decrease": 0.5239503913584412,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 45.94594594594595,
+          "num_exports_called": 17,
+          "dce_binary_size": 479006,
+          "percentage_size_decrease": 0.8394384974154403,
+          "removed_functions": 38
+        }
+      }
+    }
+  },
+  "e43ac7cd96599ab0d877b65158ebba07f289dcbf3e4eb4592240c4bf27527bd9": {
+    "wasm_binary_size": 10006,
+    "num_exported_funcs": 7,
+    "clients": {
+      "iterative/cml": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 7,
+          "dce_binary_size": 9995,
+          "percentage_size_decrease": 0.10993403957625424,
+          "removed_functions": 2
+        },
+        "called-exports": {
+          "percent_exports_called": 28.57142857142857,
+          "num_exports_called": 2,
+          "dce_binary_size": 5963,
+          "percentage_size_decrease": 40.40575654607236,
+          "removed_functions": 14
+        }
+      }
+    }
+  },
+  "aee556edc67b74e2a6c5d814fdd8fe88197bfd954d8c897a4697f2c2312250a6": {
+    "wasm_binary_size": 289476,
+    "num_exported_funcs": 21,
+    "clients": {
+      "iterative/cml": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 21,
+          "dce_binary_size": 287645,
+          "percentage_size_decrease": 0.6325222125495723,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 14.285714285714285,
+          "num_exports_called": 3,
+          "dce_binary_size": 287022,
+          "percentage_size_decrease": 0.8477386726360735,
+          "removed_functions": 34
+        }
+      }
+    }
+  },
+  "7b89551c739706832b6e029e81a80b6e3d4c8899a58c0af776c9345d137ad340": {
+    "wasm_binary_size": 21678,
+    "num_exported_funcs": 10,
+    "clients": {
+      "webtoon/psd": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 10,
+          "dce_binary_size": 21702,
+          "percentage_size_decrease": -0.11071132023249376,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 70.0,
+          "num_exports_called": 7,
+          "dce_binary_size": 21062,
+          "percentage_size_decrease": 2.8415905526340066,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "14a69b035db85e2337662dabb98a2d86e24970736e2cd711337f7898841c0cdd": {
+    "wasm_binary_size": 119999,
+    "num_exported_funcs": 51,
+    "clients": {
+      "hildjj/expat-wasm-dom": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 51,
+          "dce_binary_size": 119710,
+          "percentage_size_decrease": 0.24083534029450243,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 82.35294117647058,
+          "num_exports_called": 42,
+          "dce_binary_size": 119098,
+          "percentage_size_decrease": 0.7508395903299194,
+          "removed_functions": 19
+        }
+      }
+    }
+  },
+  "5ecefd8e5c5b3fc3fb7e8361fa5015a7d218c927cd105480b2452b8575e95313": {
+    "wasm_binary_size": 56,
+    "num_exported_funcs": 2,
+    "clients": {
+      "echamudi/require-wat": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 2,
+          "dce_binary_size": 56,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 2,
+          "dce_binary_size": 56,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "5910529139525d15e2bb72941f739c7c984267b83c5c9d5b5c28f34705ff7e97": {
+    "wasm_binary_size": 76,
+    "num_exported_funcs": 1,
+    "clients": {
+      "echamudi/require-wat": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 76,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 76,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "56ca8d319e279d33f7ee4d25c67f7562826a9197724a22339dcbac84b7427c40": {
+    "wasm_binary_size": 92,
+    "num_exported_funcs": 1,
+    "clients": {
+      "echamudi/require-wat": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 92,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 92,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "82dac95a80a04b30a0a72b5725981aef35e9813cf02c306bd2d3c77604fc60d9": {
+    "wasm_binary_size": 299,
+    "num_exported_funcs": 1,
+    "clients": {
+      "DrSensor/rs-jest": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 180,
+          "percentage_size_decrease": 39.79933110367893,
+          "removed_functions": 6
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 180,
+          "percentage_size_decrease": 39.79933110367893,
+          "removed_functions": 6
+        }
+      }
+    }
+  },
+  "5a8f7f27c489cd5f4d5e4ecd6bd1045ed07f2d61853b7011c3feecb06b8b02e1": {
+    "wasm_binary_size": 7551,
+    "num_exported_funcs": 17,
+    "clients": {
+      "krymel/vite-plugin-assemblyscript-asc": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 17,
+          "dce_binary_size": 7538,
+          "percentage_size_decrease": 0.17216262746656072,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 94.11764705882352,
+          "num_exports_called": 16,
+          "dce_binary_size": 7524,
+          "percentage_size_decrease": 0.3575685339690107,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "db8c3b63a97547d0e6d2dc3076c602e044c94e9b157fab805e520af38061d7b7": {
+    "wasm_binary_size": 5081250,
+    "num_exported_funcs": 1426,
+    "clients": {
+      "ask-lang/ask": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1426,
+          "dce_binary_size": 5081245,
+          "percentage_size_decrease": 9.84009840098401e-05,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 48.80785413744741,
+          "num_exports_called": 696,
+          "dce_binary_size": 4983158,
+          "percentage_size_decrease": 1.930469864698647,
+          "removed_functions": 1422
+        }
+      }
+    }
+  },
+  "c54655a2f222cfa654bd090207777c90b7ef0df3d87dd32fe0d15d144dbc72a2": {
+    "wasm_binary_size": 590665,
+    "num_exported_funcs": 36,
+    "clients": {
+      "papandreou/subset-font": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 36,
+          "dce_binary_size": 589059,
+          "percentage_size_decrease": 0.27189692973174306,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 50.0,
+          "num_exports_called": 18,
+          "dce_binary_size": 587927,
+          "percentage_size_decrease": 0.4635453260308297,
+          "removed_functions": 33
+        }
+      }
+    }
+  },
+  "1e277d5e5662dfe19b82438e1d48313889b40869a682e9760c75223f3ab448a3": {
+    "wasm_binary_size": 5385600,
+    "num_exported_funcs": 1438,
+    "clients": {
+      "ask-lang/ask": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1438,
+          "dce_binary_size": 5385595,
+          "percentage_size_decrease": 9.284016636957813e-05,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 40.403337969401946,
+          "num_exports_called": 581,
+          "dce_binary_size": 5266836,
+          "percentage_size_decrease": 2.2052139037433154,
+          "removed_functions": 1664
+        }
+      }
+    }
+  },
+  "19119b55864eb5e7266dc526487840a0ad4f7e828512f32e387ef60a6b17028b": {
+    "wasm_binary_size": 1108328,
+    "num_exported_funcs": 52,
+    "clients": {
+      "PauloBarbeiro/reactive-sql-toolkit": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 52,
+          "dce_binary_size": 1108323,
+          "percentage_size_decrease": 0.0004511299903999538,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 46.15384615384615,
+          "num_exports_called": 24,
+          "dce_binary_size": 1104780,
+          "percentage_size_decrease": 0.3201218411878072,
+          "removed_functions": 42
+        }
+      }
+    }
+  },
+  "eae07aac5f4b825686d3db4f5349ea9a7cc85e596cec7dcfc805cc22683aaa34": {
+    "wasm_binary_size": 7057,
+    "num_exported_funcs": 14,
+    "clients": {
+      "mitschabaude/esbuild-plugin-wat": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 14,
+          "dce_binary_size": 7040,
+          "percentage_size_decrease": 0.2408955646875443,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 92.85714285714286,
+          "num_exports_called": 13,
+          "dce_binary_size": 7026,
+          "percentage_size_decrease": 0.4392801473714043,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "c2ef1beb175c5d42291e5807f18fa595b455c4a61df06361c2f26037fa316715": {
+    "wasm_binary_size": 768,
+    "num_exported_funcs": 8,
+    "clients": {
+      "mitschabaude/esbuild-plugin-wat": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 8,
+          "dce_binary_size": 793,
+          "percentage_size_decrease": -3.2552083333333335,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 8,
+          "dce_binary_size": 793,
+          "percentage_size_decrease": -3.2552083333333335,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "c47c72725a66041c40ff0fd7202a8b0e07db5e32b5db4646791f449510846b3b": {
+    "wasm_binary_size": 90,
+    "num_exported_funcs": 1,
+    "clients": {
+      "mitschabaude/esbuild-plugin-wat": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 90,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 90,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "aceacf3ddaade85cc634a4a75064dde7082152b43d86593fbf200d52148b9917": {
+    "wasm_binary_size": 708,
+    "num_exported_funcs": 8,
+    "clients": {
+      "mitschabaude/esbuild-plugin-wat": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 8,
+          "dce_binary_size": 758,
+          "percentage_size_decrease": -7.062146892655368,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 8,
+          "dce_binary_size": 758,
+          "percentage_size_decrease": -7.062146892655368,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "0e63212d501b4217d79cadcb2b6a7939d625f18a4617140d17b7ddb26bcfa7bb": {
+    "wasm_binary_size": 202194,
+    "num_exported_funcs": 597,
+    "clients": {
+      "wormhole-foundation/wormhole-sdk-ts": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 597,
+          "dce_binary_size": 202189,
+          "percentage_size_decrease": 0.002472872587712791,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 37.68844221105528,
+          "num_exports_called": 225,
+          "dce_binary_size": 85805,
+          "percentage_size_decrease": 57.563033522260795,
+          "removed_functions": 734
+        }
+      }
+    }
+  },
+  "4044dcd21448aaea7a221e6a4ec489cf5e2e6a517ca58b27146afb57c117356d": {
+    "wasm_binary_size": 6332,
+    "num_exported_funcs": 2,
+    "clients": {
+      "pur3miish/AntelopeQL": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 2,
+          "dce_binary_size": 6332,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 2,
+          "dce_binary_size": 6332,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "2fe18cefec175d26c059c8b72537adc2264ece4b8652afbbbf98684567276188": {
+    "wasm_binary_size": 493,
+    "num_exported_funcs": 1,
+    "clients": {
+      "zksecurity/wasmati": {
+        "baseline": {
+          "FAILURE": "MetaDCE error",
+          "stderr": "[parse exception: control flow inputs are not supported yet (at 0:430)]Fatal: error in parsing wasm input\n"
+        },
+        "called-exports": {
+          "FAILURE": "MetaDCE error",
+          "stderr": "[parse exception: control flow inputs are not supported yet (at 0:430)]Fatal: error in parsing wasm input\n"
+        }
+      }
+    }
+  },
+  "6ad3d165078537d0630519e8b641374269ec0ef76722d75f57e572c53ab19247": {
+    "wasm_binary_size": 5868358,
+    "num_exported_funcs": 1438,
+    "clients": {
+      "GoogleChromeLabs/wasm-feature-detect": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1438,
+          "dce_binary_size": 5868357,
+          "percentage_size_decrease": 1.704054183470061e-05,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 40.26425591098749,
+          "num_exports_called": 579,
+          "dce_binary_size": 5746739,
+          "percentage_size_decrease": 2.0724536573944534,
+          "removed_functions": 1667
+        }
+      }
+    }
+  },
+  "cb294fff0aae3bdf0098e22218692dd10f4f0986ccb3d3f68af460857f75e191": {
+    "wasm_binary_size": 35,
+    "num_exported_funcs": 1,
+    "clients": {
+      "GoogleChromeLabs/wasm-feature-detect": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 35,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 35,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "cd48aefa974e9fc21adec14ef0c73f0ad501b598078b12568ed129c320318154": {
+    "wasm_binary_size": 55450,
+    "num_exported_funcs": 32,
+    "clients": {
+      "webdevcody/dev-finder": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 32,
+          "dce_binary_size": 53423,
+          "percentage_size_decrease": 3.6555455365193867,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 12.5,
+          "num_exports_called": 4,
+          "dce_binary_size": 48888,
+          "percentage_size_decrease": 11.834084761045988,
+          "removed_functions": 59
+        }
+      }
+    }
+  },
+  "b5b8a7d9ae85e656b5242166190198154e42fe308b23280335535e7a8d7b09e7": {
+    "wasm_binary_size": 11001,
+    "num_exported_funcs": 17,
+    "clients": {
+      "CesiumGS/3d-tiles-validator": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 17,
+          "dce_binary_size": 10704,
+          "percentage_size_decrease": 2.6997545677665666,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 17.647058823529413,
+          "num_exports_called": 3,
+          "dce_binary_size": 645,
+          "percentage_size_decrease": 94.13689664575948,
+          "removed_functions": 34
+        }
+      }
+    }
+  },
+  "533871dec320cb4b0ba4ead37f58f871689edf914edf588d22855bfb9dd59883": {
+    "wasm_binary_size": 10802,
+    "num_exported_funcs": 8,
+    "clients": {
+      "CesiumGS/3d-tiles-validator": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 8,
+          "dce_binary_size": 10611,
+          "percentage_size_decrease": 1.7681910757267172,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 12.5,
+          "num_exports_called": 1,
+          "dce_binary_size": 214,
+          "percentage_size_decrease": 98.01888539159414,
+          "removed_functions": 15
+        }
+      }
+    }
+  },
+  "96e42b64f2b52b267fa5ea313cef4829a2df53fa738fcee4c3582289c984a865": {
+    "wasm_binary_size": 16217,
+    "num_exported_funcs": 7,
+    "clients": {
+      "CesiumGS/3d-tiles-validator": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 7,
+          "dce_binary_size": 15801,
+          "percentage_size_decrease": 2.5652093482148364,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 14.285714285714285,
+          "num_exports_called": 1,
+          "dce_binary_size": 401,
+          "percentage_size_decrease": 97.52728618116791,
+          "removed_functions": 20
+        }
+      }
+    }
+  },
+  "d2a3ac80c91980d5d321c116454834ff36264825c6d1794cc84e42288f158958": {
+    "wasm_binary_size": 370188,
+    "num_exported_funcs": 99,
+    "clients": {
+      "CesiumGS/3d-tiles-validator": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 99,
+          "dce_binary_size": 370184,
+          "percentage_size_decrease": 0.0010805320539833815,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 12.121212121212121,
+          "num_exports_called": 12,
+          "dce_binary_size": 352423,
+          "percentage_size_decrease": 4.798912984753692,
+          "removed_functions": 174
+        }
+      }
+    }
+  },
+  "2516a4e43526d71787bf2f678f951329f7f858f8f15f42d4bc9e370b31a0da3a": {
+    "wasm_binary_size": 285948,
+    "num_exported_funcs": 147,
+    "clients": {
+      "CesiumGS/3d-tiles-validator": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 147,
+          "dce_binary_size": 285944,
+          "percentage_size_decrease": 0.0013988557360079454,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 22.448979591836736,
+          "num_exports_called": 33,
+          "dce_binary_size": 232023,
+          "percentage_size_decrease": 18.858323891057115,
+          "removed_functions": 235
+        }
+      }
+    }
+  },
+  "fd885c2d12e5951e59d761ebd4a006e06254b1491fd6f530c92b69fb4d8d77d9": {
+    "wasm_binary_size": 466610,
+    "num_exported_funcs": 13,
+    "clients": {
+      "httptoolkit/mockttp": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 13,
+          "dce_binary_size": 465901,
+          "percentage_size_decrease": 0.15194702213840253,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 38.46153846153847,
+          "num_exports_called": 5,
+          "dce_binary_size": 462724,
+          "percentage_size_decrease": 0.8328154133001864,
+          "removed_functions": 22
+        }
+      }
+    }
+  },
+  "d61458a50111b33c24b09535634b4806b1ff5521a7a2db7f6317ec632aac92f4": {
+    "wasm_binary_size": 4931211,
+    "num_exported_funcs": 3,
+    "clients": {
+      "mhaidarhanif/mhaidarhanif-astro": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 5050484,
+          "percentage_size_decrease": -2.4187364929223265,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 5050484,
+          "percentage_size_decrease": -2.4187364929223265,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "6a3abe585057b087cdab444a16ce2a8153e9f93e5cb6de489ee6ab11301cb0b4": {
+    "wasm_binary_size": 7089,
+    "num_exported_funcs": 15,
+    "clients": {
+      "element-hq/hydrogen-web": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 15,
+          "dce_binary_size": 7074,
+          "percentage_size_decrease": 0.21159542953872196,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 93.33333333333333,
+          "num_exports_called": 14,
+          "dce_binary_size": 7060,
+          "percentage_size_decrease": 0.4090844971081958,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "d3d6f123061621e7119426202a31e1baf1d94cf04b81fb8de144aa8f4a9f73c0": {
+    "wasm_binary_size": 8163,
+    "num_exported_funcs": 17,
+    "clients": {
+      "webtoon/psd": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 17,
+          "dce_binary_size": 8150,
+          "percentage_size_decrease": 0.15925517579321327,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 94.11764705882352,
+          "num_exports_called": 16,
+          "dce_binary_size": 8136,
+          "percentage_size_decrease": 0.33076074972436603,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "17431c6957b8ce937e1d91100b2c084f4a7185b509e6dcb66cac6fdc04cd51d3": {
+    "wasm_binary_size": 8404,
+    "num_exported_funcs": 18,
+    "clients": {
+      "inokawa/rich-textarea": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 18,
+          "dce_binary_size": 8391,
+          "percentage_size_decrease": 0.15468824369347928,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 94.44444444444444,
+          "num_exports_called": 17,
+          "dce_binary_size": 8377,
+          "percentage_size_decrease": 0.32127558305568776,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "6e2187a47639cdf2cecbf91b6707ff3897a0ec69437a8a0465cde3299936bc42": {
+    "wasm_binary_size": 7730,
+    "num_exported_funcs": 15,
+    "clients": {
+      "trevoreyre/autocomplete": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 15,
+          "dce_binary_size": 7714,
+          "percentage_size_decrease": 0.2069857697283312,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 93.33333333333333,
+          "num_exports_called": 14,
+          "dce_binary_size": 7700,
+          "percentage_size_decrease": 0.38809831824062097,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "be2dc7da3885e55013c8da58d7ba356705d932459db94ada37d5de2fa8733cfe": {
+    "wasm_binary_size": 48693,
+    "num_exported_funcs": 24,
+    "clients": {
+      "lingui/js-lingui": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 24,
+          "dce_binary_size": 48693,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 16.666666666666664,
+          "num_exports_called": 4,
+          "dce_binary_size": 31043,
+          "percentage_size_decrease": 36.24750990902183,
+          "removed_functions": 36
+        }
+      }
+    }
+  },
+  "ce4a3f31ddc32fd9c67574e3777a358d25ca4ec721b35e7be556b296af80c51d": {
+    "wasm_binary_size": 449391,
+    "num_exported_funcs": 28,
+    "clients": {
+      "httptoolkit/mockttp": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 28,
+          "dce_binary_size": 447396,
+          "percentage_size_decrease": 0.44393412418139216,
+          "removed_functions": 2
+        },
+        "called-exports": {
+          "percent_exports_called": 21.428571428571427,
+          "num_exports_called": 6,
+          "dce_binary_size": 446583,
+          "percentage_size_decrease": 0.6248456244117039,
+          "removed_functions": 43
+        }
+      }
+    }
+  },
+  "1114a7f5e535adab1c15aab43757c85bfff925fa6bcde95aa41f85484c5a0ef1": {
+    "wasm_binary_size": 4981134,
+    "num_exported_funcs": 3,
+    "clients": {
+      "ixartz/Astro-boilerplate": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 5102744,
+          "percentage_size_decrease": -2.4414119355150854,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 5102744,
+          "percentage_size_decrease": -2.4414119355150854,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "3a50d67c65627fb622c8c95c3a63d422bd07560981e29bef3db941b441563753": {
+    "wasm_binary_size": 120451,
+    "num_exported_funcs": 175,
+    "clients": {
+      "wormhole-foundation/wormhole-sdk-ts": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 175,
+          "dce_binary_size": 120446,
+          "percentage_size_decrease": 0.0041510655785340096,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 40.0,
+          "num_exports_called": 70,
+          "dce_binary_size": 64976,
+          "percentage_size_decrease": 46.056072593834834,
+          "removed_functions": 237
+        }
+      }
+    }
+  },
+  "38ef9116af3e8ecaee40dbb7df442911ee45f39d46131b914e15844f0560558d": {
+    "wasm_binary_size": 43101,
+    "num_exported_funcs": 10,
+    "clients": {
+      "JairusSW/as-fetch": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 10,
+          "dce_binary_size": 42838,
+          "percentage_size_decrease": 0.6101946590566345,
+          "removed_functions": 44
+        },
+        "called-exports": {
+          "percent_exports_called": 70.0,
+          "num_exports_called": 7,
+          "dce_binary_size": 41884,
+          "percentage_size_decrease": 2.8236003805016128,
+          "removed_functions": 50
+        }
+      }
+    }
+  },
+  "3848f3caff7c292743055d8266193a3a423f3077a947d247363d13d3849f2b85": {
+    "wasm_binary_size": 5121812,
+    "num_exported_funcs": 3,
+    "clients": {
+      "danielcgilibert/blog-template": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 5235047,
+          "percentage_size_decrease": -2.210838664129023,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 5235047,
+          "percentage_size_decrease": -2.210838664129023,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "5ac11b249eed7e95d2d527c2fbeaaf7647a4dfdd2d86a6010aa085261786dd12": {
+    "wasm_binary_size": 154,
+    "num_exported_funcs": 1,
+    "clients": {
+      "i-tengfei/wasm-loader": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 113,
+          "percentage_size_decrease": 26.623376623376622,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 113,
+          "percentage_size_decrease": 26.623376623376622,
+          "removed_functions": 1
+        }
+      }
+    }
+  },
+  "a213b49905f0fc26138071636f8b448b3273badb4c2e4b0e2b56becef29706da": {
+    "wasm_binary_size": 282663,
+    "num_exported_funcs": 10,
+    "clients": {
+      "fengkx/NodeRSSBot": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 10,
+          "dce_binary_size": 282659,
+          "percentage_size_decrease": 0.0014151126960373307,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 30.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 282418,
+          "percentage_size_decrease": 0.0866756526322865,
+          "removed_functions": 14
+        }
+      }
+    }
+  },
+  "f1332ee582b965f4265b8f245044dfe63d010cd9f3db634ce486253a3aa341de": {
+    "wasm_binary_size": 160,
+    "num_exported_funcs": 2,
+    "clients": {
+      "Tschrock/esbuild-plugin-wasm": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 2,
+          "dce_binary_size": 100,
+          "percentage_size_decrease": 37.5,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 2,
+          "dce_binary_size": 100,
+          "percentage_size_decrease": 37.5,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "1c0f11f5fd4a97e72eadb4e35a8710c13384fbb75ca11062adb37934cdafc6ad": {
+    "wasm_binary_size": 8325,
+    "num_exported_funcs": 17,
+    "clients": {
+      "remix-run/remix": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 17,
+          "dce_binary_size": 8312,
+          "percentage_size_decrease": 0.15615615615615616,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 94.11764705882352,
+          "num_exports_called": 16,
+          "dce_binary_size": 8298,
+          "percentage_size_decrease": 0.3243243243243243,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "f60099cebcced26afd0977594db33ed4899f7b40a12f509f5e8fc98ffaa053f4": {
+    "wasm_binary_size": 55985,
+    "num_exported_funcs": 32,
+    "clients": {
+      "react-hook-form/documentation": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 32,
+          "dce_binary_size": 53958,
+          "percentage_size_decrease": 3.620612664106457,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 12.5,
+          "num_exports_called": 4,
+          "dce_binary_size": 49405,
+          "percentage_size_decrease": 11.753148164686971,
+          "removed_functions": 59
+        }
+      }
+    }
+  },
+  "cf1de5a2867e26e5177dd34ce19d2d248b4d9183111ceaab6666067b454fecd5": {
+    "wasm_binary_size": 6867,
+    "num_exported_funcs": 13,
+    "clients": {
+      "melink14/rikaikun": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 13,
+          "dce_binary_size": 6849,
+          "percentage_size_decrease": 0.2621231979030144,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 92.3076923076923,
+          "num_exports_called": 12,
+          "dce_binary_size": 6835,
+          "percentage_size_decrease": 0.4659967962720256,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "43c14e64cb24d9125d9d4680d77dcc96df48cd8925a638d5e829651f2d699a8b": {
+    "wasm_binary_size": 708868,
+    "num_exported_funcs": 50,
+    "clients": {
+      "hoppscotch/hopp-js-sandbox": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 50,
+          "dce_binary_size": 708751,
+          "percentage_size_decrease": 0.016505188554145483,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 68.0,
+          "num_exports_called": 34,
+          "dce_binary_size": 698142,
+          "percentage_size_decrease": 1.5131166874509783,
+          "removed_functions": 47
+        }
+      }
+    }
+  },
+  "703eb31ab5a3221bdb7b8f1282392ab51bbaa73a1b90ecbbfe7e8b189769fd68": {
+    "wasm_binary_size": 8846,
+    "num_exported_funcs": 19,
+    "clients": {
+      "unjs/undio": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 19,
+          "dce_binary_size": 8833,
+          "percentage_size_decrease": 0.14695907754917475,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 94.73684210526315,
+          "num_exports_called": 18,
+          "dce_binary_size": 8819,
+          "percentage_size_decrease": 0.30522269952520914,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "647fb6e5e0ea8c4d02ff47b535343d1c179b0943cc02bf238c48a8d4352df7f4": {
+    "wasm_binary_size": 20488,
+    "num_exported_funcs": 1,
+    "clients": {
+      "JairusSW/as-json": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 20149,
+          "percentage_size_decrease": 1.6546270987895355,
+          "removed_functions": 30
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 20149,
+          "percentage_size_decrease": 1.6546270987895355,
+          "removed_functions": 30
+        }
+      }
+    }
+  },
+  "4abadfe41db5e099f09a77a1030460d9a36afdc90afd333ea67ae577ab4165e3": {
+    "wasm_binary_size": 5208440,
+    "num_exported_funcs": 1409,
+    "clients": {
+      "JairusSW/as-tbs": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1409,
+          "dce_binary_size": 5208435,
+          "percentage_size_decrease": 9.599803396026449e-05,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 50.81618168914124,
+          "num_exports_called": 716,
+          "dce_binary_size": 5116201,
+          "percentage_size_decrease": 1.7709525308921674,
+          "removed_functions": 1348
+        }
+      }
+    }
+  },
+  "523b72c5c8908aed07c3cf9bdc9ab02da01bb170923a1c4f9810130bcaa3c953": {
+    "wasm_binary_size": 5374867,
+    "num_exported_funcs": 1176,
+    "clients": {
+      "aspkg/ecmassembly": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1176,
+          "dce_binary_size": 5374862,
+          "percentage_size_decrease": 9.30255576556592e-05,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 55.952380952380956,
+          "num_exports_called": 658,
+          "dce_binary_size": 5298971,
+          "percentage_size_decrease": 1.4120535447667821,
+          "removed_functions": 999
+        }
+      }
+    }
+  },
+  "ddc70d4343d8fbf2190d50d76e290ab2b26b13f201345dbc98a9ace47928619a": {
+    "wasm_binary_size": 9858,
+    "num_exported_funcs": 16,
+    "clients": {
+      "CesiumGS/3d-tiles-validator": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 16,
+          "dce_binary_size": 9589,
+          "percentage_size_decrease": 2.728748224792047,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 18.75,
+          "num_exports_called": 3,
+          "dce_binary_size": 641,
+          "percentage_size_decrease": 93.49766686954759,
+          "removed_functions": 32
+        }
+      }
+    }
+  },
+  "d58fb2fe36e4aef7b4ef602eec613ea1d4df937feed221afae78ad9c82494496": {
+    "wasm_binary_size": 10979,
+    "num_exported_funcs": 8,
+    "clients": {
+      "CesiumGS/3d-tiles-validator": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 8,
+          "dce_binary_size": 10787,
+          "percentage_size_decrease": 1.7487931505601604,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 12.5,
+          "num_exports_called": 1,
+          "dce_binary_size": 214,
+          "percentage_size_decrease": 98.05082430093816,
+          "removed_functions": 15
+        }
+      }
+    }
+  },
+  "0a1021cdc3c583a05db74450cb468742ef332399f3c8dd13c14bcd6b437c2fde": {
+    "wasm_binary_size": 9000,
+    "num_exported_funcs": 5,
+    "clients": {
+      "CesiumGS/3d-tiles-validator": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 5,
+          "dce_binary_size": 8749,
+          "percentage_size_decrease": 2.788888888888889,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 20.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 402,
+          "percentage_size_decrease": 95.53333333333333,
+          "removed_functions": 15
+        }
+      }
+    }
+  },
+  "703ca4a611b3bffc14517ac5121b207d56926273ae1b7b5c2004fd23f83969f4": {
+    "wasm_binary_size": 277137,
+    "num_exported_funcs": 4,
+    "clients": {
+      "CesiumGS/3d-tiles-validator": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 4,
+          "dce_binary_size": 255513,
+          "percentage_size_decrease": 7.802639127940333,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 25.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 46641,
+          "percentage_size_decrease": 83.17041751913314,
+          "removed_functions": 544
+        }
+      }
+    }
+  },
+  "90dbc2401d2fdd7a55c2ae2a3005ffbd9f177c9b79f6eb90a510df285e5cf4b4": {
+    "wasm_binary_size": 4989170,
+    "num_exported_funcs": 3,
+    "clients": {
+      "sindresorhus/sindresorhus.github.com": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 5110782,
+          "percentage_size_decrease": -2.4375196676000215,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 5110782,
+          "percentage_size_decrease": -2.4375196676000215,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "21344ba8a32d4146583cf321bdb41312159c4341292675f4e78c62bd8ec3d5f7": {
+    "wasm_binary_size": 252203,
+    "num_exported_funcs": 157,
+    "clients": {
+      "nullishamy/declaricord": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 157,
+          "dce_binary_size": 252198,
+          "percentage_size_decrease": 0.001982529946114836,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 28.02547770700637,
+          "num_exports_called": 44,
+          "dce_binary_size": 250285,
+          "percentage_size_decrease": 0.7604984873296511,
+          "removed_functions": 138
+        }
+      }
+    }
+  },
+  "53c5ef38a1db5e2b943f52584d4d8b41bec8e784bcab161143937db6ed5b6683": {
+    "wasm_binary_size": 21611,
+    "num_exported_funcs": 6,
+    "clients": {
+      "nickbabcock/highwayhasher": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 6,
+          "dce_binary_size": 21618,
+          "percentage_size_decrease": -0.032390912035537456,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 83.33333333333334,
+          "num_exports_called": 5,
+          "dce_binary_size": 21591,
+          "percentage_size_decrease": 0.09254546295867845,
+          "removed_functions": 2
+        }
+      }
+    }
+  },
+  "1fc3c27d95807b308e01e3084aca75f9b71410c0a25a7c1b311d6c93f5f7ea5b": {
+    "wasm_binary_size": 19781,
+    "num_exported_funcs": 6,
+    "clients": {
+      "nickbabcock/highwayhasher": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 6,
+          "dce_binary_size": 19788,
+          "percentage_size_decrease": -0.03538749304888529,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 33.33333333333333,
+          "num_exports_called": 2,
+          "dce_binary_size": 17601,
+          "percentage_size_decrease": 11.020676406652848,
+          "removed_functions": 15
+        }
+      }
+    }
+  },
+  "5d1e17faeff951135b54cf77b128d8aeae60d26e9fc392e1e041593b0b2f4f8d": {
+    "wasm_binary_size": 4570947,
+    "num_exported_funcs": 3,
+    "clients": {
+      "ixartz/Astro-boilerplate": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 4678723,
+          "percentage_size_decrease": -2.3578483845907643,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 4678723,
+          "percentage_size_decrease": -2.3578483845907643,
+          "removed_functions": 0
+        }
+      }
+    }
+  },
+  "d49962fdeeee48647f8c5d66fe6dabeffb16c60ef132bdbccbf85a3887f591eb": {
+    "wasm_binary_size": 8760,
+    "num_exported_funcs": 19,
+    "clients": {
+      "nwutils/nw-builder": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 19,
+          "dce_binary_size": 8747,
+          "percentage_size_decrease": 0.14840182648401826,
+          "removed_functions": 3
+        },
+        "called-exports": {
+          "percent_exports_called": 94.73684210526315,
+          "num_exports_called": 18,
+          "dce_binary_size": 8733,
+          "percentage_size_decrease": 0.3082191780821918,
+          "removed_functions": 5
+        }
+      }
+    }
+  },
+  "47fb4f81d274932184cd19c75ed34f902d13f0519301590789a37f7077977e27": {
+    "wasm_binary_size": 88658,
+    "num_exported_funcs": 6,
+    "clients": {
+      "isaacs/minizlib": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 6,
+          "dce_binary_size": 88654,
+          "percentage_size_decrease": 0.004511719190597578,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 16.666666666666664,
+          "num_exports_called": 1,
+          "dce_binary_size": 88234,
+          "percentage_size_decrease": 0.47824223420334316,
+          "removed_functions": 10
+        }
+      }
+    }
+  },
+  "a03fdb43c82b15994b7d45b5887c594dfc0be0860a4eb0d9bbae2dd146257182": {
+    "wasm_binary_size": 1803745,
+    "num_exported_funcs": 15,
+    "clients": {
+      "semaphore-protocol/semaphore": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 15,
+          "dce_binary_size": 1769186,
+          "percentage_size_decrease": 1.9159581869942814,
+          "removed_functions": 31
+        },
+        "called-exports": {
+          "percent_exports_called": 80.0,
+          "num_exports_called": 12,
+          "dce_binary_size": 1769038,
+          "percentage_size_decrease": 1.9241633379441108,
+          "removed_functions": 37
+        }
+      }
+    }
+  },
+  "e612e463967cb148d68102b07944c724ad1127bbcc13054eee5078d0a30251d8": {
+    "wasm_binary_size": 3193,
+    "num_exported_funcs": 8,
+    "clients": {
+      "sebastian-software/asset-hash": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 8,
+          "dce_binary_size": 3193,
+          "percentage_size_decrease": 0.0,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 37.5,
+          "num_exports_called": 3,
+          "dce_binary_size": 1422,
+          "percentage_size_decrease": 55.465079862198564,
+          "removed_functions": 11
+        }
+      }
+    }
+  },
+  "c7d79f869196e3c79c053ba74a8f629116de8293a94f60cc851bbcd7977d0c2b": {
+    "wasm_binary_size": 207593,
+    "num_exported_funcs": 15,
+    "clients": {
+      "emmercm/igir": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 15,
+          "dce_binary_size": 207588,
+          "percentage_size_decrease": 0.0024085590554594805,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 60.0,
+          "num_exports_called": 9,
+          "dce_binary_size": 207347,
+          "percentage_size_decrease": 0.11850110552860645,
+          "removed_functions": 13
+        }
+      }
+    }
+  },
+  "d4c2a00c87256e031189e6e6a320f53373f5fa5e7a75b7dbde6c2ff43c750a6e": {
+    "wasm_binary_size": 4289020,
+    "num_exported_funcs": 1107,
+    "clients": {
+      "eoin-obrien/fuck": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 1107,
+          "dce_binary_size": 4289015,
+          "percentage_size_decrease": 0.00011657674713570931,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 47.78681120144535,
+          "num_exports_called": 529,
+          "dce_binary_size": 4209012,
+          "percentage_size_decrease": 1.8654144769667664,
+          "removed_functions": 1130
+        }
+      }
+    }
+  },
+  "c7ceb4d5870910b5e199cd0c2318249a7402bc1e3f32b868ab6b04dafcf906c6": {
+    "wasm_binary_size": 8249,
+    "num_exported_funcs": 4,
+    "clients": {
+      "iden3/snarkjs": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 4,
+          "dce_binary_size": 8251,
+          "percentage_size_decrease": -0.024245363074312038,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 75.0,
+          "num_exports_called": 3,
+          "dce_binary_size": 8232,
+          "percentage_size_decrease": 0.20608558613165232,
+          "removed_functions": 1
+        }
+      }
+    }
+  },
+  "18fc45ef410e6015296dad9fa775684c96e71e7007b99f2d87799a18a354e750": {
+    "wasm_binary_size": 613426,
+    "num_exported_funcs": 50,
+    "clients": {
+      "OGKevin/obsidian-kobo-highlights-import": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 50,
+          "dce_binary_size": 613429,
+          "percentage_size_decrease": -0.0004890565447177003,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 4.0,
+          "num_exports_called": 2,
+          "dce_binary_size": 609531,
+          "percentage_size_decrease": 0.6349584138918142,
+          "removed_functions": 68
+        }
+      }
+    }
+  },
+  "367c93d45aa0162c46aad299edb8307e20407966139d8b69e8df913ca29c2042": {
+    "wasm_binary_size": 2709987,
+    "num_exported_funcs": 12,
+    "clients": {
+      "ajslater/codex": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 12,
+          "dce_binary_size": 2336515,
+          "percentage_size_decrease": 13.781320722202725,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 41.66666666666667,
+          "num_exports_called": 5,
+          "dce_binary_size": 2325482,
+          "percentage_size_decrease": 14.188444446412474,
+          "removed_functions": 25
+        }
+      }
+    }
+  },
+  "6df4bab3269445bfdb2a76bfc3402e2430323e923d773489b1d89b0417967c15": {
+    "wasm_binary_size": 113321,
+    "num_exported_funcs": 156,
+    "clients": {
+      "wormhole-foundation/relayer-engine": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 156,
+          "dce_binary_size": 113316,
+          "percentage_size_decrease": 0.004412244861940858,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 44.871794871794876,
+          "num_exports_called": 70,
+          "dce_binary_size": 64907,
+          "percentage_size_decrease": 42.72288454920094,
+          "removed_functions": 199
+        }
+      }
+    }
+  },
+  "120d12272a2ab344a9c0d27f5f4eed2c30605e54ad13438bce1b8cc4d73de19e": {
+    "wasm_binary_size": 95729,
+    "num_exported_funcs": 36,
+    "clients": {
+      "hazae41/berith": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 36,
+          "dce_binary_size": 95817,
+          "percentage_size_decrease": -0.0919261665743923,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 8.333333333333332,
+          "num_exports_called": 3,
+          "dce_binary_size": 54164,
+          "percentage_size_decrease": 43.419444473461546,
+          "removed_functions": 70
+        }
+      }
+    }
+  },
+  "08dfe9372e38f609df126ba161acd488fbf1232c0bdb1d393be03465cda923e8": {
+    "wasm_binary_size": 2454755,
+    "num_exported_funcs": 50,
+    "clients": {
+      "yisibl/resvg-js": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 50,
+          "dce_binary_size": 2446338,
+          "percentage_size_decrease": 0.34288554254905274,
+          "removed_functions": 0
+        },
+        "called-exports": {
+          "percent_exports_called": 40.0,
+          "num_exports_called": 20,
+          "dce_binary_size": 2257104,
+          "percentage_size_decrease": 8.051760766349393,
+          "removed_functions": 122
+        }
+      }
+    }
+  },
+  "2e9e9aaf46c8d2d0d999e430d53e5d147437fafc7a35d2754921804afe465e97": {
+    "wasm_binary_size": 428780,
+    "num_exported_funcs": 11,
+    "clients": {
+      "NippunSharma/mljs_ann": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 11,
+          "dce_binary_size": 428776,
+          "percentage_size_decrease": 0.0009328793320583982,
+          "removed_functions": 1
+        },
+        "called-exports": {
+          "percent_exports_called": 9.090909090909092,
+          "num_exports_called": 1,
+          "dce_binary_size": 428444,
+          "percentage_size_decrease": 0.07836186389290546,
+          "removed_functions": 20
+        }
+      }
+    }
+  },
+  "e1086c137a5dfc08054b46fa6082b72a69d61deee8b0dd435d4c3d03d43338a8": {
+    "wasm_binary_size": 2171240,
+    "num_exported_funcs": 2,
+    "clients": {
+      "ksxnodemodules/static-type-assert": {
+        "baseline": {
+          "percent_exports_called": 100.0,
+          "num_exports_called": 2,
+          "dce_binary_size": 1645968,
+          "percentage_size_decrease": 24.192258801422227,
+          "removed_functions": 4
+        },
+        "called-exports": {
+          "percent_exports_called": 50.0,
+          "num_exports_called": 1,
+          "dce_binary_size": 1645950,
+          "percentage_size_decrease": 24.193087820784438,
+          "removed_functions": 6
+        }
+      }
+    }
+  }
+}

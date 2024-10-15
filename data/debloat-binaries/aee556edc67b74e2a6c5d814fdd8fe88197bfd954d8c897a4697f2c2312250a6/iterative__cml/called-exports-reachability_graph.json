@@ -1,0 +1,22 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "__wasm_call_ctors",
+    "root": true,
+    "export": "__wasm_call_ctors"
+  },
+  {
+    "name": "emscripten_stack_init",
+    "root": true,
+    "export": "emscripten_stack_init"
+  },
+  {
+    "name": "emscripten_stack_get_end",
+    "root": true,
+    "export": "emscripten_stack_get_end"
+  }
+]

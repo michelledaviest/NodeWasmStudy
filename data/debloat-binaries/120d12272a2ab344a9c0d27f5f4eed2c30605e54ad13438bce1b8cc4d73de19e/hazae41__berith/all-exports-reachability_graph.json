@@ -1,0 +1,187 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "__wbg_ed25519signingkey_free",
+    "root": true,
+    "export": "__wbg_ed25519signingkey_free"
+  },
+  {
+    "name": "ed25519signingkey_new",
+    "root": true,
+    "export": "ed25519signingkey_new"
+  },
+  {
+    "name": "ed25519signingkey_from_bytes",
+    "root": true,
+    "export": "ed25519signingkey_from_bytes"
+  },
+  {
+    "name": "ed25519signingkey_to_bytes",
+    "root": true,
+    "export": "ed25519signingkey_to_bytes"
+  },
+  {
+    "name": "ed25519signingkey_public",
+    "root": true,
+    "export": "ed25519signingkey_public"
+  },
+  {
+    "name": "ed25519signingkey_sign",
+    "root": true,
+    "export": "ed25519signingkey_sign"
+  },
+  {
+    "name": "__wbg_ed25519signature_free",
+    "root": true,
+    "export": "__wbg_ed25519signature_free"
+  },
+  {
+    "name": "ed25519signature_new",
+    "root": true,
+    "export": "ed25519signature_new"
+  },
+  {
+    "name": "ed25519signature_from_bytes",
+    "root": true,
+    "export": "ed25519signature_from_bytes"
+  },
+  {
+    "name": "ed25519signature_to_bytes",
+    "root": true,
+    "export": "ed25519signature_to_bytes"
+  },
+  {
+    "name": "__wbg_x25519publickey_free",
+    "root": true,
+    "export": "__wbg_x25519publickey_free"
+  },
+  {
+    "name": "x25519publickey_from_bytes",
+    "root": true,
+    "export": "x25519publickey_from_bytes"
+  },
+  {
+    "name": "x25519publickey_to_bytes",
+    "root": true,
+    "export": "x25519publickey_to_bytes"
+  },
+  {
+    "name": "x25519staticsecret_random",
+    "root": true,
+    "export": "x25519staticsecret_random"
+  },
+  {
+    "name": "x25519staticsecret_diffie_hellman",
+    "root": true,
+    "export": "x25519staticsecret_diffie_hellman"
+  },
+  {
+    "name": "x25519staticsecret_to_public",
+    "root": true,
+    "export": "x25519staticsecret_to_public"
+  },
+  {
+    "name": "__wbg_ed25519verifyingkey_free",
+    "root": true,
+    "export": "__wbg_ed25519verifyingkey_free"
+  },
+  {
+    "name": "ed25519verifyingkey_from_bytes",
+    "root": true,
+    "export": "ed25519verifyingkey_from_bytes"
+  },
+  {
+    "name": "ed25519verifyingkey_to_bytes",
+    "root": true,
+    "export": "ed25519verifyingkey_to_bytes"
+  },
+  {
+    "name": "ed25519verifyingkey_verify",
+    "root": true,
+    "export": "ed25519verifyingkey_verify"
+  },
+  {
+    "name": "__wbg_x25519sharedsecret_free",
+    "root": true,
+    "export": "__wbg_x25519sharedsecret_free"
+  },
+  {
+    "name": "x25519sharedsecret_to_bytes",
+    "root": true,
+    "export": "x25519sharedsecret_to_bytes"
+  },
+  {
+    "name": "x25519sharedsecret_was_contributory",
+    "root": true,
+    "export": "x25519sharedsecret_was_contributory"
+  },
+  {
+    "name": "__wbg_memory_free",
+    "root": true,
+    "export": "__wbg_memory_free"
+  },
+  {
+    "name": "memory_new",
+    "root": true,
+    "export": "memory_new"
+  },
+  {
+    "name": "memory_ptr",
+    "root": true,
+    "export": "memory_ptr"
+  },
+  {
+    "name": "memory_len",
+    "root": true,
+    "export": "memory_len"
+  },
+  {
+    "name": "ed25519signingkey_random",
+    "root": true,
+    "export": "ed25519signingkey_random"
+  },
+  {
+    "name": "x25519publickey_new",
+    "root": true,
+    "export": "x25519publickey_new"
+  },
+  {
+    "name": "x25519staticsecret_from_bytes",
+    "root": true,
+    "export": "x25519staticsecret_from_bytes"
+  },
+  {
+    "name": "ed25519verifyingkey_new",
+    "root": true,
+    "export": "ed25519verifyingkey_new"
+  },
+  {
+    "name": "x25519staticsecret_to_bytes",
+    "root": true,
+    "export": "x25519staticsecret_to_bytes"
+  },
+  {
+    "name": "__wbg_x25519staticsecret_free",
+    "root": true,
+    "export": "__wbg_x25519staticsecret_free"
+  },
+  {
+    "name": "__wbindgen_add_to_stack_pointer",
+    "root": true,
+    "export": "__wbindgen_add_to_stack_pointer"
+  },
+  {
+    "name": "__wbindgen_malloc",
+    "root": true,
+    "export": "__wbindgen_malloc"
+  },
+  {
+    "name": "__wbindgen_exn_store",
+    "root": true,
+    "export": "__wbindgen_exn_store"
+  }
+]

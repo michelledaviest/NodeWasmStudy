@@ -1,0 +1,27 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "blake2b_init",
+    "root": true,
+    "export": "blake2b_init"
+  },
+  {
+    "name": "blake2b_update",
+    "root": true,
+    "export": "blake2b_update"
+  },
+  {
+    "name": "blake2b_final",
+    "root": true,
+    "export": "blake2b_final"
+  },
+  {
+    "name": "blake2b_compress",
+    "root": true,
+    "export": "blake2b_compress"
+  }
+]

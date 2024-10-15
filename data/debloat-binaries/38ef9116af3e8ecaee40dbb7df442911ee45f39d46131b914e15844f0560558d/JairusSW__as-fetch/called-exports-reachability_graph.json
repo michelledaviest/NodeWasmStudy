@@ -1,0 +1,42 @@
+[
+  {
+    "name": "main",
+    "root": true,
+    "export": "main"
+  },
+  {
+    "name": "__new",
+    "root": true,
+    "export": "__new"
+  },
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "asyncify_start_unwind",
+    "root": true,
+    "export": "asyncify_start_unwind"
+  },
+  {
+    "name": "asyncify_stop_unwind",
+    "root": true,
+    "export": "asyncify_stop_unwind"
+  },
+  {
+    "name": "asyncify_start_rewind",
+    "root": true,
+    "export": "asyncify_start_rewind"
+  },
+  {
+    "name": "asyncify_stop_rewind",
+    "root": true,
+    "export": "asyncify_stop_rewind"
+  },
+  {
+    "name": "asyncify_get_state",
+    "root": true,
+    "export": "asyncify_get_state"
+  }
+]

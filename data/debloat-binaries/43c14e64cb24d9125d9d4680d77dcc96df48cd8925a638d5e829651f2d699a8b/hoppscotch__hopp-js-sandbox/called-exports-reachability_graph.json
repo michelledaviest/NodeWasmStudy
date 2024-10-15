@@ -1,0 +1,172 @@
+[
+  {
+    "name": "k",
+    "root": true,
+    "export": "k"
+  },
+  {
+    "name": "l",
+    "root": true,
+    "export": "l"
+  },
+  {
+    "name": "m",
+    "root": true,
+    "export": "m"
+  },
+  {
+    "name": "n",
+    "root": true,
+    "export": "n"
+  },
+  {
+    "name": "o",
+    "root": true,
+    "export": "o"
+  },
+  {
+    "name": "p",
+    "root": true,
+    "export": "p"
+  },
+  {
+    "name": "q",
+    "root": true,
+    "export": "q"
+  },
+  {
+    "name": "r",
+    "root": true,
+    "export": "r"
+  },
+  {
+    "name": "s",
+    "root": true,
+    "export": "s"
+  },
+  {
+    "name": "y",
+    "root": true,
+    "export": "y"
+  },
+  {
+    "name": "z",
+    "root": true,
+    "export": "z"
+  },
+  {
+    "name": "C",
+    "root": true,
+    "export": "C"
+  },
+  {
+    "name": "D",
+    "root": true,
+    "export": "D"
+  },
+  {
+    "name": "E",
+    "root": true,
+    "export": "E"
+  },
+  {
+    "name": "F",
+    "root": true,
+    "export": "F"
+  },
+  {
+    "name": "G",
+    "root": true,
+    "export": "G"
+  },
+  {
+    "name": "H",
+    "root": true,
+    "export": "H"
+  },
+  {
+    "name": "I",
+    "root": true,
+    "export": "I"
+  },
+  {
+    "name": "L",
+    "root": true,
+    "export": "L"
+  },
+  {
+    "name": "M",
+    "root": true,
+    "export": "M"
+  },
+  {
+    "name": "N",
+    "root": true,
+    "export": "N"
+  },
+  {
+    "name": "O",
+    "root": true,
+    "export": "O"
+  },
+  {
+    "name": "R",
+    "root": true,
+    "export": "R"
+  },
+  {
+    "name": "S",
+    "root": true,
+    "export": "S"
+  },
+  {
+    "name": "T",
+    "root": true,
+    "export": "T"
+  },
+  {
+    "name": "U",
+    "root": true,
+    "export": "U"
+  },
+  {
+    "name": "V",
+    "root": true,
+    "export": "V"
+  },
+  {
+    "name": "W",
+    "root": true,
+    "export": "W"
+  },
+  {
+    "name": "X",
+    "root": true,
+    "export": "X"
+  },
+  {
+    "name": "Y",
+    "root": true,
+    "export": "Y"
+  },
+  {
+    "name": "Z",
+    "root": true,
+    "export": "Z"
+  },
+  {
+    "name": "da",
+    "root": true,
+    "export": "da"
+  },
+  {
+    "name": "ea",
+    "root": true,
+    "export": "ea"
+  },
+  {
+    "name": "fa",
+    "root": true,
+    "export": "fa"
+  }
+]

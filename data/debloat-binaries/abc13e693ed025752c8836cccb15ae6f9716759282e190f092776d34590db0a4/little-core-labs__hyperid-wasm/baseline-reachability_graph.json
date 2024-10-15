@@ -1,0 +1,47 @@
+[
+  {
+    "name": "hyperid_result_encoding_length",
+    "root": true,
+    "export": "hyperid_result_encoding_length"
+  },
+  {
+    "name": "hyperid_make",
+    "root": true,
+    "export": "hyperid_make"
+  },
+  {
+    "name": "hyperid_generate",
+    "root": true,
+    "export": "hyperid_generate"
+  },
+  {
+    "name": "hyperid_count",
+    "root": true,
+    "export": "hyperid_count"
+  },
+  {
+    "name": "sizeof_hyperid_Options",
+    "root": true,
+    "export": "sizeof_hyperid_Options"
+  },
+  {
+    "name": "sizeof_hyperid_UUID",
+    "root": true,
+    "export": "sizeof_hyperid_UUID"
+  },
+  {
+    "name": "sizeof_hyperid_Result",
+    "root": true,
+    "export": "sizeof_hyperid_Result"
+  },
+  {
+    "name": "sizeof_hyperid_Context",
+    "root": true,
+    "export": "sizeof_hyperid_Context"
+  },
+  {
+    "name": "__heap_base",
+    "root": true,
+    "export": "__heap_base"
+  }
+]

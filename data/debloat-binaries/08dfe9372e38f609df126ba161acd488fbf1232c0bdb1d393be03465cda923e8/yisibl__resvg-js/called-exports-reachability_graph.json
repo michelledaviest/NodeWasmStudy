@@ -1,0 +1,107 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "__wbg_bbox_free",
+    "root": true,
+    "export": "__wbg_bbox_free"
+  },
+  {
+    "name": "__wbg_get_bbox_x",
+    "root": true,
+    "export": "__wbg_get_bbox_x"
+  },
+  {
+    "name": "__wbg_get_bbox_y",
+    "root": true,
+    "export": "__wbg_get_bbox_y"
+  },
+  {
+    "name": "__wbg_get_bbox_width",
+    "root": true,
+    "export": "__wbg_get_bbox_width"
+  },
+  {
+    "name": "__wbg_get_bbox_height",
+    "root": true,
+    "export": "__wbg_get_bbox_height"
+  },
+  {
+    "name": "__wbg_renderedimage_free",
+    "root": true,
+    "export": "__wbg_renderedimage_free"
+  },
+  {
+    "name": "renderedimage_width",
+    "root": true,
+    "export": "renderedimage_width"
+  },
+  {
+    "name": "renderedimage_height",
+    "root": true,
+    "export": "renderedimage_height"
+  },
+  {
+    "name": "renderedimage_asPng",
+    "root": true,
+    "export": "renderedimage_asPng"
+  },
+  {
+    "name": "renderedimage_pixels",
+    "root": true,
+    "export": "renderedimage_pixels"
+  },
+  {
+    "name": "resvg_new",
+    "root": true,
+    "export": "resvg_new"
+  },
+  {
+    "name": "resvg_width",
+    "root": true,
+    "export": "resvg_width"
+  },
+  {
+    "name": "resvg_height",
+    "root": true,
+    "export": "resvg_height"
+  },
+  {
+    "name": "resvg_render",
+    "root": true,
+    "export": "resvg_render"
+  },
+  {
+    "name": "resvg_innerBBox",
+    "root": true,
+    "export": "resvg_innerBBox"
+  },
+  {
+    "name": "resvg_getBBox",
+    "root": true,
+    "export": "resvg_getBBox"
+  },
+  {
+    "name": "resvg_cropByBBox",
+    "root": true,
+    "export": "resvg_cropByBBox"
+  },
+  {
+    "name": "__wbindgen_malloc",
+    "root": true,
+    "export": "__wbindgen_malloc"
+  },
+  {
+    "name": "__wbindgen_realloc",
+    "root": true,
+    "export": "__wbindgen_realloc"
+  },
+  {
+    "name": "__wbindgen_add_to_stack_pointer",
+    "root": true,
+    "export": "__wbindgen_add_to_stack_pointer"
+  }
+]

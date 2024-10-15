@@ -1,0 +1,22 @@
+[
+  {
+    "name": "s",
+    "root": true,
+    "export": "s"
+  },
+  {
+    "name": "t",
+    "root": true,
+    "export": "t"
+  },
+  {
+    "name": "v",
+    "root": true,
+    "export": "v"
+  },
+  {
+    "name": "w",
+    "root": true,
+    "export": "w"
+  }
+]

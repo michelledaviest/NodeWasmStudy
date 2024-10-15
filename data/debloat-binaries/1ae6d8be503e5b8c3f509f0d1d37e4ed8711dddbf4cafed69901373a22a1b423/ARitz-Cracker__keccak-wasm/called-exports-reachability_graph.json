@@ -1,0 +1,37 @@
+[
+  {
+    "name": "_free",
+    "root": true,
+    "export": "_free"
+  },
+  {
+    "name": "_keccak_destroy",
+    "root": true,
+    "export": "_keccak_destroy"
+  },
+  {
+    "name": "_keccak_final",
+    "root": true,
+    "export": "_keccak_final"
+  },
+  {
+    "name": "_keccak_new",
+    "root": true,
+    "export": "_keccak_new"
+  },
+  {
+    "name": "_keccak_reset",
+    "root": true,
+    "export": "_keccak_reset"
+  },
+  {
+    "name": "_keccak_update",
+    "root": true,
+    "export": "_keccak_update"
+  },
+  {
+    "name": "_malloc",
+    "root": true,
+    "export": "_malloc"
+  }
+]

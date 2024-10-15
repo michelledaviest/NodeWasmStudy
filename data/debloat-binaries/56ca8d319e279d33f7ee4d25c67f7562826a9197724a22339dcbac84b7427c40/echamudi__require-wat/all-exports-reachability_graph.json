@@ -1,0 +1,12 @@
+[
+  {
+    "name": "myMemory",
+    "root": true,
+    "export": "myMemory"
+  },
+  {
+    "name": "sumOfFiveNumbers",
+    "root": true,
+    "export": "sumOfFiveNumbers"
+  }
+]

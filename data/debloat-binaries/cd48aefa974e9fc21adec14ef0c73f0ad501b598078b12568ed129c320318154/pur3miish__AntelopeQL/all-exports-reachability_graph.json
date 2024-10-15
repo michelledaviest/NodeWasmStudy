@@ -1,0 +1,167 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "_initialize",
+    "root": true,
+    "export": "_initialize"
+  },
+  {
+    "name": "llhttp_init",
+    "root": true,
+    "export": "llhttp_init"
+  },
+  {
+    "name": "llhttp_should_keep_alive",
+    "root": true,
+    "export": "llhttp_should_keep_alive"
+  },
+  {
+    "name": "llhttp_alloc",
+    "root": true,
+    "export": "llhttp_alloc"
+  },
+  {
+    "name": "malloc",
+    "root": true,
+    "export": "malloc"
+  },
+  {
+    "name": "llhttp_free",
+    "root": true,
+    "export": "llhttp_free"
+  },
+  {
+    "name": "free",
+    "root": true,
+    "export": "free"
+  },
+  {
+    "name": "llhttp_get_type",
+    "root": true,
+    "export": "llhttp_get_type"
+  },
+  {
+    "name": "llhttp_get_http_major",
+    "root": true,
+    "export": "llhttp_get_http_major"
+  },
+  {
+    "name": "llhttp_get_http_minor",
+    "root": true,
+    "export": "llhttp_get_http_minor"
+  },
+  {
+    "name": "llhttp_get_method",
+    "root": true,
+    "export": "llhttp_get_method"
+  },
+  {
+    "name": "llhttp_get_status_code",
+    "root": true,
+    "export": "llhttp_get_status_code"
+  },
+  {
+    "name": "llhttp_get_upgrade",
+    "root": true,
+    "export": "llhttp_get_upgrade"
+  },
+  {
+    "name": "llhttp_reset",
+    "root": true,
+    "export": "llhttp_reset"
+  },
+  {
+    "name": "llhttp_execute",
+    "root": true,
+    "export": "llhttp_execute"
+  },
+  {
+    "name": "llhttp_settings_init",
+    "root": true,
+    "export": "llhttp_settings_init"
+  },
+  {
+    "name": "llhttp_finish",
+    "root": true,
+    "export": "llhttp_finish"
+  },
+  {
+    "name": "llhttp_pause",
+    "root": true,
+    "export": "llhttp_pause"
+  },
+  {
+    "name": "llhttp_resume",
+    "root": true,
+    "export": "llhttp_resume"
+  },
+  {
+    "name": "llhttp_resume_after_upgrade",
+    "root": true,
+    "export": "llhttp_resume_after_upgrade"
+  },
+  {
+    "name": "llhttp_get_errno",
+    "root": true,
+    "export": "llhttp_get_errno"
+  },
+  {
+    "name": "llhttp_get_error_reason",
+    "root": true,
+    "export": "llhttp_get_error_reason"
+  },
+  {
+    "name": "llhttp_set_error_reason",
+    "root": true,
+    "export": "llhttp_set_error_reason"
+  },
+  {
+    "name": "llhttp_get_error_pos",
+    "root": true,
+    "export": "llhttp_get_error_pos"
+  },
+  {
+    "name": "llhttp_errno_name",
+    "root": true,
+    "export": "llhttp_errno_name"
+  },
+  {
+    "name": "llhttp_method_name",
+    "root": true,
+    "export": "llhttp_method_name"
+  },
+  {
+    "name": "llhttp_status_name",
+    "root": true,
+    "export": "llhttp_status_name"
+  },
+  {
+    "name": "llhttp_set_lenient_headers",
+    "root": true,
+    "export": "llhttp_set_lenient_headers"
+  },
+  {
+    "name": "llhttp_set_lenient_chunked_length",
+    "root": true,
+    "export": "llhttp_set_lenient_chunked_length"
+  },
+  {
+    "name": "llhttp_set_lenient_keep_alive",
+    "root": true,
+    "export": "llhttp_set_lenient_keep_alive"
+  },
+  {
+    "name": "llhttp_set_lenient_transfer_encoding",
+    "root": true,
+    "export": "llhttp_set_lenient_transfer_encoding"
+  },
+  {
+    "name": "llhttp_message_needs_eof",
+    "root": true,
+    "export": "llhttp_message_needs_eof"
+  }
+]

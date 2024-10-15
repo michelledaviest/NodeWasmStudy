@@ -1,0 +1,87 @@
+[
+  {
+    "name": "ka",
+    "root": true,
+    "export": "ka"
+  },
+  {
+    "name": "la",
+    "root": true,
+    "export": "la"
+  },
+  {
+    "name": "ma",
+    "root": true,
+    "export": "ma"
+  },
+  {
+    "name": "na",
+    "root": true,
+    "export": "na"
+  },
+  {
+    "name": "oa",
+    "root": true,
+    "export": "oa"
+  },
+  {
+    "name": "pa",
+    "root": true,
+    "export": "pa"
+  },
+  {
+    "name": "qa",
+    "root": true,
+    "export": "qa"
+  },
+  {
+    "name": "ra",
+    "root": true,
+    "export": "ra"
+  },
+  {
+    "name": "sa",
+    "root": true,
+    "export": "sa"
+  },
+  {
+    "name": "ta",
+    "root": true,
+    "export": "ta"
+  },
+  {
+    "name": "ua",
+    "root": true,
+    "export": "ua"
+  },
+  {
+    "name": "va",
+    "root": true,
+    "export": "va"
+  },
+  {
+    "name": "wa",
+    "root": true,
+    "export": "wa"
+  },
+  {
+    "name": "xa",
+    "root": true,
+    "export": "xa"
+  },
+  {
+    "name": "ya",
+    "root": true,
+    "export": "ya"
+  },
+  {
+    "name": "za",
+    "root": true,
+    "export": "za"
+  },
+  {
+    "name": "Aa",
+    "root": true,
+    "export": "Aa"
+  }
+]

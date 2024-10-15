@@ -1,0 +1,12 @@
+[
+  {
+    "name": "add",
+    "root": true,
+    "export": "add"
+  },
+  {
+    "name": "addToNumber",
+    "root": true,
+    "export": "addToNumber"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "new_hasher",
+    "root": true,
+    "export": "new_hasher"
+  },
+  {
+    "name": "append",
+    "root": true,
+    "export": "append"
+  },
+  {
+    "name": "finalize64",
+    "root": true,
+    "export": "finalize64"
+  },
+  {
+    "name": "finalize128",
+    "root": true,
+    "export": "finalize128"
+  },
+  {
+    "name": "finalize256",
+    "root": true,
+    "export": "finalize256"
+  }
+]

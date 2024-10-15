@@ -1,0 +1,47 @@
+[
+  {
+    "name": "b",
+    "root": true,
+    "export": "b"
+  },
+  {
+    "name": "c",
+    "root": true,
+    "export": "c"
+  },
+  {
+    "name": "d",
+    "root": true,
+    "export": "d"
+  },
+  {
+    "name": "e",
+    "root": true,
+    "export": "e"
+  },
+  {
+    "name": "f",
+    "root": true,
+    "export": "f"
+  },
+  {
+    "name": "g",
+    "root": true,
+    "export": "g"
+  },
+  {
+    "name": "h",
+    "root": true,
+    "export": "h"
+  },
+  {
+    "name": "i",
+    "root": true,
+    "export": "i"
+  },
+  {
+    "name": "j",
+    "root": true,
+    "export": "j"
+  }
+]

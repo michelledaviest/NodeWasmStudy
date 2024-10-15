@@ -1,0 +1,42 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "decode_rgb",
+    "root": true,
+    "export": "decode_rgb"
+  },
+  {
+    "name": "decode_rgba",
+    "root": true,
+    "export": "decode_rgba"
+  },
+  {
+    "name": "decode_grayscale",
+    "root": true,
+    "export": "decode_grayscale"
+  },
+  {
+    "name": "__wbindgen_add_to_stack_pointer",
+    "root": true,
+    "export": "__wbindgen_add_to_stack_pointer"
+  },
+  {
+    "name": "__wbindgen_malloc",
+    "root": true,
+    "export": "__wbindgen_malloc"
+  },
+  {
+    "name": "__wbindgen_free",
+    "root": true,
+    "export": "__wbindgen_free"
+  },
+  {
+    "name": "__wbindgen_start",
+    "root": true,
+    "export": "__wbindgen_start"
+  }
+]

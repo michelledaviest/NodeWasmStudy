@@ -1,0 +1,357 @@
+[
+  {
+    "name": "f",
+    "root": true,
+    "export": "f"
+  },
+  {
+    "name": "o",
+    "root": true,
+    "export": "o"
+  },
+  {
+    "name": "p",
+    "root": true,
+    "export": "p"
+  },
+  {
+    "name": "q",
+    "root": true,
+    "export": "q"
+  },
+  {
+    "name": "r",
+    "root": true,
+    "export": "r"
+  },
+  {
+    "name": "s",
+    "root": true,
+    "export": "s"
+  },
+  {
+    "name": "u",
+    "root": true,
+    "export": "u"
+  },
+  {
+    "name": "v",
+    "root": true,
+    "export": "v"
+  },
+  {
+    "name": "w",
+    "root": true,
+    "export": "w"
+  },
+  {
+    "name": "x",
+    "root": true,
+    "export": "x"
+  },
+  {
+    "name": "y",
+    "root": true,
+    "export": "y"
+  },
+  {
+    "name": "E",
+    "root": true,
+    "export": "E"
+  },
+  {
+    "name": "F",
+    "root": true,
+    "export": "F"
+  },
+  {
+    "name": "G",
+    "root": true,
+    "export": "G"
+  },
+  {
+    "name": "H",
+    "root": true,
+    "export": "H"
+  },
+  {
+    "name": "I",
+    "root": true,
+    "export": "I"
+  },
+  {
+    "name": "K",
+    "root": true,
+    "export": "K"
+  },
+  {
+    "name": "L",
+    "root": true,
+    "export": "L"
+  },
+  {
+    "name": "P",
+    "root": true,
+    "export": "P"
+  },
+  {
+    "name": "Q",
+    "root": true,
+    "export": "Q"
+  },
+  {
+    "name": "R",
+    "root": true,
+    "export": "R"
+  },
+  {
+    "name": "S",
+    "root": true,
+    "export": "S"
+  },
+  {
+    "name": "T",
+    "root": true,
+    "export": "T"
+  },
+  {
+    "name": "U",
+    "root": true,
+    "export": "U"
+  },
+  {
+    "name": "V",
+    "root": true,
+    "export": "V"
+  },
+  {
+    "name": "ha",
+    "root": true,
+    "export": "ha"
+  },
+  {
+    "name": "ia",
+    "root": true,
+    "export": "ia"
+  },
+  {
+    "name": "ja",
+    "root": true,
+    "export": "ja"
+  },
+  {
+    "name": "ka",
+    "root": true,
+    "export": "ka"
+  },
+  {
+    "name": "la",
+    "root": true,
+    "export": "la"
+  },
+  {
+    "name": "ma",
+    "root": true,
+    "export": "ma"
+  },
+  {
+    "name": "na",
+    "root": true,
+    "export": "na"
+  },
+  {
+    "name": "ua",
+    "root": true,
+    "export": "ua"
+  },
+  {
+    "name": "wa",
+    "root": true,
+    "export": "wa"
+  },
+  {
+    "name": "xa",
+    "root": true,
+    "export": "xa"
+  },
+  {
+    "name": "ya",
+    "root": true,
+    "export": "ya"
+  },
+  {
+    "name": "za",
+    "root": true,
+    "export": "za"
+  },
+  {
+    "name": "Ga",
+    "root": true,
+    "export": "Ga"
+  },
+  {
+    "name": "Ha",
+    "root": true,
+    "export": "Ha"
+  },
+  {
+    "name": "Ia",
+    "root": true,
+    "export": "Ia"
+  },
+  {
+    "name": "Ja",
+    "root": true,
+    "export": "Ja"
+  },
+  {
+    "name": "Ma",
+    "root": true,
+    "export": "Ma"
+  },
+  {
+    "name": "Na",
+    "root": true,
+    "export": "Na"
+  },
+  {
+    "name": "Oa",
+    "root": true,
+    "export": "Oa"
+  },
+  {
+    "name": "Pa",
+    "root": true,
+    "export": "Pa"
+  },
+  {
+    "name": "Qa",
+    "root": true,
+    "export": "Qa"
+  },
+  {
+    "name": "Ra",
+    "root": true,
+    "export": "Ra"
+  },
+  {
+    "name": "Ua",
+    "root": true,
+    "export": "Ua"
+  },
+  {
+    "name": "Wa",
+    "root": true,
+    "export": "Wa"
+  },
+  {
+    "name": "cb",
+    "root": true,
+    "export": "cb"
+  },
+  {
+    "name": "db",
+    "root": true,
+    "export": "db"
+  },
+  {
+    "name": "eb",
+    "root": true,
+    "export": "eb"
+  },
+  {
+    "name": "fb",
+    "root": true,
+    "export": "fb"
+  },
+  {
+    "name": "gb",
+    "root": true,
+    "export": "gb"
+  },
+  {
+    "name": "hb",
+    "root": true,
+    "export": "hb"
+  },
+  {
+    "name": "ib",
+    "root": true,
+    "export": "ib"
+  },
+  {
+    "name": "jb",
+    "root": true,
+    "export": "jb"
+  },
+  {
+    "name": "kb",
+    "root": true,
+    "export": "kb"
+  },
+  {
+    "name": "lb",
+    "root": true,
+    "export": "lb"
+  },
+  {
+    "name": "pb",
+    "root": true,
+    "export": "pb"
+  },
+  {
+    "name": "qb",
+    "root": true,
+    "export": "qb"
+  },
+  {
+    "name": "rb",
+    "root": true,
+    "export": "rb"
+  },
+  {
+    "name": "sb",
+    "root": true,
+    "export": "sb"
+  },
+  {
+    "name": "tb",
+    "root": true,
+    "export": "tb"
+  },
+  {
+    "name": "Jb",
+    "root": true,
+    "export": "Jb"
+  },
+  {
+    "name": "Tb",
+    "root": true,
+    "export": "Tb"
+  },
+  {
+    "name": "Wb",
+    "root": true,
+    "export": "Wb"
+  },
+  {
+    "name": "Xb",
+    "root": true,
+    "export": "Xb"
+  },
+  {
+    "name": "Yb",
+    "root": true,
+    "export": "Yb"
+  },
+  {
+    "name": "_b",
+    "root": true,
+    "export": "_b"
+  },
+  {
+    "name": "$b",
+    "root": true,
+    "export": "$b"
+  }
+]

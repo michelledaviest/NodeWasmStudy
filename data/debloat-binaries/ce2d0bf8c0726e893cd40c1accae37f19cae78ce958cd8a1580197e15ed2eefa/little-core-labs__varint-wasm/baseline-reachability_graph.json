@@ -1,0 +1,22 @@
+[
+  {
+    "name": "varint_encode",
+    "root": true,
+    "export": "varint_encode"
+  },
+  {
+    "name": "varint_decode",
+    "root": true,
+    "export": "varint_decode"
+  },
+  {
+    "name": "varint_encoding_length",
+    "root": true,
+    "export": "varint_encoding_length"
+  },
+  {
+    "name": "__heap_base",
+    "root": true,
+    "export": "__heap_base"
+  }
+]

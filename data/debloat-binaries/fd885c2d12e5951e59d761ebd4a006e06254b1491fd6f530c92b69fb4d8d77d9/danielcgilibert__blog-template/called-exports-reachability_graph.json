@@ -1,0 +1,27 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "omalloc",
+    "root": true,
+    "export": "omalloc"
+  },
+  {
+    "name": "ofree",
+    "root": true,
+    "export": "ofree"
+  },
+  {
+    "name": "createOnigScanner",
+    "root": true,
+    "export": "createOnigScanner"
+  },
+  {
+    "name": "findNextOnigScannerMatch",
+    "root": true,
+    "export": "findNextOnigScannerMatch"
+  }
+]

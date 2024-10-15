@@ -1,0 +1,72 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "initialize",
+    "root": true,
+    "export": "initialize"
+  },
+  {
+    "name": "format",
+    "root": true,
+    "export": "format"
+  },
+  {
+    "name": "lint",
+    "root": true,
+    "export": "lint"
+  },
+  {
+    "name": "to_json",
+    "root": true,
+    "export": "to_json"
+  },
+  {
+    "name": "from_json",
+    "root": true,
+    "export": "from_json"
+  },
+  {
+    "name": "__wbindgen_malloc",
+    "root": true,
+    "export": "__wbindgen_malloc"
+  },
+  {
+    "name": "__wbindgen_realloc",
+    "root": true,
+    "export": "__wbindgen_realloc"
+  },
+  {
+    "name": "__wbindgen_export_2",
+    "root": true,
+    "export": "__wbindgen_export_2"
+  },
+  {
+    "name": "_dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h0ed1595c0681971a",
+    "root": true,
+    "export": "_dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h0ed1595c0681971a"
+  },
+  {
+    "name": "__wbindgen_free",
+    "root": true,
+    "export": "__wbindgen_free"
+  },
+  {
+    "name": "__wbindgen_exn_store",
+    "root": true,
+    "export": "__wbindgen_exn_store"
+  },
+  {
+    "name": "wasm_bindgen__convert__closures__invoke2_mut__h3cab5de5f70c0c92",
+    "root": true,
+    "export": "wasm_bindgen__convert__closures__invoke2_mut__h3cab5de5f70c0c92"
+  },
+  {
+    "name": "__wbindgen_add_to_stack_pointer",
+    "root": true,
+    "export": "__wbindgen_add_to_stack_pointer"
+  }
+]

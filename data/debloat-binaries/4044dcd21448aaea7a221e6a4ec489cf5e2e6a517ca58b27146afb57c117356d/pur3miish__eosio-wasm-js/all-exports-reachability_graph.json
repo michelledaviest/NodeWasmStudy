@@ -1,0 +1,17 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "get_ptr",
+    "root": true,
+    "export": "get_ptr"
+  },
+  {
+    "name": "digest",
+    "root": true,
+    "export": "digest"
+  }
+]

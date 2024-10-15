@@ -1,0 +1,47 @@
+[
+  {
+    "name": "mem",
+    "root": true,
+    "export": "mem"
+  },
+  {
+    "name": "xxh32",
+    "root": true,
+    "export": "xxh32"
+  },
+  {
+    "name": "init32",
+    "root": true,
+    "export": "init32"
+  },
+  {
+    "name": "update32",
+    "root": true,
+    "export": "update32"
+  },
+  {
+    "name": "digest32",
+    "root": true,
+    "export": "digest32"
+  },
+  {
+    "name": "xxh64",
+    "root": true,
+    "export": "xxh64"
+  },
+  {
+    "name": "init64",
+    "root": true,
+    "export": "init64"
+  },
+  {
+    "name": "update64",
+    "root": true,
+    "export": "update64"
+  },
+  {
+    "name": "digest64",
+    "root": true,
+    "export": "digest64"
+  }
+]

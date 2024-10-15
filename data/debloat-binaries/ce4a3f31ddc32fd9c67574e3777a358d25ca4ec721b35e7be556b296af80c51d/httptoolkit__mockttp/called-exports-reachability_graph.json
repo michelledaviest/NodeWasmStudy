@@ -1,0 +1,32 @@
+[
+  {
+    "name": "__wasm_call_ctors",
+    "root": true,
+    "export": "__wasm_call_ctors"
+  },
+  {
+    "name": "dynCall_vi",
+    "root": true,
+    "export": "dynCall_vi"
+  },
+  {
+    "name": "dynCall_iii",
+    "root": true,
+    "export": "dynCall_iii"
+  },
+  {
+    "name": "dynCall_ii",
+    "root": true,
+    "export": "dynCall_ii"
+  },
+  {
+    "name": "dynCall_iiii",
+    "root": true,
+    "export": "dynCall_iiii"
+  },
+  {
+    "name": "dynCall_iiiii",
+    "root": true,
+    "export": "dynCall_iiiii"
+  }
+]

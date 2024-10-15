@@ -1,0 +1,147 @@
+[
+  {
+    "name": "__wasm_call_ctors",
+    "root": true,
+    "export": "__wasm_call_ctors"
+  },
+  {
+    "name": "__data_end",
+    "root": true,
+    "export": "__data_end"
+  },
+  {
+    "name": "malloc",
+    "root": true,
+    "export": "malloc"
+  },
+  {
+    "name": "free",
+    "root": true,
+    "export": "free"
+  },
+  {
+    "name": "__errno_location",
+    "root": true,
+    "export": "__errno_location"
+  },
+  {
+    "name": "_ZSt18uncaught_exceptionv",
+    "root": true,
+    "export": "_ZSt18uncaught_exceptionv"
+  },
+  {
+    "name": "__cxa_demangle",
+    "root": true,
+    "export": "__cxa_demangle"
+  },
+  {
+    "name": "__getTypeName",
+    "root": true,
+    "export": "__getTypeName"
+  },
+  {
+    "name": "__embind_register_native_and_builtin_types",
+    "root": true,
+    "export": "__embind_register_native_and_builtin_types"
+  },
+  {
+    "name": "setThrew",
+    "root": true,
+    "export": "setThrew"
+  },
+  {
+    "name": "stackSave",
+    "root": true,
+    "export": "stackSave"
+  },
+  {
+    "name": "stackAlloc",
+    "root": true,
+    "export": "stackAlloc"
+  },
+  {
+    "name": "stackRestore",
+    "root": true,
+    "export": "stackRestore"
+  },
+  {
+    "name": "__growWasmMemory",
+    "root": true,
+    "export": "__growWasmMemory"
+  },
+  {
+    "name": "dynCall_vii",
+    "root": true,
+    "export": "dynCall_vii"
+  },
+  {
+    "name": "dynCall_vi",
+    "root": true,
+    "export": "dynCall_vi"
+  },
+  {
+    "name": "dynCall_v",
+    "root": true,
+    "export": "dynCall_v"
+  },
+  {
+    "name": "dynCall_viii",
+    "root": true,
+    "export": "dynCall_viii"
+  },
+  {
+    "name": "dynCall_iii",
+    "root": true,
+    "export": "dynCall_iii"
+  },
+  {
+    "name": "dynCall_ii",
+    "root": true,
+    "export": "dynCall_ii"
+  },
+  {
+    "name": "dynCall_iiii",
+    "root": true,
+    "export": "dynCall_iiii"
+  },
+  {
+    "name": "dynCall_i",
+    "root": true,
+    "export": "dynCall_i"
+  },
+  {
+    "name": "dynCall_iiiii",
+    "root": true,
+    "export": "dynCall_iiiii"
+  },
+  {
+    "name": "dynCall_iiiiii",
+    "root": true,
+    "export": "dynCall_iiiiii"
+  },
+  {
+    "name": "dynCall_viiii",
+    "root": true,
+    "export": "dynCall_viiii"
+  },
+  {
+    "name": "dynCall_jiji",
+    "root": true,
+    "export": "dynCall_jiji"
+  },
+  {
+    "name": "dynCall_iidiiii",
+    "root": true,
+    "export": "dynCall_iidiiii"
+  },
+  {
+    "name": "dynCall_viiiiii",
+    "root": true,
+    "export": "dynCall_viiiiii"
+  },
+  {
+    "name": "dynCall_viiiii",
+    "root": true,
+    "export": "dynCall_viiiii"
+  }
+]

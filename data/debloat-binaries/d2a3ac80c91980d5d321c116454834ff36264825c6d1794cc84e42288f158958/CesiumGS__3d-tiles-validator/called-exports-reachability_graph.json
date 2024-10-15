@@ -1,0 +1,67 @@
+[
+  {
+    "name": "e",
+    "root": true,
+    "export": "e"
+  },
+  {
+    "name": "f",
+    "root": true,
+    "export": "f"
+  },
+  {
+    "name": "La",
+    "root": true,
+    "export": "La"
+  },
+  {
+    "name": "Ma",
+    "root": true,
+    "export": "Ma"
+  },
+  {
+    "name": "Na",
+    "root": true,
+    "export": "Na"
+  },
+  {
+    "name": "Oa",
+    "root": true,
+    "export": "Oa"
+  },
+  {
+    "name": "Pa",
+    "root": true,
+    "export": "Pa"
+  },
+  {
+    "name": "Qa",
+    "root": true,
+    "export": "Qa"
+  },
+  {
+    "name": "Ra",
+    "root": true,
+    "export": "Ra"
+  },
+  {
+    "name": "Sa",
+    "root": true,
+    "export": "Sa"
+  },
+  {
+    "name": "Ta",
+    "root": true,
+    "export": "Ta"
+  },
+  {
+    "name": "Ua",
+    "root": true,
+    "export": "Ua"
+  },
+  {
+    "name": "Va",
+    "root": true,
+    "export": "Va"
+  }
+]

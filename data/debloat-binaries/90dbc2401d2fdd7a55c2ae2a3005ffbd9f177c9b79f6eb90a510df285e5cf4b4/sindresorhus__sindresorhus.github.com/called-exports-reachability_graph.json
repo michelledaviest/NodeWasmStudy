@@ -1,0 +1,22 @@
+[
+  {
+    "name": "run",
+    "root": true,
+    "export": "run"
+  },
+  {
+    "name": "resume",
+    "root": true,
+    "export": "resume"
+  },
+  {
+    "name": "getsp",
+    "root": true,
+    "export": "getsp"
+  },
+  {
+    "name": "mem",
+    "root": true,
+    "export": "mem"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "sa",
+    "root": true,
+    "export": "sa"
+  },
+  {
+    "name": "e",
+    "root": true,
+    "export": "e"
+  },
+  {
+    "name": "parseCJS",
+    "root": true,
+    "export": "parseCJS"
+  }
+]

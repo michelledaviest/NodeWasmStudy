@@ -1,0 +1,27 @@
+[
+  {
+    "name": "_get_buf",
+    "root": true,
+    "export": "_get_buf"
+  },
+  {
+    "name": "_solve",
+    "root": true,
+    "export": "_solve"
+  },
+  {
+    "name": "stackAlloc",
+    "root": true,
+    "export": "stackAlloc"
+  },
+  {
+    "name": "stackRestore",
+    "root": true,
+    "export": "stackRestore"
+  },
+  {
+    "name": "stackSave",
+    "root": true,
+    "export": "stackSave"
+  }
+]

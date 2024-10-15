@@ -1,0 +1,47 @@
+[
+  {
+    "name": "alloc",
+    "root": true,
+    "export": "alloc"
+  },
+  {
+    "name": "free",
+    "root": true,
+    "export": "free"
+  },
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "sum",
+    "root": true,
+    "export": "sum"
+  },
+  {
+    "name": "avg",
+    "root": true,
+    "export": "avg"
+  },
+  {
+    "name": "double",
+    "root": true,
+    "export": "double"
+  },
+  {
+    "name": "isSumEven",
+    "root": true,
+    "export": "isSumEven"
+  },
+  {
+    "name": "howIsSum",
+    "root": true,
+    "export": "howIsSum"
+  },
+  {
+    "name": "createArray",
+    "root": true,
+    "export": "createArray"
+  }
+]

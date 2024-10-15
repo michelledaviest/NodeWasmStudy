@@ -1,0 +1,27 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "__wasm_call_ctors",
+    "root": true,
+    "export": "__wasm_call_ctors"
+  },
+  {
+    "name": "pack",
+    "root": true,
+    "export": "pack"
+  },
+  {
+    "name": "free",
+    "root": true,
+    "export": "free"
+  },
+  {
+    "name": "malloc",
+    "root": true,
+    "export": "malloc"
+  }
+]

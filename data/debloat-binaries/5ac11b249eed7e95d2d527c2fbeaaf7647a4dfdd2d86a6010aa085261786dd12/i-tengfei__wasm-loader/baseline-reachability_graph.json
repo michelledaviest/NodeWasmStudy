@@ -1,0 +1,12 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "_Z4facti",
+    "root": true,
+    "export": "_Z4facti"
+  }
+]

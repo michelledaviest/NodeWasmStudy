@@ -1,0 +1,47 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "__wasm_call_ctors",
+    "root": true,
+    "export": "__wasm_call_ctors"
+  },
+  {
+    "name": "meshopt_decodeVertexBuffer",
+    "root": true,
+    "export": "meshopt_decodeVertexBuffer"
+  },
+  {
+    "name": "meshopt_decodeIndexBuffer",
+    "root": true,
+    "export": "meshopt_decodeIndexBuffer"
+  },
+  {
+    "name": "meshopt_decodeIndexSequence",
+    "root": true,
+    "export": "meshopt_decodeIndexSequence"
+  },
+  {
+    "name": "meshopt_decodeFilterOct",
+    "root": true,
+    "export": "meshopt_decodeFilterOct"
+  },
+  {
+    "name": "meshopt_decodeFilterQuat",
+    "root": true,
+    "export": "meshopt_decodeFilterQuat"
+  },
+  {
+    "name": "meshopt_decodeFilterExp",
+    "root": true,
+    "export": "meshopt_decodeFilterExp"
+  },
+  {
+    "name": "sbrk",
+    "root": true,
+    "export": "sbrk"
+  }
+]

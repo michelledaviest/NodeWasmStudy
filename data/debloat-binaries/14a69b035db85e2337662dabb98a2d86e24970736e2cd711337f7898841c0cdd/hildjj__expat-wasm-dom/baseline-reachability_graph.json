@@ -1,0 +1,267 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "__wasm_call_ctors",
+    "root": true,
+    "export": "__wasm_call_ctors"
+  },
+  {
+    "name": "XML_ParserCreate",
+    "root": true,
+    "export": "XML_ParserCreate"
+  },
+  {
+    "name": "XML_ParserCreateNS",
+    "root": true,
+    "export": "XML_ParserCreateNS"
+  },
+  {
+    "name": "XML_ParserFree",
+    "root": true,
+    "export": "XML_ParserFree"
+  },
+  {
+    "name": "XML_ParserReset",
+    "root": true,
+    "export": "XML_ParserReset"
+  },
+  {
+    "name": "XML_ExternalEntityParserCreate",
+    "root": true,
+    "export": "XML_ExternalEntityParserCreate"
+  },
+  {
+    "name": "XML_SetReturnNSTriplet",
+    "root": true,
+    "export": "XML_SetReturnNSTriplet"
+  },
+  {
+    "name": "XML_SetUserData",
+    "root": true,
+    "export": "XML_SetUserData"
+  },
+  {
+    "name": "XML_SetBase",
+    "root": true,
+    "export": "XML_SetBase"
+  },
+  {
+    "name": "XML_GetBase",
+    "root": true,
+    "export": "XML_GetBase"
+  },
+  {
+    "name": "XML_SetStartElementHandler",
+    "root": true,
+    "export": "XML_SetStartElementHandler"
+  },
+  {
+    "name": "XML_SetEndElementHandler",
+    "root": true,
+    "export": "XML_SetEndElementHandler"
+  },
+  {
+    "name": "XML_SetCharacterDataHandler",
+    "root": true,
+    "export": "XML_SetCharacterDataHandler"
+  },
+  {
+    "name": "XML_SetProcessingInstructionHandler",
+    "root": true,
+    "export": "XML_SetProcessingInstructionHandler"
+  },
+  {
+    "name": "XML_SetCommentHandler",
+    "root": true,
+    "export": "XML_SetCommentHandler"
+  },
+  {
+    "name": "XML_SetStartCdataSectionHandler",
+    "root": true,
+    "export": "XML_SetStartCdataSectionHandler"
+  },
+  {
+    "name": "XML_SetEndCdataSectionHandler",
+    "root": true,
+    "export": "XML_SetEndCdataSectionHandler"
+  },
+  {
+    "name": "XML_SetDefaultHandler",
+    "root": true,
+    "export": "XML_SetDefaultHandler"
+  },
+  {
+    "name": "XML_SetDefaultHandlerExpand",
+    "root": true,
+    "export": "XML_SetDefaultHandlerExpand"
+  },
+  {
+    "name": "XML_SetStartDoctypeDeclHandler",
+    "root": true,
+    "export": "XML_SetStartDoctypeDeclHandler"
+  },
+  {
+    "name": "XML_SetEndDoctypeDeclHandler",
+    "root": true,
+    "export": "XML_SetEndDoctypeDeclHandler"
+  },
+  {
+    "name": "XML_SetNotationDeclHandler",
+    "root": true,
+    "export": "XML_SetNotationDeclHandler"
+  },
+  {
+    "name": "XML_SetStartNamespaceDeclHandler",
+    "root": true,
+    "export": "XML_SetStartNamespaceDeclHandler"
+  },
+  {
+    "name": "XML_SetEndNamespaceDeclHandler",
+    "root": true,
+    "export": "XML_SetEndNamespaceDeclHandler"
+  },
+  {
+    "name": "XML_SetExternalEntityRefHandler",
+    "root": true,
+    "export": "XML_SetExternalEntityRefHandler"
+  },
+  {
+    "name": "XML_SetSkippedEntityHandler",
+    "root": true,
+    "export": "XML_SetSkippedEntityHandler"
+  },
+  {
+    "name": "XML_SetElementDeclHandler",
+    "root": true,
+    "export": "XML_SetElementDeclHandler"
+  },
+  {
+    "name": "XML_SetAttlistDeclHandler",
+    "root": true,
+    "export": "XML_SetAttlistDeclHandler"
+  },
+  {
+    "name": "XML_SetEntityDeclHandler",
+    "root": true,
+    "export": "XML_SetEntityDeclHandler"
+  },
+  {
+    "name": "XML_SetXmlDeclHandler",
+    "root": true,
+    "export": "XML_SetXmlDeclHandler"
+  },
+  {
+    "name": "XML_SetParamEntityParsing",
+    "root": true,
+    "export": "XML_SetParamEntityParsing"
+  },
+  {
+    "name": "XML_Parse",
+    "root": true,
+    "export": "XML_Parse"
+  },
+  {
+    "name": "__errno_location",
+    "root": true,
+    "export": "__errno_location"
+  },
+  {
+    "name": "XML_StopParser",
+    "root": true,
+    "export": "XML_StopParser"
+  },
+  {
+    "name": "XML_GetErrorCode",
+    "root": true,
+    "export": "XML_GetErrorCode"
+  },
+  {
+    "name": "XML_GetCurrentByteIndex",
+    "root": true,
+    "export": "XML_GetCurrentByteIndex"
+  },
+  {
+    "name": "XML_GetCurrentLineNumber",
+    "root": true,
+    "export": "XML_GetCurrentLineNumber"
+  },
+  {
+    "name": "XML_GetCurrentColumnNumber",
+    "root": true,
+    "export": "XML_GetCurrentColumnNumber"
+  },
+  {
+    "name": "XML_FreeContentModel",
+    "root": true,
+    "export": "XML_FreeContentModel"
+  },
+  {
+    "name": "XML_ErrorString",
+    "root": true,
+    "export": "XML_ErrorString"
+  },
+  {
+    "name": "XML_ExpatVersion",
+    "root": true,
+    "export": "XML_ExpatVersion"
+  },
+  {
+    "name": "__indirect_function_table",
+    "root": true,
+    "export": "__indirect_function_table"
+  },
+  {
+    "name": "fflush",
+    "root": true,
+    "export": "fflush"
+  },
+  {
+    "name": "emscripten_stack_init",
+    "root": true,
+    "export": "emscripten_stack_init"
+  },
+  {
+    "name": "emscripten_stack_get_free",
+    "root": true,
+    "export": "emscripten_stack_get_free"
+  },
+  {
+    "name": "emscripten_stack_get_base",
+    "root": true,
+    "export": "emscripten_stack_get_base"
+  },
+  {
+    "name": "emscripten_stack_get_end",
+    "root": true,
+    "export": "emscripten_stack_get_end"
+  },
+  {
+    "name": "stackSave",
+    "root": true,
+    "export": "stackSave"
+  },
+  {
+    "name": "stackRestore",
+    "root": true,
+    "export": "stackRestore"
+  },
+  {
+    "name": "stackAlloc",
+    "root": true,
+    "export": "stackAlloc"
+  },
+  {
+    "name": "emscripten_stack_get_current",
+    "root": true,
+    "export": "emscripten_stack_get_current"
+  },
+  {
+    "name": "dynCall_jiji",
+    "root": true,
+    "export": "dynCall_jiji"
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "name": "L",
+    "root": true,
+    "export": "L"
+  },
+  {
+    "name": "M",
+    "root": true,
+    "export": "M"
+  },
+  {
+    "name": "P",
+    "root": true,
+    "export": "P"
+  },
+  {
+    "name": "Q",
+    "root": true,
+    "export": "Q"
+  },
+  {
+    "name": "R",
+    "root": true,
+    "export": "R"
+  },
+  {
+    "name": "S",
+    "root": true,
+    "export": "S"
+  },
+  {
+    "name": "T",
+    "root": true,
+    "export": "T"
+  },
+  {
+    "name": "X",
+    "root": true,
+    "export": "X"
+  },
+  {
+    "name": "Z",
+    "root": true,
+    "export": "Z"
+  },
+  {
+    "name": "$",
+    "root": true,
+    "export": "$"
+  },
+  {
+    "name": "fa",
+    "root": true,
+    "export": "fa"
+  },
+  {
+    "name": "ga",
+    "root": true,
+    "export": "ga"
+  },
+  {
+    "name": "ja",
+    "root": true,
+    "export": "ja"
+  },
+  {
+    "name": "ka",
+    "root": true,
+    "export": "ka"
+  },
+  {
+    "name": "la",
+    "root": true,
+    "export": "la"
+  },
+  {
+    "name": "ma",
+    "root": true,
+    "export": "ma"
+  },
+  {
+    "name": "pa",
+    "root": true,
+    "export": "pa"
+  },
+  {
+    "name": "ra",
+    "root": true,
+    "export": "ra"
+  },
+  {
+    "name": "xa",
+    "root": true,
+    "export": "xa"
+  },
+  {
+    "name": "ya",
+    "root": true,
+    "export": "ya"
+  },
+  {
+    "name": "za",
+    "root": true,
+    "export": "za"
+  },
+  {
+    "name": "Da",
+    "root": true,
+    "export": "Da"
+  },
+  {
+    "name": "Ha",
+    "root": true,
+    "export": "Ha"
+  },
+  {
+    "name": "Ia",
+    "root": true,
+    "export": "Ia"
+  },
+  {
+    "name": "Ja",
+    "root": true,
+    "export": "Ja"
+  }
+]

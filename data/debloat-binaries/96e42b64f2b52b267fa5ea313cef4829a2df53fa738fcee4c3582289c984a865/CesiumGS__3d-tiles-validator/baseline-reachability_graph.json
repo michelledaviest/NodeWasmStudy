@@ -1,0 +1,42 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "__wasm_call_ctors",
+    "root": true,
+    "export": "__wasm_call_ctors"
+  },
+  {
+    "name": "meshopt_simplify",
+    "root": true,
+    "export": "meshopt_simplify"
+  },
+  {
+    "name": "meshopt_simplifyWithAttributes",
+    "root": true,
+    "export": "meshopt_simplifyWithAttributes"
+  },
+  {
+    "name": "meshopt_simplifyPoints",
+    "root": true,
+    "export": "meshopt_simplifyPoints"
+  },
+  {
+    "name": "meshopt_simplifyScale",
+    "root": true,
+    "export": "meshopt_simplifyScale"
+  },
+  {
+    "name": "meshopt_optimizeVertexFetchRemap",
+    "root": true,
+    "export": "meshopt_optimizeVertexFetchRemap"
+  },
+  {
+    "name": "sbrk",
+    "root": true,
+    "export": "sbrk"
+  }
+]

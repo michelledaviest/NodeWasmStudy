@@ -1,0 +1,172 @@
+[
+  {
+    "name": "h",
+    "root": true,
+    "export": "h"
+  },
+  {
+    "name": "i",
+    "root": true,
+    "export": "i"
+  },
+  {
+    "name": "nb",
+    "root": true,
+    "export": "nb"
+  },
+  {
+    "name": "ob",
+    "root": true,
+    "export": "ob"
+  },
+  {
+    "name": "pb",
+    "root": true,
+    "export": "pb"
+  },
+  {
+    "name": "qb",
+    "root": true,
+    "export": "qb"
+  },
+  {
+    "name": "rb",
+    "root": true,
+    "export": "rb"
+  },
+  {
+    "name": "sb",
+    "root": true,
+    "export": "sb"
+  },
+  {
+    "name": "tb",
+    "root": true,
+    "export": "tb"
+  },
+  {
+    "name": "ub",
+    "root": true,
+    "export": "ub"
+  },
+  {
+    "name": "vb",
+    "root": true,
+    "export": "vb"
+  },
+  {
+    "name": "wb",
+    "root": true,
+    "export": "wb"
+  },
+  {
+    "name": "xb",
+    "root": true,
+    "export": "xb"
+  },
+  {
+    "name": "yb",
+    "root": true,
+    "export": "yb"
+  },
+  {
+    "name": "zb",
+    "root": true,
+    "export": "zb"
+  },
+  {
+    "name": "Ab",
+    "root": true,
+    "export": "Ab"
+  },
+  {
+    "name": "Bb",
+    "root": true,
+    "export": "Bb"
+  },
+  {
+    "name": "Cb",
+    "root": true,
+    "export": "Cb"
+  },
+  {
+    "name": "Db",
+    "root": true,
+    "export": "Db"
+  },
+  {
+    "name": "Eb",
+    "root": true,
+    "export": "Eb"
+  },
+  {
+    "name": "Fb",
+    "root": true,
+    "export": "Fb"
+  },
+  {
+    "name": "Gb",
+    "root": true,
+    "export": "Gb"
+  },
+  {
+    "name": "Hb",
+    "root": true,
+    "export": "Hb"
+  },
+  {
+    "name": "Ib",
+    "root": true,
+    "export": "Ib"
+  },
+  {
+    "name": "Jb",
+    "root": true,
+    "export": "Jb"
+  },
+  {
+    "name": "Kb",
+    "root": true,
+    "export": "Kb"
+  },
+  {
+    "name": "Lb",
+    "root": true,
+    "export": "Lb"
+  },
+  {
+    "name": "Mb",
+    "root": true,
+    "export": "Mb"
+  },
+  {
+    "name": "Nb",
+    "root": true,
+    "export": "Nb"
+  },
+  {
+    "name": "Ob",
+    "root": true,
+    "export": "Ob"
+  },
+  {
+    "name": "Pb",
+    "root": true,
+    "export": "Pb"
+  },
+  {
+    "name": "Qb",
+    "root": true,
+    "export": "Qb"
+  },
+  {
+    "name": "Rb",
+    "root": true,
+    "export": "Rb"
+  },
+  {
+    "name": "Sb",
+    "root": true,
+    "export": "Sb"
+  }
+]

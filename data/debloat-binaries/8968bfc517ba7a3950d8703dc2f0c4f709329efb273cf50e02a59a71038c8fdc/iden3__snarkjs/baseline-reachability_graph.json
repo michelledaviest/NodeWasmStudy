@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Fr_int_copy",
+    "root": true,
+    "export": "Fr_int_copy"
+  },
+  {
+    "name": "Fr_int_zero",
+    "root": true,
+    "export": "Fr_int_zero"
+  },
+  {
+    "name": "Fr_int_one",
+    "root": true,
+    "export": "Fr_int_one"
+  },
+  {
+    "name": "Fr_int_isZero",
+    "root": true,
+    "export": "Fr_int_isZero"
+  },
+  {
+    "name": "Fr_int_eq",
+    "root": true,
+    "export": "Fr_int_eq"
+  },
+  {
+    "name": "Fr_int_gt",
+    "root": true,
+    "export": "Fr_int_gt"
+  },
+  {
+    "name": "Fr_int_gte",
+    "root": true,
+    "export": "Fr_int_gte"
+  },
+  {
+    "name": "Fr_int_add",
+    "root": true,
+    "export": "Fr_int_add"
+  },
+  {
+    "name": "Fr_int_sub",
+    "root": true,
+    "export": "Fr_int_sub"
+  },
+  {
+    "name": "Fr_int_mul",
+    "root": true,
+    "export": "Fr_int_mul"
+  },
+  {
+    "name": "Fr_int_square",
+    "root": true,
+    "export": "Fr_int_square"
+  },
+  {
+    "name": "Fr_int_squareOld",
+    "root": true,
+    "export": "Fr_int_squareOld"
+  },
+  {
+    "name": "Fr_int_div",
+    "root": true,
+    "export": "Fr_int_div"
+  },
+  {
+    "name": "Fr_int_inverseMod",
+    "root": true,
+    "export": "Fr_int_inverseMod"
+  },
+  {
+    "name": "Fr_F1m_add",
+    "root": true,
+    "export": "Fr_F1m_add"
+  },
+  {
+    "name": "Fr_F1m_sub",
+    "root": true,
+    "export": "Fr_F1m_sub"
+  },
+  {
+    "name": "Fr_F1m_neg",
+    "root": true,
+    "export": "Fr_F1m_neg"
+  },
+  {
+    "name": "Fr_F1m_isNegative",
+    "root": true,
+    "export": "Fr_F1m_isNegative"
+  },
+  {
+    "name": "Fr_F1m_mReduct",
+    "root": true,
+    "export": "Fr_F1m_mReduct"
+  },
+  {
+    "name": "Fr_F1m_mul",
+    "root": true,
+    "export": "Fr_F1m_mul"
+  },
+  {
+    "name": "Fr_F1m_square",
+    "root": true,
+    "export": "Fr_F1m_square"
+  },
+  {
+    "name": "Fr_F1m_squareOld",
+    "root": true,
+    "export": "Fr_F1m_squareOld"
+  },
+  {
+    "name": "Fr_F1m_fromMontgomery",
+    "root": true,
+    "export": "Fr_F1m_fromMontgomery"
+  },
+  {
+    "name": "Fr_F1m_toMontgomery",
+    "root": true,
+    "export": "Fr_F1m_toMontgomery"
+  },
+  {
+    "name": "Fr_F1m_inverse",
+    "root": true,
+    "export": "Fr_F1m_inverse"
+  },
+  {
+    "name": "Fr_F1m_copy",
+    "root": true,
+    "export": "Fr_F1m_copy"
+  },
+  {
+    "name": "Fr_F1m_zero",
+    "root": true,
+    "export": "Fr_F1m_zero"
+  },
+  {
+    "name": "Fr_F1m_isZero",
+    "root": true,
+    "export": "Fr_F1m_isZero"
+  },
+  {
+    "name": "Fr_F1m_eq",
+    "root": true,
+    "export": "Fr_F1m_eq"
+  },
+  {
+    "name": "Fr_F1m_one",
+    "root": true,
+    "export": "Fr_F1m_one"
+  },
+  {
+    "name": "Fr_F1m_load",
+    "root": true,
+    "export": "Fr_F1m_load"
+  },
+  {
+    "name": "Fr_F1m_timesScalar",
+    "root": true,
+    "export": "Fr_F1m_timesScalar"
+  },
+  {
+    "name": "Fr_F1m_exp",
+    "root": true,
+    "export": "Fr_F1m_exp"
+  },
+  {
+    "name": "Fr_F1m_sqrt",
+    "root": true,
+    "export": "Fr_F1m_sqrt"
+  },
+  {
+    "name": "Fr_F1m_isSquare",
+    "root": true,
+    "export": "Fr_F1m_isSquare"
+  },
+  {
+    "name": "init",
+    "root": true,
+    "export": "init"
+  },
+  {
+    "name": "getNVars",
+    "root": true,
+    "export": "getNVars"
+  },
+  {
+    "name": "getNPublic",
+    "root": true,
+    "export": "getNPublic"
+  },
+  {
+    "name": "getFrLen",
+    "root": true,
+    "export": "getFrLen"
+  },
+  {
+    "name": "getSignalOffset32",
+    "root": true,
+    "export": "getSignalOffset32"
+  },
+  {
+    "name": "setSignal",
+    "root": true,
+    "export": "setSignal"
+  },
+  {
+    "name": "multiGetSignal",
+    "root": true,
+    "export": "multiGetSignal"
+  },
+  {
+    "name": "getPWitness",
+    "root": true,
+    "export": "getPWitness"
+  },
+  {
+    "name": "Fr_toInt",
+    "root": true,
+    "export": "Fr_toInt"
+  },
+  {
+    "name": "getPRawPrime",
+    "root": true,
+    "export": "getPRawPrime"
+  },
+  {
+    "name": "getWitnessBuffer",
+    "root": true,
+    "export": "getWitnessBuffer"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "llhttp_alloc",
+    "root": true,
+    "export": "llhttp_alloc"
+  },
+  {
+    "name": "malloc",
+    "root": true,
+    "export": "malloc"
+  },
+  {
+    "name": "llhttp_free",
+    "root": true,
+    "export": "llhttp_free"
+  },
+  {
+    "name": "llhttp_execute",
+    "root": true,
+    "export": "llhttp_execute"
+  },
+  {
+    "name": "llhttp_get_error_pos",
+    "root": true,
+    "export": "llhttp_get_error_pos"
+  }
+]

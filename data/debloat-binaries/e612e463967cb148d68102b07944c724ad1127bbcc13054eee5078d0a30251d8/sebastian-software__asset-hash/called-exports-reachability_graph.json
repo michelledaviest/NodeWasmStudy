@@ -1,0 +1,22 @@
+[
+  {
+    "name": "mem",
+    "root": true,
+    "export": "mem"
+  },
+  {
+    "name": "init64",
+    "root": true,
+    "export": "init64"
+  },
+  {
+    "name": "update64",
+    "root": true,
+    "export": "update64"
+  },
+  {
+    "name": "digest64",
+    "root": true,
+    "export": "digest64"
+  }
+]

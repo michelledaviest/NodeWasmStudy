@@ -1,0 +1,92 @@
+[
+  {
+    "name": "memory",
+    "root": true,
+    "export": "memory"
+  },
+  {
+    "name": "__wasm_call_ctors",
+    "root": true,
+    "export": "__wasm_call_ctors"
+  },
+  {
+    "name": "meshopt_encodeVertexBuffer",
+    "root": true,
+    "export": "meshopt_encodeVertexBuffer"
+  },
+  {
+    "name": "meshopt_encodeVertexBufferBound",
+    "root": true,
+    "export": "meshopt_encodeVertexBufferBound"
+  },
+  {
+    "name": "meshopt_encodeVertexVersion",
+    "root": true,
+    "export": "meshopt_encodeVertexVersion"
+  },
+  {
+    "name": "meshopt_encodeIndexBuffer",
+    "root": true,
+    "export": "meshopt_encodeIndexBuffer"
+  },
+  {
+    "name": "meshopt_encodeIndexBufferBound",
+    "root": true,
+    "export": "meshopt_encodeIndexBufferBound"
+  },
+  {
+    "name": "meshopt_encodeIndexVersion",
+    "root": true,
+    "export": "meshopt_encodeIndexVersion"
+  },
+  {
+    "name": "meshopt_encodeIndexSequence",
+    "root": true,
+    "export": "meshopt_encodeIndexSequence"
+  },
+  {
+    "name": "meshopt_encodeIndexSequenceBound",
+    "root": true,
+    "export": "meshopt_encodeIndexSequenceBound"
+  },
+  {
+    "name": "meshopt_encodeFilterOct",
+    "root": true,
+    "export": "meshopt_encodeFilterOct"
+  },
+  {
+    "name": "meshopt_encodeFilterQuat",
+    "root": true,
+    "export": "meshopt_encodeFilterQuat"
+  },
+  {
+    "name": "meshopt_encodeFilterExp",
+    "root": true,
+    "export": "meshopt_encodeFilterExp"
+  },
+  {
+    "name": "meshopt_optimizeVertexCache",
+    "root": true,
+    "export": "meshopt_optimizeVertexCache"
+  },
+  {
+    "name": "meshopt_optimizeVertexCacheStrip",
+    "root": true,
+    "export": "meshopt_optimizeVertexCacheStrip"
+  },
+  {
+    "name": "meshopt_optimizeVertexFetchRemap",
+    "root": true,
+    "export": "meshopt_optimizeVertexFetchRemap"
+  },
+  {
+    "name": "meshopt_spatialSortRemap",
+    "root": true,
+    "export": "meshopt_spatialSortRemap"
+  },
+  {
+    "name": "sbrk",
+    "root": true,
+    "export": "sbrk"
+  }
+]
