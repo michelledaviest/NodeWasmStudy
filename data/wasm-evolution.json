@@ -1,0 +1,901 @@
+{
+    "mozilla/source-map": {
+        "wasm_introduction": {
+          "date": "2018-01-19", 
+          "commit_hash": "86d105bfda30fc71aba95c21f2e665a384b5b69f"
+        }, 
+        "does_wasm_get_updated": {
+            "last_update_date": [
+                "2017-12-20", "2017-12-21", "2018-01-02", "2018-01-03",
+                "2018-01-11", "2018-01-19", "2018-02-23", "2022-11-02"
+            ],
+            "commit_hash": [
+                "45c04edd41f749f56eb8ddc940aea3d25d99639f",
+                "367356cfe45fc25ee95e1d15348cd07af83b742d",
+                "338b341c17a8d1132b72ff16724f329aec64e804",
+                "3b611293845c5235e33d89319f42814cc7a271d2",
+                "d99cfc51c7e410311858a7e1c5a15cdb9a192253",
+                "6ae72334d6b953f386bd684f83cd2fedc6a14f06",
+                "4ade41fd99eaea69f3f3bef7e7857a29da02a9d4",
+                "56c1617f138ef016b90b936a037caef0a759ed4e"
+            ],
+            "last_update_of_original_library": [
+               "2017-12-19", "2017-12-21", "2018-01-03", "2018-01-19", "2018-02-26" 
+            ]
+        }, 
+        "patterns": {
+          "Switched from JS to Wasm" : true, 
+          "Different version without Wasm in Fork": true, 
+          "Started out with Wasm from the beginning": false, 
+          "Wasm usage in source code" : true, 
+          "Wasm added for WebAssembly support" : false, 
+          "Wasm is a port of a C/C++/Rust library": false, 
+          "Wasm used in static version of yarn": false
+        },
+        "notes": "WASM repo at fitzgen/source-map-mappings. last_update_of_original_library refers to the versions released for fitzgen/source-map-mappings"
+    },
+    "nodejs/cjs-module-lexer": {
+        "wasm_introduction": {
+          "date": "2019-08-20", 
+          "commit_hash": "fc6c7c90939743539f5ca04af14176b86d37e4db"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+          "Switched from JS to Wasm" : false, 
+          "Different version without Wasm in Fork": false, 
+          "Started out with Wasm from the beginning": true, 
+          "Wasm usage in source code" : true, 
+          "Wasm added for WebAssembly support" : false, 
+          "Wasm is a port of a C/C++/Rust library": true, 
+          "Wasm used in static version of yarn": false
+        },
+        "notes": "The C code, which is compiled to lexer.wasm, is maintained in the same repo."
+    },
+    "mnater/Hyphenopoly": {
+        "wasm_introduction": {
+          "date": "2018-05-08", 
+          "commit_hash": "06442ed7a66c617517a143719364db726daba54e"
+        }, 
+        "does_wasm_get_updated": "true", 
+        "patterns": {
+          "Switched from JS to Wasm" : true, 
+          "Different version without Wasm in Fork": true, 
+          "Started out with Wasm from the beginning": false, 
+          "Wasm usage in source code" : true, 
+          "Wasm added for WebAssembly support" : false, 
+          "Wasm is a port of a C/C++/Rust library": false, 
+          "Wasm used in static version of yarn": false
+        },
+        "notes": "Hyphenopoly is the successor to its javascript counterpart, Hyphenator. hyphenEngine.wasm is generated from an src/hypenEngine.ts, which is written in AssemblyScript. Both of these are "
+    },
+    "cloudflare/next-on-pages": {
+        "wasm_introduction": {
+            "date": "2024-01-22", 
+            "commit_hash": "cf0cf742e7909a728b50c0fdc9cc7ce4aa823b09"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : true, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false
+        }
+    }, 
+    "ardriveapp/ardrive-core-js": {
+        "wasm_introduction": {
+          "date": "2023-08-01", 
+          "commit_hash": "0e1f078dae1e22d80f0057a570d249d8fa4024ce"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+          "Wasm usage in source code" : true, 
+          "Switched from JS to Wasm" : false, 
+          "Different version without Wasm in Fork" : false, 
+          "Started out with Wasm from the beginning" : false, 
+          "Wasm added for WebAssembly support" : false, 
+          "Wasm is a port of a C/C++/Rust library" : false, 
+          "Wasm used in static version of yarn": true
+        }, 
+        "notes": "Depends on a static version of yarn dumped as a cjs file"
+    },
+    "newdash/wasm-native-template": {
+        "wasm_introduction": {
+            "date": "2021-10-23", 
+            "commit_hash": "9f81ee96062e3e38a68c06f3293ec5ef5480c9a2"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "Port of implementation of various hashing functions in Rust. Last updated three years ago."
+    },
+    "PxlSyl/tailwind-nextjs-starter-blog-i18n": {
+        "wasm_introduction": {
+            "date": "2023-11-18", 
+            "commit_hash": "7748bb06b064b47cfb5fd72c12781b810f590547"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": true
+        }, 
+        "notes": "Depends on a static version of yarn dumped as a cjs file"
+    },
+    "blockchain-certificates/blockcerts-verifier": {
+        "wasm_introduction": {
+            "date": "2018-06-19", 
+            "commit_hash": "75586c7542d613de12d30c319ae5a659cae3d274"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "Uses wasm encoded in JS to build an implementation of secp256k1 (used as a parameter to an elliptic curve used in Bitcoin's public-key cryptography). Uses rollup to generate a package, which involves minifying the dependencies. One of the dependencies, `cert-verifier-js` uses WASM, which is then included in the package."
+    },
+    "httptoolkit/brotli-wasm": {
+        "wasm_introduction": {
+            "date": "2021-05-21", 
+            "commit_hash": "1c3d824d6392740c3a6d8cf1bf90d14edbefeae8"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "Port of the Rust brotli crate(https://crates.io/crates/brotli). Still being maintained."
+    }, 
+    "little-core-labs/hyperid-wasm": {
+        "wasm_introduction": {
+            "date": "2020-05-04", 
+            "commit_hash": "5e9b1933bdf36dc97b3d0dc8808ecc873d029797"
+        }, 
+        "does_wasm_get_updated": null, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "A HyperID (unique id generatation) implementation written in ZZ compiled to wasm. Last commit 5 years ago."
+    },
+    "archway-network/arch3.js": {
+        "wasm_introduction": {
+            "date": "2023-04-28", 
+            "commit_hash": "94a611b9bcdcc9bb9d35e4dae96c94d37f758cdc"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "Deployment server. No description for commit that introduces WebAssembly. The repo is still being maintained."
+    }, 
+    "luc-tielen/eclair-wasm-bindings": {
+        "wasm_introduction": {
+            "date": "2022-11-16", 
+            "commit_hash": "2a38fc6f72b52134837ce0e94f0744b795e1e1ef"
+        }, 
+        "does_wasm_get_updated": { 
+            "last_update_date": ["2022-11-17", "2022-11-16"], 
+            "commit_hash": ["6caaaab46dd2a56ffda558ee9cd7ed931fef050c", "2a38fc6f72b52134837ce0e94f0744b795e1e1ef"], 
+            "last_update_of_original_library": ["2023-11-05", "2022-11-20"]
+        }, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : true, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "Compiler from the Eclair (Datalog) language to JavaScript using WebAssembly. Last updated 3 years ago. Eclair updated 2 years ago."
+    },
+    "ar-io/testnet-contract": {
+        "wasm_introduction": {
+            "date": "2023-10-11", 
+            "commit_hash": "ca65e7b8c31526a37958ae6594d7a6a5df1e1a8a"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": true
+        }, 
+        "notes": "Depends on a static version of yarn dumped as a cjs file"
+    },
+    "c-frame/aframe-super-hands-component": {
+        "wasm_introduction": {
+            "date": "2021-01-10", 
+            "commit_hash": "2dae47561b044747936a95a95771e1f5ed4f93cc"
+        }, 
+        "does_wasm_get_updated": { 
+            "last_update_date": ["2025-01-28", "2022-12-30", "2022-02-27", "2021-01-10"], 
+            "commit_hash": ["868e8090a4e41366fbfe4878e19095927b872ef3", "4eff65979fe82325c048a1f8c9b18e3cc7bef79e", "fff8f997dd013197d4d8e02eba9d016f72ebc3c2", "2dae47561b044747936a95a95771e1f5ed4f93cc"], 
+            "last_update_of_original_library": ["2024-01-17", "2023-02-07", "2022-10-28", "2022-10-27","2022-07-06", "2022-02-17", "2022-02-15", "2021-12-09", "2021-10-12", "2020-12-08"]
+        }, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "Library to handle user input in Web VR. Started using threejs (a 3D JavaScript library) which uses Dacro (a 3D data compression library C++ -> Wasm). Switched over from .wasm file to embedded wasm in .js file. No notes in commit about why the switch was made, either to wasm or to embedded wasm."
+    },
+    "juunini/gltf-optimizer": {
+        "wasm_introduction": {
+            "date": "2023-02-11", 
+            "commit_hash": "861f3f8bf65d6b372270dd84ada45e7754f9ca75"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : true, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "Optimize glTF. Draco compress and convert texture to WebP. Uses dacro library in source code. Switched from using squoosh JS library to using sharp JS library. Does sharp use WebAssembly? Maybe - Reports using libvips C library. But idk how dacro comes into all this."
+    },
+    "JairusSW/as-tbs": {
+        "wasm_introduction": {
+            "date": "2023-02-15", 
+            "commit_hash": "c11eb8e234f5e7755358c7d08b5a40bbfda63afb"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "Compiler for TBS - \"schema-centered serialization\" library that wants to be faster than Protobuf. Builds .wasm file in source. No longer maintained."
+    },
+    "OGKevin/obsidian-kobo-highlights-import": {
+        "wasm_introduction": {
+            "date": "2022-08-31", 
+            "commit_hash": "6b1db66dd0fd40997ec086ee656bd03cc448b236"
+        }, 
+        "does_wasm_get_updated": { 
+            "last_update_date": ["2022-09-11", "2022-08-31"], 
+            "commit_hash": ["67890bf8b99b8bf06e9c6165120a0083d65dc895", "6b1db66dd0fd40997ec086ee656bd03cc448b236"], 
+            "last_update_of_original_library": ["2024-10-29", "2024-07-30", "2024-04-14", "2024-01-20", "2024-01-16", "2023-11-28", "2022-09-07", "2022-06-01", "2021-09-30"]
+        }, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "Uses SQL-wasm library. Only updated once from 1.7 to 1.8, meanwhile sql.js's current version is 1.12"
+    },
+
+    "timlrx/timlrx.com": {
+        "wasm_introduction": {
+            "date": "2023-09-09",
+            "commit_hash": "57249126a9951a70453ea3b6703f23363cd67a12"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : false, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": true
+        }, 
+        "notes": "yarn-3.6.3.cjs found -- embedded WASM module"
+    },
+    "cstrnt/cstrnt.dev": {
+        "wasm_introduction": {
+            "date": "2023-11-03",
+            "commit_hash": "dcbc72358678beef8b73323f1f359cabd0c640fd"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : false, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": true
+        }, 
+        "notes": "yarn-3.6.1.cjs embedded"
+    },
+    "partykit/partykit": {
+        "wasm_introduction": {
+            "date": "2023-02-01",
+            "commit_hash": "9cd9b8d10f72353d550301224dfbb71720d291d9"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : false, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : true, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "WASM is introduced as an example."
+    },
+    "SAP/openui5-worklist-app": {
+        "wasm_introduction": null, 
+        "does_wasm_get_updated": null, 
+        "patterns": {
+            "Wasm usage in source code" : null, 
+            "Switched from JS to Wasm" : null, 
+            "Different version without Wasm in Fork" : null, 
+            "Started out with Wasm from the beginning" : null, 
+            "Wasm added for WebAssembly support" : null, 
+            "Wasm is a port of a C/C++/Rust library" : null, 
+            "Wasm used in static version of yarn": null
+        }, 
+        "notes": "Detected hyphenopolyEngine.wasm in the source code, but I can't seem to find where it depends on hyphenopoly"
+    },
+    "karinfam/svg2png-wasm": {
+        "wasm_introduction": {
+            "date": "2023-01-12",
+            "commit_hash": "aae9ccb9bd3923e70afff912607ac39b8531f684"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "Uses linebender/resvg to help convert svg to png."
+    }, 
+    "pybricks/pybricks-code": {
+        "wasm_introduction": {
+            "date": "2022-11-18", 
+            "commit_hash": "f944948a44cefa895fe0c51e57ba38b97be30113"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": true  
+        }, 
+        "notes": "Wasm used in static version of yarn."
+    },
+    "indutny/better-blockmap-wasm": {
+        "wasm_introduction": {
+            "date": "2022-03-05", 
+            "commit_hash": "175527b1c07d4175324809391684ce2cd47e30a5"
+        }, 
+        "does_wasm_get_updated": { 
+            "last_update_date": ["2022-03-05"], 
+            "commit_hash": ["c5c7e69318923b6bb7ddd725ed1bc2d19cddb8aa"], 
+            "last_update_of_original_library": ["2022-03-05"]
+        }, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "Wasm bindings for better-blockmap: Blockmap file generator for electron-builder. Neither wasm bindings nor library are being maintained."
+    },
+    "gzuidhof/rollup-plugin-base64": {
+        "wasm_introduction": {
+            "date": "2020-06-13", 
+            "commit_hash": "edf7827a7a296c62a26bbf6ace94448990c5004c"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : true, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "Package to load any file as a base64 string. Especially useful for wasm files, so wasm files are tests."
+    },
+    "playcanvas/engine": {
+        "wasm_introduction": {
+            "date": "2021-06-01",
+            "commit_hash": "8939c56d9dffd375a894435dfbdef6ef899a3107"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code": false, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : true, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "WASM added as examples. They are used to test the game engine."
+    },
+    "AssemblyScript/binaryen.js": {
+        "wasm_introduction": {
+            "date": "2015-10-29",
+            "commit_hash": "5c839bb462f43f7a356593f537edb08014d0f25f"
+        }, 
+        "does_wasm_get_updated": true, 
+        "patterns": {
+            "Wasm usage in source code": true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "The WASM binaries are compiled from the binaryen repository. binaryen.js has weekly automated updates to its repository, so tracking how often the WASM binaries are updated would involve writing out all of the 1,802 commits."
+    },
+    "ueberdosis/tiptap": {
+        "wasm_introduction": null, 
+        "does_wasm_get_updated": null, 
+        "patterns": {
+            "Wasm usage in source code" : null, 
+            "Switched from JS to Wasm" : null, 
+            "Different version without Wasm in Fork" : null, 
+            "Started out with Wasm from the beginning" : null, 
+            "Wasm added for WebAssembly support" : null, 
+            "Wasm is a port of a C/C++/Rust library" : null, 
+            "Wasm used in static version of yarn": null
+        }, 
+        "notes": "tiptap has a WASM file at ./demos/dist/assets/onig.6235c806.wasm. This is created by some compilation step, but tiptap does not have any WebAssembly in its source code."
+    },
+    "little-core-labs/varint-wasm": {
+        "wasm_introduction": {
+            "date": "2020-05-02",
+            "commit_hash": "bc1c0b7c58112645885c4ccf2196528f06c2d56a"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "varint.wasm is a port of a Javascript library, and the javascript library has not been updated in 5 years (which is when varint-wasm was created)."
+    },
+    "fabiospampinato/zstandard-wasm": {
+        "wasm_introduction": {
+            "date": "2021-06-06",
+            "commit_hash": "471a0e6d56522938ad566a4e39464939dab475fc"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "A WASM port of the zstandard compression algorithm (written in C). Doesn't look like it has been maintained, the ZStandard library (maintained by Meta) continues to get updates, but the last update to the zstandard-wasm port was four years ago. Also, the library can only do ZStandard decompression."
+    },
+    "privacy-scaling-explorations/p0tion": {
+        "wasm_introduction": {
+            "date": "2024-01-11",
+            "commit_hash": "014652426c41b9be80c406161b395a4c137037d2"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : false, 
+            "Switched from JS to Wasm" : true, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "mini-semaphore.wasm is used to help prove the zero knowledge proof. It looks like they used to use some in-built js implementation before using WASM."
+    },
+    "GoogleChromeLabs/wasm-feature-detect": {
+        "wasm_introduction": {
+            "date": "2019-09-06",
+            "commit_hash": "760a20e2d34613e430c6bcacebd04666c2a51653"
+        }, 
+        "does_wasm_get_updated": true, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "wasm-feature-detect is able to figure out which WASM features are enabled in the current environment. A fair amount of the detectors attempt to compile wasm that uses a feature, then, if the features doesn't throw or the test succeeds, then the feature detector returns the result."
+    },
+    "medusajs/medusa": {
+        "wasm_introduction": {
+            "date": "2022-07-10",
+            "commit_hash": "9fa4238ee4a82d766c4937619b434ded81d65be7"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : false, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": true
+        }, 
+        "notes": "yarn-3.2.1.cjs embedded"
+    },
+    "jtenner/siphash-as": {
+        "wasm_introduction": {
+            "date": "2020-02-25",
+            "commit_hash": "1a138577aeac52d3fc2b5c838354f6578933d479"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : false, 
+            "Switched from JS to Wasm" : true, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "Is a port of a javascript implementation of the siphash algorithm (a fast pseudorandom function). Ports the library over the assembly-script."
+    },
+    "paritytech/pwasm-runtime-js": {
+        "wasm_introduction": {
+            "date": "2018-03-21",
+            "commit_hash": "cafbf4904a16f24c17cb56fa850f753e3b7480f4"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "Parity Etherium is a 'fast and feature-rich' etherium client. This is a wasm port of the rust library."
+    },
+    "AykutSarac/jsoncrack.com": {
+        "wasm_introduction": null, 
+        "does_wasm_get_updated": null, 
+        "patterns": {
+            "Wasm usage in source code" : false, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false
+        }, 
+        "notes": "Opensource JSON editor. Wasm reported to be used in .next dir produced by build. Building fails."
+    }, 
+    "yisibl/resvg-js": {
+        "wasm_introduction": {
+            "date": "2022-02-15", 
+            "commit_hash": "432427495ee652b4689f4a699a30850932511847"
+        }, 
+        "does_wasm_get_updated": { 
+            "last_update_date": ["2024-03-26", "2024-03-25", "2024-03-11", "2023-10-20", "2023-10-16", "2023-02-15", "2023-02-9", "2023-02-2", "2023-02-2", "2022-11-17", "2022-07-3", "2022-05-7", "2022-04-2", "2022-03-20", "2022-03-19", "2022-03-14", "2022-03-1", "2022-02-21", "2022-02-17", "2022-02-15"], 
+            "commit_hash": [ "9ca058462ac529120c8cc84ddcd6fef644cc5406", "3b9733f4fe7911a4475059302252855779533f92", "f8087c4996d65d76b7540158f949018a142c2d0e", "cfca7ad7d401b369599dcab882e7b619b9110624", "b07a26f6860404f4e6177d242a1b98c69188eb94", "2347b417e1955a6954223f1c17b815e177a01765", "30ac8d830d44802df7e967569c92edabbbcec017", "7f6dbec3652dc66f341abc9a58b6e51ef08e0f6e", "84652e4d3d58d6d337b39bcd9dc8bc2bc9f6f81e", "4b50b58294cfaa3cd0e79f4864943a44ffa9d944", "015a6bc3fc14011f367441a259beea6dd5e80c81", "fd82e83bc1b5847fe2673fdff5b3def90f5595e9", "ecc7a563540e1269cb607102b30e4be9dff76e25", "eb5b725fe3788d561d9c733feb2acc42a40ac4ec", "d0476f293c305ac0596ae6afdd203c8d5c0e7223", "6d3539c4e19d1840dd33f1d3d5b9f9ab4a6904e4", "81f071e0c3d541492b3579e7bad17fb2b66a4253", "597e5c96c5666bfba384bca0eea0446370063d53", "a3aa32faac4384757e5992c4ffe02cfea2b7a312", "0d28ac201fba017f624fe66c98f9394427764342", "ab2deb01ba05b42d19ecd791ff46b17d16e40e38"],
+            "last_update_of_original_library": ["2024-09-28", "2024-08-10", "2024-06-1", "2024-04-3", "2024-02-17", "2024-02-6", "2024-01-21", "2023-12-16", "2023-10-1", "2023-06-27", "2023-05-28", "2023-05-27", "2023-05-17", "2023-04-23", "2023-04-22", "2023-04-9", "2023-03-25", "2023-02-5", "2022-12-3", "2022-11-26", "2022-11-21", "2022-11-20", "2022-10-30", "2022-10-22", "2022-06-11", "2022-02-20", "2022-02-13"],
+            "security_updates": ["2024-03-25", "2023-10-16", "2023-02-09", "2023-02-02", "2022-07-03", "2022-05-07"]
+        }, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": true  
+        }, 
+        "notes": "resvg-js is a high-performance SVG renderer and toolkit using resvg Rust library"
+    }, 
+    "iden3/snarkjs": {
+        "wasm_introduction": {
+            "date": "2020-03-28", 
+            "commit_hash": "58f9034286d2c5ecf33f36dbdf6d7c6220933a58"
+        }, 
+        "does_wasm_get_updated": { 
+            "last_update_date": ["2021-05-18", "2020-08-18", "2020-07-11", "2020-03-28"], 
+            "commit_hash": ["7ed350002dce70d91fb8fee93ee6ede6beed487c", "b67fb6659b1dec803dc7003f8d770e06965c8b12", "9b418568f6b73cf32535799486a8c0ff92e0deb6", "58f9034286d2c5ecf33f36dbdf6d7c6220933a58"], 
+            "last_update_of_original_library": ["2024-11-12", "2024-10-7", "2024-04-24", "2024-01-17", "2023-12-15", "2023-06-22", "2023-03-15", "2023-02-10", "2023-01-16", "2022-11-7", "2022-11-5", "2022-10-11", "2022-09-21", "2022-08-26", "2022-08-19", "2022-07-22", "2022-06-24", "2022-06-24", "2022-06-24", "2022-06-24", "2022-06-24", "2022-06-1", "2022-04-25", "2021-12-23", "2021-12-10",  "2021-10-11"],
+            "security_updates": ["2024-08-01", "2024-04-26", "2023-08-06", "2023-05-17","2023-05-17", "2023-05-06", "2022-09-07", "2022-08-29", "2022-07-23", "2022-05-23", "2022-01-30", "2021-02-11"]
+        }, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "This is a JavaScript and Pure Web Assembly implementation of zkSNARK and PLONK schemes. Uses compiled (.wasm) circuits generated by the circom compiler. Still being maintained."
+    },
+    "bluesky-social/react-native-uitextview": {
+        "wasm_introduction": {
+            "date": "2024-03-02", 
+            "commit_hash": "18d9dedc815f04c025d621cd1f33c5e5c990bd58"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": true 
+        }, 
+        "notes": "Uses wasm in static yarn dep"
+    },
+    "decentralized-identity/ion": {
+        "wasm_introduction": {
+            "date": "2021-03-25", 
+            "commit_hash": "f65a77fdcbae1c8a2301e975363425dad8f0bda3"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "The Identity Overlay Network (ION) is a DID Method implementation using the Sidetree protocol atop Bitcoin. Seems to ship embedded wasm in minified JS file of the ion implementation itself.?"
+    },
+    "nickbabcock/highwayhasher": {
+        "wasm_introduction": {
+            "date": "2021-01-01", 
+            "commit_hash": "4d82c0279817e33c1d3c83e1346d6d193092efe6"
+        }, 
+        "does_wasm_get_updated": { 
+            "last_update_date": ["2024-04-13", "2023-06-30", "2022-12-11", "2022-12-5", "2022-10-12", "2022-03-20", "2021-12-14", "2021-12-14", "2021-11-9", "2021-11-8", "2021-02-7", "2021-01-5", "2021-01-5", "2021-01-2", "2021-01-1", "2021-01-1"], 
+            "commit_hash": ["7a309d5daff95d1d3482d467f70d6dcc5af81b7d", "e430b7cf40087c59bdacd908f6526dda20bc0408", "4387dd04f4310718902594f7b5c3fff7af1dc0de", "993447bbfcdade76f324b559fa0110c913f05362", "00e78f90a36a9209c394ba26f84289c3ca70e5b1", "67b66432708b1a29b1845093797371f89031625d", "366e5bb121a187aaf406738326a27c3a46ba0f38", "2a07cae5a28ca5569f07fb1e94f1f91059fc87a5", "7995950c6ecf3914ea42383372596a22d7e4e42b", "c59ff14765e468459ccca4391d21a588ad9ce6f9", "b8b64c0c530973aed432e67005b5cc139999f8b1", "6a5358c67d2ec78664d9e39ec18216c00fb4e7d2", "ec1694ea2ed102e777b97aaf2771097db704218f", "86f73752f616a8d7434c5e71667f9b15250027a1", "009f4d1117c66679878598fe2c5d2ae18adf4c90", "4d82c0279817e33c1d3c83e1346d6d193092efe"], 
+            "last_update_of_original_library": ["2025-01-11", "2024-06-21", "2023-06-30", "2023-02-28", "2022-10-11", "2022-02-28", "2021-12-12", "2021-04-16", "2020-12-4"]
+        }, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "JS bindings for the Rust implementation of Google's HighwayHash, a fast, keyed and strong hash function."
+    },
+    "giffeler/undoh": {
+        "wasm_introduction": {
+            "date": "2023-01-29", 
+            "commit_hash": "ccd00964de7144e0cf8d69c865d954245904a4d3"
+        }, 
+        "does_wasm_get_updated": false, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "Seems to be using hand written WebAssembly? Didn't get very far and not maintained."
+    },
+    "darkforest-eth/client": {
+        "wasm_introduction": {
+            "date": "2020-10-02", 
+            "commit_hash": "cf60db7112e0a21410c1a504f93efb6d1b5b9bce"
+        }, 
+        "does_wasm_get_updated": { 
+            "last_update_date": ["2021-05-20", "2021-02-02", "2021-01-01", "2020-10-02" ], 
+            "commit_hash": ["ceeb4dba717e49ee6a297e3b562454c056bb3c0e", "67947b7a52a3785fcb4cbb8016cf70bc3ae4e945", "59438f0c663df2de89ab59a67c1e6a08cf7a56a6", "cf60db7112e0a21410c1a504f93efb6d1b5b9bce"], 
+            "last_update_of_original_library": ["2024-10-18", "2024-04-26", "2024-01-12", "2023-10-27", "2023-09-19", "2023-05-24", "2023-05-7", "2023-03-20", "2023-03-15", "2023-03-10", "2023-03-1", "2023-02-28", "2023-02-27", "2023-02-22", "2023-02-21", "2023-02-21", "2023-02-10", "2023-02-10", "2022-09-14", "2022-09-7", "2022-08-30", "2022-08-26", "2022-07-23", "2022-07-23", "2022-06-13", "2022-06-13", "2022-06-11", "2022-05-24", "2022-05-18", "2022-05-17", "2022-04-5", "2022-03-10", "2022-02-16", "2022-01-30", "2022-01-21", "2022-01-19", "2021-10-20", "2021-09-2", "2021-06-18", "2021-06-6", "2021-06-1", "2021-05-31", "2021-04-18", "2021-02-11", "2021-02-10", "2021-01-28", "2021-01-21", "2021-01-17", "2020-12-31", "2020-12-21", "2020-12-20", "2020-12-18", "2020-12-17", "2020-12-16", "2020-10-25", "2020-10-23", "2020-10-22", "2020-10-21", "2020-10-20", "2020-09-25" ],
+            "security_updates": ["2024-08-01", "2024-04-26", "2023-08-06", "2023-05-17","2023-05-17", "2023-05-06", "2022-09-07", "2022-08-29", "2022-07-23", "2022-05-23", "2022-01-30", "2021-02-11"]
+        }, 
+        "patterns": {
+            "Wasm usage in source code" : false, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "Depends on snarkjs which uses wasm. No longer being maintained."
+    },
+    "chjj/wazm": {
+        "wasm_introduction": {
+            "date": "2019-05-16", 
+            "commit_hash": "fa1839d03a37960e26e40be571581a65a1b9aed1"
+        }, 
+        "does_wasm_get_updated": null, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : true, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "No longer being maintained. Wasm is tests."
+    },
+    "MuTsunTsai/fen-tool": {
+        "wasm_introduction": {
+            "date": "2023-08-10", 
+            "commit_hash": "17935ffe38904d2b981db5bdd62147e8968891f0"
+        }, 
+        "does_wasm_get_updated": { 
+            "last_update_date": ["2023-08-10"], 
+            "commit_hash": ["17935ffe38904d2b981db5bdd62147e8968891f0"], 
+            "last_update_of_original_library": ["2025-02-13", "2024-09-6","2024-02-24","2023-06-30","2022-12-4","2022-04-18","2021-10-28","2021-07-2","2021-02-19","2020-09-2","2020-01-17","2018-11-29","2018-02-1"]
+        }, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "Quick online tool for editing FEN (Forsyth-Edwards Notation) in chess. Depends on swordfish "
+    },
+    "fabiospampinato/bob-wasm": {
+        "wasm_introduction": {
+            "date": "2022-04-22", 
+            "commit_hash": "a1e762c2fda02c92b117fefd06fbefcca7af9f4d"
+        }, 
+        "does_wasm_get_updated": { 
+            "last_update_date": ["2022-04-22"], 
+            "commit_hash": ["a1e762c2fda02c92b117fefd06fbefcca7af9f4d"], 
+            "last_update_of_original_library": ["2025-01-27", "2024-11-29", "2023-08-18", "2023-04-15", "2022-07-28", "2022-07-28", "2022-02-16", "2022-02-7", "2021-09-8"]
+        }, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : true, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "A port of Svgbob to WASM. No longer maintained."
+    },
+    "little-core-labs/base64-wasm": {
+        "wasm_introduction": {
+            "date": "2020-05-01", 
+            "commit_hash": "e326470c359683504b770cab99d8208c60470732"
+        }, 
+        "does_wasm_get_updated": null, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : false, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "A Base64 implementation for WebAssembly (WASM) written in ZZ that implements an Abstract Encoding interface."
+    },
+    "jtenner/as-disposable": {
+        "wasm_introduction": {
+            "date": "2021-12-30", 
+            "commit_hash": "9846393142696ab06aa56dafed869dd0dd627fb7"
+        }, 
+        "does_wasm_get_updated": null, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "An object finalization algorithm for AssemblyScript."
+    },
+    "ARitz-Cracker/keccak-wasm": {
+        "wasm_introduction": {
+            "date": "2019-03-07", 
+            "commit_hash": "06be524604c657f555d01abd31a55b7f35bbb551"
+        }, 
+        "does_wasm_get_updated": null, 
+        "patterns": {
+            "Wasm usage in source code" : true, 
+            "Switched from JS to Wasm" : false, 
+            "Different version without Wasm in Fork" : false, 
+            "Started out with Wasm from the beginning" : true, 
+            "Wasm added for WebAssembly support" : false, 
+            "Wasm is a port of a C/C++/Rust library" : false, 
+            "Wasm used in static version of yarn": false  
+        }, 
+        "notes": "Rust library implementation of the Keccak hashing functions compiled to Wasm."
+    },
+    "skick1234/DisTube": {
+        "wasm_introduction": null, 
+        "does_wasm_get_updated": null, 
+        "patterns": {
+            "Wasm usage in source code" : null, 
+            "Switched from JS to Wasm" : null, 
+            "Different version without Wasm in Fork" : null, 
+            "Started out with Wasm from the beginning" : null, 
+            "Wasm added for WebAssembly support" : null, 
+            "Wasm is a port of a C/C++/Rust library" : null, 
+            "Wasm used in static version of yarn": null  
+        }, 
+        "notes": "DisTube used to embed yarn into their repo, but they do not anymore"
+    }
+}

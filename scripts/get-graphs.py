@@ -8,6 +8,7 @@ import pathlib
 import pandas as pd 
 import os 
 import re
+import datetime
 
 from utils import REALWASM_JSON, DEP_ANLYSIS_JSON, DUMPED_WASM_FILES, IGNORED_REPOS
 from utils import NUM_TOP_PACKAGES_TO_ANALYZE, ANALYZED_REPOS_JSON, ANALYZED_NPM_PACKAGES_JSON
@@ -33,6 +34,9 @@ DEBLOAT_BINS_DIR = "./../data/debloat-binaries"
 METADCE_BIN = "./wasm-metadce"
 DCE_STATS = f"{SUMMARY_JSON_DIR}/dce-stats.json"
 DCE_GRAPH = f'{GRAPH_DIR}/dce.pdf'
+
+WASM_EVOLUTION_JSON = "./../data/wasm-evolution.json"
+WASM_EVOLUTION_GRAPH = f"{GRAPH_DIR}/wasm_evolution_security.pdf"
 
 def general_dataset_stats():
     
@@ -1155,7 +1159,6 @@ def run_debloat_on_binary(
                     "stderr": stderr
                 }, options)
 
-
 def get_baseline_wasm_binary(wasm_binary_path, output_dir, static_info): 
     reachability_graph = []
     reachability_graph_path = f"{output_dir}/baseline-reachability_graph.json"
@@ -1186,8 +1189,6 @@ def get_baseline_wasm_binary(wasm_binary_path, output_dir, static_info):
             else: 
                 print(metadce_result.stderr)
                 return None 
-
-
 
 def run_debloat_experiment(interop_wasm_modules): 
 
@@ -1315,6 +1316,159 @@ def debloat_graph():
     plt.clf()
 
 
+def str_to_date(s: str) -> datetime.date: 
+    return datetime.datetime.strptime(s, "%Y-%m-%d").date()
+
+
+def wasm_evolution(): 
+
+    def pattern_stats(): 
+        def percent(x: int) -> float: 
+            return round(100*(x/total_package_count), 2)
+        print(f"Switched from JS to Wasm                    ({switch_js_wasm_count}/{total_package_count}) {percent(switch_js_wasm_count)}")
+        print(f"Different version without Wasm in Fork      ({without_wasm_fork_count}/{total_package_count}) {percent(without_wasm_fork_count)}")
+        print(f"Started out with Wasm from the beginning    ({from_beginning_wasm_count}/{total_package_count}) {percent(from_beginning_wasm_count)}")
+        print(f"Wasm added for WebAssembly support          ({wasm_for_support_count}/{total_package_count}) {percent(wasm_for_support_count)}")
+        print(f"Wasm is a port of a C/C++/Rust library      ({port_of_lib_count}/{total_package_count}) {percent(port_of_lib_count)}")
+        print(f"Wasm used in static version of yarn         ({static_yarn_count}/{total_package_count}) {percent(static_yarn_count)}")
+
+    def plot_three_libraries(): 
+
+        def plot_two_timelines_at(y, ax, package_name, package_updates, library_updates, security_updates, first=False): 
+
+            
+            ax.text(#min_date + datetime.timedelta(days=50), 
+                    max_date - datetime.timedelta(days=120),
+                    y+0.25, package_name, #fontsize=20, fontstyle="italic", 
+                    c="black", ha="right") 
+
+            dot_size = 120*2
+
+            ax.axhline(y, xmin=0.05, xmax=0.95, c="orange", zorder=1)    
+            ax.scatter(x=package_updates, y=np.array([y]*len(package_updates)), s=dot_size, c="orange", zorder=2, label="Update of Wasm in package." if first else "")
+
+            ax.axhline(y-0.5, xmin=0.05, xmax=0.95, c="blue", zorder=1)    
+            ax.scatter(x=library_updates, y=np.array([y-0.5]*len(library_updates)), s=dot_size, c="navy", zorder=2, label="Update of original C/Rust library." if first else "")
+
+
+            stem_data = [ date if date in security_updates else None for date in library_updates ]
+            markerline, stemline, _ = ax.stem(
+                stem_data, 
+                np.array([y-0.5]*len(library_updates)), 
+                basefmt=" ", 
+                bottom = y-0.7,
+                label="Security update." if first else ""        
+            )        
+            plt.setp(markerline, color='red', markersize = 10)
+            plt.setp(stemline, color='red', linewidth=3)
+
+        def get_data_for_package(package_data): 
+            last_update_dates = [
+                str_to_date(date)            
+                for date in package_data["does_wasm_get_updated"]["last_update_date"]
+            ]
+            library_updates = [
+                str_to_date(date)
+                for date in package_data["does_wasm_get_updated"]["last_update_of_original_library"]
+            ]        
+            security_updates = [
+                str_to_date(date)
+                for date in package_data["does_wasm_get_updated"]["security_updates"]
+            ] if "security_updates" in package_data["does_wasm_get_updated"].keys() else [] 
+            library_updates += [date for date in security_updates if date not in library_updates]
+
+            return (last_update_dates, library_updates, security_updates)
+        
+        packages = ["darkforest-eth/client", "yisibl/resvg-js"]  # "iden3/snarkjs"
+        last_update_dates_0, library_updates_0, security_updates_0 = get_data_for_package(wasm_evolution[packages[0]])
+        last_update_dates_1, library_updates_1, security_updates_1 = get_data_for_package(wasm_evolution[packages[1]])
+        #last_update_dates_2, library_updates_2, security_updates_2 = get_data_for_package(wasm_evolution[packages[2]])
+        all_dates = last_update_dates_0 + library_updates_0 + last_update_dates_1 + library_updates_1 #+ last_update_dates_2 + library_updates_2   
+        
+        fig, ax = plt.subplots(figsize=(17, 10), constrained_layout=True)
+        min_date = datetime.date(np.min(all_dates).year - 1, np.min(all_dates).month, np.min(all_dates).day)
+        max_date = datetime.date(np.max(all_dates).year + 1, np.max(all_dates).month, np.max(all_dates).day)
+        ax.set_ylim(-4, 4)
+        ax.set_xlim(min_date, max_date)
+        
+        plot_two_timelines_at(-1.25, ax, packages[0], last_update_dates_0, library_updates_0, security_updates_0, first=True)
+        plot_two_timelines_at(1.25, ax, packages[1], last_update_dates_1, library_updates_1, security_updates_1)
+        #plot_two_timelines_at(2.5, ax, packages[2], last_update_dates_2, library_updates_2, security_updates_2)
+
+        ax.set_yticks([])
+        
+        ax.legend(loc="upper left", fancybox=True, framealpha=1)
+        plt.savefig(WASM_EVOLUTION_GRAPH, bbox_inches='tight')
+        plt.clf()
+    
+    with open(WASM_EVOLUTION_JSON, 'r') as f: 
+        wasm_evolution = json.load(f)
+    total_package_count = len(wasm_evolution)
+
+    switch_js_wasm_count = 0        # "Switched from JS to Wasm"
+    without_wasm_fork_count = 0     # "Different version without Wasm in Fork"
+    from_beginning_wasm_count  = 0  # "Started out with Wasm from the beginning"
+    wasm_for_support_count = 0      # "Wasm added for WebAssembly support" 
+    port_of_lib_count = 0           # "Wasm is a port of a C/C++/Rust library"
+    static_yarn_count = 0           # "Wasm used in static version of yarn"
+    intro_dates: list[datetime.date] = []
+
+    for package, package_data in wasm_evolution.items(): 
+
+        if package_data["patterns"]["Switched from JS to Wasm"]: 
+            switch_js_wasm_count +=1
+        if package_data["patterns"]["Different version without Wasm in Fork"]: 
+            without_wasm_fork_count +=1
+        if package_data["patterns"]["Started out with Wasm from the beginning"]: 
+            from_beginning_wasm_count +=1
+        if package_data["patterns"]["Wasm added for WebAssembly support"]: 
+            wasm_for_support_count +=1
+        if package_data["patterns"]["Wasm is a port of a C/C++/Rust library"]: 
+            port_of_lib_count +=1
+        if package_data["patterns"]["Wasm used in static version of yarn"]: 
+            static_yarn_count +=1
+
+        if package_data["wasm_introduction"] is not None:
+            if package_data["wasm_introduction"] != "TODO":         
+                intro_dates.append(str_to_date(package_data["wasm_introduction"]["date"]))
+
+        updated_huh = package_data["does_wasm_get_updated"]
+        if updated_huh is not None and updated_huh is not False and type(updated_huh) is dict: 
+            library_updates = [
+                str_to_date(date)
+                for date in package_data["does_wasm_get_updated"]["last_update_of_original_library"]
+            ]        
+            security_updates = [
+                str_to_date(date)
+                for date in package_data["does_wasm_get_updated"]["security_updates"]
+            ] if "security_updates" in package_data["does_wasm_get_updated"].keys() else [] 
+
+            library_updates += [date for date in security_updates if date not in library_updates]
+
+
+    pattern_stats()
+    plot_three_libraries()
+
+    false_does_wasm_get_updated = 0 
+    null_does_wasm_get_updates = 0 
+    true_does_wasm_get_updated_num_wasm_updates = [] 
+    true_does_wasm_get_updated_num_libary_updates = [] 
+    for package, package_data in wasm_evolution.items(): 
+        does_wasm_get_updated = package_data["does_wasm_get_updated"]
+        if does_wasm_get_updated is None: 
+            null_does_wasm_get_updates += 1 
+        elif not does_wasm_get_updated: 
+            false_does_wasm_get_updated += 1 
+        else: 
+            if type(does_wasm_get_updated) is dict :
+                true_does_wasm_get_updated_num_wasm_updates.append(len(does_wasm_get_updated["last_update_date"]))
+                true_does_wasm_get_updated_num_libary_updates.append(len(does_wasm_get_updated["last_update_of_original_library"]))
+
+    print(f"We could match up the wasm depended upon a package with a certain library for {len(wasm_evolution)-null_does_wasm_get_updates} packages.")
+    print(f"Of these {false_does_wasm_get_updated} packages do NOT update their WebAssembly binaries.")
+    print(f"Of the remaining {len(wasm_evolution)-null_does_wasm_get_updates-false_does_wasm_get_updated} packages that update their binaries atleast once, the Wasm binary is updated an average of {statistics.mean(true_does_wasm_get_updated_num_wasm_updates)} while the original library is updated {statistics.mean(true_does_wasm_get_updated_num_libary_updates)} times.")
+
+
 if __name__ == "__main__":
 
     run(['mkdir', '-p', GRAPH_DIR])
@@ -1323,12 +1477,14 @@ if __name__ == "__main__":
     parser.add_argument("--dependency", action='store_true', required=False, help="SHow graphs and stats of dependency analysis.")
     parser.add_argument("--dataset", action='store_true', required=False, help="Show stats of dataset collection.")
     parser.add_argument("--metadce", action='store_true', required=False, help="Run debloating experiment with metadce and show results.")
+    parser.add_argument("--evolution", action='store_true', required=False, help="Show results of tracking Wasm evolution and updates.")
     
     args = parser.parse_args()
     DYNAMIC = args.dynamic
     DEPENDENCY = args.dependency
     DATASET = args.dataset
     METADCE = args.metadce
+    EVOLUTION = args.evolution
 
     with open(WASM_MODULES_INTEROP_TYPE, "r") as f: 
         interop_type = json.load(f)
@@ -1366,3 +1522,5 @@ if __name__ == "__main__":
         run_debloat_experiment(interop_wasm_modules)
         debloat_graph()
 
+    if EVOLUTION: 
+        wasm_evolution()
