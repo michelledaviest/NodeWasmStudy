@@ -31,3 +31,4 @@ You can then run various scripts as follows:
 - `python3 get-graphs.py --dependency`: Get results over static data of packages in the dataset. 
 - `python3 get-graphs.py --dynamic`: Get results over dynamic logs of packages in the dataset.
 - `python3 get-graphs.py --metadce`: Get results for DCE experiment.
+- `python3 get-graphs.py --evolution`: Get results for tracking evolution of Wasm in NPM packages.
