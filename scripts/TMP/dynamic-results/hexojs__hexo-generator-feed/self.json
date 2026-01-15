@@ -1,0 +1,20 @@
+{
+  "log": {
+    "build": {
+      "log": []
+    },
+    "eslint": {
+      "log": []
+    },
+    "test": {
+      "log": [
+        "RealWasmLog__,__WebAssemblyLoadAttr__,____realwasm_modified"
+      ]
+    },
+    "test-cov": {
+      "log": [
+        "RealWasmLog__,__WebAssemblyLoadAttr__,____realwasm_modified"
+      ]
+    }
+  }
+}

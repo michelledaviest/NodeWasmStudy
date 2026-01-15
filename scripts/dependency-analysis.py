@@ -1,3 +1,4 @@
+import argparse
 import json
 
 from collections import Counter
@@ -296,8 +297,46 @@ def make_sure_results_are_consistent():
     with open(DEP_ANLYSIS_JSON, 'w') as f:
             json.dump(dep_analysis_results, f, ensure_ascii=False, indent=2)
 
-run(["mkdir", "-p", TESTING_REPO])
-make_sure_results_are_consistent()
 
-get_wasm_files_in_dataset() 
-dependency_analysis_for_dataset()
+
+
+
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser(description="Collect static analysis results and dependency analysis results and generate graphs and stats.")
+    parser.add_argument("--all", action='store_true', required=False, help="Show graphs and stats for dataset.")
+    parser.add_argument("--static", action='store_true', required=False, help="Run static analysis for given package")
+    parser.add_argument("--dependency", action='store_true', required=False, help="Run dependency analysis for given package.")    
+    parser.add_argument("--single-repo", required=False, help="Pass in the key of a particular package.")
+    
+    args = parser.parse_args()
+    ALL = args.all
+    STATIC = args.static
+    DEPENDENCY = args.dependency
+    SINGLE_REPO = args.single_repo
+
+    if ALL:
+        # make_sure_results_are_consistent()
+        get_wasm_files_in_dataset() 
+        dependency_analysis_for_dataset()
+
+    if (STATIC or DEPENDENCY) and SINGLE_REPO:
+
+        run(["mkdir", "-p", TESTING_REPO])
+        with open(REALWASM_JSON, 'r') as f: 
+            realwasm = json.load(f)
+
+        (full_name, result) = get_wasm_files_for_repo(repo_json=realwasm[SINGLE_REPO])
+        (dependency_tree, package_to_wasm_module, wasm_files_in_repo) = get_dependency_tree(result["files_with_wasm"])    
+
+        if STATIC:        
+            print(f"Static Analysis for {full_name}:")
+            print("Files with Wasm Modules:")
+            for wasm_file in result["files_with_wasm"]:
+                print(f"  {wasm_file}")
+            print("Unique Wasm Counts:")
+            print(result["unique_wasm_counts"])
+
+        if DEPENDENCY:  
+            print(f"Dependency Tree for {full_name}:")
+            print(json.dumps(dependency_tree, indent=2))

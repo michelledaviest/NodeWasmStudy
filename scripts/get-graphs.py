@@ -180,20 +180,19 @@ def answer_package_dependency_research_questions():
             packages_with_more_than_one_wasm_file.add(package)
     #total_number_of_indirect_packages = len(indirect_package_to_wasm_module)
     
-    print()
     print("RealWasm Dependency analysis:")
-    print(f"Total number of packages in dataset: {total_packages}")
-    print(f"How many packages do not have any static wasm?: {len(packages_no_static_wasm)}")
-    print(f"How many packages depend on WebAssembly only directly? {len(packages_dep_only_direct)}")
-    print(f"How many packages depend on WebAssembly only indirectly? {len(packages_dep_only_indirect)}")
-    print(f"How many packages depend on WebAssembly indirectly and directly? {len(packages_dep_direct_and_indirect)}")
-    print(f"How many packages indirectly depend on more than one NPM package with a WebAssembly binary? {len(repos_more_than_one_package)}/{total_packages} ({100*(len(repos_more_than_one_package)/total_packages):.2f})%")
-    print(f"How many packages ship with more than one WebAssembly binary? {len(packages_with_more_than_one_wasm_file)}/{total_packages} ({100*(len(packages_with_more_than_one_wasm_file)/total_packages):.2f})%")
-    print(f"How many packages depend on other NPM packages with WebAssembly binaries? {len(package_dep_other_packages)}/{total_packages} ({100*(len(package_dep_other_packages)/total_packages):.2f})%")
-    print("Which NPM packages in the dataset are depended on the most? ")
+    print(f"  Total number of packages in dataset: {total_packages}")
+    print(f"  How many packages do not have any static wasm?: {len(packages_no_static_wasm)}")
+    print(f"  How many packages depend on WebAssembly only directly? {len(packages_dep_only_direct)}")
+    print(f"  How many packages depend on WebAssembly only indirectly? {len(packages_dep_only_indirect)}")
+    print(f"  How many packages depend on WebAssembly indirectly and directly? {len(packages_dep_direct_and_indirect)}")
+    print(f"  How many packages indirectly depend on more than one NPM package with a WebAssembly binary? {len(repos_more_than_one_package)}/{total_packages} ({100*(len(repos_more_than_one_package)/total_packages):.2f})%")
+    print(f"  How many packages ship with more than one WebAssembly binary? {len(packages_with_more_than_one_wasm_file)}/{total_packages} ({100*(len(packages_with_more_than_one_wasm_file)/total_packages):.2f})%")
+    print(f"  How many packages depend on other NPM packages with WebAssembly binaries? {len(package_dep_other_packages)}/{total_packages} ({100*(len(package_dep_other_packages)/total_packages):.2f})%")
+    print("  Which NPM packages in the dataset are depended on the most? ")
     for package in top_packages.most_common()[:10]: 
         package, package_count = package
-        print(f"  {package} depended upon by {package_count} packages")
+        print(f"    {package} depended upon by {package_count} packages")
 
 def wasm_source_graph(): 
 
@@ -206,13 +205,11 @@ def wasm_source_graph():
     no_static_wasm_repos = []
     realwasm_wasm_sources = {}
     total_repos = 0
-    repos_with_weird_no_wasm = []
     repos_with_greater_than_45_wasms = []
     for repo, analysis_results in dep_analysis_results.items(): 
         total_repos += 1
         total_wasm_modules_in_repo = sum(analysis_results["unique_wasm_counts"].values())
         if total_wasm_modules_in_repo >= 45 and total_wasm_modules_in_repo < 80: 
-            print(f'{repo} : {total_wasm_modules_in_repo} Wasm modules')
             repos_with_greater_than_45_wasms.append(repo)
         # ind_plus_dir_deps = len(analysis_results["client_for"]) + len(analysis_results["wasm_modules_in_repo"])
         # if (total_wasm_modules_in_repo == 0 and ind_plus_dir_deps != 0) or (total_wasm_modules_in_repo != 0 and ind_plus_dir_deps == 0): 
@@ -236,11 +233,13 @@ def wasm_source_graph():
     # Most popular wasm source by wasm module
     # Most popular wasm source by repo 
 
-    print(f"Wasm Module Source Data for {total_repos} repositories in RealWasm dataset.")
-    print(f"{len(ignored_repos)} outliers removed. Following repositories are outliers: {ignored_repos}")
-    print(f"{len(no_static_wasm_repos)} repos have no statically reported WebAssembly. Repositories are removed.")
-    print(f"{repos_with_greater_than_45_wasms} repos contain more than 45 Wasm modules.")
-    print(f"{total_num_wasm_modules} total number of WebAssembly Modules in dataset.")    
+    print()
+    print("WebAssembly Module by Distribution Method:")
+    print(f"  Wasm Module Distribution Method for {total_repos} repositories in RealWasm dataset.")
+    print(f"  {len(ignored_repos)} outliers removed.") # Following repositories are outliers: {ignored_repos}")
+    print(f"  {len(no_static_wasm_repos)} repos have no statically reported WebAssembly. Repositories are removed.")
+    print(f"  {len(repos_with_greater_than_45_wasms)} repos contain more than 45 Wasm modules.")
+    print(f"  {total_num_wasm_modules} total number of WebAssembly Modules in dataset.")    
 
     source_to_repo_and_module_count = {}
     for source in WASM_SOURCES:
@@ -250,13 +249,13 @@ def wasm_source_graph():
             'repositories': repos_with_source, 
             'modules_count': count_modules_with_source
         }
-        print(f"{len(repos_with_source)}/{total_repos_in_graph} repositories and {count_modules_with_source}/{total_num_wasm_modules} wasm modules have WebAssembly source {source}")
+        print(f"  {len(repos_with_source)}/{total_repos_in_graph} repositories and {count_modules_with_source}/{total_num_wasm_modules} wasm modules have WebAssembly source {source}")
  
     wasm_source_popularity_by_repo = [k for k, v in sorted(source_to_repo_and_module_count.items(), key=lambda item: len(item[1]['repositories']), reverse=True)]
-    print(f"Wasm module source popularity by repository: {wasm_source_popularity_by_repo}")
+    print(f"  Wasm module Distribution Method popularity by repository: {wasm_source_popularity_by_repo}")
 
     wasm_source_popularity_by_module = [k for k, v in sorted(source_to_repo_and_module_count.items(), key=lambda item: item[1]['modules_count'], reverse=True)]
-    print(f"Wasm module source popularity by module: {wasm_source_popularity_by_module}")
+    print(f"  Wasm module Distribution Method popularity by module: {wasm_source_popularity_by_module}")
 
     # Stacked Bar chart of the different sources of WebAssembly in the different repos 
 
@@ -291,7 +290,7 @@ def wasm_source_graph():
     plt.savefig(WASM_SOURCE_GRAPH, bbox_inches='tight')
     plt.clf()
 
-    print(f"Wasm Source Graph at {WASM_SOURCE_GRAPH}")
+    print(f"  Wasm Distribution Method Graph at {WASM_SOURCE_GRAPH}")
 
 def de_duplication_stats(): 
     
@@ -312,7 +311,9 @@ def de_duplication_stats():
             if count_total > 0 else 0 
         )
     import statistics
-    print(f"A mean of {statistics.mean(package_percent_duplicated):.2f}% and a median of {statistics.median(package_percent_duplicated):.2f}% Wasm modules are duplicated within a package ")
+    print()
+    print("Deduplication Statistics:")
+    print(f"  A mean of {statistics.mean(package_percent_duplicated):.2f}% and a median of {statistics.median(package_percent_duplicated):.2f}% Wasm modules are duplicated within a package ")
 
     # total_de_duplication_stats = {
     #     "array": 0, "base64": 0, "binary": 0, 
@@ -1087,6 +1088,7 @@ def table_offset_init(init_wasm_modules):
     print()
 
 def run_metadce(options, wasm_binary_path, reachability_graph_path, dce_binary_path): 
+    print(f"Running wasm-metadce on {pathlib.Path(wasm_binary_path).stem}")
     metadce_result = run(shlex.split(f"{METADCE_BIN} {' '.join(options)} --dce {wasm_binary_path} --graph-file {reachability_graph_path} --output {dce_binary_path}"), check=False)                
     if metadce_result.returncode == 0:
         metadce_unused_re = re.compile("unused\: ")
@@ -1133,7 +1135,10 @@ def run_debloat_on_binary(
 
         if success: 
             (dce_binary_size, removed_functions) = result
-            percentage_size_decrease = 100*((wasm_binary_size - dce_binary_size)/wasm_binary_size)
+            if wasm_binary_size == 0: 
+                percentage_size_decrease = 0.0
+            else:
+                percentage_size_decrease = 100*((wasm_binary_size - dce_binary_size)/wasm_binary_size)
             return ({
                 "percent_exports_called": 100*(len(exports_called)/wasm_static_info['export_section']['count_exported_funcs']), 
                 "num_exports_called": len(exports_called),
@@ -1301,7 +1306,7 @@ def debloat_graph():
 
     graph_data = {k: v for k, v in sorted(graph_data.items(), key=lambda item: item[1]["avg_percent_funcs_called"], reverse=True)}    
 
-    avg_percent_funcs_called, avg_percent_size_reduction = [], [], []
+    avg_percent_funcs_called, avg_percent_size_reduction = [], []
     for values in graph_data.values():
         avg_percent_funcs_called.append(values["avg_percent_funcs_called"])
         avg_percent_size_reduction.append(values["avg_size_reduction"])
@@ -1314,6 +1319,8 @@ def debloat_graph():
     plt.legend(["Mean \% exports called", "Mean \% client-specific \n reduction wrt baseline size"], bbox_to_anchor=(0.35,0.8), loc="center", framealpha=0.9)
     plt.savefig(DCE_GRAPH, bbox_inches='tight')
     plt.clf()
+
+    print("Debloating graph at {DCE_GRAPH}")
 
 
 def str_to_date(s: str) -> datetime.date: 
@@ -1495,7 +1502,7 @@ if __name__ == "__main__":
     if DEPENDENCY: 
         answer_package_dependency_research_questions()
         wasm_source_graph()
-        de_duplication_stats()
+        # de_duplication_stats()
         # de_duplication_stats_without_empty_magic_wasm()
 
     if DYNAMIC:

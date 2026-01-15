@@ -19,19 +19,20 @@ RUN apt-get update \
    && apt install -y python3 pip vim 
 
 # Install nvm with node and npm
-ENV NVM_DIR /usr/local/nvm
+ENV NVM_DIR=/usr/local/nvm
 RUN mkdir -p $NVM_DIR
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-ENV NODE_VERSION v21.6.1
+ENV NODE_VERSION=v21.6.1
 RUN /bin/bash -c "source $NVM_DIR/nvm.sh && nvm install $NODE_VERSION && nvm use --delete-prefix $NODE_VERSION"
 
-ENV NODE_PATH $NVM_DIR/versions/node/$NODE_VERSION/lib/node_modules
-ENV PATH      $NVM_DIR/versions/node/$NODE_VERSION/bin:$PATH
+ENV NODE_PATH=$NVM_DIR/versions/node/$NODE_VERSION/lib/node_modules
+ENV PATH=$NVM_DIR/versions/node/$NODE_VERSION/bin:$PATH
 
 RUN npm install --global yarn turbo pnpm 
 
 # Install Rust and wasm-tools 
-RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y 
+## RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
 ENV PATH="/root/.cargo/bin:${PATH}" 
 RUN cargo install wasm-tools 
 
@@ -51,17 +52,6 @@ RUN pip install matplotlib
 
 RUN mkdir -p /home/RealWasm/
 
-# # Copy over different scripts 
-# RUN mkdir -p /home/RealWasm/scripts
-# COPY ./scripts/utils.py /home/RealWasm/scripts
-# COPY ./scripts/collect-dataset.py /home/RealWasm/scripts
-# COPY ./scripts/dependency-analysis.py /home/RealWasm/scripts
-# COPY ./scripts/get-wasm-static-info.py /home/RealWasm/scripts
-# COPY ./scripts/collect-dynamic-results.py /home/RealWasm/scripts
-# COPY ./scripts/get-paper-results.py /home/RealWasm/scripts
-# COPY ./scripts/node-no-expose-wasm /home/RealWasm/scripts/node-no-expose-wasm
-# COPY ./scripts/get-wasm-source /home/RealWasm/scripts/get-wasm-source
-
 # Clone npm-filter 
 RUN mkdir -p /home/RealWasm/tools 
 WORKDIR /home/RealWasm/tools 
@@ -77,9 +67,4 @@ ENV PATH="/root/.deno/bin:${PATH}"
 RUN export DENO_INSTALL="/root/.deno"
 RUN export PATH="$DENO_INSTALL/bin:$PATH"
 
-# Install packages for get-wasm-sources
-#WORKDIR /home/RealWasm/scripts/get-wasm-source
-#RUN npm install 
-
 WORKDIR /home/RealWasm/scripts
-#CMD python3 ./collect-dynamic-results.py --output-dir ./../data
