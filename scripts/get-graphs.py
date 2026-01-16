@@ -181,8 +181,6 @@ def answer_package_dependency_research_questions():
     #total_number_of_indirect_packages = len(indirect_package_to_wasm_module)
     
     print("RealWasm Dependency analysis:")
-    print(f"  Total number of packages in dataset: {total_packages}")
-    print(f"  How many packages do not have any static wasm?: {len(packages_no_static_wasm)}")
     print(f"  How many packages depend on WebAssembly only directly? {len(packages_dep_only_direct)}")
     print(f"  How many packages depend on WebAssembly only indirectly? {len(packages_dep_only_indirect)}")
     print(f"  How many packages depend on WebAssembly indirectly and directly? {len(packages_dep_direct_and_indirect)}")
@@ -483,8 +481,6 @@ def wasm_hash_static_clients_freq(verbose=False):
         wasm_hashes.update(dep_result["wasm_sources_with_hash"]["binary"]) 
         wasm_hash_counter.update(list(wasm_hashes))
 
-    print(len(wasm_hash_counter.keys()))
-    print(sum(wasm_hash_counter.values()))
     data = list(wasm_hash_counter.values())
     freq_dist_graph(
         file = FREQ_DIST_STATIC_CLIENTS_WASM_HASH,
@@ -1320,7 +1316,7 @@ def debloat_graph():
     plt.savefig(DCE_GRAPH, bbox_inches='tight')
     plt.clf()
 
-    print("Debloating graph at {DCE_GRAPH}")
+    print(f"Debloating graph at {DCE_GRAPH}")
 
 
 def str_to_date(s: str) -> datetime.date: 

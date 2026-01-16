@@ -4,23 +4,14 @@ This is a dataset of 510 executable Node.js packages that exercise 217 unique We
 
 ## Running via Docker
 
-To build and run the artifact, simply run:
+To build and run the artifact, simply run `chmod +x run-docker.sh && ./run-docker.sh`. The image itself is about 3.8GB on disk and takes between 5 and 15 minutes to build, depending on hardware and network connection.
 
-```
-git clone <this repo>
-cd NodeWasmStudy
-chmod +x run-docker.sh
-./run-docker.sh
-```
-
-The image itself is about 3.8GB on disk and takes between 5 and 15 minutes to build, depending on hardware and network connection.
-
-## Container Organization 
+## Container Organization
 
 The repository is organized as follows: 
 - `data`: 
     - `collect-dataset`: Metadata for dataset collection. 
-    - `debload-binaries`: Wasm binaries debloated with `wasm-metadce`.
+    - `debloat-binaries`: Wasm binaries debloated with `wasm-metadce`.
     - `dumped-wasm-files`: Dumps of WebAssembly modules executed during package test execution. 
     - `dynamic-results`: Dynamic logs of packages in the dataset. 
     - `graphs`: Graphs in the paper. 
@@ -38,19 +29,19 @@ The repository is organized as follows:
 The evaluation in the paper runs a static and dynamic analysis over 510 packages to study the interoperation between WebAssembly and JavaScript. The static analysis is run over every JavaScript and TypeScript file in an NPM package to find Wasm modules and determine their distribution methods. The dynamic analysis instruments the source code of an NPM package and runs its tests to collect logs of WebAssembly-JavaScript interopertion. This instrumentation-logging cycle is also run over every library that a package depends upon that contains WebAssembly. The logs for each library are saved under a JSON file named after the library. For more details on the analyses, please refer to the paper. Both these analyses are expensive and have been run on a 128 core machine with 125GB RAM, with 510 packages being analyzed in parallel. Once static results and dynamic logs are collected for each package, the graphs and results of the paper are extracted from these logs as shown in the illustration below. First, we explain how to obtain the graphs and numerical results in the paper. Then we describe how to extract logs for a given package. 
 
 ``` 
-   Dataset
+  Dataset
                +-------------+
-    pack1 ---->| dependency- |      Static Analysis results and Dependency Analysis results
-    pack2 ---->| analysis.py |----> data/dependency-analysis-results.json
-    ...        | results.py  |                
-    packN ---->|             |
+ package1 ---->|             |      Static Analysis results and Dependency Analysis results
+ package2 ---->| dependency- |----> data/dependency-analysis-results.json
+    ...        | analysis.py |                
+ packageN ---->|             |
                +-------------+
                                     Dynamic Logs in data/dynamic-results
                +-------------+
-    pack1 ---->| collect-    |----> self.json, long.json
-    pack2 ---->| dynamic-    |----> self.json, vite.json, next.json, source-map.json
+ package1 ---->| collect-    |----> self.json, long.json
+ package2 ---->| dynamic-    |----> self.json, vite.json, next.json, source-map.json
     ...        | results.py  |                ....
-    packN ---->|             |----> self.json, long.json, hash-wasm.json
+ packageN ---->|             |----> self.json, long.json, hash-wasm.json
                +-------------+     |_________________________________________________|
                                            ↓
                                     +---------------------+
@@ -72,11 +63,10 @@ The evaluation in the paper runs a static and dynamic analysis over 510 packages
 ```
 
 ## Reproducing Graphs and Results  
-
-Run `cd /home/RealWasm/scripts` before running the commands listed below. The graphs produced by these commands are dumped in `data/graphs` for inspection.
+Run `cd /home/RealWasm/scripts` before running the commands listed below. The graphs produced by these commands are dumped in `data/graphs` for inspection. Each script also produces every numerical result in the paper, often in the same/similar sentence as reported in the paper. These together should replicate all the claims and findings in the paper.
 
 ### Dependency Analysis 
-Running `python3 get-graphs.py --dependency` in the docker container will dump the results over static data of packages in the dataset. These results are explained in Section 4.1 _How do Node.js packages depend on WebAssembly?_ and 4.4.1: _Different Methods of Distributing WebAssembly_. The static analysis results include an additional 54 packages (explained on Page 4, end of para 2), which is why running this script reports that the total number of packages in dataset are 564.
+Running `python3 get-graphs.py --dependency` in the docker container will dump the results over static data of packages in the dataset. These results are explained in Section 4.1 _How do Node.js packages depend on WebAssembly?_ and 4.4.1: _Different Methods of Distributing WebAssembly_. The static analysis results include an additional 54 packages (explained on Page 4, paragraph 1), which is why running this script reports that the total number of packages in dataset are 564.
 
 ### Evolution of WebAssembly in NPM Packages
 Running `python3 get-graphs.py --evolution` dumps the results of the study tracking the evolution of Wasm in NPM packages, as discussed in Section 4.2 _How has WebAssembly usage in NPM packages evolved over time?_
@@ -88,15 +78,15 @@ Running `python3 get-graphs.py --dynamic` will dump results over the dynamic log
 - Do WebAssembly Modules export the same functions in a table and explicitly?
 
 ### Binary Debloating 
-`python3 get-graphs.py --metadce` runs `wasm-metadce` over each dumped Wasm binary, discussed in Section 4.5.2 _Exported Functions Called by JavaScript_. This script takes 10 minutes to run. 
+`python3 get-graphs.py --metadce` runs `wasm-metadce` over each dumped Wasm binary and client pair, discussed in Section 4.5.2 _Exported Functions Called by JavaScript_. This script takes 10 minutes to run. 
 
 ## Running the analyses 
-We illustrate running the static and dynamic analysis over a single package [hexojs/hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed). This package is the first package in the dataset and the metadata for it can be inspected under the "hexojs/hexo-generator-feed" key in `data/node-wasm-set.json`. The graphs and results of the paper should not change if logs are recollected over any of the packages. 
+We illustrate the running of the static and dynamic analyses over a single package [hexojs/hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed). This package is the first package in the dataset and the metadata for it can be inspected under the "hexojs/hexo-generator-feed" key in `data/node-wasm-set.json`. The graphs and results of the paper should not change if logs are recollected over any of the packages. 
 
 ### Static and Dependency Analysis
-Running `python3 dependency-analysis.py --static --dependency --single-repo <PACKAGE_KEY>` will run the static analysis and dependency analysis for a given package after cloning its source code and installing and building the package. The results are dumped on stdout of the terminal. The static analysis runs over every JavaScript and Typescript file in the source code of the package and the source code of each of its dependents. It reports on the files that contain WebAssembly modules as well as their distribution methods. The dependency analysis extracts a dependency tree between the package and all its dependencies that contain WebAssemby.  
+Running `python3 dependency-analysis.py --static --dependency --single-repo <PACKAGE_KEY>` will run the static analysis and dependency analysis for a given package after cloning its source code and installing and building the package. The results are dumped on stdout. The static analysis runs over every JavaScript and Typescript file in the source code of the package and the source code of each of its dependencies. It reports on the files that contain WebAssembly modules as well as their distribution methods. The dependency analysis extracts a dependency tree between the package and all its dependencies that contain WebAssemby. The latter is used during dynamic analysis to determine the dependencies to instrument and collect dynamic logs over.   
 
-Run the following command to ensure that the static analysis works as expected: `python3 dependency-analysis.py --static --dependency --single-repo hexojs/hexo-generator-feed`. You should see the following on the terminal after 3 minutes. Note that camaro is listed as a dependent library that contains WebAssembly, which is used during the dynamic analysis to determine the dependencies to instrument and collect dynamic logs over.
+Run the following command to ensure that the static analysis works as expected: `python3 dependency-analysis.py --static --dependency --single-repo hexojs/hexo-generator-feed`. You should see the following on the terminal after 3 minutes. It lists that a WebAssembly Module was found in the `camaro.wasm` file. Note that WebAssembly Modules can also be embedded in JavaScript files as arrays or base64 strings. The script also reports on the distribution methods of the files that contain WebAssembly. We see here that the found module is in a binary file. A unique hash is generated for each Wasm module which is mapped to its distribution method. This is omitted for brevity but can be printed out easily. The stdout also lists camaro as a dependent library that contains WebAssembly, for which dynamic logs are collected during the dynamic analysis.
 
 ```
 Static Analysis for hexojs/hexo-generator-feed:
@@ -121,4 +111,4 @@ After a minute, you should see the message: `SUCCESS: hexojs/hexo-generator-feed
 Inspecting the `TMP` directory should reveal a `dumped-wasm-files` directory which contains the Wasm module that hexo-generator-feed's tests have instatiated. You should also find a `dynamic-analysis` directory that contains `self.json` and `camaro.json`. The former are dynamic logs over the instrumented source code of the hexo-generator-feed and the latter contains dynamic logs over the instrumented source code of a dependency of hexo-generator-feed, camaro, which was determined to contain WebAssembly by the static analysis.  
 
 ## Extending the Artifact (Reusability)
-Any researchers or developers looking to prototype a static or dynamic analysis over NPM packages containing WebAssembly may benefit from this artifact. Firstly, this artifact contains NoWaSet, the first dynamically executable dataset of 510 NPM packages that interoperate with WebAssembly. This dataset can be used to test static and dynamic analyses against and develop tools for the JavaScript-WebAssembly ecosystem. We have made every analysis used in the paper available in this artifact which further improves its reusability. For example, the `collect-dataset.py` script can be used to collect an more extensive dataset in the future. The static and dynamic analysis provide a template for other analyses over JavaScript and WebAssembly. Additionally, these scripts are all retrofitted with the `--single-repo` flag that allows collection of analysis results over a single NPM package. Since the paper recommends various pragmatic assumptions for analysis developers and engine writers, a user can run our analyses over their package to determine if the use WebAssembly in a way that allows for these assumptions. This can be useful when writing cross-language optimizations such as specializing a WebAssembly binary to a particular JavaScript client.
+This artifact contains NoWaSet, the first dynamically executable dataset of 510 NPM packages that interoperate with WebAssembly. This dataset can be used to test static and dynamic analyses against and develop tools for the JavaScript-WebAssembly ecosystem. We have made every analysis used in the paper available in this artifact which further improves its reusability. In fact, any researchers or developers looking to prototype a static or dynamic analysis over NPM packages containing WebAssembly may benefit from this artifact. For example, the `collect-dataset.py` script can be used to collect a more extensive dataset in the future. The static and dynamic analysis provide a template for other analyses over JavaScript and WebAssembly. Additionally, these scripts are all retrofitted with the `--single-repo` flag that allows collection of analysis results over a single NPM package. Since the paper recommends various pragmatic assumptions for analysis developers and engine writers, a user can run our analyses over their package to determine if the use WebAssembly in a way that allows for these assumptions. This can be useful when writing cross-language optimizations such as specializing a WebAssembly binary to a particular JavaScript client.
