@@ -4,6 +4,7 @@ import textwrap
 import os 
 import json
 import argparse
+from pathlib import Path
 
 DATASET_JSON = "/home/NoWaSet/scripts/node-wasm-set.json"
 REPOS_DIR = "/home/NoWaSet/repos/"
@@ -65,37 +66,66 @@ def clone_repo_at_sha(path_safe_repo_full_name, ssh, commit_sha, dir):
     run(['git', 'fetch', '--depth=1', 'origin', commit_sha.strip()], cwd=repo_dir)
     run(['git', 'checkout', '-b', 'realwasm-target-commit', commit_sha.strip()], cwd=repo_dir)
 
-def get_env_with_node_with_flags():
-    my_env = os.environ.copy()
-    node_experimental_vm_modules = f"{os.getcwd()}/node-experimental-vm-modules"
-    my_env["PATH"] = f"{node_experimental_vm_modules}:{my_env['PATH']}"    
-    return my_env
 
-def install_and_build_repo(repo_name, npm_filter_results, repo_dir): 
+def install_and_build_repo(repo_name, package_data, repo_dir): 
+    """
+    Install and build a repository.
+    
+    Args:
+        repo_name: Name of the repository
+        package_data: Either npm_filter results (old format) or scripts dict (new format)
+        repo_dir: Directory where the repo is located
+        
+    Returns:
+        True if successful, False otherwise
+    """
     assert(os.path.isdir(repo_dir))
 
-    # Run the install and build scripts, if they exist 
-    install_possible = "installation" in npm_filter_results.keys() and "ERROR" not in npm_filter_results["installation"].keys()
-    if install_possible: 
-        install_script = npm_filter_results["installation"]["installer_command"]
-        install_result = run(shlex.split(install_script), check=False, cwd=repo_dir, env=get_env_with_node_with_flags())        
+    # Support both old npm_filter format and new scripts format
+    if "scripts" in package_data:
+        # New format: scripts dict with install and build lists
+        scripts = package_data["scripts"]
+        install_script = scripts.get("install", "npm install")
+        build_scripts = scripts.get("build", [])
+    elif "installation" in package_data:
+        # Old format: npm_filter results
+        npm_filter_results = package_data
+        install_possible = "installation" in npm_filter_results and "ERROR" not in npm_filter_results["installation"]
+        if install_possible:
+            install_script = npm_filter_results["installation"]["installer_command"]
+        else:
+            install_script = None
+            
+        build_possible = "build" in npm_filter_results and "ERROR" not in npm_filter_results["build"]
+        if build_possible:
+            build_scripts = npm_filter_results["build"]["build_script_list"]
+        else:
+            build_scripts = []
+    else:
+        # Fallback to defaults
+        install_script = "npm install"
+        build_scripts = []
+
+    # Run the install script if it exists
+    if install_script:
+        install_result = run(shlex.split(install_script), check=False, cwd=repo_dir)        
 
         if repo_name == 'yisibl/resvg-js': 
-            run(['npm', 'i', 'benny'], check=False, cwd=repo_dir, env=get_env_with_node_with_flags())
+            run(['npm', 'i', 'benny'], check=False, cwd=repo_dir)
                 
         if install_result.returncode != 0:
             return False
 
-    build_possible = "build" in npm_filter_results.keys() and "ERROR" not in npm_filter_results["build"].keys()              
-    if build_possible:
-        build_scripts = npm_filter_results["build"]["build_script_list"]
+    # Run build scripts if they exist          
+    if build_scripts:
         for build_script in build_scripts:
-            build_result = run(
-                            shlex.split("npm run "+ build_script), 
-                            check=False,
-                            cwd=repo_dir, 
-                            env=get_env_with_node_with_flags()
-                        )
+            # build_script might already have "npm run" prefix or might be just the script name
+            if build_script.startswith("npm run "):
+                cmd = shlex.split(build_script)
+            else:
+                cmd = shlex.split(build_script)
+            
+            build_result = run(cmd, check=False, cwd=repo_dir)
             if build_result.returncode != 0:
                 return False 
 
@@ -103,6 +133,68 @@ def install_and_build_repo(repo_name, npm_filter_results, repo_dir):
 
 def checkout(branch_name, commit_sha, repo_dir): 
     run(['git', 'checkout', '-b', branch_name, commit_sha.strip()], cwd=repo_dir)
+
+def clone_checkout_install_build(package_name, package_data, output_dir=None):
+    """
+    Clone a repository, checkout at specific commit, install dependencies, and build.
+    
+    Args:
+        package_name: Name of the package (e.g., "owner/repo")
+        package_data: Package data from the dataset JSON containing github_metadata and scripts
+        output_dir: Directory to clone repository into (default: REPOS_DIR)
+        
+    Returns:
+        Tuple of (success: bool, repo_dir: str, message: str)
+    """
+    if output_dir is None:
+        output_dir = REPOS_DIR
+    
+    # Create output directory if it doesn't exist
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    
+    # Extract metadata - support both old and new format
+    if "github_metadata" in package_data:
+        metadata = package_data["github_metadata"]
+    elif "repo_metadata" in package_data:
+        metadata = package_data["repo_metadata"]
+    else:
+        return (False, None, "No metadata found in package data")
+    
+    full_name = metadata["full_name"]
+    clone_url = metadata.get("clone_url") or metadata.get("ssh_url")
+    commit_sha = metadata["commit_SHA"]
+    
+    if not clone_url:
+        return (False, None, "No clone URL found in metadata")
+    
+    # Create path-safe repository name
+    repo_fullname_path_safe = "__".join(full_name.split("/"))
+    repo_dir = os.path.join(output_dir, repo_fullname_path_safe)
+    
+    try:
+        # Clone repository at specific commit
+        clone_repo_at_sha(
+            path_safe_repo_full_name=repo_fullname_path_safe,
+            ssh=clone_url,
+            commit_sha=commit_sha,
+            dir=output_dir
+        )
+        
+        # Install and build
+        success = install_and_build_repo(
+            repo_name=package_name,
+            package_data=package_data,
+            repo_dir=repo_dir
+        )
+        
+        if not success:
+            return (False, repo_dir, "Install/Build failed")
+        
+        return (True, repo_dir, "Successfully cloned, checked out, installed, and built")
+        
+    except Exception as e:
+        return (False, repo_dir if os.path.exists(repo_dir) else None, f"Error: {str(e)}")
+
 
 def pretty_print_number(n, max_len): 
     num_spaces = max_len-len(str(n))
@@ -112,7 +204,7 @@ def run_tests(test_scripts, repo_dir):
     assert(os.path.isdir(repo_dir))
     test_returncodes = []
     for test in test_scripts:
-        test_result = run(["npm", "run", test], check=False, cwd=repo_dir, env=get_env_with_node_with_flags())
+        test_result = run(["npm", "run", test], check=False, cwd=repo_dir)
         test_returncodes.append(test_result.returncode)
     return test_returncodes
 
@@ -125,13 +217,15 @@ def clone_all_projects():
     total_repos = len(dywasmbench)
     max_len = len(str(total_repos))
     for (repo_num, (repo_name, repo_json)) in enumerate(dywasmbench.items()): 
-        full_name = repo_json["repo_metadata"]["full_name"]
+        # Support both old and new format
+        metadata = repo_json.get("github_metadata") or repo_json.get("repo_metadata")
+        full_name = metadata["full_name"]
         repo_fullname_path_safe = "__".join(full_name.split("/"))
         print(f"({pretty_print_number(repo_num+1, max_len)}/{total_repos}): Cloning {repo_name}")
         clone_repo_at_sha(
             path_safe_repo_full_name=repo_fullname_path_safe,
-            ssh=repo_json["repo_metadata"]["clone_url"],
-            commit_sha=repo_json["repo_metadata"]["commit_SHA"], 
+            ssh=metadata.get("clone_url") or metadata.get("ssh_url"),
+            commit_sha=metadata["commit_SHA"], 
             dir=REPOS_DIR        
         )
 
@@ -142,11 +236,13 @@ def build_all_projects():
     total_repos = len(dywasmbench)
     max_len = len(str(total_repos))
     for (repo_num, (repo_name, repo_json)) in enumerate(dywasmbench.items()): 
-        full_name = repo_json["repo_metadata"]["full_name"]
+        # Support both old and new format
+        metadata = repo_json.get("github_metadata") or repo_json.get("repo_metadata")
+        full_name = metadata["full_name"]
         repo_fullname_path_safe = "__".join(full_name.split("/"))
         repo_dir = REPOS_DIR + "/" + repo_fullname_path_safe 
         print(f"({pretty_print_number(repo_num+1, max_len)}/{total_repos}): Building {repo_name}")
-        install_and_build_repo(repo_name, repo_json["npm_filter"], repo_dir)
+        install_and_build_repo(repo_name, repo_json, repo_dir)
 
 def run_all_repo_tests(): 
     with open(DATASET_JSON, 'r') as f: 
@@ -171,17 +267,19 @@ def clone_and_build_all_repos():
     total_repos = len(dywasmbench)
     max_len = len(str(total_repos))
     for (repo_num, (repo_name, repo_json)) in enumerate(dywasmbench.items()): 
-        full_name = repo_json["repo_metadata"]["full_name"]
+        # Support both old and new format
+        metadata = repo_json.get("github_metadata") or repo_json.get("repo_metadata")
+        full_name = metadata["full_name"]
         repo_fullname_path_safe = "__".join(full_name.split("/"))
         repo_dir = REPOS_DIR + "/" + repo_fullname_path_safe 
         print(f"({pretty_print_number(repo_num+1, max_len)}/{total_repos}): Cloning and building {repo_name}")
         clone_repo_at_sha(
             path_safe_repo_full_name=repo_fullname_path_safe,
-            ssh=repo_json["repo_metadata"]["clone_url"],
-            commit_sha=repo_json["repo_metadata"]["commit_SHA"], 
+            ssh=metadata.get("clone_url") or metadata.get("ssh_url"),
+            commit_sha=metadata["commit_SHA"], 
             dir=REPOS_DIR        
         )
-        install_and_build_repo(repo_name, repo_json["npm_filter"], repo_dir)
+        install_and_build_repo(repo_name, repo_json, repo_dir)
         
 if __name__ == "__main__":
 
