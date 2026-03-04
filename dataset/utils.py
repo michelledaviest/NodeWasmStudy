@@ -54,17 +54,48 @@ def run(
         raise
 
 def clone_repo_at_sha(path_safe_repo_full_name, ssh, commit_sha, dir):
-    # Clone a very shallow copy of the repo with only the requested commit;
-    # requires Git 2.34.0 or later (or maybe earlier but we have not tested)
+    """
+    Clone a very shallow copy of the repo with only the requested commit;
+    requires Git 2.34.0 or later (or maybe earlier but we have not tested)
     
+    Returns:
+        Tuple of (success: bool, stage: str, stderr: str)
+        - success: True if all steps completed successfully
+        - stage: Which stage failed (or "success" if all succeeded)
+        - stderr: Error output from failed command (or empty string if success)
+    """
     repo_dir = dir+f"/{path_safe_repo_full_name}"
     if os.path.isdir(repo_dir): 
-        run(['rm', '-rf', repo_dir])
+        try:
+            run(['rm', '-rf', repo_dir])
+        except Exception as e:
+            return (False, "cleanup", str(e))
 
-    run(["git", "init", path_safe_repo_full_name], cwd=dir)    
-    run(['git', 'remote', 'add', 'origin', ssh], cwd=repo_dir)
-    run(['git', 'fetch', '--depth=1', 'origin', commit_sha.strip()], cwd=repo_dir)
-    run(['git', 'checkout', '-b', 'realwasm-target-commit', commit_sha.strip()], cwd=repo_dir)
+    try:
+        run(["git", "init", path_safe_repo_full_name], cwd=dir)
+    except Exception as e:
+        result = run(["git", "init", path_safe_repo_full_name], cwd=dir, check=False)
+        return (False, "clone", result.stderr if result.stderr else str(e))
+    
+    try:
+        run(['git', 'remote', 'add', 'origin', ssh], cwd=repo_dir)
+    except Exception as e:
+        result = run(['git', 'remote', 'add', 'origin', ssh], cwd=repo_dir, check=False)
+        return (False, "clone", result.stderr if result.stderr else str(e))
+    
+    try:
+        run(['git', 'fetch', '--depth=1', 'origin', commit_sha.strip()], cwd=repo_dir)
+    except Exception as e:
+        result = run(['git', 'fetch', '--depth=1', 'origin', commit_sha.strip()], cwd=repo_dir, check=False)
+        return (False, "clone", result.stderr if result.stderr else str(e))
+    
+    try:
+        run(['git', 'checkout', '-b', 'realwasm-target-commit', commit_sha.strip()], cwd=repo_dir)
+    except Exception as e:
+        result = run(['git', 'checkout', '-b', 'realwasm-target-commit', commit_sha.strip()], cwd=repo_dir, check=False)
+        return (False, "checkout", result.stderr if result.stderr else str(e))
+    
+    return (True, "success", "")
 
 
 def install_and_build_repo(repo_name, package_data, repo_dir): 
@@ -77,7 +108,10 @@ def install_and_build_repo(repo_name, package_data, repo_dir):
         repo_dir: Directory where the repo is located
         
     Returns:
-        True if successful, False otherwise
+        Tuple of (success: bool, stage: str, stderr: str)
+        - success: True if all steps completed successfully
+        - stage: Which stage failed: "install" or "build" (or "success" if all succeeded)
+        - stderr: Error output from failed command (or empty string if success)
     """
     assert(os.path.isdir(repo_dir))
 
@@ -108,13 +142,33 @@ def install_and_build_repo(repo_name, package_data, repo_dir):
 
     # Run the install script if it exists
     if install_script:
+        # Check if this is a Yarn installation
+        is_yarn = 'yarn' in install_script.lower()
+        
+        # If using Yarn, use flags that avoid cache corruption issues
+        if is_yarn:
+            # Check if yarn.lock exists to confirm it's a Yarn project
+            yarn_lock = os.path.join(repo_dir, 'yarn.lock')
+            if os.path.exists(yarn_lock):
+                # Modify install command to use flags that avoid cache issues
+                # --mutex network: Prevents concurrent yarn operations from corrupting cache
+                # --network-timeout: Handle slow/flaky network
+                # --check-files: Verify integrity of files in node_modules
+                if install_script in ['yarn', 'yarn install']:
+                    install_script = 'yarn install --mutex network --network-timeout 100000'
+        
         install_result = run(shlex.split(install_script), check=False, cwd=repo_dir)        
 
         if repo_name == 'yisibl/resvg-js': 
             run(['npm', 'i', 'benny'], check=False, cwd=repo_dir)
                 
         if install_result.returncode != 0:
-            return False
+            # Capture more stderr for better debugging (increase from 500 to 1000 chars)
+            stderr_msg = install_result.stderr[:1000] if install_result.stderr else ""
+            # Also capture some stdout as errors might be there
+            stdout_msg = install_result.stdout[:500] if install_result.stdout else ""
+            combined_msg = f"{stderr_msg}\n---STDOUT---\n{stdout_msg}" if stdout_msg else stderr_msg
+            return (False, "install", combined_msg)
 
     # Run build scripts if they exist          
     if build_scripts:
@@ -127,9 +181,9 @@ def install_and_build_repo(repo_name, package_data, repo_dir):
             
             build_result = run(cmd, check=False, cwd=repo_dir)
             if build_result.returncode != 0:
-                return False 
+                return (False, "build", build_result.stderr[:500] if build_result.stderr else "")
 
-    return True  
+    return (True, "success", "")  
 
 def checkout(branch_name, commit_sha, repo_dir): 
     run(['git', 'checkout', '-b', branch_name, commit_sha.strip()], cwd=repo_dir)
@@ -144,7 +198,11 @@ def clone_checkout_install_build(package_name, package_data, output_dir=None):
         output_dir: Directory to clone repository into (default: REPOS_DIR)
         
     Returns:
-        Tuple of (success: bool, repo_dir: str, message: str)
+        Tuple of (success: bool, repo_dir: str, stage: str, message: str)
+        - success: True if all steps completed successfully
+        - repo_dir: Path to repository directory (or None if clone failed)
+        - stage: Which stage operation was in ("clone", "checkout", "install", "build", or "success")
+        - message: Human-readable message (includes stderr excerpt on failure)
     """
     if output_dir is None:
         output_dir = REPOS_DIR
@@ -158,14 +216,14 @@ def clone_checkout_install_build(package_name, package_data, output_dir=None):
     elif "repo_metadata" in package_data:
         metadata = package_data["repo_metadata"]
     else:
-        return (False, None, "No metadata found in package data")
+        return (False, None, "metadata", "No metadata found in package data")
     
     full_name = metadata["full_name"]
     clone_url = metadata.get("clone_url") or metadata.get("ssh_url")
     commit_sha = metadata["commit_SHA"]
     
     if not clone_url:
-        return (False, None, "No clone URL found in metadata")
+        return (False, None, "metadata", "No clone URL found in metadata")
     
     # Create path-safe repository name
     repo_fullname_path_safe = "__".join(full_name.split("/"))
@@ -173,27 +231,37 @@ def clone_checkout_install_build(package_name, package_data, output_dir=None):
     
     try:
         # Clone repository at specific commit
-        clone_repo_at_sha(
+        clone_success, clone_stage, clone_stderr = clone_repo_at_sha(
             path_safe_repo_full_name=repo_fullname_path_safe,
             ssh=clone_url,
             commit_sha=commit_sha,
             dir=output_dir
         )
         
+        if not clone_success:
+            # Truncate stderr for display - show first 200 chars
+            stderr_excerpt = clone_stderr[:200] + "..." if len(clone_stderr) > 200 else clone_stderr
+            return (False, repo_dir if os.path.exists(repo_dir) else None, clone_stage, 
+                   f"Failed at {clone_stage}: {stderr_excerpt}")
+        
         # Install and build
-        success = install_and_build_repo(
+        install_success, install_stage, install_stderr = install_and_build_repo(
             repo_name=package_name,
             package_data=package_data,
             repo_dir=repo_dir
         )
         
-        if not success:
-            return (False, repo_dir, "Install/Build failed")
+        if not install_success:
+            # Truncate stderr for display - show first 200 chars
+            stderr_excerpt = install_stderr[:200] + "..." if len(install_stderr) > 200 else install_stderr
+            return (False, repo_dir, install_stage, 
+                   f"Failed at {install_stage}: {stderr_excerpt}")
         
-        return (True, repo_dir, "Successfully cloned, checked out, installed, and built")
+        return (True, repo_dir, "success", "Successfully cloned, checked out, installed, and built")
         
     except Exception as e:
-        return (False, repo_dir if os.path.exists(repo_dir) else None, f"Error: {str(e)}")
+        return (False, repo_dir if os.path.exists(repo_dir) else None, "unknown", f"Exception: {str(e)}")
+
 
 
 def pretty_print_number(n, max_len): 
@@ -222,12 +290,14 @@ def clone_all_projects():
         full_name = metadata["full_name"]
         repo_fullname_path_safe = "__".join(full_name.split("/"))
         print(f"({pretty_print_number(repo_num+1, max_len)}/{total_repos}): Cloning {repo_name}")
-        clone_repo_at_sha(
+        success, stage, stderr = clone_repo_at_sha(
             path_safe_repo_full_name=repo_fullname_path_safe,
             ssh=metadata.get("clone_url") or metadata.get("ssh_url"),
             commit_sha=metadata["commit_SHA"], 
             dir=REPOS_DIR        
         )
+        if not success:
+            print(f"  Failed at {stage}: {stderr[:100]}")
 
 def build_all_projects(): 
     with open(DATASET_JSON, 'r') as f: 
@@ -242,7 +312,9 @@ def build_all_projects():
         repo_fullname_path_safe = "__".join(full_name.split("/"))
         repo_dir = REPOS_DIR + "/" + repo_fullname_path_safe 
         print(f"({pretty_print_number(repo_num+1, max_len)}/{total_repos}): Building {repo_name}")
-        install_and_build_repo(repo_name, repo_json, repo_dir)
+        success, stage, stderr = install_and_build_repo(repo_name, repo_json, repo_dir)
+        if not success:
+            print(f"  Failed at {stage}: {stderr[:100]}")
 
 def run_all_repo_tests(): 
     with open(DATASET_JSON, 'r') as f: 
@@ -273,13 +345,19 @@ def clone_and_build_all_repos():
         repo_fullname_path_safe = "__".join(full_name.split("/"))
         repo_dir = REPOS_DIR + "/" + repo_fullname_path_safe 
         print(f"({pretty_print_number(repo_num+1, max_len)}/{total_repos}): Cloning and building {repo_name}")
-        clone_repo_at_sha(
+        success, stage, stderr = clone_repo_at_sha(
             path_safe_repo_full_name=repo_fullname_path_safe,
             ssh=metadata.get("clone_url") or metadata.get("ssh_url"),
             commit_sha=metadata["commit_SHA"], 
             dir=REPOS_DIR        
         )
-        install_and_build_repo(repo_name, repo_json, repo_dir)
+        if not success:
+            print(f"  Clone failed at {stage}: {stderr[:100]}")
+            continue
+        
+        success, stage, stderr = install_and_build_repo(repo_name, repo_json, repo_dir)
+        if not success:
+            print(f"  Build failed at {stage}: {stderr[:100]}")
         
 if __name__ == "__main__":
 
