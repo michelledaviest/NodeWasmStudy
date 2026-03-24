@@ -15,7 +15,7 @@ import os
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATASET_PATH = os.path.join(REPO_ROOT, "dataset/node-wasm-set.json")
-STATIC_LOCATION_PATH = os.path.join(REPO_ROOT, "data/statically-locate-dynamic-wasm/all-clients-with-dumps-all-files.json")
+STATIC_LOCATION_PATH = os.path.join(REPO_ROOT, "data/summary-json/clients-with-static-locations-wasm.json")
 EXPORTS_CALLED_PATH = os.path.join(REPO_ROOT, "data/summary-json/exports-called-count.json")
 DUMPED_WASM_DIR = os.path.join(REPO_ROOT, "data/dumped-wasm-files")
 
