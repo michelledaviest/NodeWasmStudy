@@ -1,0 +1,8 @@
+{
+  "clients_with_called_exports": 148,
+  "clients_with_called_exports_and_static_report": 148,
+  "clients_with_any_static_location_for_called_wasm": 95,
+  "clients_with_all_called_wasm_statically_located": 66,
+  "clients_with_called_exports_but_no_static_report": 0,
+  "sample_missing_static_report": []
+}
